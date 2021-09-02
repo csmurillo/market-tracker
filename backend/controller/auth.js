@@ -3,7 +3,6 @@ const {WatchList} = require('../models/watchList');
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken');
 
-
 exports.signup = (req,res)=>{
     bcrypt.hash(req.body.password, 10, function(err, hashPassword) {
         const user = new User({
@@ -13,9 +12,11 @@ exports.signup = (req,res)=>{
         user.save((err,user)=>{
             if(err){
                 return res.status(400).json({
-                    error:"email already exists"
+                    error:"User already exist"
                 });
             }
+            user.password=undefined;
+            // create a watchlist that pertains to newly created user
             const watchList = new WatchList({
                 owner:user._id
             });
@@ -30,11 +31,10 @@ exports.signup = (req,res)=>{
 
 exports.signin = (req,res) => {
     const {watchList,firstName,lastName,email,password} = req.body;
-    console.log('inside1'+password);
     User.findOne({ email }, async(err,user)=>{
         if(err||!user){
             return res.status(401).json({
-                message:"Something went wrong please check email or password"
+                message:"Account does not exist"
             });
         }
         // check password
@@ -42,34 +42,28 @@ exports.signin = (req,res) => {
         // password not valid
         if(!validPassword){
             return res.status(401).json({
-                message:"Password not valid"
+                message:"Password check email and password"
             });
         }
         // password valid
         // generate signed token
         const token = jwt.sign({ id: user._id }, process.env.JWT_PRIVATE_KEY);
-
+        user.password=undefined;
         // send token to client side
         res.status(200).json({
             token,
-            user:{
-                id:user._id,
-                firstName,
-                lastName,
-                email,
-                watchList
-            }
+            user
         });
     });
 };
 
 exports.deleteAccount = (req,res)=>{
-    let {user}=req.user;
+    let user=req.user;
     
     user.remove((err, deletedAccount) => {
         if (err) {
             return res.status(400).json({
-                error: err
+                error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
             });
         }
         res.json({
@@ -78,10 +72,10 @@ exports.deleteAccount = (req,res)=>{
     });
 };
 exports.isAuth = (req,res,next)=>{
-    const {userId}=req.userTokenData;
-    const {user}=req.user._id;
-    if(userId==user._id){
-        res.status(400).json({
+    console.log(req.userTokenData.userId+':'+req.user._id);
+    const isAuth = req.userTokenData && req.user && req.userTokenData.userId!=req.user._id;
+    if(isAuth){
+        return res.status(400).json({
             message:"User does not have access to resource"
         });
     }

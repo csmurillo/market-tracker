@@ -1,14 +1,17 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require("dotenv").config();
+const expressValidator = require('express-validator');
 
 // routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 const watchListRoutes = require('./routes/watchList');
 
+
 const app = express();
 
+app.use(expressValidator());
 app.use(express.json());
 
 // connect to mongodb

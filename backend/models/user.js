@@ -1,3 +1,4 @@
+const { StockSchema } = require('../models/watchList');
 const mongoose = require('mongoose');
 
 const userSchema = mongoose.Schema({
@@ -23,7 +24,7 @@ const userSchema = mongoose.Schema({
         default:false
     },
     stockHistory:{
-        type: Array,
+        type: [StockSchema],
         default:[]
     }
 });

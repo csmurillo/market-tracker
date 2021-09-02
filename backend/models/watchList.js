@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const StockSchema = mongoose.Schema({
     tickerSymbol:{type:String, required:true},
-    alertPrice:{type:Number, required:true}
+    alertPrice:{type:Number}
 });
 
 const Stock = mongoose.model("Stock", StockSchema);
@@ -16,4 +16,4 @@ const WatchListSchema = mongoose.Schema({
 
 const WatchList = mongoose.model('WatchList', WatchListSchema);
 
-module.exports = { Stock, WatchList };
+module.exports = { Stock, WatchList,StockSchema };
