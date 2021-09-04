@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require("dotenv").config();
+var cors = require('cors')
+
 const expressValidator = require('express-validator');
 
 // routes
@@ -13,6 +15,8 @@ const app = express();
 
 app.use(expressValidator());
 app.use(express.json());
+app.use(cors())
+
 
 // connect to mongodb
 mongoose.connect(process.env.DATABASE)

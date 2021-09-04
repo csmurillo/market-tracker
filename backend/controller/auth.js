@@ -34,7 +34,7 @@ exports.signin = (req,res) => {
     User.findOne({ email }, async(err,user)=>{
         if(err||!user){
             return res.status(401).json({
-                message:"Account does not exist"
+                error:"Account does not exist"
             });
         }
         // check password
@@ -42,7 +42,7 @@ exports.signin = (req,res) => {
         // password not valid
         if(!validPassword){
             return res.status(401).json({
-                message:"Password check email and password"
+                error:"Please check email or password"
             });
         }
         // password valid
