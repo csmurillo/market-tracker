@@ -73,6 +73,7 @@ exports.changePassword = (req,res)=>{
         });
     });
 };
+
 // must be tested 
 exports.addToStockHistory = (req,res)=>{
     const {userId}=req.userTokenData;
@@ -143,6 +144,7 @@ exports.stock = async (req,res)=>{
     };
     res.json({stockFinancialData:stockData});
 };
+
 // url: /stock/price?symbol={stockSymbol}
 exports.stockPrice=async (req,res)=>{
     const stockSymbol = req.query.symbol;
@@ -156,6 +158,7 @@ exports.stockPrice=async (req,res)=>{
         percentPriceChange:finnStockPriceData.dp
     });
 };
+
 // url: /stock/news?symbol={stockSymbol}
 exports.stockNews = async (req,res)=>{
     const stockSymbol = req.query.symbol;
@@ -165,3 +168,20 @@ exports.stockNews = async (req,res)=>{
     const newsData = await newsRes.json();
     res.json({news:newsData});
 };
+
+exports.stockGainers = async(req,res)=>{
+    const sfmkapi = `https://financialmodelingprep.com/api/v3/stock/gainers?apikey=${process.env.STOCK_FINANCIAL_MODEL_KEY}`;
+    const sfmkRes = await fetch(sfmkapi);
+    const sfmkData = await sfmkRes.json();
+    res.json({gainers:sfmkData});
+};
+
+exports.stockLosers = async(req,res)=>{
+    const sfmkapi = `https://financialmodelingprep.com/api/v3/stock/losers?apikey=${process.env.STOCK_FINANCIAL_MODEL_KEY}`;
+    const sfmkRes = await fetch(sfmkapi);
+    const sfmkData = await sfmkRes.json();
+    res.json({gainers:sfmkData});
+};
+
+
+

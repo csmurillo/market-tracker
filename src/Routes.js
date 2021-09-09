@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Header from "./core/Header"
-import Home from "./core/Home";
-import Signin from "./auth/Signin";
-import Signup from "./auth/Signup";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer"
+import Home from "./pages/Home/home"
+import Signin from "./authentication/Signin";
+import Signup from "./authentication/Signup";
 
 const Routes = () =>{
     return (
@@ -14,6 +15,7 @@ const Routes = () =>{
                 <Route path="/signin" exact component={Signin}/>
                 <Route path="/signup" exact component={Signup}/>
             </Switch>
+            {/* <Footer/> */}
         </BrowserRouter>
     );
 }

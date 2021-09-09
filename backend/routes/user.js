@@ -1,5 +1,5 @@
 const express = require('express');
-const { userId, stockId, accountUpdate, changePassword,addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews } = require('../controller/user');
+const { userId, stockId, accountUpdate, changePassword,addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
 const { isAuth } = require('../controller/auth');
 const verifyToken = require('../middleware/verify-token');
 
@@ -22,6 +22,10 @@ router.get('/stock',stock);
 router.get('/stock/price',stockPrice);
 
 router.get('/stock/news', stockNews);
+
+router.get('/stock/gainers',stockGainers);
+
+router.get('/stock/losers',stockLosers);
 
 router.param("userId", userId);
 

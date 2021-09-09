@@ -1,0 +1,18 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
+
+.custom-font-one{
+    font-family: 'Noto Sans', sans-serif;
+}
+#home-content-cont{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Glory', sans-serif;
+}
+/* font */
+.f-30{
+    font-size: 30px;
+}
+li{
+    font-family: 'Glory', sans-serif;
+}
