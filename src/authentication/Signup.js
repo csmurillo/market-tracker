@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
 import { Redirect } from "react-router-dom";
 import { signup } from './authApi';
+import Button from '../components/Button';
+import MainLayout from '../layout/MainLayout';
 
 const Signup = () =>{
     // state: form values
@@ -95,8 +97,8 @@ const Signup = () =>{
                     <div style={{display:'block', textAlign:'center'}}> 
                         {error}
                     </div>
-                    <div style={{display:'block'}}>
-                    <button type="submit" className="btn btn-primary" style={{fontSize:20, width:200}}>Signup</button>
+                    <div>
+                        <Button type="submit" className="btn" styles={{color:'white',fontSize:20, width:200, backgroundColor:'lightgreen',borderColor:"lightgreen"}}>Signin</Button>
                     </div>
                     
                 </div>
@@ -112,15 +114,17 @@ const Signup = () =>{
     };
 
     return (
-        <div className="container">
-            <div className="d-flex justify-content-center">
-                <div style={{width:500}}>
-                    <h1>Signup</h1>
-                    {signupForm()}
+        <MainLayout>
+            <div className="container pt-5">
+                <div className="d-flex justify-content-center">
+                    <div style={{width:500}}>
+                        <h1>Signup</h1>
+                        {signupForm()}
+                    </div>
                 </div>
+                {signupRedirect()}
             </div>
-            {signupRedirect()}
-        </div>
+        </MainLayout>
     );
 };
 export default Signup;

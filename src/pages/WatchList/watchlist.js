@@ -1,9 +1,12 @@
 import React from 'react';
+import MainLayout from '../../layout/MainLayout';
 
 const Watchlist = () =>{
 
     return (
-        <div>Watchlist</div>
+        <MainLayout>
+            Watchlist
+        </MainLayout>
     );
 };
 

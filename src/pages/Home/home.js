@@ -6,6 +6,7 @@ import Plot from 'react-plotly.js';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import { Carousel } from 'react-responsive-carousel';
+import MainLayout from '../../layout/MainLayout';
 
 const Home = () =>{
     const dowJonesGrph = () =>(
@@ -62,6 +63,7 @@ const Home = () =>{
     );
 
     return (
+        <MainLayout>
         <div className="container">
             <div id="home-content-cont" className="row">
                 <div className="col-xl-6 col-lg-8 col-md-8">
@@ -82,7 +84,7 @@ const Home = () =>{
                 {topLoser()}
             </div>
         </div>
-        
+        </MainLayout>
     );
 };
 export default Home;

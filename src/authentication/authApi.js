@@ -32,3 +32,13 @@ export const saveAuth = ({token,user},next)=>{
     localStorage.setItem('token',token);
     next();
 };
+export const isAuthenticated = ()=>{
+    console.log('how many times');
+    if(localStorage.getItem('token')){
+        if(localStorage.getItem('authInfo')){
+            return localStorage.getItem('authInfo');
+        }
+        return false;
+    }
+    return false;
+};

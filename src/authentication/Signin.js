@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 import { Redirect } from "react-router-dom";
 import { signin, saveAuth } from './authApi';
-
+import Button from '../components/Button';
+import MainLayout from '../layout/MainLayout';
 
 const Signin = () =>{
     // state: formvalues
@@ -81,32 +82,32 @@ const Signin = () =>{
                     <div style={{display:'block', textAlign:'center'}}> 
                         {error}
                     </div>
-                    <div style={{display:'block'}}>
-                    <button type="submit" className="btn btn-primary" style={{fontSize:20, width:200}}>Signin</button>
+                    <div>
+                        <Button type="submit" className="btn" styles={{color:'white',fontSize:20, width:200, backgroundColor:'lightgreen',borderColor:"lightgreen"}}>Signin</Button>
                     </div>
-                    
                 </div>
-                
             </div>
         </form>
     );
 
     const signinRedirect = ()=>{
         if(redirect){
-            return <Redirect to='/'/>
+            return <Redirect to='/watchlist'/>
         }
     };
 
     return (
-        <div className="container">
-            <div className="d-flex justify-content-center">
-                <div style={{width:500}}>
-                    <h1>Login</h1>
-                    {signinForm()}
+        <MainLayout>
+            <div className="container pt-5">
+                <div className="d-flex justify-content-center">
+                    <div style={{width:500}}>
+                        <h1>Login</h1>
+                        {signinForm()}
+                    </div>
                 </div>
+                {signinRedirect()}
             </div>
-            {signinRedirect()}
-        </div>
+        </MainLayout>
     );
 };
 export default Signin;

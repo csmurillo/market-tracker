@@ -4,15 +4,25 @@ import {FaUserCircle} from "react-icons/fa";
 import './header.css';
 import NavigationMenu from '../NavigationMenu/navigationmenu';
 import Button from '../Button';
+import {isAuthenticated} from '../../authentication/authApi';
+import { Link } from 'react-router-dom';
 
 const Header = () =>{
     const userNavigate = ()=>(
         <ul id="user-navigate" className="align-self-center d-sm-flex d-none mr-4 mb-0">
             <li id="signup" style={{listStyleType:'none'}}>
-                <Button className="btn btn-secondary">Signup</Button>
+                <Link to="/signup">
+                    <Button className="btn btn-secondary" >
+                        Signup
+                    </Button>
+                </Link>
             </li>
             <li id="login" style={{listStyleType:'none'}}>
-                <Button className="ml-3 btn" color='rgb(138, 233, 138)' colorText='white'>Login</Button>
+                <Link to="/signin">
+                    <Button className="ml-3 btn" styles={{backgroundColor:'rgb(138, 233, 138)', color:'white'}}>
+                        Login
+                    </Button>
+                </Link>
             </li>
         </ul>
     );
@@ -44,10 +54,11 @@ const Header = () =>{
                 </div>
                 {/* user: signed in */}
                 {/* desktop/laptop screen */}
-                {userSignedin()}
+                {isAuthenticated() && userSignedin()}
                 {/* user: not signin */}
                 {/* desktop/laptop screen */}
-                {/* {userNavigate()} */}
+                {!isAuthenticated() && userNavigate()}
+
         </div>
     );
     return (

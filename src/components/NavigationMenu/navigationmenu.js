@@ -3,6 +3,7 @@ import { GrMenu,GrFormClose } from "react-icons/gr";
 import {FaUserCircle} from "react-icons/fa";
 import './navigationmenu.css';
 import { Link } from 'react-router-dom';
+import {isAuthenticated} from '../../authentication/authApi';
 
 const NavigationMenu = ({userSignin}) =>{
     const [active, setActive]=useState(false);
@@ -51,9 +52,9 @@ const NavigationMenu = ({userSignin}) =>{
             </div>
             <nav id="navigation-sidebar-menu"  className={`container ${ active ? 'active':'' }`}>
                 {/* user */}
-                {userNavigate()}
+                {!isAuthenticated() && userNavigate()}
                 {/* user logged in */}
-                {userSignedin()}
+                {isAuthenticated() && userSignedin()}
             </nav>
         </div>
     );
