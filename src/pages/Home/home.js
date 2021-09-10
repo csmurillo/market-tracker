@@ -20,7 +20,7 @@ const Home = () =>{
                 marker: {color: 'lightgreen'},
                 }
             ]}
-            layout={ {width: 600, height: 400, title: {
+            layout={ {width: 400, height: 300, title: {
                 text:'Dow Jones',
                 font: {
                   family: 'Glory, sans-serif',
@@ -85,15 +85,4 @@ const Home = () =>{
         
     );
 };
-{/* <Carousel>
-                        <div>
-                            <div style={{backgroundColor:'pink',width:'200px', height:'100px'}}>Edit</div>
-                        </div>
-                        <div>
-                            <div style={{backgroundColor:'blue',width:'200px', height:'100px'}}>Edit</div>
-                        </div>
-                        <div>
-                            <div style={{backgroundColor:'green',width:'100%', height:'100px'}}>Edit</div>
-                        </div>
-                    </Carousel> */}
 export default Home;
