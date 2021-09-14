@@ -1,9 +1,12 @@
 import React from 'react';
+import MainLayout from '../../layout/MainLayout';
 
 const ChangePassword = () =>{
 
     return (
-        <div>ChangePassword</div>
+        <MainLayout>
+            <h1>ChangePassword</h1>
+        </MainLayout>
     );
 };
 

@@ -1,0 +1,58 @@
+#account-options-container{
+    margin-bottom: 20px;
+}
+#option-divider{
+    position: relative;
+    height: 70px; width:1px;
+    background-color: black;
+    border:1px solid black;
+}
+#profile-option{
+    padding: 20px 85px 20px 85px;
+    border:1px solid lightgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#profile-option:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(253, 253, 253);
+    border:1px solid lightgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.active-profile-option{
+    text-decoration: underline;
+    background-color: rgb(253, 253, 253);
+    border:1px solid lightgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#stock-track-history-option{
+    padding: 20px 45px 20px 45px;
+    border:1px solid rgb(235, 235, 235);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#stock-track-history-option:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(253, 253, 253);
+    border:1px solid lightgrey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.active-stock-track-history-option{
+    text-decoration: underline;
+    text-decoration: underline;
+    background-color: rgb(253, 253, 253);
+    border:1px solid lightgrey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#profile-information-container{
+
+}
+.profile-information{
+    padding:5px 0px 5px 0px;
+}

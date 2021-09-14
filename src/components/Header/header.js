@@ -4,10 +4,13 @@ import {FaUserCircle} from "react-icons/fa";
 import './header.css';
 import NavigationMenu from '../NavigationMenu/navigationmenu';
 import Button from '../Button';
-import {isAuthenticated} from '../../authentication/authApi';
 import { Link } from 'react-router-dom';
+import { isAuthenticated } from '../../authentication/authApi';
 
 const Header = () =>{
+
+    const { firstName, lastName } = isAuthenticated();
+
     const userNavigate = ()=>(
         <ul id="user-navigate" className="align-self-center d-sm-flex d-none mr-4 mb-0">
             <li id="signup" style={{listStyleType:'none'}}>
@@ -32,12 +35,16 @@ const Header = () =>{
                 <div data-toggle="dropdown">
                     <div id="user-icon"><FaUserCircle style={{color:'lightgreen'}}/></div>
                     <div id="user-name">
-                        Angel M
+                        {firstName} {lastName}
                     </div>
                 </div> 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
-                    <button id="account" class="dropdown-item" type="button">Account</button>
-                    <button id="security" class="dropdown-item" type="button">Security</button>
+                    <Link to="/account">
+                        <button id="account" class="dropdown-item" type="button">Account</button>
+                    </Link>
+                    <Link to="/security">
+                        <button id="security" class="dropdown-item" type="button">Security</button>
+                    </Link>
                     <button id="logout" class="dropdown-item" type="button">Logout</button>
                 </div>
             </div>

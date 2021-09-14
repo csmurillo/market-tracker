@@ -5,7 +5,7 @@ const EditProfile = () =>{
 
     return (
         <MainLayout>
-            <h1>Edit Profile</h1>
+            <h1>Delete Account</h1>
         </MainLayout>
     );
 };

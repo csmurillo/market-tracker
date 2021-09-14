@@ -8,6 +8,13 @@ import Signup from "./authentication/Signup";
 import WatchList from "./pages/WatchList/watchlist";
 
 import PrivateRoute from "./authentication/PrivateRoute";
+import Security from "./pages/Security/security";
+import Account from "./pages/Account/account";
+
+import EditProfile from "./pages/EditProfile/editProfile";
+import ChangePassword from "./pages/ChangePassword/changePassword";
+import EnableAlerts from "./pages/EnableAlerts/enableAlerts";
+import DeleteAccount from "./pages/DeleteAccount/deleteAccount";
 
 const Routes = () =>{
     return (
@@ -18,6 +25,12 @@ const Routes = () =>{
                 <Route path="/signin" exact component={Signin}/>
                 <Route path="/signup" exact component={Signup}/>
                 <PrivateRoute path="/watchlist" exact component={WatchList}/>
+                <PrivateRoute path="/account" exact component={Account}/>
+                <PrivateRoute path="/security" exact component={Security}/>
+                <PrivateRoute path="/editprofile" exact component={EditProfile}/>
+                <PrivateRoute path="/changepassword" exact component={ChangePassword}/>
+                <PrivateRoute path="/enablealerts" exact component={EnableAlerts}/>
+                <PrivateRoute path="/deleteaccount" exact component={DeleteAccount}/>
             </Switch>
             {/* <Footer/> */}
         </BrowserRouter>

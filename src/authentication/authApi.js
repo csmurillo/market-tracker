@@ -36,7 +36,7 @@ export const isAuthenticated = ()=>{
     console.log('how many times');
     if(localStorage.getItem('token')){
         if(localStorage.getItem('authInfo')){
-            return localStorage.getItem('authInfo');
+            return JSON.parse(localStorage.getItem('authInfo'));
         }
         return false;
     }

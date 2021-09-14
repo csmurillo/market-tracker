@@ -1,13 +1,13 @@
 import React from 'react';
 import MainLayout from '../../layout/MainLayout';
 
-const EditProfile = () =>{
+const EnableAlerts = () =>{
 
     return (
         <MainLayout>
-            <h1>Edit Profile</h1>
+            <h1>EnableAlerts</h1>
         </MainLayout>
     );
 };
 
-export default EditProfile;
+export default EnableAlerts;
