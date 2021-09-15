@@ -1,8 +1,16 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;300&display=swap'); */
+/* top gainer/loser font headings */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
 
 .custom-font-one{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600 !important;
+    text-align: center;
+}
+.custom-font-two{
+    font-size: 34px;
+    font-family: 'Quicksand', sans-serif;
 }
 #home-content-cont{
     height: 500px;
@@ -15,4 +23,21 @@
 }
 li{
     font-family: 'Glory', sans-serif;
+}
+/* dow jones */
+.gtitle{
+    font-weight: 600 !important;
+}
+
+.carousel-root{
+    height:80px;
+}
+.carousel-root:hover{
+    cursor: pointer;
+}
+.carousel-status{
+    display: none;
+}
+.control-dots{
+    display: none;
 }

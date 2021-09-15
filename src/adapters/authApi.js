@@ -25,13 +25,13 @@ export const signin = userData =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
+    
 
 export const saveAuth = ({token,user},next)=>{
     localStorage.setItem('authInfo',JSON.stringify(user));
     localStorage.setItem('token',token);
     next();
 };
-
 export const isAuthenticated = ()=>{
     console.log('how many times');
     if(localStorage.getItem('token')){
