@@ -9,9 +9,7 @@ import Card from '../../components/Card/Card';
 import MainLayout from '../../layout/MainLayout';
 import { dowJones, topGainer, topLoser } from '../../adapters/stockApi';
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
+import Slider from "react-slick";
 
 const Home = () =>{
     const [ topGainers, setTopGainers ]=useState();
@@ -34,7 +32,6 @@ const Home = () =>{
             console.log(mostGainStocks[0].ticker);
             setTopGainers(mostGainStocks);
         });
-      
     },[]);
     const dowJonesGrph = () =>(
         <div id="dow-graph-container">
@@ -74,25 +71,48 @@ const Home = () =>{
             </ul>
         </div>
     );
-
+    // const desktopSetting={
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 5,
+    //     slidesToScroll: 1
+    // };
+    // const tabletSetting={
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1
+    // };
+    // const mobileSetting={
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 2,
+    //     slidesToScroll: 1
+    // };
+    // const settings = {
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 2,
+    //     slidesToScroll: 1
+    // };
     const topGainerContainer = ()=>(
         <div id="top-gainer-container">
             <h1 className="custom-font-two">Top Gainers</h1>
             <div id="top-gainers" className="row">
                 <div className="col-12">
-                    <Carousel emulateTouch showIndicators infiniteLoop>
+                    <Slider infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
                         {
                             topGainers && topGainers.map((gainer,i)=>(
-                                // <div>{element.ticker}</div>
-                                
-                                <div key={i} className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
-                                    <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                <div className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
+                                    <div>
+                                        <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                        <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                    </div>
                                 </div>
                             ))
                         }
-                    </Carousel>
+                    </Slider>
                 </div>
-                {/* {topGainers} */}
             </div>
         </div>
     );
@@ -101,17 +121,18 @@ const Home = () =>{
             <h1 className="custom-font-two">Top Losers</h1>
             <div id="top-losers" className="row">
             <div className="col-12">
-                <Carousel emulateTouch showIndicators infiniteLoop>
-                        {
+                    <Slider infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
+                    {
                             topGainers && topGainers.map((gainer,i)=>(
-                                // <div>{element.ticker}</div>
-                                
-                                <div key={i} className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
-                                    <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                <div className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
+                                    <div>
+                                        <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                        <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                    </div>
                                 </div>
                             ))
                         }
-                    </Carousel>
+                    </Slider>
             </div>
                 {/* {topGainers} */}
             </div>
@@ -133,20 +154,12 @@ const Home = () =>{
                         </div>
                         <div className="d-md-none">
                             <h1 className="custom-font-one">Create a Watchlist</h1>
-                            <Carousel emulateTouch showIndicators showArrows infiniteLoop>
-                                <div>
+                            <Slider infinite={true} speed={500} slidesToShow={2} slidesToScroll={1}>
                                     <div style={{height:'100%', fontSize:'32px'}}>Track Stocks</div>
-                                </div>
-                                <div>
                                     <div style={{height:'100%', fontSize:'32px'}}>Search Stocks</div>
-                                </div>
-                                <div>
                                     <div style={{height:'100%', fontSize:'32px'}}>Recieve Price Alerts</div>
-                                </div>
-                                <div>
                                     <div style={{height:'100%', fontSize:'32px'}}>Much More</div>
-                                </div>
-                            </Carousel>
+                            </Slider>
                         </div>
                     </div>
                 </div>
