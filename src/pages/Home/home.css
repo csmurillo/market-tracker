@@ -29,15 +29,25 @@ li{
     font-weight: 600 !important;
 }
 
-.carousel-root{
-    height:80px;
+/* slider styles */
+.slick-slider{
+    margin-left: 5%;
+    cursor:grab;
 }
-.carousel-root:hover{
-    cursor: pointer;
+.right-arrow:hover,.left-arrow:hover{
+    cursor:pointer;
 }
-.carousel-status{
-    display: none;
+.right-arrow{
+    position: absolute;
+    right: 0px;
+    top: 28%;
+    z-index: 99999;
+    font-size: 55px;
 }
-.control-dots{
-    display: none;
+.left-arrow{
+    position: absolute;
+    left: -8%;
+    top: 28%;
+    z-index: 99999;
+    font-size: 55px;
 }

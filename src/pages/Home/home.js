@@ -9,11 +9,41 @@ import Card from '../../components/Card/Card';
 import MainLayout from '../../layout/MainLayout';
 import { dowJones, topGainer, topLoser } from '../../adapters/stockApi';
 
+import {MdKeyboardArrowLeft,MdKeyboardArrowRight} from 'react-icons/md';
 import Slider from "react-slick";
 
 const Home = () =>{
+    const [ settings,setSettings ]= useState({
+        infinite: true,
+        arrows:true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        nextArrow:null,
+        prevArrow:null
+        // nextArrow:<SliderLeftArrow to="prev"/>,
+        // prevArrow:<SliderRightArrow to="next"/>
+    });
     const [ topGainers, setTopGainers ]=useState();
     const [ topLosers, setTopLosers ]=useState(null);
+
+    const SliderLeftArrow = ({ className, style, onClick })=>(
+        <div className="left-arrow" onClick={onClick} ><MdKeyboardArrowLeft></MdKeyboardArrowLeft></div>
+    );
+    const SliderRightArrow = ({ className, style, onClick })=>(
+        <div className="right-arrow" onClick={onClick} style={style}><MdKeyboardArrowRight></MdKeyboardArrowRight></div>
+    );
+
+    useEffect(()=>{
+        window.addEventListener('load',()=>{
+            setting(window.innerWidth);
+        });
+        window.addEventListener('resize',()=>{
+            console.log('window width!!'+window.innerWidth);
+            // setWindowWidth(window.innerWidth);
+            setting(window.innerWidth);
+        });
+    },[]);
 
     useEffect(()=>{
         dowJones().then(data=>{
@@ -33,6 +63,41 @@ const Home = () =>{
             setTopGainers(mostGainStocks);
         });
     },[]);
+    const setting = (windowWidth)=>{
+        console.log(settings);
+        const settingsX = {
+            infinite: true,
+            speed: 500,
+            slidesToShow: 2,
+            slidesToScroll: 1
+        };
+
+        if(windowWidth){
+            if( windowWidth>1023){
+                settingsX.slidesToShow=4;
+            }
+            else if( windowWidth>975){
+                settingsX.slidesToShow=3;
+            }
+            else if(windowWidth>764){
+                settingsX.slidesToShow=3;
+            }
+            else {
+                settingsX.slidesToShow=2;
+            }
+        }
+        console.log('window width'+windowWidth);
+        console.log(settingsX.slidesToShow+'jijijiij');
+
+        setSettings({...settings,slidesToShow:settingsX.slidesToShow,nextArrow:<SliderRightArrow to="next"/>,
+        prevArrow:<SliderLeftArrow to="prev"/>});
+        // return settings;
+        // // settings.slidesToShow=4;
+
+        // return settings.slidesToShow;
+        // // return (<div>{windowWidth}
+        // //         <div>{w}</div></div>);
+    };
     const dowJonesGrph = () =>(
         <div id="dow-graph-container">
             <div id="dow-graph">
@@ -46,7 +111,7 @@ const Home = () =>{
                     marker: {color: 'lightgreen'},
                     }
                 ]}
-                layout={ {width: 520, height: 380, title: {
+                layout={ {width: 420, height: 380, title: {
                     text:'Dow Jones',
                     font: {
                     family: 'Glory, sans-serif',
@@ -100,15 +165,19 @@ const Home = () =>{
             <h1 className="custom-font-two">Top Gainers</h1>
             <div id="top-gainers" className="row">
                 <div className="col-12">
-                    <Slider infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
+                    <Slider {...settings}>
                         {
                             topGainers && topGainers.map((gainer,i)=>(
-                                <div className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
-                                    <div>
+                                // <div className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
+                                <div>
+                                    <div className="mb-3">
                                         <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                    </div>
+                                    <div>
                                         <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
                                     </div>
                                 </div>
+                                // </div>
                             ))
                         }
                     </Slider>
@@ -121,15 +190,19 @@ const Home = () =>{
             <h1 className="custom-font-two">Top Losers</h1>
             <div id="top-losers" className="row">
             <div className="col-12">
-                    <Slider infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
+                    <Slider {...settings}>
                     {
                             topGainers && topGainers.map((gainer,i)=>(
-                                <div className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
+                                // <div className="col-lg-2 col-md-3 col-6 d-flex justify-content-center mb-4">
                                     <div>
-                                        <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
-                                        <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                        <div className="mb-3">
+                                            <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                        </div>
+                                        <div>
+                                            <Card companyName={gainer.companyName} tickerSymbol={gainer.ticker} priceChange={gainer.changesPercentage} currentPrice={gainer.price} />
+                                        </div>
                                     </div>
-                                </div>
+                                // </div>
                             ))
                         }
                     </Slider>
@@ -153,12 +226,13 @@ const Home = () =>{
                             {homeBulletin()}
                         </div>
                         <div className="d-md-none">
+                            {/* <Width></Width> */}
                             <h1 className="custom-font-one">Create a Watchlist</h1>
-                            <Slider infinite={true} speed={500} slidesToShow={2} slidesToScroll={1}>
-                                    <div style={{height:'100%', fontSize:'32px'}}>Track Stocks</div>
-                                    <div style={{height:'100%', fontSize:'32px'}}>Search Stocks</div>
-                                    <div style={{height:'100%', fontSize:'32px'}}>Recieve Price Alerts</div>
-                                    <div style={{height:'100%', fontSize:'32px'}}>Much More</div>
+                            <Slider infinite={true} speed={500} slidesToShow={1} slidesToScroll={1}>
+                                    <div style={{height:'100%', fontSize:'32px'}} className="d-flex justify-content-center">Track Stocks</div>
+                                    <div style={{height:'100%', fontSize:'32px'}} className="d-flex justify-content-center">Search Stocks</div>
+                                    <div style={{height:'100%', fontSize:'32px'}} className="d-flex justify-content-center">Recieve Price Alerts</div>
+                                    <div style={{height:'100%', fontSize:'32px'}} className="d-flex justify-content-center">Much More</div>
                             </Slider>
                         </div>
                     </div>
