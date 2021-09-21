@@ -3,6 +3,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
 
+#home{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Glory', sans-serif;
+}
+li{
+    font-family: 'Glory', sans-serif;
+}
+/* font */
 .custom-font-one{
     font-family: 'Quicksand', sans-serif;
     font-weight: 600 !important;
@@ -12,24 +21,24 @@
     font-size: 34px;
     font-family: 'Quicksand', sans-serif;
 }
-#home-content-cont{
-    height: 500px;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Glory', sans-serif;
-}
-/* font */
 .f-30{
     font-size: 30px;
 }
-li{
-    font-family: 'Glory', sans-serif;
-}
-/* dow jones */
+/* DOW JONES OVERIDE STYLES */
 .gtitle{
     font-weight: 600 !important;
 }
 
-/* slider styles */
+/* SLICK SLIDER OVERIDE STYLES */
+@media (min-width: 768px) {
+    .right-arrow{
+        position: absolute;
+        right: -10px;
+        top: 28%;
+        z-index: 99999;
+        font-size: 55px;
+    }
+}
 .slick-slider{
     margin-left: 5%;
     cursor:grab;
@@ -39,7 +48,7 @@ li{
 }
 .right-arrow{
     position: absolute;
-    right: 0px;
+    right: -10px;
     top: 28%;
     z-index: 99999;
     font-size: 55px;

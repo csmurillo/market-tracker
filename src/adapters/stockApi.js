@@ -1,6 +1,6 @@
 import { API } from '../config';
     
-export const dowJones = () =>{ 
+export const getDowJones = () =>{ 
     return fetch(`${API}/stock/dowjones`, {
         method:"GET"
     })
@@ -21,7 +21,7 @@ export const stockSearch = () =>{
     .catch(err=>{console.log(err);})
 };
 
-export const topGainer = () =>{ 
+export const getGainerStocks = () =>{ 
     return fetch(`${API}/stock/gainers`, {
         method:"GET"
     })
@@ -29,7 +29,7 @@ export const topGainer = () =>{
     .catch(err=>{console.log(err);})
 };
 
-export const topLoser = () =>{ 
+export const getLoserStocks = () =>{ 
     return fetch(`${API}/stock/losers`, {
         method:"GET"
     })

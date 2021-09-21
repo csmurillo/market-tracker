@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer"
-import Home from "./pages/Home/home"
+import Home from "./pages/Home"
 import Signin from "./authentication/Signin";
 import Signup from "./authentication/Signup";
 import WatchList from "./pages/WatchList/watchlist";
