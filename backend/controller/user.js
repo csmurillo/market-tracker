@@ -52,21 +52,25 @@ exports.accountUpdate = (req,res)=>{
 exports.changePassword = (req,res)=>{
     const {userId}=req.userTokenData;
     const { password } = req.body;
-
     User.findOne({ _id: userId }, (err, user) => {
         if(err){
             return res.status(401).json({
-                    message:"User does not exist"
+                error:{serverError:"Error 401 Server Error"}
             });
         }
         bcrypt.hash(password, 10, function(err, hashPassword) {
             if(err){
                 return res.status(401).json({
-                        message:"Please provide a password"
+                    error:{serverError:"Error 401 Server Error"}
                 });
             }
             user.password=hashPassword;
             user.save((err,updatedUser)=>{
+                if(err){
+                    return res.status(401).json({
+                            error:{serverError:"Error 401 Server Error"}
+                    });
+                }
                 updatedUser.password=undefined;
                 res.json(updatedUser);
             });
@@ -181,12 +185,10 @@ exports.stockGainers = async(req,res)=>{
 };
 
 exports.stockLosers = async(req,res)=>{
-    const sfmkapi = {"losers":{"mostLoserStock":[{"ticker":"SPRT","changes":-7.3,"price":"11.8","changesPercentage":"-38.219894","companyName":"Support.com, Inc."},{"ticker":"BYSI","changes":-7.55,"price":"15.36","changesPercentage":"-32.95504","companyName":"BeyondSpring Inc."},{"ticker":"PTGX","changes":-4.58,"price":"12.95","changesPercentage":"-26.126644","companyName":"Protagonist Therapeutics, Inc."},{"ticker":"AVTE","changes":-5.23,"price":"14.93","changesPercentage":"-25.94246","companyName":"Aerovate Therapeutics, Inc."},{"ticker":"LKCO","changes":-0.4,"price":"1.19","changesPercentage":"-25.15723","companyName":"Luokung Technology Corp."},{"ticker":"NTP","changes":-6.62,"price":"21.46","changesPercentage":"-23.5755","companyName":"Nam Tai Property Inc."},{"ticker":"AEI","changes":-0.65,"price":"2.4","changesPercentage":"-21.31147","companyName":"Alset EHome International Inc."},{"ticker":"FLGC","changes":-1.12,"price":"5.2","changesPercentage":"-17.721525","companyName":"Flora Growth Corp."},{"ticker":"GOGL","changes":-1.91,"price":"9.3","changesPercentage":"-17.038357","companyName":"Golden Ocean Group Limited"},{"ticker":"SCPS","changes":-0.87,"price":"4.26","changesPercentage":"-16.959063","companyName":"Scopus BioPharma Inc."},{"ticker":"RAIN","changes":-2.67,"price":"13.21","changesPercentage":"-16.813602","companyName":"Rain Therapeutics Inc."},{"ticker":"BTX","changes":-1.99,"price":"9.96","changesPercentage":"-16.652718","companyName":"Brooklyn ImmunoTherapeutics, Inc."},{"ticker":"ZH","changes":-1.48,"price":"7.87","changesPercentage":"-15.828882","companyName":"Zhihu Inc."},{"ticker":"SRRK","changes":-6.41,"price":"34.09","changesPercentage":"-15.82716","companyName":"Scholar Rock Holding Corporation"},{"ticker":"EBET","changes":-5.09,"price":"27.35","changesPercentage":"-15.690501","companyName":"Esports Technologies, Inc."},{"ticker":"VERA","changes":-3.18,"price":"17.75","changesPercentage":"-15.193504","companyName":"Vera Therapeutics, Inc."},{"ticker":"TKAT","changes":-1.3,"price":"7.47","changesPercentage":"-14.823268","companyName":"Takung Art Co., Ltd."},{"ticker":"ELEV","changes":-1.35,"price":"7.86","changesPercentage":"-14.657979","companyName":"Elevation Oncology, Inc."},{"ticker":"XYF","changes":-0.7,"price":"4.1","changesPercentage":"-14.583339","companyName":"X Financial"},{"ticker":"AMEH","changes":-14,"price":"82.81","changesPercentage":"-14.461316","companyName":"Apollo Medical Holdings, Inc."},{"ticker":"GNK","changes":-2.94,"price":"17.59","changesPercentage":"-14.320509","companyName":"Genco Shipping & Trading Limited"},{"ticker":"DSX","changes":-0.82,"price":"5.03","changesPercentage":"-14.017089","companyName":"Diana Shipping Inc."},{"ticker":"EDRY","changes":-4.54,"price":"27.85","changesPercentage":"-14.016668","companyName":"EuroDry Ltd."},{"ticker":"BRN","changes":-0.37,"price":"2.27","changesPercentage":"-14.015156","companyName":"Barnwell Industries, Inc."},{"ticker":"EQOS","changes":-0.64,"price":"3.93","changesPercentage":"-14.004378","companyName":"Diginex Limited"},{"ticker":"IPWR","changes":-2.25,"price":"13.91","changesPercentage":"-13.923268","companyName":"Ideal Power Inc."},{"ticker":"CARV","changes":-2.12,"price":"13.15","changesPercentage":"-13.883437","companyName":"Carver Bancorp, Inc."},{"ticker":"EVLO","changes":-1.15,"price":"7.19","changesPercentage":"-13.78897","companyName":"Evelo Biosciences, Inc."},{"ticker":"AVCT","changes":-0.45,"price":"2.83","changesPercentage":"-13.719514","companyName":"American Virtual Cloud Technologies, Inc."},{"ticker":"SGBX","changes":-0.53,"price":"3.35","changesPercentage":"-13.6598","companyName":"SG Blocks, Inc."}]}};
+    const sfmkData = {"losers":{"mostLoserStock":[{"ticker":"SPRT","changes":-7.3,"price":"11.8","changesPercentage":"-38.219894","companyName":"Support.com, Inc."},{"ticker":"BYSI","changes":-7.55,"price":"15.36","changesPercentage":"-32.95504","companyName":"BeyondSpring Inc."},{"ticker":"PTGX","changes":-4.58,"price":"12.95","changesPercentage":"-26.126644","companyName":"Protagonist Therapeutics, Inc."},{"ticker":"AVTE","changes":-5.23,"price":"14.93","changesPercentage":"-25.94246","companyName":"Aerovate Therapeutics, Inc."},{"ticker":"LKCO","changes":-0.4,"price":"1.19","changesPercentage":"-25.15723","companyName":"Luokung Technology Corp."},{"ticker":"NTP","changes":-6.62,"price":"21.46","changesPercentage":"-23.5755","companyName":"Nam Tai Property Inc."},{"ticker":"AEI","changes":-0.65,"price":"2.4","changesPercentage":"-21.31147","companyName":"Alset EHome International Inc."},{"ticker":"FLGC","changes":-1.12,"price":"5.2","changesPercentage":"-17.721525","companyName":"Flora Growth Corp."},{"ticker":"GOGL","changes":-1.91,"price":"9.3","changesPercentage":"-17.038357","companyName":"Golden Ocean Group Limited"},{"ticker":"SCPS","changes":-0.87,"price":"4.26","changesPercentage":"-16.959063","companyName":"Scopus BioPharma Inc."},{"ticker":"RAIN","changes":-2.67,"price":"13.21","changesPercentage":"-16.813602","companyName":"Rain Therapeutics Inc."},{"ticker":"BTX","changes":-1.99,"price":"9.96","changesPercentage":"-16.652718","companyName":"Brooklyn ImmunoTherapeutics, Inc."},{"ticker":"ZH","changes":-1.48,"price":"7.87","changesPercentage":"-15.828882","companyName":"Zhihu Inc."},{"ticker":"SRRK","changes":-6.41,"price":"34.09","changesPercentage":"-15.82716","companyName":"Scholar Rock Holding Corporation"},{"ticker":"EBET","changes":-5.09,"price":"27.35","changesPercentage":"-15.690501","companyName":"Esports Technologies, Inc."},{"ticker":"VERA","changes":-3.18,"price":"17.75","changesPercentage":"-15.193504","companyName":"Vera Therapeutics, Inc."},{"ticker":"TKAT","changes":-1.3,"price":"7.47","changesPercentage":"-14.823268","companyName":"Takung Art Co., Ltd."},{"ticker":"ELEV","changes":-1.35,"price":"7.86","changesPercentage":"-14.657979","companyName":"Elevation Oncology, Inc."},{"ticker":"XYF","changes":-0.7,"price":"4.1","changesPercentage":"-14.583339","companyName":"X Financial"},{"ticker":"AMEH","changes":-14,"price":"82.81","changesPercentage":"-14.461316","companyName":"Apollo Medical Holdings, Inc."},{"ticker":"GNK","changes":-2.94,"price":"17.59","changesPercentage":"-14.320509","companyName":"Genco Shipping & Trading Limited"},{"ticker":"DSX","changes":-0.82,"price":"5.03","changesPercentage":"-14.017089","companyName":"Diana Shipping Inc."},{"ticker":"EDRY","changes":-4.54,"price":"27.85","changesPercentage":"-14.016668","companyName":"EuroDry Ltd."},{"ticker":"BRN","changes":-0.37,"price":"2.27","changesPercentage":"-14.015156","companyName":"Barnwell Industries, Inc."},{"ticker":"EQOS","changes":-0.64,"price":"3.93","changesPercentage":"-14.004378","companyName":"Diginex Limited"},{"ticker":"IPWR","changes":-2.25,"price":"13.91","changesPercentage":"-13.923268","companyName":"Ideal Power Inc."},{"ticker":"CARV","changes":-2.12,"price":"13.15","changesPercentage":"-13.883437","companyName":"Carver Bancorp, Inc."},{"ticker":"EVLO","changes":-1.15,"price":"7.19","changesPercentage":"-13.78897","companyName":"Evelo Biosciences, Inc."},{"ticker":"AVCT","changes":-0.45,"price":"2.83","changesPercentage":"-13.719514","companyName":"American Virtual Cloud Technologies, Inc."},{"ticker":"SGBX","changes":-0.53,"price":"3.35","changesPercentage":"-13.6598","companyName":"SG Blocks, Inc."}]}};
     // const sfmkapi = `https://financialmodelingprep.com/api/v3/stock/losers?apikey=${process.env.STOCK_FINANCIAL_MODEL_KEY}`;
-    const sfmkRes = await fetch(sfmkapi);
-    const sfmkData = await sfmkRes.json();
+    // const sfmkRes = await fetch(sfmkapi);
+    // const sfmkData = await sfmkRes.json();
+    console.log(sfmkData);
     res.json({losers:sfmkData});
 };
-
-
-

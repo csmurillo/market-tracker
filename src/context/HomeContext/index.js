@@ -1,7 +1,7 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import { getDowJones, getGainerStocks, getLoserStocks } from '../../adapters/stockApi';
-import {MdKeyboardArrowLeft,MdKeyboardArrowRight} from 'react-icons/md';
+import { MdKeyboardArrowLeft,MdKeyboardArrowRight } from 'react-icons/md';
 
 const HomeContext = ()=>{
     // dow jones and current top gainer/loser
@@ -52,11 +52,14 @@ const HomeContext = ()=>{
             setDowJones(dowJonesValue);
         });
         getGainerStocks().then(gainers=>{
+            console.log('right here1');
             const mostGainStocks=gainers.gainers.gainers.mostGainerStock;
             setGainerStocks(mostGainStocks);
         });
         getLoserStocks().then(losers=>{
-            const mostLoserStocks=losers.losers.mostLoserStock;
+            // console.log(losers.losers.losers.mostLoserStock+'1!!');
+            const mostLoserStocks=losers.losers.losers.mostLoserStock;
+            // console.log(mostLoserStocks+'!!!');
             setLoserStocks(mostLoserStocks);
         });
     },[]);

@@ -21,7 +21,7 @@ const Home = () =>{
     return (
         <MainLayout>
             <div id="home">
-                <div className="row mb-3">
+                <div className="row mb-5">
                     <div className="col-xl-6 col-lg-8 col-md-8">
                         <div className= "d-flex justify-content-center">
                             <DowJones></DowJones>

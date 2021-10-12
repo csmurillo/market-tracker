@@ -15,13 +15,15 @@ const app = express();
 
 app.use(expressValidator());
 app.use(express.json());
-app.use(cors())
+app.use(cors({origin: '*'}));
+// app.use(cors());
 
 
 // connect to mongodb
 mongoose.connect(process.env.DATABASE)
         .then(()=>{console.log('db connected');})
         .catch(()=>{console.log('error db');});
+
 
 app.use('/api', authRoutes);
 app.use('/api', userRoutes);

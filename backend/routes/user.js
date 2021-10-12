@@ -2,12 +2,13 @@ const express = require('express');
 const { userId, stockId, accountUpdate, changePassword,addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
 const { isAuth } = require('../controller/auth');
 const verifyToken = require('../middleware/verify-token');
+const { userChangePasswordValidator } = require('../validators');
 
 const router = express.Router();
 
 router.put('/user/account/update/:userId',verifyToken, isAuth, accountUpdate);
 
-router.put('/user/account/passwordChange/:userId',verifyToken, isAuth,changePassword);
+router.put('/user/account/passwordChange/:userId',verifyToken,userChangePasswordValidator,isAuth,changePassword);
 
 router.put('/add/to/stock/history/:userId',verifyToken, isAuth, addToStockHistory);
 
