@@ -47,3 +47,18 @@ export const getToken = ()=>{
     }
     return false;
 }
+export const deleteAccount =(userId, token,password)=>{
+    return fetch(`${API}/terminate/account/${userId}`, {
+        method: 'DELETE',
+        headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`
+        },
+        body: JSON.stringify(password)
+    })
+        .then(response => {
+            return response.json();
+        })
+        .catch(err => console.log(err));
+};

@@ -11,8 +11,7 @@ export const signup = userData =>{
     })
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
-};
-    
+};  
 export const signin = userData =>{ 
     return fetch(`${API}/signin`, {
         method:'POST',
@@ -25,8 +24,6 @@ export const signin = userData =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
-    
-
 export const saveAuth = ({token,user},next)=>{
     localStorage.setItem('authInfo',JSON.stringify(user));
     localStorage.setItem('token',token);
@@ -47,3 +44,18 @@ export const getToken = ()=>{
     }
     return false;
 }
+export const deleteAccount =(userId, token,password)=>{
+    return fetch(`${API}/terminate/account/${userId}`, {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+            Authorization: `Bearer ${token}`
+        },
+        body: JSON.stringify(password)
+    })
+        .then(response => {
+            return response.json();
+        })
+        .catch(err => console.log(err));
+};

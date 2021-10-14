@@ -56,7 +56,26 @@ exports.signin = (req,res) => {
         });
     });
 };
+exports.verifyPassword=(req,res,next)=>{
+    const {userId}=req.userTokenData;
+    const { password } = req.body;
 
+    User.findOne({ _id: userId }, async(err, user) => {
+        if(err){
+            return res.status(401).json({
+                error:{serverError:"Error 401 Server Error"}
+            });
+        }
+        const passwordsMatch = await bcrypt.compare(password, user.password);
+        // password do not match
+        if(!passwordsMatch){
+            return res.status(401).json({
+                error:{passwordNoMatch:"Incorrect Password"}
+            });
+        }
+        next();
+    });
+};
 exports.deleteAccount = (req,res)=>{
     let user=req.user;
     

@@ -14,7 +14,7 @@ import Account from "./pages/Account/account";
 import EditProfile from "./pages/EditProfile/editProfile";
 import ChangePassword from "./pages/ChangePassword";
 import EnableAlerts from "./pages/EnableAlerts/enableAlerts";
-import DeleteAccount from "./pages/DeleteAccount/deleteAccount";
+import DeleteAccount from "./pages/DeleteAccount";
 
 import Success from "./components/SuccessScreen/success-screen";
 const Routes = () =>{
