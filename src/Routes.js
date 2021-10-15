@@ -11,7 +11,7 @@ import PrivateRoute from "./authentication/PrivateRoute";
 import Security from "./pages/Security/security";
 import Account from "./pages/Account/account";
 
-import EditProfile from "./pages/EditProfile/editProfile";
+import EditProfile from "./pages/EditProfile";
 import ChangePassword from "./pages/ChangePassword";
 import EnableAlerts from "./pages/EnableAlerts/enableAlerts";
 import DeleteAccount from "./pages/DeleteAccount";

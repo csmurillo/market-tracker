@@ -16,33 +16,51 @@ exports.userId = (req,res,next,id)=>{
         });
 };
 
-exports.accountUpdate = (req,res)=>{
+exports.getUserInformation=(req,res)=>{
     const {userId}=req.userTokenData;
-    const { firstName, lastName, email, smsAlerts } = req.body;
-
-    const accountFieldsNotFilled= (firstName==undefined)||(lastName==undefined)||(email==undefined)||(smsAlerts==undefined);
-    if(accountFieldsNotFilled){
-        return res.json({
-            message:"Please fill in all fields"
-        });
-    }
-
     User.findOne({ _id: userId }, (err, user) => {
         if(err){
             return res.status(401).json({
                     error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
             });
         }
+        user.smsAlerts=undefined;
+        user.password=undefined;
+        res.json(user);
+        
+    });
+
+};
+
+exports.accountUpdate = (req,res)=>{
+    const {userId}=req.userTokenData;
+    const { firstName, lastName, email } = req.body;
+
+    const accountFieldsNotFilled= (firstName==undefined)||(lastName==undefined)||(email==undefined);
+    if(accountFieldsNotFilled){
+        return res.json({
+            message: {serverError:"Please fill in all fields"}
+        });
+    }
+
+    User.findOne({ _id: userId }, (err, user) => {
+        if(err){
+            return res.status(401).json({
+                    error: {serverError:"Sorry for the inconvenience something went wrong, our team is working to fix the problem."}
+            });
+        }
+       
+
         user.firstName=firstName;
         user.lastName=lastName;
         user.email=email;
-        user.smsAlerts=true;
         user.save((err,updatedUser)=>{
             if(err){
                 return res.status(401).json({
-                    error:"Error: User could not be updated"
+                    error:{serverError:"Email Already Exists"}
                 });
             }
+            updatedUser.smsAlerts=undefined;
             updatedUser.password=undefined;
             res.json(updatedUser);
         });

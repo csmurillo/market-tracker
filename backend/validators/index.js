@@ -92,6 +92,44 @@ exports.userChangePasswordValidator = (req,res,next)=>{
     }
     next();
 };
+
+exports.updateProfileInformationValidator=(req,res,next)=>{
+    const errors={};
+    req.check('firstName')
+        .notEmpty()
+        .withMessage('First Name is required')
+    req.check('lastName')
+        .notEmpty()
+        .withMessage('Last Name is required')
+    req.check('email')
+        .notEmpty()
+        .withMessage('Email is required')
+        .isEmail()
+        .withMessage('Email must container @')
+        // set errors
+        const validationErrors = req.validationErrors();
+        if(validationErrors){
+            // init error arrays
+            let emailError=[];
+            // push all errors to the existant array
+            validationErrors.map(err=>{
+                if(err.param=='firstName'){
+                    errors.firstName=err.msg;
+                }
+                else if(err.param=='lastName'){
+                    errors.lastName=err.msg;
+                }
+                else if(err.param=='email'){
+                    emailError.push(err.msg);
+                }
+            });
+            // only set first errror for email
+            errors.email=emailError[0];
+            // send all errors that occurred
+            return res.status(400).json({error:errors});
+        }
+        next();
+};
 // exports.userAccountUpdateValidator = (req,res,next)=>{
 //     req.check('firstName','First name is required').notEmpty()
 //     req.check('lastName','Last name is required').notEmpty()

@@ -1,12 +1,14 @@
 const express = require('express');
-const { userId, stockId, accountUpdate, changePassword,addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
+const { userId, getUserInformation, accountUpdate, changePassword,addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
 const { isAuth } = require('../controller/auth');
 const verifyToken = require('../middleware/verify-token');
-const { userChangePasswordValidator } = require('../validators');
+const { userChangePasswordValidator,updateProfileInformationValidator } = require('../validators');
 
 const router = express.Router();
 
-router.put('/user/account/update/:userId',verifyToken, isAuth, accountUpdate);
+router.get('/user/account/:userId',verifyToken,isAuth,getUserInformation);
+
+router.put('/user/account/update/:userId',verifyToken,updateProfileInformationValidator, isAuth, accountUpdate);
 
 router.put('/user/account/passwordChange/:userId',verifyToken,userChangePasswordValidator,isAuth,changePassword);
 
@@ -31,6 +33,3 @@ router.get('/stock/losers',stockLosers);
 router.param("userId", userId);
 
 module.exports = router;
-
-
-

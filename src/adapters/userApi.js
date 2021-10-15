@@ -1,4 +1,18 @@
 import { API } from '../config';
+
+export const getUserInformation = (userId, token) =>{ 
+    return fetch(`${API}/user/account/${userId}`, {
+        method:"GET",
+        headers: {
+            Accept: 'application/json',
+            Authorization: `Bearer ${token}`
+        }
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+
+
 export const updatePassword = (userId, token, password) => {
     return fetch(`${API}/user/account/passwordChange/${userId}`, {
         method: 'PUT',
@@ -14,5 +28,19 @@ export const updatePassword = (userId, token, password) => {
         })
         .catch(err => console.log(err));
 };
-
+export const updateProfile = (userId, token, updatedInformation) => {
+    return fetch(`${API}/user/account/update/${userId}`, {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+            Authorization: `Bearer ${token}`
+        },
+        body: JSON.stringify(updatedInformation)
+    })
+        .then(response => {
+            return response.json();
+        })
+        .catch(err => console.log(err));
+};
 
