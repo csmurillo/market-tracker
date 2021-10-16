@@ -1,5 +1,5 @@
 const express = require('express');
-const { userId, getUserInformation, accountUpdate, changePassword,addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
+const { userId, getUserInformation, accountUpdate, getEnableAlerts, updateEnableAlerts, changePassword, addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
 const { isAuth } = require('../controller/auth');
 const verifyToken = require('../middleware/verify-token');
 const { userChangePasswordValidator,updateProfileInformationValidator } = require('../validators');
@@ -9,6 +9,10 @@ const router = express.Router();
 router.get('/user/account/:userId',verifyToken,isAuth,getUserInformation);
 
 router.put('/user/account/update/:userId',verifyToken,updateProfileInformationValidator, isAuth, accountUpdate);
+
+router.get('/user/account/enableAlerts/:userId',verifyToken,isAuth,getEnableAlerts);
+
+router.put('/user/account/enableAlerts/update/:userId',verifyToken,isAuth,updateEnableAlerts);
 
 router.put('/user/account/passwordChange/:userId',verifyToken,userChangePasswordValidator,isAuth,changePassword);
 

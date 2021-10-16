@@ -31,7 +31,7 @@ const Security = () =>{
                         <Link to="enablealerts">
                             <div id="security-option-enable-alerts" className="security-options h-100 d-flex flex-column justify-content-center align-items-center border rounded">
                                 <MdDialerSip id="enable-alerts-icon" className="icons"></MdDialerSip>
-                                <div id="enable-alerts">Enable Alerts</div>
+                                <div id="sms-alerts">Sms Alerts</div>
                             </div>
                         </Link>
                     </div>

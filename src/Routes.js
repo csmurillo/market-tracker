@@ -13,7 +13,7 @@ import Account from "./pages/Account/account";
 
 import EditProfile from "./pages/EditProfile";
 import ChangePassword from "./pages/ChangePassword";
-import EnableAlerts from "./pages/EnableAlerts/enableAlerts";
+import SmsAlerts from "./pages/SmsAlerts";
 import DeleteAccount from "./pages/DeleteAccount";
 
 import Success from "./components/SuccessScreen/success-screen";
@@ -31,7 +31,7 @@ const Routes = () =>{
                 <PrivateRoute path="/security" exact component={Security}/>
                 <PrivateRoute path="/editprofile" exact component={EditProfile}/>
                 <PrivateRoute path="/changepassword" exact component={ChangePassword}/>
-                <PrivateRoute path="/enablealerts" exact component={EnableAlerts}/>
+                <PrivateRoute path="/enablealerts" exact component={SmsAlerts}/>
                 <PrivateRoute path="/deleteaccount" exact component={DeleteAccount}/>
             </Switch>
             {/* <Footer/> */}

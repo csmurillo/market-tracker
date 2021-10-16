@@ -67,6 +67,43 @@ exports.accountUpdate = (req,res)=>{
     });
 };
 
+exports.getEnableAlerts = (req,res)=>{
+    const {userId}=req.userTokenData;
+
+    User.findOne({ _id: userId }, (err, user) => {
+        if(err){
+            return res.status(401).json({
+                    error: {serverError:"Sorry for the inconvenience something went wrong, our team is working to fix the problem."}
+            });
+        }
+        res.json({
+            smsAlerts:user.smsAlerts
+        });
+    });
+};
+
+exports.updateEnableAlerts=(req,res)=>{
+    const {userId}=req.userTokenData;
+    const { smsAlerts } = req.body;
+
+    User.findOne({ _id: userId }, (err, user) => {
+        if(err){
+            return res.status(401).json({
+                    error: {serverError:"Sorry for the inconvenience something went wrong, our team is working to fix the problem."}
+            });
+        }
+        user.smsAlerts=smsAlerts;
+        user.save((err,updatedUser)=>{
+            if(err){
+                return res.status(401).json({
+                    error: {serverError:"Sorry for the inconvenience something went wrong, our team is working to fix the problem."}
+                });
+            }
+            res.json({success:true});
+        });
+    });
+};
+
 exports.changePassword = (req,res)=>{
     const {userId}=req.userTokenData;
     const { password } = req.body;

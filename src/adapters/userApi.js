@@ -12,6 +12,33 @@ export const getUserInformation = (userId, token) =>{
     .catch(err=>{console.log(err);})
 };
 
+export const getSmsAlerts = (userId, token) =>{ 
+    return fetch(`${API}/user/account/enableAlerts/${userId}`, {
+        method:"GET",
+        headers: {
+            Accept: 'application/json',
+            Authorization: `Bearer ${token}`
+        }
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+
+export const updateSmsAlerts = (userId, token, smsAlerts) => {
+    return fetch(`${API}/user/account/enableAlerts/update/${userId}`, {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+            Authorization: `Bearer ${token}`
+        },
+        body: JSON.stringify(smsAlerts)
+    })
+        .then(response => {
+            return response.json();
+        })
+        .catch(err => console.log(err));
+};
 
 export const updatePassword = (userId, token, password) => {
     return fetch(`${API}/user/account/passwordChange/${userId}`, {

@@ -13,7 +13,7 @@ a {
     cursor: pointer;
     box-shadow: 3px 5px 10px rgb(240, 240, 240);
 }
-#profile,#change-password,#enable-alerts,#delete-user{
+#profile,#change-password,#sms-alerts,#delete-user{
     color:rgb(0, 0, 0);
 }
 .icons{
