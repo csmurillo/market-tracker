@@ -177,12 +177,22 @@ exports.dowjones = async (req,res)=>{
     res.json({dowjones:twelveDowjonesData});
 };
 
+// url: /stock?symbol={stockSymbbol}
 exports.stockSearch = async (req,res)=>{
     const stockSymbol = req.query.symbol;
     const twelveSearchStock = `https://api.twelvedata.com/symbol_search?symbol=${stockSymbol}&source=docs`;
-    const twelveSearchRes=await fetch(twelveSearchStock);
-    const twelveStockSearchData=await twelveSearchRes.json();
-    res.json({searchResult:twelveStockSearchData});
+    const twelveSearchRes = await fetch(twelveSearchStock);
+    const twelveStockSearchData = await twelveSearchRes.json();
+    const newTwelveStockSearchData = twelveStockSearchData.data.filter((stocks)=>{
+        if(stocks.exchange=="NYSE"){
+            return stocks;
+        }
+        else if(stocks.exchange=="NASDAQ"){
+            return stocks;
+        }
+    });
+
+    res.json({searchResult:newTwelveStockSearchData});
 };
 
 // url: /stock?symbol={stockSymbol}

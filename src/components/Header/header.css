@@ -1,7 +1,9 @@
 #header{
     height:15vh;
+    min-height: 111px;
     border-bottom: 1px solid rgb(128, 128, 128);
 }
+
 #user-icon{
     display: flex;
     justify-content: center;
@@ -10,11 +12,43 @@
 #logo{
     height:100px; width:120px;
 }
+#start{
+    height:100%;
+    width:30%;
+    min-width: 120px;
+    /* background-color: red; */
+}
+#end{
+    width:70%;
+    height: 100%;
+    /* background-color: green; */
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     #logo{
         height:100px; width:120px;
+    }
+    #start{
+        height:100%;
+        width:30%;
+        min-width: 120px;
+        /* background-color: red; */
+    }
+    #end{
+        width:70%;
+        height: 100%;
+        /* background-color: green; */
+    }
+    #search-box-container{
+        width:75%;
+        height:100%;
+        background-color:'pink';
+    }
+    #header-options-container{
+        width:35%;
+        height:100%;
+        background-color:'blue';
     }
 }
 
@@ -22,6 +56,17 @@
 @media (min-width: 768px) {
     #logo{
         height:100px; width:120px;
+    }
+    #start{
+        height:100%;
+        width:30%;
+        min-width: 120px;
+        /* background-color: red; */
+    }
+    #end{
+        width:70%;
+        height: 100%;
+        /* background-color: green; */
     }
 }
 

@@ -4,8 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
 
 #home{
-    height: 500px;
-    background-color: rgb(255, 255, 255);
+    /* height: 900px; */
+    /* overflow-y: auto;
+    overflow-x: hidden; */
+    /* background-color: rgb(243, 14, 14); */
     font-family: 'Glory', sans-serif;
 }
 li{
@@ -55,7 +57,7 @@ li{
 }
 .left-arrow{
     position: absolute;
-    left: -8%;
+    left: -7%;
     top: 28%;
     z-index: 99999;
     font-size: 55px;

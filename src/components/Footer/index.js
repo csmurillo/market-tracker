@@ -1,9 +1,10 @@
 import React from 'react';
+import './styles.css';
 
 const Footer = () =>{
 
     return (
-        <div className="container">
+        <div id="footer" className="container">
             <div className="row justify-content-between">
                 <div>
                     <div>Terms &#x26; Conditions</div>  

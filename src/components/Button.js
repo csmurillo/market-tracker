@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Button = ({className,type='',styles,children,dataToggle='',dataTarget='',dataDismiss=''}) =>{
+const Button = ({className,type='',onclick,styles,children,dataToggle='',dataTarget='',dataDismiss=''}) =>{
     return (
-        <button type={type} className={className} style={styles} data-toggle={dataToggle} data-target={dataTarget} data-dismiss={dataDismiss}>
+        <button type={type} className={className} onClick={onclick} style={styles} data-toggle={dataToggle} data-target={dataTarget} data-dismiss={dataDismiss}>
             { children }
         </button>
     );

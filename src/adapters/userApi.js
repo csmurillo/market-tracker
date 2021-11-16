@@ -1,4 +1,5 @@
 import { API } from '../config';
+import queryString from "query-string";
 
 export const getUserInformation = (userId, token) =>{ 
     return fetch(`${API}/user/account/${userId}`, {
@@ -70,4 +71,13 @@ export const updateProfile = (userId, token, updatedInformation) => {
         })
         .catch(err => console.log(err));
 };
-
+export const getRelatedStocks = (symbol)=>{
+    return fetch(`${API}/stock/search?symbol=${symbol}`, {
+        method:"GET",
+        headers: {
+            Accept: 'application/json'
+        }
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
