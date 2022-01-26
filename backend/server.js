@@ -20,7 +20,7 @@ app.use(cors({origin: '*'}));
 
 
 // connect to mongodb
-mongoose.connect(process.env.DATABASE)
+mongoose.connect('mongodb+srv://silver:AexYOwy28UUy7E7V@cluster0.7fyco.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
         .then(()=>{console.log('db connected');})
         .catch(()=>{console.log('error db');});
 
@@ -34,5 +34,6 @@ const port = process.env.PORT || 3000;
 app.listen(port, ()=>{
     console.log(`port is ${port}`);
 });
+
 
 

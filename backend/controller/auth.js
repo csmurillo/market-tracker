@@ -12,7 +12,7 @@ exports.signup = (req,res)=>{
         user.save((err,user)=>{
             if(err){
                 return res.status(400).json({
-                    error:"User already exist"
+                    error:"User already exist"+err
                 });
             }
             user.password=undefined;

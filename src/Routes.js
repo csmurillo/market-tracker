@@ -14,6 +14,7 @@ import EditProfile from "./pages/EditProfile";
 import ChangePassword from "./pages/ChangePassword";
 import SmsAlerts from "./pages/SmsAlerts";
 import DeleteAccount from "./pages/DeleteAccount";
+import Stock from "./pages/Stock";
 
 import Success from "./components/SuccessScreen/success-screen";
 const Routes = () =>{
@@ -25,6 +26,7 @@ const Routes = () =>{
                 <Route path="/signin" exact component={Signin}/>
                 <Route path="/signup" exact component={Signup}/>
                 <Route path="/success" exact component={Success}/>
+                <Route path="/stock/:name" exact component={Stock}/>
                 <PrivateRoute path="/watchlist" exact component={WatchList}/>
                 <PrivateRoute path="/account" exact component={Account}/>
                 <PrivateRoute path="/security" exact component={Security}/>

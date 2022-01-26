@@ -1,21 +1,54 @@
-import react, { useState,useEffect } from "react";
 import { getRelatedStocks } from "../../adapters/userApi";
-
+import { useState,useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 
 const SearchBoxContext = ()=>{
-
+    const history = useHistory();
+    const [key,setKey]=useState(0);
     const [searchQuery, setSearchQuery]=useState(null);
-    const [searchResults, setSearchResults]=useState();
+    const [searchResults, setSearchResults]=useState(null);
     const [searchActive, setSearchActive] = useState(false);
     const [mobileSearchActive,setMobileSearchActive] = useState(false);
     const [searchActiveResize, setSearchActiveResize] = useState(false);
-
+    
+    const clearSearch=()=>{
+        setSearchResults(null);
+        setSearchActive(false);
+    };
+    const onKeyHandleSearch = (e) =>{
+        if(e.keyCode==13){
+            const searchSymbol=searchResults[key].symbol;
+            history.push('/stock/'+searchSymbol);
+            e.target.blur();
+        }
+    };
+    const onStockSearch = (stockSymbol) =>{
+        history.push('/stock/'+stockSymbol);
+        clearSearch();
+    };
+    const onKeyHandle = (e) => {
+        if(searchResults!=null){
+            if(e.keyCode===38){
+                let newKey=key-1;
+                if(newKey<0){
+                    newKey=searchResults.length;
+                }
+                setKey(newKey);
+            }
+            else if(e.keyCode===40){
+                let newKey=key+1;
+                if(newKey>searchResults.length){
+                    newKey=0;
+                }
+                setKey(newKey);
+            }
+        }
+    };
     const onHandleSubmit = (e) => {
         e.preventDefault();
         submitForm();
     };
     const onSearchFocus = ()=>{
-        console.log('active true');
         setSearchActive(true);
     };
     const onSearchMobileFocus=()=>{
@@ -23,9 +56,9 @@ const SearchBoxContext = ()=>{
     };
     
     const onSearchQueryBlur = (e)=>{
-        console.log('faslse false');
-        setSearchResults(null);
-        setSearchActive(false);
+        if(!e.currentTarget.contains(e.relatedTarget)){
+            clearSearch();
+        }
     };
 
     const onSearchMobileQueryBlur = (e)=>{
@@ -40,25 +73,18 @@ const SearchBoxContext = ()=>{
             setSearchResults(null);
         }
         else{
-            // console.log('value value'+value);
             setSearchQuery(value);
         }
     };
 
-
     const submitForm = () => {
         getRelatedStocks(searchQuery).then((res)=>{
             const searchResult=res.searchResult;
-            console.log('searched');
-            console.log(searchResult);
             setSearchResults(searchResult)
-            console.log(searchResults);
-            console.log('-----------------');
         });
     };
 
     useEffect(()=>{
-
         getRelatedStocks(searchQuery).then((res)=>{
             const searchResult=res.searchResult;
             setSearchResults(searchResult);
@@ -67,7 +93,6 @@ const SearchBoxContext = ()=>{
     },[searchQuery]);
 
     useEffect(()=>{
-
         const resize = () =>{
             if(window.innerWidth>768){
                 setSearchActiveResize(false);
@@ -83,7 +108,10 @@ const SearchBoxContext = ()=>{
         };
     },[]);
 
-    return { searchQuery,searchResults,searchActive,mobileSearchActive,searchActiveResize,onSearchQueryBlur,onSearchMobileQueryBlur,onSearchFocus,onSearchMobileFocus,onSearchQueryChange,onHandleSubmit };
+    return { key,searchQuery,searchResults,searchActive,mobileSearchActive,searchActiveResize,
+        onKeyHandle,onSearchQueryBlur,onSearchMobileQueryBlur,onSearchFocus,onSearchMobileFocus,
+        onSearchQueryChange,onHandleSubmit,onStockSearch,onKeyHandleSearch };
 };
 
 export {SearchBoxContext};
+

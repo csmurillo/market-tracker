@@ -1,15 +1,16 @@
 import React,{useState} from 'react';
 import Button from '../Button';
 import {BsSearch} from 'react-icons/bs';
-
 import { SearchBoxContext } from '../../context/SearchBoxContext';
-
 import './styles.css';
+
 const SearchBox = () =>{
-    const { searchQuery,searchResults,searchActive,mobileSearchActive,searchActiveResize,onSearchQueryBlur,onSearchMobileQueryBlur,onSearchFocus,onSearchMobileFocus,onSearchQueryChange,onHandleSubmit }=SearchBoxContext();
+    const { key,searchQuery,searchResults,mobileSearchActive,searchActiveResize,
+        onKeyHandle,onSearchQueryBlur,onSearchMobileQueryBlur,onSearchFocus,onSearchMobileFocus,
+        onSearchQueryChange,onHandleSubmit,onStockSearch,onKeyHandleSearch }=SearchBoxContext();
 
     return (
-        <div id="search-box"  className={(mobileSearchActive && searchActiveResize) ? 'search-box-mobile-active':''}>
+        <div id="search-box"  className={(mobileSearchActive && searchActiveResize) ? 'search-box-mobile-active':''} onBlur={onSearchQueryBlur}>
             <div className={'d-flex justify-content-end d-md-none '+(mobileSearchActive?'search-active-toggle':'')}>
                 <Button onclick={onSearchMobileFocus} id="search-button" styles={{border: "1px solid lightgray",borderRadius:5,height:'55px',marginRight:'8px',width:'22%', backgroundColor:"white"}}>
                     <BsSearch style={{color:'lightgreen',fontSize:28}}></BsSearch>
@@ -29,11 +30,12 @@ const SearchBox = () =>{
                             (mobileSearchActive && searchActiveResize)?(<input id="search-input" type="text" id="name" name="name" autocomplete="off" placeholder="Search"
                                 style={{height:'100%', width:'80%'}}
                                 value={searchQuery} onChange={ onSearchQueryChange } 
+                                onKeyDown={ e=>{ onKeyHandle(e); onKeyHandleSearch(e);} } 
                                 onFocus={onSearchFocus}
                             />):(<input id="search-input" type="text" id="name" name="name" autocomplete="off" placeholder="Search"
                             style={{height:'100%', width:'80%'}}
-                            value={searchQuery} onChange={ onSearchQueryChange } 
-                            onBlur={onSearchQueryBlur}
+                            value={searchQuery} onChange={ onSearchQueryChange }
+                            onKeyDown={ e=>{ onKeyHandle(e); onKeyHandleSearch(e);} } 
                             onFocus={onSearchFocus}
                         />)
                         }
@@ -41,19 +43,19 @@ const SearchBox = () =>{
                             <BsSearch style={{color:'lightgreen',fontSize:28}}></BsSearch>
                         </Button>
                 </form>
-                <div id="search-results-box-container">
+                <div id="search-results-box-container" style={{zIndex:'999'}} tabindex="0">
                     <div id="search-results-box" className={searchResults!=null?'border':''}>
-                        {
-                            searchResults!=null && <div>
+                    {
+                        searchResults!=null && <div>
                             {searchResults.map((relatedSearch, i) => (
-                                <div id={`item-${i}`} className="search-results" key={i}>
-                                    <div>
-                                        {'('+relatedSearch.symbol+')' +' '+relatedSearch.instrument_name}
+                                    <div id={`item-${i}`} className={`search-result ${key==i?'active':''}`} key={i}>
+                                        <div onClick={e=>{ onStockSearch(relatedSearch.symbol);}}>
+                                            {'('+relatedSearch.symbol+')' +' '+relatedSearch.instrument_name+'i'+i}
+                                        </div>
                                     </div>
-                                </div>
                             ))}
                         </div>
-                        }
+                    }
                     </div>
                 </div>
             </div>
@@ -61,3 +63,7 @@ const SearchBox = () =>{
     );
 };
 export default SearchBox;
+
+
+
+
