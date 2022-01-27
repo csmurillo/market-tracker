@@ -6,9 +6,11 @@ const MainLayout = ({children}) =>{
 
     return (
         <div>
-            <Header></Header>
-            <div className="container pt-5" style={{overflowX:'hidden',overflowY:'auto'}}>{children}</div>
-            <Footer></Footer>
+           <div>
+                <Header></Header>
+                <div className="container pt-5 h-100" style={{overflowX:'hidden',overflowY:'auto'}}>{children}</div>
+                <Footer></Footer>
+           </div>
         </div>
     );
 };

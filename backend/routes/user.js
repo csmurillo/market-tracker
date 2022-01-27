@@ -1,5 +1,5 @@
 const express = require('express');
-const { userId, getUserInformation, accountUpdate, getEnableAlerts, updateEnableAlerts, changePassword, addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
+const { userId,stockSymbol, getUserInformation, accountUpdate, getEnableAlerts, updateEnableAlerts, changePassword, addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockGainers, stockLosers } = require('../controller/user');
 const { isAuth } = require('../controller/auth');
 const verifyToken = require('../middleware/verify-token');
 const { userChangePasswordValidator,updateProfileInformationValidator } = require('../validators');
@@ -24,16 +24,17 @@ router.get('/stock/dowjones',dowjones);
 
 router.get('/stock/search',stockSearch);
 
-router.get('/stock',stock);
+router.get('/stock/:stockSymbol',stock);
 
-router.get('/stock/price',stockPrice);
+router.get('/stock/price/:stockSymbol',stockPrice);
 
-router.get('/stock/news', stockNews);
+router.get('/stock/news/:stockSymbol', stockNews);
 
 router.get('/stock/gainers',stockGainers);
 
 router.get('/stock/losers',stockLosers);
 
 router.param("userId", userId);
+router.param("stockSymbol", stockSymbol);
 
 module.exports = router;

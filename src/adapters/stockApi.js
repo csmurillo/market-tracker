@@ -28,7 +28,6 @@ export const getGainerStocks = () =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
-
 export const getLoserStocks = () =>{ 
     return fetch(`${API}/stock/losers`, {
         method:"GET"
@@ -36,3 +35,25 @@ export const getLoserStocks = () =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
+export const getStock = (stockSymbol)=>{
+    return fetch(`${API}/stock/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+export const getStockPrice = (stockSymbol)=>{
+    return fetch(`${API}/stock/price/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+export const getStockNews = (stockSymbol)=>{
+    return fetch(`${API}/stock/news/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+

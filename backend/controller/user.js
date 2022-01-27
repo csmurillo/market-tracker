@@ -16,6 +16,12 @@ exports.userId = (req,res,next,id)=>{
         });
 };
 
+exports.stockSymbol = (req,res,next,symbol)=>{
+    req.symbol=symbol;
+    console.log('symbol'+symbol);
+    next();
+};
+
 exports.getUserInformation=(req,res)=>{
     const {userId}=req.userTokenData;
     User.findOne({ _id: userId }, (err, user) => {
@@ -195,9 +201,9 @@ exports.stockSearch = async (req,res)=>{
     res.json({searchResult:newTwelveStockSearchData});
 };
 
-// url: /stock?symbol={stockSymbol}
+// url: /stock/stockSymbol
 exports.stock = async (req,res)=>{
-    const stockSymbol = req.query.symbol;
+    const stockSymbol = req.symbol;
     const finnhub=`https://finnhub.io/api/v1/stock/profile2?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
     const finnhubRes=await fetch(finnhub);
     const finnData=await finnhubRes.json();
@@ -216,10 +222,10 @@ exports.stock = async (req,res)=>{
     res.json({stockFinancialData:stockData});
 };
 
-// url: /stock/price?symbol={stockSymbol}
+// url: /stock/price/stockSymbol
 exports.stockPrice=async (req,res)=>{
-    const stockSymbol = req.query.symbol;
-    const finnhub=`https://finnhub.io/api/v1/quote?symbol=AAPL&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+    const stockSymbol = req.symbol;
+    const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
     const finnhubRes=await fetch(finnhub);
     const finnStockPriceData=await finnhubRes.json();
     res.json({
@@ -230,13 +236,16 @@ exports.stockPrice=async (req,res)=>{
     });
 };
 
-// url: /stock/news?symbol={stockSymbol}
+// url: /stock/news/stockSymbol
 exports.stockNews = async (req,res)=>{
-    const stockSymbol = req.query.symbol;
+    console.log('inside stockNews');
+    const stockSymbol = req.symbol;
+    console.log(stockSymbol+'stockSymbol');
     // const {stockSymbol} = req.stockSymbol;
-    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2021-08-10&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
+    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2022-01-19&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
     const newsRes = await fetch(newapi);
     const newsData = await newsRes.json();
+    // console.log('newsdata'+newsRes);
     res.json({news:newsData});
 };
 

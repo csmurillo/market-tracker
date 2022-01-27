@@ -1,0 +1,58 @@
+#stock{
+    display: flex;
+    min-height:500px;
+    overflow-y: hidden;
+}
+#stock-symbol-information{
+    width:50%;
+    /* background-color: blue; */
+}
+#stock-symbol-news{
+    width:50%;
+    overflow-y: scroll;
+    /* background-color: red; */
+}
+/* stock symbol information */
+#stock-symbol-header{
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+}
+#stock-symbol{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* padding-left: 20px; */
+    font-size: 30px;
+}
+#stock-symbol-add-to-watchlist-button{
+
+}
+#stock-symbol-add-to-watchlist-button button{
+    width:80px; height:50px;
+}
+#stock-symbol-graph{
+    height:60%;
+    min-height: 350px;
+}
+/* stock symbol graph child */
+#graph-container{
+    display: flex;
+    justify-content: center;
+}
+/* end of stock symbol graph child */
+#stock-symbol-timestamps{
+    height:30%;
+    display:flex;
+}
+/* stock symbol news */
+#stock-news-title{
+    height:10%;
+}
+#stock-news{
+    height:90%; width:70%;
+
+}
+@media (min-width: 768px) {
+
+}
