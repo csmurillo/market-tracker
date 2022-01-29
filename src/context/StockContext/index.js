@@ -4,32 +4,29 @@ import { getStock, getStockPrice, getStockNews } from '../../adapters/stockApi';
 
 const StockContext = (path)=>{
 
-    // const [stockSymbol,setStockSymbol]=useState('');
+    const [stockInfo,setStockInfo]=useState({});
+    const [stockPrice,setStockPrice]=useState('');
     const [stockNews, setStockNews]=useState([]);
 
     useEffect(()=>{
         const stock=path.split('/');
-        // setStockSymbol(stock[stock.length-1]);
         const stockSymbol=stock[stock.length-1];
+
         getStock(stockSymbol).then(stock=>{
-            console.log(stock+'JSON'+JSON.stringify(stock));
+            setStockInfo(stock);
+            console.log('Stock information'+JSON.stringify(stock));
         });
         getStockPrice(stockSymbol).then(stockPriceInfo=>{
-            console.log('stockpriceinfo'+JSON.stringify(stockPriceInfo));
+            setStockPrice(stockPriceInfo);
+            console.log('Stock Price'+JSON.stringify(stockPriceInfo));
         });
-        getStockNews('blackberry').then(news=>{
-            setStockNews(news.news.articles);
-            console.log(typeof news.news.articles);
-            console.log('-----------------------');
+        getStockNews(stockSymbol).then(news=>{
             console.log(news.news.articles);
-            console.log('-----------------------');
-            // news.news.articles.map(articles=>{
-            //     console.log(articles)
-            // });
+            setStockNews(news.news.articles);
         });
     },[]);
 
-   return { stockNews };
+   return { stockInfo, stockPrice, stockNews };
 };
 
 export {StockContext};

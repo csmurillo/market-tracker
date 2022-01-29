@@ -3,6 +3,8 @@ const { Stock } = require('../models/watchList');
 const fetch = require('node-fetch');
 const bcrypt = require("bcrypt");
 
+const searchSymbol = require('../helpers/searchStockSymbol');
+
 exports.userId = (req,res,next,id)=>{
     User.findById(id)
         .exec((err,user)=>{
@@ -204,6 +206,8 @@ exports.stockSearch = async (req,res)=>{
 // url: /stock/stockSymbol
 exports.stock = async (req,res)=>{
     const stockSymbol = req.symbol;
+    const stockSymbolName=searchSymbol(stockSymbol);
+
     const finnhub=`https://finnhub.io/api/v1/stock/profile2?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
     const finnhubRes=await fetch(finnhub);
     const finnData=await finnhubRes.json();
@@ -212,6 +216,7 @@ exports.stock = async (req,res)=>{
     const twelveRes = await fetch(twelvedata);
     const twelveData = await twelveRes.json();
     const stockData = {
+        stockName:stockSymbolName,
         marketCap:finnData.marketCapitalization,
         volume:twelveData.volume,
         averageVolume:twelveData.average_volume,
@@ -219,7 +224,7 @@ exports.stock = async (req,res)=>{
         fiftytwoWeekLow:twelveData.low,
         openPrice:twelveData.open
     };
-    res.json({stockFinancialData:stockData});
+    res.json(stockData);
 };
 
 // url: /stock/price/stockSymbol
