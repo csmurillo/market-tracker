@@ -7,7 +7,7 @@ module.exports = (req,res,next)=>{
         next();
     }
     catch(error){
-        res.status(401).json({message: "Auth failed: Please Signin"});
+        res.status(401).json({message: "Auth failed: Please Signin"+error});
     }
 };
 

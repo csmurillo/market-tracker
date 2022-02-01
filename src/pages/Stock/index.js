@@ -9,7 +9,10 @@ import './styles.css';
 const Stock = ({history}) =>{
     const { stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
-            stockNews }=StockContext(history.location.pathname);
+            stockNews,
+            stockTimeMovement, stockPriceMovement,
+            clickAddToWatchList
+        }=StockContext(history.location.pathname);
     return (
         <MainLayout>
             <div id="stock">
@@ -27,7 +30,10 @@ const Stock = ({history}) =>{
                                 <Button className='btn' styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>WatchList +</Button>
                             </div>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
-                                <div>hello</div>
+                                <div>
+                                    <input type="number" min="0" max="2000"/>
+                                    <Button onclick={clickAddToWatchList} styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Add</Button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -37,8 +43,8 @@ const Stock = ({history}) =>{
                                 <Plot
                                     data={[
                                         {
-                                        x: [1, 2, 3,100,200],
-                                        y: [2, 6, 3,100,150],
+                                        x: stockTimeMovement,
+                                        y: stockPriceMovement,
                                         type: 'scatter',
                                         mode: 'lines+markers',
                                         marker: {color: 'lightgreen'},
@@ -52,7 +58,7 @@ const Stock = ({history}) =>{
                                         t: 10,
                                         pad: 4},
                                         yaxis: {fixedrange: true},
-                                        xaxis : {fixedrange: true}
+                                        xaxis : {fixedrange: true, showticklabels:false}
                                     }}
                                     
                                     config = {{displayModeBar: false}}
@@ -60,7 +66,7 @@ const Stock = ({history}) =>{
                             </div>
                         </div>
                         <div id="stock-symbol-timestamps">
-                            <Button className='btn active' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1h</Button>
+                            <Button className='btn active' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1d</Button>
                             <Button className='btn' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1w</Button>
                             <Button className='btn' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1m</Button>
                             <Button className='btn' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1y</Button>
@@ -126,5 +132,4 @@ const Stock = ({history}) =>{
         </MainLayout>
     );
 };
-
 export default withRouter(Stock);

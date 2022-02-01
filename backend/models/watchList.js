@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const StockSchema = mongoose.Schema({
+    tickerName:{type:String, required:true},
     tickerSymbol:{type:String, required:true},
     alertPrice:{type:Number}
 });

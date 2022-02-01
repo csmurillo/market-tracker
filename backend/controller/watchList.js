@@ -33,7 +33,8 @@ exports.addToWatchList=(req,res)=>{
         }
 
         const stock=new Stock({
-            tickerSymbol:req.body.symbol,
+            tickerName:req.body.stockName,
+            tickerSymbol:req.body.stockSymbol,
             alertPrice:req.body.priceAlert
         });
         

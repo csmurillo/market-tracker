@@ -7,7 +7,6 @@ export const getDowJones = () =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
-
 export const stockSearch = () =>{ 
     return fetch(`${API}/stock/search`, {
         method:"GET",
@@ -20,7 +19,6 @@ export const stockSearch = () =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
-
 export const getGainerStocks = () =>{ 
     return fetch(`${API}/stock/gainers`, {
         method:"GET"
@@ -56,4 +54,24 @@ export const getStockNews = (stockSymbol)=>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
+
+export const getStockMovement = (stockSymbol)=>{
+    return fetch(`${API}/stock/day/movement/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+export const stockOnWatchList = (stockSymbol,userId,token)=>{
+    return fetch(`${API}/stock/on/watchlist/${stockSymbol}/${userId}`,{
+        method:"GET",
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    })
+    .then(res=>{return res.json();})
+    .catch(err=>{console.log(err);})
+};
+
+
 

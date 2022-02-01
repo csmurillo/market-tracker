@@ -1,5 +1,5 @@
 const User = require('../models/user');
-const { Stock } = require('../models/watchList');
+const { Stock, WatchList } = require('../models/watchList');
 const fetch = require('node-fetch');
 const bcrypt = require("bcrypt");
 
@@ -252,6 +252,61 @@ exports.stockNews = async (req,res)=>{
     const newsData = await newsRes.json();
     // console.log('newsdata'+newsRes);
     res.json({news:newsData});
+};
+
+exports.stockMovement = async (req,res)=>{
+    const stockSymbol = req.symbol;
+    const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=84&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
+    const timeSeriesRes = await fetch(stockTimeSeries);
+    const timeSeriesData = await timeSeriesRes.json();
+
+    const timeArray = [];
+    const priceArray = [];
+    timeSeriesData.values.forEach((stockData)=>{
+        const todayDate = new Date(Date.now());
+        const todayDateArray = todayDate.toString().split(' ');
+        const todayDateFormat =  todayDateArray[0]+' '+todayDateArray[1]+' '+todayDateArray[2]+' '+todayDateArray[3];
+        const dateFromStockData=new Date(stockData.datetime.toString());
+        const dateFromStockDataArray=dateFromStockData.toString().split(' ');
+        const dateDataFormat=dateFromStockDataArray[0]+' '+dateFromStockDataArray[1]+' '+dateFromStockDataArray[2]+' '+dateFromStockDataArray[3];
+        const time = stockData.datetime.toString().split(' ')[1];
+        if(todayDateFormat==dateDataFormat){
+            timeArray.push(time);
+            priceArray.push(stockData.close);
+        }
+    });
+    res.json({
+        time:timeArray.reverse(), 
+        price:priceArray.reverse()
+    });
+};
+
+exports.stockOnWatchList = (req,res)=>{
+    const {userId}=req.userTokenData;
+    const tickerSymbol=req.symbol;
+
+    WatchList.findOne({ owner: userId}, (err, watchList) => {
+        if(err){
+            return res.status(400).json({
+                error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
+            });
+        }
+        const userWatchListStocks = watchList.stocks;
+
+        userWatchListStocks.forEach(stockList=>{
+            const watchListSymbol=stockList.tickerSymbol;
+            if(tickerSymbol==watchListSymbol){
+                return res.json({
+                    inWatchList:true,
+                    price:stockList.alertPrice
+                });
+            }
+        });
+        return res.json({
+            inWatchList:false
+        });
+    });
+    
 };
 
 exports.stockGainers = async(req,res)=>{
