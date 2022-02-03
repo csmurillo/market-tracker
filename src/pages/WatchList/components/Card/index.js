@@ -3,17 +3,13 @@ import MainLayout from '../../layout/MainLayout';
 
 import './styles.css';
 
-const Watchlist = () =>{
+const Card = () =>{
 
     return (
-        <MainLayout>
-            Watchlist
-        </MainLayout>
+        <div>
+            Card
+        </div>
     );
 };
 
-export default Watchlist;
-
-
-
-
+export default Card;

@@ -7,7 +7,7 @@ import { StockContext } from '../../context/StockContext';
 import './styles.css';
 
 const Stock = ({history}) =>{
-    const { stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
+    const { inWatchList, priceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,
             stockTimeMovement, stockPriceMovement,
@@ -27,14 +27,27 @@ const Stock = ({history}) =>{
                         </div>
                         <div class="dropdown">
                             <div id="stock-symbol-add-to-watchlist-button" data-toggle="dropdown">
-                                <Button className='btn' styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>WatchList +</Button>
+                                <Button className='btn' styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>{inWatchList ? 'Price Target $'+priceTarget:'WatchList +'}</Button>
                             </div>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
-                                <div>
-                                    <input type="number" min="0" max="2000"/>
-                                    <Button onclick={clickAddToWatchList} styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Add</Button>
-                                </div>
-                            </div>
+                            {inWatchList?
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">    
+                                            <div>
+                                                <input type="number" min="0" max="2000"/>
+                                                <div className="d-flex">
+                                                    <Button onclick={clickAddToWatchList} styles={{fontSize:'15px',width:'80px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Update</Button>
+                                                    <Button onclick={clickAddToWatchList} styles={{fontSize:'15px',width:'80px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Delete</Button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        :
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">    
+                                            <div>
+                                                <input type="number" min="0" max="2000"/>
+                                                <Button onclick={clickAddToWatchList} styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Add</Button>
+                                            </div>
+                                        </div>
+                            }
+                            {/* {!inWatchList&& } */}
                         </div>
                     </div>
                     <div>

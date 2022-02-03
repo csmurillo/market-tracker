@@ -260,6 +260,8 @@ exports.stockMovement = async (req,res)=>{
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
 
+    console.log(timeSeriesData+'!!!!');
+
     const timeArray = [];
     const priceArray = [];
     timeSeriesData.values.forEach((stockData)=>{
@@ -292,8 +294,7 @@ exports.stockOnWatchList = (req,res)=>{
             });
         }
         const userWatchListStocks = watchList.stocks;
-
-        userWatchListStocks.forEach(stockList=>{
+        for(let stockList of userWatchListStocks){
             const watchListSymbol=stockList.tickerSymbol;
             if(tickerSymbol==watchListSymbol){
                 return res.json({
@@ -301,7 +302,16 @@ exports.stockOnWatchList = (req,res)=>{
                     price:stockList.alertPrice
                 });
             }
-        });
+        }
+        // userWatchListStocks.forEach(stockList=>{
+        //     const watchListSymbol=stockList.tickerSymbol;
+        //     if(tickerSymbol==watchListSymbol){
+        //         return res.json({
+        //             inWatchList:true,
+        //             price:stockList.alertPrice
+        //         });
+        //     }
+        // });
         return res.json({
             inWatchList:false
         });

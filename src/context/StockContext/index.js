@@ -8,6 +8,9 @@ const StockContext = (path)=>{
     const authInfo = isAuthenticated();
     const token = getToken();
 
+    const [inWatchList,setInWatchList]=useState('');
+    const [priceTarget,setPriceTarget]=useState('');
+
     const [stockInfo,setStockInfo]=useState({});
     const [stockPrice,setStockPrice]=useState('');
     const [stockNews, setStockNews]=useState([]);
@@ -18,12 +21,20 @@ const StockContext = (path)=>{
         const stock=path.split('/');
         const stockSymbol=stock[stock.length-1];
 
-        // stockOnWatchList(stockSymbol,authInfo._id,token).then(watchListInfo=>{
-        //     console.log('--------------------------');
-        //     console.log('watchlist'+watchListInfo.inWatchList);
-        //     console.log('--------------------------');
-        // });
-
+        stockOnWatchList(stockSymbol,authInfo._id,token).then(watchListInfo=>{
+            const tempInWatchList=watchListInfo.inWatchList;
+            const tempPriceTarget=watchListInfo.price;
+            if(tempInWatchList){
+                setInWatchList(tempInWatchList);
+            }
+            if(tempPriceTarget){
+                setPriceTarget(tempPriceTarget);
+            }
+            console.log(tempInWatchList+':'+inWatchList+','+tempPriceTarget+':'+priceTarget);
+            // console.log('--------------------------');
+            // console.log('watchlist'+watchListInfo.inWatchList);
+            // console.log('--------------------------');
+        });
         getStock(stockSymbol).then(stock=>{
             setStockInfo(stock);
             console.log('Stock information'+JSON.stringify(stock));
@@ -37,7 +48,9 @@ const StockContext = (path)=>{
             setStockNews(news.news.articles);
         });
         getStockMovement(stockSymbol).then(stockData=>{
+            console.log('---------------------------');
             console.log(stockData.time);
+            console.log('---------------------------');
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
             
@@ -51,7 +64,7 @@ const StockContext = (path)=>{
         });
     };
 
-   return { stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement, clickAddToWatchList };
+   return { inWatchList, priceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement, clickAddToWatchList };
 };
 
 export {StockContext};
