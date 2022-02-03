@@ -1,8 +1,11 @@
 import { API } from '../config';
     
-export const getWatchList = (userId)=>{
+export const getWatchList = (userId,token)=>{
     return fetch(`${API}/watchlist/${userId}`, {
-        method:"GET"
+        method:"GET",
+        headers: {
+            Authorization: `Bearer ${token}`
+        },
     })
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
