@@ -1,6 +1,7 @@
 const express = require('express');
 const { userId,stockSymbol, getUserInformation, accountUpdate, getEnableAlerts, updateEnableAlerts,
      changePassword, addToStockHistory, stockHistory, dowjones, stockSearch, stock, stockPrice, stockNews, stockMovement,
+     stockWeekMovement,stockMonthMovement,stockYearMovement,stockFiveYearMovement,
      stockOnWatchList,stockGainers, stockLosers } = require('../controller/user');
 const { isAuth } = require('../controller/auth');
 const verifyToken = require('../middleware/verify-token');
@@ -33,6 +34,14 @@ router.get('/stock/price/:stockSymbol',stockPrice);
 router.get('/stock/news/:stockSymbol', stockNews);
 
 router.get('/stock/day/movement/:stockSymbol', stockMovement);
+
+router.get('/stock/week/movement/:stockSymbol', stockWeekMovement);
+
+router.get('/stock/month/movement/:stockSymbol', stockMonthMovement);
+
+router.get('/stock/year/movement/:stockSymbol', stockYearMovement);
+
+router.get('/stock/fiveYear/movement/:stockSymbol', stockFiveYearMovement);
 
 router.get('/stock/on/watchlist/:stockSymbol/:userId',verifyToken,isAuth, stockOnWatchList);
 

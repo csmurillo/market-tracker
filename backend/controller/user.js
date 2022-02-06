@@ -283,6 +283,123 @@ exports.stockMovement = async (req,res)=>{
     });
 };
 
+exports.stockWeekMovement = async (req,res)=>{
+    const stockSymbol = req.symbol;
+    const stockHistoricData=`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stockSymbol}&outputsize=full&apikey=${process.env.STOCK_ALPHA_ADVANTAGE}`;
+    const stockHistoricRes=await fetch(stockHistoricData);
+    const stockSeriesData=await stockHistoricRes.json();
+    const weekMovement=stockSeriesData;
+    const weekMovementData=weekMovement['Time Series (Daily)'];
+
+    let week=0;
+    let weekData=[];
+
+    for(let data in weekMovementData){
+        if(week==7){
+            return res.json(weekData);
+        }
+        if (weekMovementData.hasOwnProperty(data)) {
+            weekData.push({
+                date:data,
+                price:weekMovementData[data]['4. close']
+            });
+        }
+        week++;
+    }
+
+};
+
+exports.stockMonthMovement=async(req,res)=>{
+    const stockSymbol = req.symbol;
+    const stockHistoricData=`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stockSymbol}&outputsize=full&apikey=${process.env.STOCK_ALPHA_ADVANTAGE}`;
+    const stockHistoricRes=await fetch(stockHistoricData);
+    const stockSeriesData=await stockHistoricRes.json();
+    const monthMovement=stockSeriesData;
+    const monthMovementData=monthMovement['Time Series (Daily)'];
+    
+    let month=0;
+    let monthData=[];
+
+    for(let data in monthMovementData){
+        if(month==30){
+            return res.json(monthData);
+        }
+        if (monthMovementData.hasOwnProperty(data)) {
+            monthData.push({
+                date:data,
+                price:monthMovementData[data]['4. close']
+            });
+        }
+        month++;
+    }
+};
+
+exports.stockYearMovement=async(req,res)=>{
+    const stockSymbol = req.symbol;
+    const stockHistoricData=`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stockSymbol}&outputsize=full&apikey=${process.env.STOCK_ALPHA_ADVANTAGE}`;
+    const stockHistoricRes=await fetch(stockHistoricData);
+    const stockSeriesData=await stockHistoricRes.json();
+    const yearMovement=stockSeriesData;
+    const yearMovementData=yearMovement['Time Series (Daily)'];
+    
+    let yearData=[];
+    let yearDate='';
+    // get first date from json data=>yearMovementData
+    let [firstDate]=Object.keys(yearMovementData);
+    let dateArray=firstDate.split('-');
+    let yearDateYear=dateArray[0]-1;
+    let yearDateMonth=dateArray[1];
+    let yearDateDay=dateArray[2];
+    yearDate=yearDateYear+'-'+yearDateMonth+'-'+yearDateDay;
+    
+    for(let data in yearMovementData){
+        date=data;
+        if(yearDate>date){
+            return res.json(yearData);
+        }
+        if (yearMovementData.hasOwnProperty(data)) {
+            yearData.push({
+                date:data,
+                price:yearMovementData[data]['4. close']
+            });
+        }
+    }
+    res.json(yearData);
+};
+
+exports.stockFiveYearMovement=async(req,res)=>{ 
+    const stockSymbol = req.symbol;
+    console.log(stockSymbol);
+    const stockHistoricData=`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stockSymbol}&outputsize=full&apikey=${process.env.STOCK_ALPHA_ADVANTAGE}`;
+    const stockHistoricRes=await fetch(stockHistoricData);
+    const stockSeriesData=await stockHistoricRes.json();
+    const fiveYearMovement=stockSeriesData;
+    const fiveYearMovementData=fiveYearMovement['Time Series (Daily)'];
+    
+    let fiveYearData=[];
+    let fiveYearDate='';
+    // get first data from json data=>fiveYearMovementData
+    let [firstDate]=Object.keys(fiveYearMovementData);
+    let dateArray=firstDate.split('-');
+    let fiveYearDateYear=dateArray[0]-5;
+    let fiveYearDateMonth=dateArray[1];
+    let fiveYearDateDay=dateArray[2];
+    fiveYearDate=fiveYearDateYear+'-'+fiveYearDateMonth+'-'+fiveYearDateDay;
+
+    for(let data in fiveYearMovementData){
+        date=data;
+        if(fiveYearDate>date){
+            return res.json(fiveYearData);
+        }
+        if (fiveYearMovementData.hasOwnProperty(data)) {
+            fiveYearData.push({
+                date:data,
+                price:fiveYearMovementData[data]['4. close']
+            });
+        }
+    }
+};
+
 exports.stockOnWatchList = (req,res)=>{
     const {userId}=req.userTokenData;
     const tickerSymbol=req.symbol;
