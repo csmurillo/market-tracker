@@ -10,8 +10,9 @@ const Stock = ({history}) =>{
     const { inWatchList, priceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,
-            stockTimeMovement, stockPriceMovement,
-            clickAddToWatchList
+            stockTimeMovement, stockPriceMovement, currentTimeStamp,
+            clickAddToWatchList,
+            clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData
         }=StockContext(history.location.pathname);
     return (
         <MainLayout>
@@ -58,8 +59,8 @@ const Stock = ({history}) =>{
                                         {
                                         x: stockTimeMovement,
                                         y: stockPriceMovement,
-                                        type: 'scatter',
-                                        mode: 'lines+markers',
+                                        type: 'line',
+                                        mode: 'lines',
                                         marker: {color: 'lightgreen'},
                                         }
                                     ]}
@@ -79,11 +80,11 @@ const Stock = ({history}) =>{
                             </div>
                         </div>
                         <div id="stock-symbol-timestamps">
-                            <Button className='btn active' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1d</Button>
-                            <Button className='btn' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1w</Button>
-                            <Button className='btn' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1m</Button>
-                            <Button className='btn' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>1y</Button>
-                            <Button className='btn' styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px'}}>5y</Button>
+                            <Button onclick={()=>{clickDayHistoricData()}} className={'btn '+(currentTimeStamp=='day'?'active':'')} styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px', outline:'none',boxShadow: 'none'}}>1d</Button>
+                            <Button onclick={()=>{clickWeekHistoricData()}} className={'btn '+(currentTimeStamp=='week'?'active':'')} styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px', outline:'none',boxShadow: 'none'}}>1w</Button>
+                            <Button onclick={()=>{clickMonthHistoricData()}} className={'btn '+(currentTimeStamp=='month'?'active':'')} styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px', outline:'none',boxShadow: 'none'}}>1m</Button>
+                            <Button onclick={()=>{clickYearHistoricData()}} className={'btn '+(currentTimeStamp=='year'?'active':'')} styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px', outline:'none',boxShadow: 'none'}}>1y</Button>
+                            <Button onclick={()=>{clickFiveYearHistoricData()}} className={'btn '+(currentTimeStamp=='fiveYear'?'active':'')} styles={{height:'45px',backgroundColor:'lightgreen',color:'white',marginRight:'5px', outline:'none',boxShadow: 'none'}}>5y</Button>
                         </div>
                     </div>
                     <div id="stock-information-container">

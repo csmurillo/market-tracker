@@ -1,18 +1,18 @@
-.card-container{
+.wl-card-container{
     border: 1px solid black;
     max-width:300px; min-height: 200px;
     width:33%;
     padding:10px;
 }
-.card-top{
+.wl-card-top{
 
 }
-.card-stock-info{
+.wl-card-stock-info{
 
 }
-.card-setting{
+.wl-card-setting{
 
 }
-.card-bottom{
+.wl-card-bottom{
 
 }

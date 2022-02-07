@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
-import { getStock, getStockPrice, getStockNews,getStockMovement,stockOnWatchList } from '../../adapters/stockApi';
+import { getStock, getStockPrice, getStockNews,getStockMovement,stockOnWatchList,
+    getStockWeekMovement, getStockMonthMovement, getStockYearMovement, getStockFiveYearMovement
+} from '../../adapters/stockApi';
 import { addToWatchList } from '../../adapters/watchlistApi';
 import { getToken, isAuthenticated } from '../../adapters/authApi';
 
@@ -11,6 +13,8 @@ const StockContext = (path)=>{
     const [inWatchList,setInWatchList]=useState('');
     const [priceTarget,setPriceTarget]=useState('');
 
+    const [currentTimeStamp,setCurrentTimeStamp]=useState('day');
+    const [stockSymbol,setStockSymbol]=useState('');
     const [stockInfo,setStockInfo]=useState({});
     const [stockPrice,setStockPrice]=useState('');
     const [stockNews, setStockNews]=useState([]);
@@ -20,6 +24,7 @@ const StockContext = (path)=>{
     useEffect(()=>{
         const stock=path.split('/');
         const stockSymbol=stock[stock.length-1];
+        setStockSymbol(stockSymbol);
 
         stockOnWatchList(stockSymbol,authInfo._id,token).then(watchListInfo=>{
             const tempInWatchList=watchListInfo.inWatchList;
@@ -64,7 +69,61 @@ const StockContext = (path)=>{
         });
     };
 
-   return { inWatchList, priceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement, clickAddToWatchList };
+    const clickDayHistoricData = ()=>{
+        setCurrentTimeStamp('day');
+        getStockMovement(stockSymbol).then(stockData=>{
+            setStockTimeMovement(stockData.time);
+            setStockPriceMovement(stockData.price);
+        });
+    };
+    const clickWeekHistoricData =()=>{
+        setCurrentTimeStamp('week');
+        console.log('week');
+        getStockWeekMovement(stockSymbol).then((stockData)=>{
+            console.log(stockData);
+            setStockTimeMovement(stockData.time);
+            setStockPriceMovement(stockData.price);
+        });
+    };
+    const clickMonthHistoricData = ()=>{
+        setCurrentTimeStamp('month');
+        console.log('month');
+        getStockMonthMovement(stockSymbol).then((stockData)=>{
+            console.log(stockData);
+            setStockTimeMovement(stockData.time);
+            setStockPriceMovement(stockData.price);
+        });
+    };
+
+    const clickYearHistoricData = ()=>{
+        setCurrentTimeStamp('year');
+        console.log('year');
+        getStockYearMovement(stockSymbol).then((stockData)=>{
+            console.log(stockData);
+            setStockTimeMovement(stockData.time);
+            setStockPriceMovement(stockData.price);
+        });
+    };
+
+    const clickFiveYearHistoricData = ()=>{
+        setCurrentTimeStamp('fiveYear');
+        console.log('5year');
+        getStockFiveYearMovement(stockSymbol).then((stockData)=>{
+            console.log(stockData);
+            setStockTimeMovement(stockData.time);
+            setStockPriceMovement(stockData.price);
+        });
+    };
+
+   return { inWatchList, priceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp, clickAddToWatchList,
+    clickDayHistoricData,clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData};
 };
 
 export {StockContext};
+
+
+
+
+
+
+

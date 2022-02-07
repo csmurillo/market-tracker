@@ -5,17 +5,17 @@ import './styles.css';
 const Card = ({ stockName, stockPrice, priceTarget, priceTargetReached, InProgress }) =>{
 
     return (
-        <div className='card-container'>
-            <div className='card-top'>
-                <div className='card-stock-info'>
+        <div className='wl-card-container'>
+            <div className='wl-card-top'>
+                <div className='wl-card-stock-info'>
                     <div>stockName</div>
                     <div>stockPrice</div>
                 </div>
-                <div className='card-setting'>
+                <div className='wl-card-setting'>
                     ...
                 </div>
             </div>
-            <div className='card-bottom'>
+            <div className='wl-card-bottom'>
                 Price Target: $5
             </div>
         </div>
@@ -23,3 +23,7 @@ const Card = ({ stockName, stockPrice, priceTarget, priceTargetReached, InProgre
 };
 
 export default Card;
+
+
+
+

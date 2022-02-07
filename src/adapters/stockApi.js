@@ -54,9 +54,36 @@ export const getStockNews = (stockSymbol)=>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
-
 export const getStockMovement = (stockSymbol)=>{
     return fetch(`${API}/stock/day/movement/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+export const getStockWeekMovement = (stockSymbol)=>{
+    return fetch(`${API}/stock/week/movement/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+export const getStockMonthMovement = (stockSymbol)=>{
+    return fetch(`${API}/stock/month/movement/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+export const getStockYearMovement = (stockSymbol)=>{
+    return fetch(`${API}/stock/year/movement/${stockSymbol}`, {
+        method:"GET"
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);})
+};
+export const getStockFiveYearMovement = (stockSymbol)=>{
+    return fetch(`${API}/stock/fiveYear/movement/${stockSymbol}`, {
         method:"GET"
     })
     .then(res=>{return res.json()})

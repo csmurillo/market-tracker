@@ -260,19 +260,18 @@ exports.stockMovement = async (req,res)=>{
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
 
-    console.log(timeSeriesData+'!!!!');
+    let recentDate = timeSeriesData.values[0].datetime;
+    let recentDateFormat = recentDate.split(' ')[0];
 
     const timeArray = [];
     const priceArray = [];
+
     timeSeriesData.values.forEach((stockData)=>{
-        const todayDate = new Date(Date.now());
-        const todayDateArray = todayDate.toString().split(' ');
-        const todayDateFormat =  todayDateArray[0]+' '+todayDateArray[1]+' '+todayDateArray[2]+' '+todayDateArray[3];
-        const dateFromStockData=new Date(stockData.datetime.toString());
-        const dateFromStockDataArray=dateFromStockData.toString().split(' ');
-        const dateDataFormat=dateFromStockDataArray[0]+' '+dateFromStockDataArray[1]+' '+dateFromStockDataArray[2]+' '+dateFromStockDataArray[3];
-        const time = stockData.datetime.toString().split(' ')[1];
-        if(todayDateFormat==dateDataFormat){
+        let dateFromStockData =stockData.datetime;
+        let dateDataFormat = dateFromStockData.split(' ')[0];
+        const time = stockData.datetime;
+
+        if(recentDateFormat==dateDataFormat){
             timeArray.push(time);
             priceArray.push(stockData.close);
         }
@@ -285,53 +284,64 @@ exports.stockMovement = async (req,res)=>{
 
 exports.stockWeekMovement = async (req,res)=>{
     const stockSymbol = req.symbol;
-    const stockHistoricData=`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stockSymbol}&outputsize=full&apikey=${process.env.STOCK_ALPHA_ADVANTAGE}`;
-    const stockHistoricRes=await fetch(stockHistoricData);
-    const stockSeriesData=await stockHistoricRes.json();
-    const weekMovement=stockSeriesData;
-    const weekMovementData=weekMovement['Time Series (Daily)'];
+    const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=1000&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
+    const timeSeriesRes = await fetch(stockTimeSeries);
+    const timeSeriesData = await timeSeriesRes.json();
 
-    let week=0;
-    let weekData=[];
+    console.log(timeSeriesData+'!!!!');
 
-    for(let data in weekMovementData){
-        if(week==7){
-            return res.json(weekData);
+    const timeArray = [];
+    const priceArray = [];
+    timeSeriesData.values.forEach((stockData)=>{
+        const todayDate = new Date(Date.now());
+        const todayDateArray = todayDate.toString().split(' ');
+        const todayDateFormat =  todayDateArray[0]+' '+todayDateArray[1]+' '+todayDateArray[2]+' '+todayDateArray[3];
+        const todayDateFormatted = new Date(todayDateFormat);
+        todayDateFormatted.setDate(todayDateFormatted.getDate()-7);
+        
+        const dateFromStockData=new Date(stockData.datetime.toString());
+        const dateData = new Date(dateFromStockData);
+
+        if(todayDateFormatted<dateData){
+            timeArray.push(dateData.toLocaleString());
+            priceArray.push(stockData.close);
         }
-        if (weekMovementData.hasOwnProperty(data)) {
-            weekData.push({
-                date:data,
-                price:weekMovementData[data]['4. close']
-            });
-        }
-        week++;
-    }
-
+    });
+    res.json({
+        time:timeArray.reverse(), 
+        price:priceArray.reverse()
+    });
 };
 
 exports.stockMonthMovement=async(req,res)=>{
     const stockSymbol = req.symbol;
-    const stockHistoricData=`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stockSymbol}&outputsize=full&apikey=${process.env.STOCK_ALPHA_ADVANTAGE}`;
-    const stockHistoricRes=await fetch(stockHistoricData);
-    const stockSeriesData=await stockHistoricRes.json();
-    const monthMovement=stockSeriesData;
-    const monthMovementData=monthMovement['Time Series (Daily)'];
-    
-    let month=0;
-    let monthData=[];
+    const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=2500&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
+    const timeSeriesRes = await fetch(stockTimeSeries);
+    const timeSeriesData = await timeSeriesRes.json();
 
-    for(let data in monthMovementData){
-        if(month==30){
-            return res.json(monthData);
+    console.log(timeSeriesData+'!!!!');
+
+    const timeArray = [];
+    const priceArray = [];
+    timeSeriesData.values.forEach((stockData)=>{
+        const todayDate = new Date(Date.now());
+        const todayDateArray = todayDate.toString().split(' ');
+        const todayDateFormat =  todayDateArray[0]+' '+todayDateArray[1]+' '+todayDateArray[2]+' '+todayDateArray[3];
+        const todayDateFormatted = new Date(todayDateFormat);
+        todayDateFormatted.setDate(todayDateFormatted.getDate()-30);
+        
+        const dateFromStockData=new Date(stockData.datetime.toString());
+        const dateData = new Date(dateFromStockData);
+
+        if(todayDateFormatted<dateData){
+            timeArray.push(dateData.toLocaleString());
+            priceArray.push(stockData.close);
         }
-        if (monthMovementData.hasOwnProperty(data)) {
-            monthData.push({
-                date:data,
-                price:monthMovementData[data]['4. close']
-            });
-        }
-        month++;
-    }
+    });
+    res.json({
+        time:timeArray.reverse(), 
+        price:priceArray.reverse()
+    });
 };
 
 exports.stockYearMovement=async(req,res)=>{
@@ -352,16 +362,20 @@ exports.stockYearMovement=async(req,res)=>{
     let yearDateDay=dateArray[2];
     yearDate=yearDateYear+'-'+yearDateMonth+'-'+yearDateDay;
     
+    const yearDateArray = [];
+    const yearPriceArray = [];
+
     for(let data in yearMovementData){
         date=data;
         if(yearDate>date){
-            return res.json(yearData);
+            return res.json({
+                time:yearDateArray.reverse(),
+                price:yearPriceArray.reverse()
+            });
         }
         if (yearMovementData.hasOwnProperty(data)) {
-            yearData.push({
-                date:data,
-                price:yearMovementData[data]['4. close']
-            });
+            yearDateArray.push(data);
+            yearPriceArray.push(yearMovementData[data]['4. close']);
         }
     }
     res.json(yearData);
@@ -386,16 +400,20 @@ exports.stockFiveYearMovement=async(req,res)=>{
     let fiveYearDateDay=dateArray[2];
     fiveYearDate=fiveYearDateYear+'-'+fiveYearDateMonth+'-'+fiveYearDateDay;
 
+    const fiveYearDateArray = [];
+    const fiveYearPriceArray = [];
+
     for(let data in fiveYearMovementData){
         date=data;
         if(fiveYearDate>date){
-            return res.json(fiveYearData);
+            return res.json({
+                time:fiveYearDateArray.reverse(),
+                price:fiveYearPriceArray.reverse()
+            });
         }
         if (fiveYearMovementData.hasOwnProperty(data)) {
-            fiveYearData.push({
-                date:data,
-                price:fiveYearMovementData[data]['4. close']
-            });
+            fiveYearDateArray.push(data);
+            fiveYearPriceArray.push(fiveYearMovementData[data]['4. close']);
         }
     }
 };
