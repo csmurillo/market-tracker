@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getWatchList } from '../../adapters/watchlistApi';
+import { getWatchList,updateWatchList,deleteWatchList } from '../../adapters/watchlistApi';
 import { getToken, isAuthenticated } from '../../adapters/authApi';
 
 const WatchListContext = ()=>{
@@ -10,22 +10,41 @@ const WatchListContext = ()=>{
     const [watchList,setWatchList]=useState();
 
     useEffect(()=>{
-        console.log('------------------------------');
         getWatchList(authInfo._id,token).then(watchList=>{
             console.log(watchList.watchList);
-            // console.log('-------------------');
-            // console.log('watchlist'+JSON.stringify(watchList));
-            // console.log('-------------------');
             setWatchList(watchList.watchList);
-            // data format
-            // watchlist{"watchList":[{"_id":"61fb82f8a9c24e02705e7723","tickerName":"BlackBerry Limited","tickerSymbol":"BB","alertPrice":10},
-            // {"_id":"61fb8394a9c24e02705e772e","tickerName":"China Southern Airlines Company Limited","tickerSymbol":"ZNH","alertPrice":10}]}
         });
     },[]);
 
-   return { watchList };
+    const cardUpdate=(stockTicker,cardPriceTarget)=>{
+        updateWatchList(authInfo._id,token,{symbol:stockTicker,priceAlert:cardPriceTarget}).then(listUpdated=>{
+            console.log(listUpdated);
+            setWatchList(watchList.map((stocks,i)=>{
+                if(stockTicker==stocks.tickerSymbol){
+                    // console.log(stocks.tickerSymbol+'to be changed to '+cardPriceTarget);
+                    stocks.alertPrice=cardPriceTarget;
+                    return stocks;
+                }
+                return stocks;
+            }));
+        });
+    };
+
+    const cardDelete = (tickerSymbol)=>{
+        deleteWatchList(authInfo._id,token,{symbol:tickerSymbol}).then(newWatchList=>{
+            setWatchList(watchList.filter((stocks,i)=>{
+                return tickerSymbol!==stocks.tickerSymbol;
+            }));
+        });
+    };
+
+   return { watchList,cardUpdate, cardDelete };
 };
 
 export { WatchListContext };
+
+
+
+
 
 

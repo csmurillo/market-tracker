@@ -1,11 +1,26 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './styles.css';
 import Button from '../../../../components/Button';
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
-const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReached, InProgress }) =>{
+const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReached, InProgress,cardUpdate, cardDelete }) =>{
 
+    const [cardPriceTarget,setCardPriceTarget]=useState();
+
+    useEffect(()=>{
+        setCardPriceTarget(priceTarget);
+    },[]);
+
+    const cardUpdatePriceTarget=(e)=>{
+        e.preventDefault();
+        // console.log('stock symbol'+stockTicker+'price target'+cardPriceTarget);
+        cardUpdate(stockTicker,cardPriceTarget);
+    };
+
+    const onChangeCardPriceTarget=(e)=>{
+        setCardPriceTarget(e.target.value);
+    };
     return (
         <div className='wl-card'>
             <div className='wl-card-top'>
@@ -28,7 +43,7 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
                         <div className='dropdown'>
                             <div className='wl-card-settings' data-toggle='dropdown'>...</div>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
-                                <div className='wl-card-delete-listing'>Delete Listing</div>
+                                <div className='wl-card-delete-listing' onClick={()=>{cardDelete(stockTicker)}}>Delete Listing</div>
                             </div>
                         </div>
                     </div>
@@ -42,14 +57,14 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
                     <div className='wl-card-bottom-right dropup'>
                         <div class='wl-card-bottom-price-target' data-toggle="dropdown">${priceTarget}</div>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div className=''>
+                            <form onSubmit={cardUpdatePriceTarget} className=''>
                                 <div className=''>
-                                    <input type='number' value={priceTarget}/>
+                                    <input type='number' name='price' value={cardPriceTarget} onChange={onChangeCardPriceTarget}/>
                                 </div>
                                 <div className=''>
-                                    <Button className='btn' styles={{fontSize:'1em',width:'100%',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Update</Button>
+                                    <Button type='submit' className='btn' styles={{fontSize:'1em',width:'100%',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Update</Button>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -59,3 +74,6 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
 };
 
 export default Card;
+
+
+

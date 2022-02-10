@@ -53,28 +53,30 @@ exports.addToWatchList=(req,res)=>{
 };
 exports.updateWatchList=(req,res)=>{
     const {userId}=req.userTokenData;
+    
     WatchList.findOne({ owner: userId}, (err, watchList) => {
         if(err){
             return res.status(401).json({
                 error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
             });
         }
+
         // boolean variable to check if symbol to be updated exist
-        let stockSymbolExist=true;
+        let stockSymbolExist=false;
+
         // update watchlist priceAlert
         watchList.stocks.map(stock=>{
             if(stock.tickerSymbol==req.body.symbol){
                 stock.alertPrice=req.body.priceAlert;
                 stockSymbolExist=true;
             }
-            else if(stock.tickerSymbol!=req.body.symbol){
-                stockSymbolExist=false;
-            }
             return stock;
         });
+
         if(!stockSymbolExist){
             return res.status(400).json({error:"Stock does not exist"});
         }
+
         watchList.save((err,watchList)=>{
             if(err){
                 return res.status(401).json({
