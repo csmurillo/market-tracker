@@ -2,14 +2,24 @@ import React from 'react';
 import MainLayout from '../../layout/MainLayout';
 import {WatchListContext} from '../../context/WatchListContext';
 import Card from './components/Card';
+
 import './styles.css';
 
 const Watchlist = () =>{
     const { watchList } = WatchListContext();
     return (
         <MainLayout>
-            {/* Watchlist */}
-            <Card></Card>
+            <div className="card-container row">
+                {
+                    watchList&&watchList.map((stocks,i)=>(
+                        <div class="col-lg-4 col-md-6 col-6 mb-4 d-flex justify-content-center">
+                            <Card stockName={stocks.tickerName} stockTicker={stocks.tickerSymbol}
+                                priceTarget={stocks.alertPrice}>
+                            </Card>
+                        </div>
+                    ))
+                }
+            </div>
         </MainLayout>
     );
 };

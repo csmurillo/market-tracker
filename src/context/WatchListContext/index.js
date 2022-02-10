@@ -10,11 +10,13 @@ const WatchListContext = ()=>{
     const [watchList,setWatchList]=useState();
 
     useEffect(()=>{
+        console.log('------------------------------');
         getWatchList(authInfo._id,token).then(watchList=>{
+            console.log(watchList.watchList);
             // console.log('-------------------');
             // console.log('watchlist'+JSON.stringify(watchList));
             // console.log('-------------------');
-            setWatchList(watchList);
+            setWatchList(watchList.watchList);
             // data format
             // watchlist{"watchList":[{"_id":"61fb82f8a9c24e02705e7723","tickerName":"BlackBerry Limited","tickerSymbol":"BB","alertPrice":10},
             // {"_id":"61fb8394a9c24e02705e772e","tickerName":"China Southern Airlines Company Limited","tickerSymbol":"ZNH","alertPrice":10}]}
