@@ -5,14 +5,16 @@ import Button from '../../components/Button';
 import { withRouter } from "react-router-dom";
 import { StockContext } from '../../context/StockContext';
 import './styles.css';
+import { addToWatchList } from '../../adapters/watchlistApi';
 
 const Stock = ({history}) =>{
-    const { inWatchList, priceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
+    const { dropMenu, inWatchList, loading, priceTarget, inputPriceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,
             stockTimeMovement, stockPriceMovement, currentTimeStamp,
-            clickAddToWatchList,
-            clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData
+            onSubmitAddToWatchList, onChangeAddToWatchList,
+            clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
+            onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
         }=StockContext(history.location.pathname);
     return (
         <MainLayout>
@@ -27,33 +29,41 @@ const Stock = ({history}) =>{
                             </div>
                         </div>
                         <div class="dropdown">
-                            <div id="stock-symbol-add-to-watchlist-button" data-toggle="dropdown">
+                            <div id="stock-symbol-add-to-watchlist-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <Button className='btn' styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>{inWatchList ? 'Price Target $'+priceTarget:'WatchList +'}</Button>
                             </div>
                             {inWatchList?
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">    
+                                        <div className={dropMenu} aria-labelledby="dropDownMenu">    
                                             <div>
-                                                <input type="number" min="0" max="2000"/>
-                                                <div className="d-flex">
-                                                    <Button onclick={clickAddToWatchList} styles={{fontSize:'15px',width:'80px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Update</Button>
-                                                    <Button onclick={clickAddToWatchList} styles={{fontSize:'15px',width:'80px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Delete</Button>
-                                                </div>
+                                                <form onSubmit={updatePriceTarget}>
+                                                    <input type="number" min="0" max="2000" value={inputPriceTarget} onChange={onChangeUpdatePriceTarget}/>
+                                                    <div className="d-flex">
+                                                        <Button class="dropdown-item" type='submit' styles={{fontSize:'15px',width:'80px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Update</Button>
+                                                        <Button class="dropdown-item" onclick={deleteStockFromWatchList} styles={{fontSize:'15px',width:'80px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Remove</Button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                         :
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">    
+                                        <div className={dropMenu} aria-labelledby="dropDownMenu">    
                                             <div>
-                                                <input type="number" min="0" max="2000"/>
-                                                <Button onclick={clickAddToWatchList} styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Add</Button>
+                                                <form onSubmit={onSubmitAddToWatchList}>
+                                                    <input class="dropdown-item" type="number" min="0" max="2000" value={priceTarget} onChange={onChangeAddToWatchList}/>
+                                                    <Button class="dropdown-item" type='submit' styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>Add</Button>
+                                                </form>
                                             </div>
                                         </div>
                             }
-                            {/* {!inWatchList&& } */}
                         </div>
                     </div>
                     <div>
                         <div id="stock-symbol-graph">
                             <div id="graph-container">
+                                {
+                                    loading && <div id="graph-loading" className="d-flex justify-content-center align-items-center">
+                                                    <div className="spinner-border text-success" role="status" style={{width:'50px', height:'50px'}}></div>
+                                                </div>
+                                }
                                 <Plot
                                     data={[
                                         {

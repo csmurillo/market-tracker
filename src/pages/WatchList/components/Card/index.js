@@ -14,7 +14,6 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
 
     const cardUpdatePriceTarget=(e)=>{
         e.preventDefault();
-        // console.log('stock symbol'+stockTicker+'price target'+cardPriceTarget);
         cardUpdate(stockTicker,cardPriceTarget);
     };
 

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { getStock, getStockPrice, getStockNews,getStockMovement,stockOnWatchList,
     getStockWeekMovement, getStockMonthMovement, getStockYearMovement, getStockFiveYearMovement
 } from '../../adapters/stockApi';
-import { addToWatchList } from '../../adapters/watchlistApi';
+import { addToWatchList, updateWatchList,deleteWatchList } from '../../adapters/watchlistApi';
 import { getToken, isAuthenticated } from '../../adapters/authApi';
 
 const StockContext = (path)=>{
@@ -10,8 +10,12 @@ const StockContext = (path)=>{
     const authInfo = isAuthenticated();
     const token = getToken();
 
+    const [dropMenu, setDropMenu]=useState('dropdown-menu dropdown-menu-right');
+
     const [inWatchList,setInWatchList]=useState('');
-    const [priceTarget,setPriceTarget]=useState('');
+    const [priceTarget,setPriceTarget]=useState(0);
+    const [inputPriceTarget, setInputPriceTarget]=useState(0);
+    const [loading,setLoading]=useState(false);
 
     const [currentTimeStamp,setCurrentTimeStamp]=useState('day');
     const [stockSymbol,setStockSymbol]=useState('');
@@ -34,6 +38,7 @@ const StockContext = (path)=>{
             }
             if(tempPriceTarget){
                 setPriceTarget(tempPriceTarget);
+                setInputPriceTarget(tempPriceTarget);
             }
             console.log(tempInWatchList+':'+inWatchList+','+tempPriceTarget+':'+priceTarget);
             // console.log('--------------------------');
@@ -53,70 +58,100 @@ const StockContext = (path)=>{
             setStockNews(news.news.articles);
         });
         getStockMovement(stockSymbol).then(stockData=>{
-            console.log('---------------------------');
-            console.log(stockData.time);
-            console.log('---------------------------');
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
-            
-            // setStockMovementData(stockData);
         });
     },[]);
 
-    const clickAddToWatchList = ()=>{
-        addToWatchList({stockName:stockInfo.stockName,stockSymbol:stockPrice.stock,priceAlert:10},authInfo._id,token).then(data=>{
-            console.log(data);
+    const deleteStockFromWatchList = ()=>{
+        deleteWatchList(authInfo._id,token,{symbol:stockSymbol}).then(newWatchList=>{
+            setInWatchList(false);
         });
+    };
+    const updatePriceTarget = (e)=>{
+        e.target.parentNode.parentNode.class='dropdown-menu dropdown-menu-right';
+        console.log(e.target.parentNode.parentNode.class);
+        console.log('price target will be updated');
+        e.preventDefault();
+        updateWatchList(authInfo._id,token,{symbol:stockSymbol,priceAlert:inputPriceTarget}).then(watchList=>{
+            console.log(watchList);
+            setPriceTarget(inputPriceTarget);
+        });
+    };
+    const onChangeUpdatePriceTarget = (e)=>{
+        console.log('onchange '+e.target.value);
+        setInputPriceTarget(e.target.value);
+    };
+    const onSubmitAddToWatchList=(e)=>{
+        e.preventDefault();
+        addToWatchList({stockName:stockInfo.stockName,stockSymbol:stockSymbol,priceAlert:priceTarget},authInfo._id,token).then(data=>{
+            console.log(data);
+            setInputPriceTarget();
+            setInWatchList(true);
+        });
+    };
+    const onChangeAddToWatchList = (e)=>{
+        setPriceTarget(e.target.value);
     };
 
     const clickDayHistoricData = ()=>{
+        setLoading(true);
         setCurrentTimeStamp('day');
         getStockMovement(stockSymbol).then(stockData=>{
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
+            setLoading(false);
         });
     };
     const clickWeekHistoricData =()=>{
+        setLoading(true);
         setCurrentTimeStamp('week');
         console.log('week');
         getStockWeekMovement(stockSymbol).then((stockData)=>{
             console.log(stockData);
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
+            setLoading(false);
         });
     };
     const clickMonthHistoricData = ()=>{
+        setLoading(true);
         setCurrentTimeStamp('month');
         console.log('month');
         getStockMonthMovement(stockSymbol).then((stockData)=>{
             console.log(stockData);
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
+            setLoading(false);
         });
     };
 
     const clickYearHistoricData = ()=>{
+        setLoading(true);
         setCurrentTimeStamp('year');
         console.log('year');
         getStockYearMovement(stockSymbol).then((stockData)=>{
             console.log(stockData);
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
+            setLoading(false);
         });
     };
 
     const clickFiveYearHistoricData = ()=>{
+        setLoading(true);
         setCurrentTimeStamp('fiveYear');
         console.log('5year');
         getStockFiveYearMovement(stockSymbol).then((stockData)=>{
             console.log(stockData);
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
+            setLoading(false);
         });
     };
 
-   return { inWatchList, priceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp, clickAddToWatchList,
-    clickDayHistoricData,clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData};
+   return { dropMenu, inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp, onSubmitAddToWatchList, onChangeAddToWatchList,
+    clickDayHistoricData,clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData, onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList};
 };
 
 export {StockContext};
