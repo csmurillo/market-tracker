@@ -42,7 +42,7 @@ exports.getUserInformation=(req,res)=>{
 
 exports.accountUpdate = (req,res)=>{
     const {userId}=req.userTokenData;
-    const { firstName, lastName, email } = req.body;
+    const { firstName, lastName, email, phone } = req.body;
 
     const accountFieldsNotFilled= (firstName==undefined)||(lastName==undefined)||(email==undefined);
     if(accountFieldsNotFilled){
@@ -62,6 +62,7 @@ exports.accountUpdate = (req,res)=>{
         user.firstName=firstName;
         user.lastName=lastName;
         user.email=email;
+        user.phone=phone;
         user.save((err,updatedUser)=>{
             if(err){
                 return res.status(401).json({

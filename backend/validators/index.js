@@ -6,6 +6,14 @@ exports.signupValidator = (req,res,next)=>{
         .withMessage('Email is required')
         .isEmail()
         .withMessage('Email must container @')
+    req.check('phone')
+        .notEmpty()
+        .isLength({max:10})
+        .withMessage('Phone should contain 10 numbers')
+        .isLength({min:10})
+        .withMessage('Phone should container 10 numbers')
+        .matches(/^\d+$/)
+        .withMessage('Phone should all be numbers')
     req.check('password')
         .notEmpty()
         .withMessage('Password is required')
@@ -106,6 +114,15 @@ exports.updateProfileInformationValidator=(req,res,next)=>{
         .withMessage('Email is required')
         .isEmail()
         .withMessage('Email must container @')
+    req.check('phone')
+        .notEmpty()
+        .isLength({max:10})
+        .withMessage('Phone should contain 10 numbers')
+        .isLength({min:10})
+        .withMessage('Phone should container 10 numbers')
+        .matches(/^\d+$/)
+        .withMessage('Phone should all be numbers')
+    
         // set errors
         const validationErrors = req.validationErrors();
         if(validationErrors){
@@ -121,6 +138,9 @@ exports.updateProfileInformationValidator=(req,res,next)=>{
                 }
                 else if(err.param=='email'){
                     emailError.push(err.msg);
+                }
+                else if(err.param=='phone'){
+                    errors.phone=err.msg;
                 }
             });
             // only set first errror for email

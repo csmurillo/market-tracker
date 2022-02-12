@@ -6,7 +6,7 @@ import validateEditProfile from '../../validators/EditProfileValidator';
 import './styles.css';
 import { UpdateProfileSuccess } from './component/UpdateProfileSuccess';
 const EditProfile = () =>{
-    const { firstName,lastName,email,errors,updatedProfileInformation,onValuesChange,onHandleSubmit }=EditProfileContext(validateEditProfile);
+    const { firstName,lastName,email,phone,errors,updatedProfileInformation,onValuesChange,onHandleSubmit }=EditProfileContext(validateEditProfile);
 
     const editProfileForm=()=>{
         return (
@@ -33,6 +33,14 @@ const EditProfile = () =>{
                     value={email} onChange={onValuesChange}/>
                     <div className="errors">
                         {errors.email&&<div>{errors.email}</div>}
+                    </div>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="phone">Phone:</label>
+                    <input id="phone" name="phone" type="text" className="form-control"
+                    value={phone} onChange={onValuesChange}/>
+                    <div className="errors">
+                        {errors.phone&&<div>{errors.phone}</div>}
                     </div>
                 </div>
                 <div className="d-flex justify-content-center">

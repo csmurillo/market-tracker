@@ -10,18 +10,20 @@ const Signup = () =>{
         firstName:'',
         lastName:'',
         email:'',
+        phone:'',
         password:''
     });
-    const {firstName,lastName,email,password}=values;
+    const {firstName,lastName,email,phone,password}=values;
     // state: errors
     const [errors,setErrors] = useState({
         firstNameError:'',
         lastNameError:'',
         emailError:'',
+        phoneError:'',
         passwordError:'',
         error:''
     });
-    const {firstNameError,lastNameError,emailError,passwordError,error}=errors;
+    const {firstNameError,lastNameError,emailError,phoneError,passwordError,error}=errors;
     // state: redirect
     const [redirect,setRedirect] = useState(false);
 
@@ -30,7 +32,7 @@ const Signup = () =>{
         event.preventDefault();
         setValues({...values});
         // signup
-        signup({firstName,lastName,email,password}).then(res=>{
+        signup({firstName,lastName,email,phone,password}).then(res=>{
             if(res.error){
                 if(typeof res.error==='string'){
                     setErrors({...errors,['error']:res.error});
@@ -48,7 +50,7 @@ const Signup = () =>{
                 }
             }
             else{
-                setValues({firstName:'',lastName:'',email:'',password:''});
+                setValues({firstName:'',lastName:'',email:'',phone:'',password:''});
                 setRedirect(true);
             }
             
@@ -83,6 +85,13 @@ const Signup = () =>{
                     value={values.email}
                     onChange={handleChange}/>
                  <div className="text-danger">{emailError}</div>
+            </div>
+            <div className="form-group">
+                <label htmlFor="phone">Phone</label>
+                <input id="phone" name="phone" type="text" className="form-control"
+                    value={values.phone}
+                    onChange={handleChange}/>
+                 <div className="text-danger">{phoneError}</div>
             </div>
             <div className="form-group">
                 <label htmlFor="password">Password</label>

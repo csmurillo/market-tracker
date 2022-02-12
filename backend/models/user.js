@@ -19,6 +19,9 @@ const userSchema = mongoose.Schema({
         type: String,
         required:true
     },
+    phone:{
+        type:String,
+    },
     smsAlerts:{
         type: Boolean,
         default:false

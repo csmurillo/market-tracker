@@ -30,7 +30,7 @@ app.use(cors({origin: '*'}));
 
 
 // connect to mongodb
-mongoose.connect('mongodb+srv://red:AQcPTpNID8DqfhRB@cluster0.7fyco.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+mongoose.connect()
         .then(()=>{console.log('db connected');})
         .catch(()=>{console.log('error db');});
 

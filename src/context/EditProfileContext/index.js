@@ -7,7 +7,8 @@ const EditProfileContext = (validator)=>{
     const [values,setValues]=useState({
         firstName:'',
         lastName:'',
-        email:''
+        email:'',
+        phone:'~'
     });
     const [errors,setErrors]=useState({});
 
@@ -17,7 +18,7 @@ const EditProfileContext = (validator)=>{
     // localstorage values
     const authInfo = isAuthenticated();
     const token = getToken();
-    const {firstName,lastName,email}=values;
+    const {firstName,lastName,email,phone}=values;
 
     const onValuesChange = (e)=>{
         const {name,value}=e.target;
@@ -37,12 +38,13 @@ const EditProfileContext = (validator)=>{
     // component mount get user information from server
     useEffect(()=>{
         getUserInformation(authInfo._id,token).then((res)=>{
-            const {firstName,lastName,email}=res;
+            const {firstName,lastName,email,phone}=res;
             setValues({
                 ...values,
                 ['firstName']:firstName,
                 ['lastName']:lastName,
-                ['email']:email
+                ['email']:email,
+                ['phone']:phone
             });
         });
     },[]);
@@ -64,7 +66,8 @@ const EditProfileContext = (validator)=>{
         const values={
             firstName:firstName,
             lastName:lastName,
-            email:email
+            email:email,
+            phone:phone
         };
         updateProfile(authInfo._id,token,values).then((res)=>{
             const{error}=res;
@@ -77,7 +80,7 @@ const EditProfileContext = (validator)=>{
             }
         });
     };
-    return {firstName,lastName,email,errors,updatedProfileInformation,onValuesChange,onHandleSubmit};
+    return {firstName,lastName,email,phone,errors,updatedProfileInformation,onValuesChange,onHandleSubmit};
 };
 
 export {EditProfileContext};
