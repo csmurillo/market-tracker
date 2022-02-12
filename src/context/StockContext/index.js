@@ -10,7 +10,6 @@ const StockContext = (path)=>{
     const authInfo = isAuthenticated();
     const token = getToken();
 
-    const [dropMenu, setDropMenu]=useState('dropdown-menu dropdown-menu-right');
 
     const [inWatchList,setInWatchList]=useState('');
     const [priceTarget,setPriceTarget]=useState(0);
@@ -22,8 +21,8 @@ const StockContext = (path)=>{
     const [stockInfo,setStockInfo]=useState({});
     const [stockPrice,setStockPrice]=useState('');
     const [stockNews, setStockNews]=useState([]);
-    const [stockTimeMovement, setStockTimeMovement]=useState({});
-    const [stockPriceMovement, setStockPriceMovement]=useState({});
+    const [stockTimeMovement, setStockTimeMovement]=useState();
+    const [stockPriceMovement, setStockPriceMovement]=useState();
 
     useEffect(()=>{
         const stock=path.split('/');
@@ -58,10 +57,24 @@ const StockContext = (path)=>{
             setStockNews(news.news.articles);
         });
         getStockMovement(stockSymbol).then(stockData=>{
+            // console.log(JSON.stringify(stockData)+'!!!!!!!!!!!!!!!!!!!!!!!!!!');
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
         });
     },[]);
+    const updateGraphValues =(stockPriceLive,stockPriceDateFormatLive)=>{
+        console.log('stock context '+JSON.stringify(stockPriceLive)+' stock price date format '+stockPriceDateFormatLive);
+    };
+    const updateStockTimeMovement = (time)=>{
+        // stockTimeMovement.push(time);
+        console.log(stockTimeMovement);
+        // setStockTimeMovement(stockTimeMovement);
+    };
+    const updateStockPriceMovement = (price)=>{
+        // stockPriceMovement.push(price);
+        console.log(stockPriceMovement);
+        // setStockPriceMovement(stockPriceMovement);
+    };
 
     const deleteStockFromWatchList = ()=>{
         deleteWatchList(authInfo._id,token,{symbol:stockSymbol}).then(newWatchList=>{
@@ -150,11 +163,15 @@ const StockContext = (path)=>{
         });
     };
 
-   return { dropMenu, inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp, onSubmitAddToWatchList, onChangeAddToWatchList,
+   return { inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp,
+    updateGraphValues,
+    onSubmitAddToWatchList, onChangeAddToWatchList,
     clickDayHistoricData,clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData, onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList};
 };
 
 export {StockContext};
+
+
 
 
 

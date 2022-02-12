@@ -1,21 +1,55 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Plot from 'react-plotly.js';
 import MainLayout from '../../layout/MainLayout';
 import Button from '../../components/Button';
 import { withRouter } from "react-router-dom";
 import { StockContext } from '../../context/StockContext';
+import { StockPriceContext } from '../../context/StockPriceContext';
 import './styles.css';
-import { addToWatchList } from '../../adapters/watchlistApi';
+import socket from '../../context/Socketio';
 
 const Stock = ({history}) =>{
-    const { dropMenu, inWatchList, loading, priceTarget, inputPriceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
+    const { inWatchList, loading, priceTarget, inputPriceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,
             stockTimeMovement, stockPriceMovement, currentTimeStamp,
+            updateGraphValues,
             onSubmitAddToWatchList, onChangeAddToWatchList,
             clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
             onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
         }=StockContext(history.location.pathname);
+    const { stockPriceLive,stockPriceDateFormatLive }=StockPriceContext();
+
+    // try 6:%0
+    useEffect(()=>{
+        socket.connect();
+        console.log('startserver stock price');
+
+        socket.emit('startServerStockPrice',{});
+
+        // socket.emit('startServerStockPrice',{});
+        return ()=>{
+            console.log('stock page no longer here');
+            socket.disconnect();
+        };
+    },[]);
+    socket.on('streamStockPriceTime',({price,time})=>{
+        console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+        console.log('stream::'+price+'time:'+time);
+    });
+    // useEffect(()=>{
+    //     if(Array.isArray(stockPriceMovement)){
+    //         updateGraphValues(stockPriceLive,stockPriceDateFormatLive);
+    //     }
+    // },[stockPriceMovement]);
+
+    // useEffect(()=>{
+    //     if(Array.isArray(stockPriceMovement)){
+    //         console.log('every 5 mins');
+    //         updateGraphValues(stockPriceLive,stockPriceDateFormatLive);
+    //     }
+    // },[stockPriceDateFormatLive]);
+
     return (
         <MainLayout>
             <div id="stock">
@@ -33,7 +67,7 @@ const Stock = ({history}) =>{
                                 <Button className='btn' styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>{inWatchList ? 'Price Target $'+priceTarget:'WatchList +'}</Button>
                             </div>
                             {inWatchList?
-                                        <div className={dropMenu} aria-labelledby="dropDownMenu">    
+                                        <div className='dropdown-menu dropdown-menu-right' aria-labelledby="dropDownMenu">    
                                             <div>
                                                 <form onSubmit={updatePriceTarget}>
                                                     <input type="number" min="0" max="2000" value={inputPriceTarget} onChange={onChangeUpdatePriceTarget}/>
@@ -45,7 +79,7 @@ const Stock = ({history}) =>{
                                             </div>
                                         </div>
                                         :
-                                        <div className={dropMenu} aria-labelledby="dropDownMenu">    
+                                        <div className='dropdown-menu dropdown-menu-right' aria-labelledby="dropDownMenu">    
                                             <div>
                                                 <form onSubmit={onSubmitAddToWatchList}>
                                                     <input class="dropdown-item" type="number" min="0" max="2000" value={priceTarget} onChange={onChangeAddToWatchList}/>
