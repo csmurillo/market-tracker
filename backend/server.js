@@ -45,15 +45,45 @@ server.listen(port, ()=>{
     console.log(`port is ${port}`);
 });
 
-
 // set socketio stream
-io.on('connection', (socket) => {
-    let interval=null;
-    console.log('a user connected userID'+socket.userID);
+io.on('connection', async(socket) => {
+    const getStockPricePromise = async(stockSymbol)=>{
+        const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+        const finnhubRes=await fetch(finnhub);
+        const pricePromise=await finnhubRes.json();
+        return pricePromise;
+    };
+    const setTimer= (stockSymbol)=>{
+        return setTimeout(async() => {
+            if(!stopTimer){
+                const newYorkDate = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+                const newYorkTime = new Date(newYorkDate);
+                // const hour = newYorkTime.getHours();
+                const minutes = newYorkTime.getMinutes();
+                console.log(hour+':'+minutes);
+                const time = hour+':'+minutes;
+                const pricePromise = await getStockPricePromise(stockSymbol);
+                const stockPrice = pricePromise.c;
+                // console.log('%%%%%%%%1'+stockPrice+'1%%%%%%%%');
+                if(minutes%2==0){
+                    // if(hour>9 && minutes>=30 && hour< 24 ){
+                        // console.log('during hours');
+                        socket.emit('streamStockPriceTime',{price:stockPrice,time});
+                    // }
+                    // else{
+                        // console.log(stockPrice+'stockprice');
+                        // socket.emit('streamStockPriceTime',{price:'none',time:'none'});
+                    // }
+                }
+                setTimer(stockSymbol);
+            }
+          }, 4000);
+    };
 
-    socket.on('info',({name})=>{
-        console.log('message'+name);
-    });
+    ///////////////////////////////////////////////////////////////////////
+    let timer=null;
+    let stopTimer=false;
+    console.log('a user connected userID'+socket.userID);
 
     socket.on('serverStockPrice',async ({stockSymbol})=>{
         const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
@@ -62,39 +92,26 @@ io.on('connection', (socket) => {
         console.log('price'+finnStockPriceData.c);
         socket.emit('clientStockPrice',{stockSymbol, stockPrice:finnStockPriceData.c});
     });
-    socket.on('startServerStockPrice',async (stockSymbol)=>{
+    socket.on('startServerStockPrice',({stockSymbol})=>{
+        console.log('on!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!??????????????????????');
+        console.log('stock symbol'+stockSymbol);
         // check date
         const date = new Date();
+        // New York Time
+        const newYorkDate = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+        const newYorkTime = new Date(newYorkDate);
+        const hour = newYorkTime.getHours();
+        const minutes = newYorkTime.getMinutes();
+
         if(date.getDate()!=0||date.getDate()!=6){
-            interval = setInterval(() => {
-                const newYorkTime = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
-                const date = new Date(newYorkTime);
-                // console.log('');
-                // var d = new Date();
-                const hour = date.getHours();
-                const minutes = date.getMinutes();
-                // console.log(d.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-                console.log(hour+':'+minutes);
-                const time = hour+':'+minutes;
-                if(minutes%1==0){
-                    if(hour>9 && minutes>=30 && hour< 24 ){
-                        console.log('during hours');
-                        socket.emit('streamStockPriceTime',{price:5,time});
-                    }
-                    else{
-                        socket.emit('streamStockPriceTime',{price:'nothing',time});
-                    }
-                }
-                console.log('interval done');
-                // if(minutes%2==0){
-                //     socket.emit('streamStockPriceTime',{price:5,time});
-                // }
-              }, 10000);
+            if(hour>9 && minutes>=30 && hour< 24 ){
+                timer = setTimer(stockSymbol);
+            }
         }
-
     });
-
     socket.on("disconnect", () => {
-        clearInterval(interval);
+        stopTimer=true;
+        clearTimeout(timer);
     });
 });
+

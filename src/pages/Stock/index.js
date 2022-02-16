@@ -9,7 +9,7 @@ import './styles.css';
 import socket from '../../context/Socketio';
 
 const Stock = ({history}) =>{
-    const { inWatchList, loading, priceTarget, inputPriceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
+    const { stockSymbol, inWatchList, loading, priceTarget, inputPriceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,
             stockTimeMovement, stockPriceMovement, currentTimeStamp,
@@ -20,35 +20,22 @@ const Stock = ({history}) =>{
         }=StockContext(history.location.pathname);
     const { stockPriceLive,stockPriceDateFormatLive }=StockPriceContext();
 
-    // try 6:%0
     useEffect(()=>{
-        socket.connect();
-        console.log('startserver stock price');
+        if(stockSymbol!=''){
+            socket.connect();
+            socket.emit('startServerStockPrice',{stockSymbol:stockSymbol});
 
-        socket.emit('startServerStockPrice',{});
-
+            socket.on('streamStockPriceTime',({price,time})=>{
+                console.log('stream::'+price+'time:'+time);
+            });
+        }
         // socket.emit('startServerStockPrice',{});
         return ()=>{
             console.log('stock page no longer here');
             socket.disconnect();
         };
-    },[]);
-    socket.on('streamStockPriceTime',({price,time})=>{
-        console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
-        console.log('stream::'+price+'time:'+time);
-    });
-    // useEffect(()=>{
-    //     if(Array.isArray(stockPriceMovement)){
-    //         updateGraphValues(stockPriceLive,stockPriceDateFormatLive);
-    //     }
-    // },[stockPriceMovement]);
+    },[stockSymbol]);
 
-    // useEffect(()=>{
-    //     if(Array.isArray(stockPriceMovement)){
-    //         console.log('every 5 mins');
-    //         updateGraphValues(stockPriceLive,stockPriceDateFormatLive);
-    //     }
-    // },[stockPriceDateFormatLive]);
 
     return (
         <MainLayout>
