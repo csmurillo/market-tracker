@@ -33,11 +33,14 @@ const NavigationMenu = ({userSignin}) =>{
                 </div>
                 <div style={{ fontSize:'35px'}}>Angel M</div>
             </li>
+            <li class="nav-items link-cont">
+                <Link to="/watchlist" style={{color:'black',textDecoration:'none'}}>Watch List</Link>
+            </li>
             <li id="account-mobile" class="nav-items link-cont">
-                <Link style={{color:'black',textDecoration:'none'}}>Account</Link>
+                <Link to="/account" style={{color:'black',textDecoration:'none'}}>Account</Link>
             </li>
             <li id="security-mobile" class="nav-items link-cont">
-                <Link style={{color:'black',textDecoration:'none'}} class="link">Security</Link>
+                <Link to="/security" style={{color:'black',textDecoration:'none'}} class="link">Settings</Link>
             </li>
             <li id="logout-mobile" class="nav-items link-cont">
                 <Link style={{color:'black',textDecoration:'none'}}>Logout</Link>

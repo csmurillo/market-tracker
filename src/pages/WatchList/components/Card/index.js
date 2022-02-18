@@ -3,8 +3,8 @@ import './styles.css';
 import Button from '../../../../components/Button';
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-
-const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReached, InProgress,cardUpdate, cardDelete }) =>{
+// import socket from '../../../../context/Socketio';
+const Card = ({ stockName, stockSymbol, stockPrice, priceTarget, priceTargetReached, InProgress,cardUpdate, cardDelete }) =>{
 
     const [cardPriceTarget,setCardPriceTarget]=useState();
 
@@ -14,7 +14,7 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
 
     const cardUpdatePriceTarget=(e)=>{
         e.preventDefault();
-        cardUpdate(stockTicker,cardPriceTarget);
+        cardUpdate(stockSymbol,cardPriceTarget);
     };
 
     const onChangeCardPriceTarget=(e)=>{
@@ -27,7 +27,7 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
                     <div className='wl-card-top-left'>
                         <div className='wl-stock-info'>
                             <div className='wl-stock-name'>
-                                <Link to={'/stock/'+stockTicker}>{stockName}</Link>
+                                <Link to={'/stock/'+stockSymbol}>{stockName}</Link>
                             </div>
                             <div className='wl-stock-price'>
                                 $7.5
@@ -42,7 +42,7 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
                         <div className='dropdown'>
                             <div className='wl-card-settings' data-toggle='dropdown'>...</div>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
-                                <div className='wl-card-delete-listing' onClick={()=>{cardDelete(stockTicker)}}>Delete Listing</div>
+                                <div className='wl-card-delete-listing' onClick={()=>{cardDelete(stockSymbol)}}>Delete Listing</div>
                             </div>
                         </div>
                     </div>
@@ -73,6 +73,12 @@ const Card = ({ stockName, stockTicker, stockPrice, priceTarget, priceTargetReac
 };
 
 export default Card;
+
+
+
+
+
+
 
 
 

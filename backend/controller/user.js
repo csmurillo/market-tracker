@@ -3,6 +3,8 @@ const { Stock, WatchList } = require('../models/watchList');
 const fetch = require('node-fetch');
 const bcrypt = require("bcrypt");
 
+const {defaultDayMovementArray}= require('../helpers/userHelper');
+
 const searchSymbol = require('../helpers/searchStockSymbol');
 
 exports.userId = (req,res,next,id)=>{
@@ -264,17 +266,18 @@ exports.stockMovement = async (req,res)=>{
     let recentDate = timeSeriesData.values[0].datetime;
     let recentDateFormat = recentDate.split(' ')[0];
 
-    const timeArray = [];
-    const priceArray = [];
-
+    let {timeArray,priceArray}=defaultDayMovementArray();
+    
     timeSeriesData.values.forEach((stockData)=>{
         let dateFromStockData =stockData.datetime;
         let dateDataFormat = dateFromStockData.split(' ')[0];
         const time = stockData.datetime;
-
-        if(recentDateFormat==dateDataFormat){
-            timeArray.push(time);
-            priceArray.push(stockData.close);
+        for(var i=0; i<timeArray.length;i++){
+            if(recentDateFormat==dateDataFormat){
+                if(timeArray[i]==time){
+                    priceArray[i]=stockData.close;
+                }
+            }
         }
     });
     res.json({

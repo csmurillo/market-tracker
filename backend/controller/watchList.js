@@ -2,7 +2,6 @@ const { Stock, WatchList } = require('../models/watchList');
 const fetch = require('node-fetch');
 require("dotenv").config();
 
-
 exports.watchList=(req,res)=>{
     const {userId}=req.userTokenData;
     WatchList.findOne({ owner: userId}, (err, watchList) => {

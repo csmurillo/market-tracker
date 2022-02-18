@@ -58,7 +58,7 @@ io.on('connection', async(socket) => {
             if(!stopTimer){
                 const newYorkDate = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
                 const newYorkTime = new Date(newYorkDate);
-                // const hour = newYorkTime.getHours();
+                const hour = newYorkTime.getHours();
                 const minutes = newYorkTime.getMinutes();
                 console.log(hour+':'+minutes);
                 const time = hour+':'+minutes;

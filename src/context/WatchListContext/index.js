@@ -7,7 +7,7 @@ const WatchListContext = ()=>{
     const authInfo = isAuthenticated();
     const token = getToken();
 
-    const [watchList,setWatchList]=useState();
+    const [watchList,setWatchList]=useState(null);
 
     useEffect(()=>{
         getWatchList(authInfo._id,token).then(watchList=>{
@@ -15,6 +15,11 @@ const WatchListContext = ()=>{
             setWatchList(watchList.watchList);
         });
     },[]);
+
+    useEffect(()=>{
+        
+        
+    },[watchList]);
 
     const cardUpdate=(stockTicker,cardPriceTarget)=>{
         updateWatchList(authInfo._id,token,{symbol:stockTicker,priceAlert:cardPriceTarget}).then(listUpdated=>{

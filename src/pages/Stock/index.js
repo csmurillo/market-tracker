@@ -103,7 +103,12 @@ const Stock = ({history}) =>{
                                         t: 10,
                                         pad: 4},
                                         yaxis: {fixedrange: true},
-                                        xaxis : {fixedrange: true, showticklabels:false}
+                                        xaxis : {
+                                            // fixedrange: true, 
+                                            // autorange: false,
+                                            showticklabels:false,
+                                            // range:['Febuary 17, 2022, 9:30', 'Febuary 17, 2022, 18:30']
+                                        }
                                     }}
                                     
                                     config = {{displayModeBar: false}}

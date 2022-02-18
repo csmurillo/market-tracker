@@ -114,7 +114,7 @@
     padding-right: 30px;
     /* border:1px solid red; */
 }
-@media (max-width: 768px) {
+@media (max-width: 1058px) {
     #stock{
         display: block;
         overflow-y: unset;

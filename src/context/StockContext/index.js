@@ -10,7 +10,6 @@ const StockContext = (path)=>{
     const authInfo = isAuthenticated();
     const token = getToken();
 
-
     const [inWatchList,setInWatchList]=useState('');
     const [priceTarget,setPriceTarget]=useState(0);
     const [inputPriceTarget, setInputPriceTarget]=useState(0);
@@ -57,7 +56,7 @@ const StockContext = (path)=>{
             setStockNews(news.news.articles);
         });
         getStockMovement(stockSymbol).then(stockData=>{
-            // console.log(JSON.stringify(stockData)+'!!!!!!!!!!!!!!!!!!!!!!!!!!');
+            console.log(JSON.stringify(stockData)+'!!!!!!!!!!!!!!!!!!!!!!!!!!');
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
         });
@@ -162,6 +161,8 @@ const StockContext = (path)=>{
             setLoading(false);
         });
     };
+
+    // const defaultTimeArray
 
    return { stockSymbol,inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp,
     updateGraphValues,
