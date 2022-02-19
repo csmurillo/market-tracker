@@ -30,7 +30,7 @@ const Card = ({ stockName, stockSymbol, stockPrice, priceTarget, priceTargetReac
                                 <Link to={'/stock/'+stockSymbol}>{stockName}</Link>
                             </div>
                             <div className='wl-stock-price'>
-                                $7.5
+                                ${stockPrice}
                             </div>
                         </div>
                         <div className='wl-stock-status'>

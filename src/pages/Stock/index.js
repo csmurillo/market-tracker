@@ -23,7 +23,7 @@ const Stock = ({history}) =>{
     useEffect(()=>{
         if(stockSymbol!=''){
             socket.connect();
-            socket.emit('startServerStockPrice',{stockSymbol:stockSymbol});
+            socket.emit('startStreamServerStockPrice',{stockSymbol:stockSymbol});
 
             socket.on('streamStockPriceTime',({price,time})=>{
                 console.log('stream::'+price+'time:'+time);
@@ -102,7 +102,7 @@ const Stock = ({history}) =>{
                                         b: 30,
                                         t: 10,
                                         pad: 4},
-                                        yaxis: {fixedrange: true},
+                                        yaxis: {},
                                         xaxis : {
                                             // fixedrange: true, 
                                             // autorange: false,

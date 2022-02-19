@@ -58,26 +58,20 @@ io.on('connection', async(socket) => {
             if(!stopTimer){
                 const newYorkDate = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
                 const newYorkTime = new Date(newYorkDate);
+                // for debugging purposes
+                // const newYorkTime = new Date();
                 const hour = newYorkTime.getHours();
                 const minutes = newYorkTime.getMinutes();
                 console.log(hour+':'+minutes);
                 const time = hour+':'+minutes;
                 const pricePromise = await getStockPricePromise(stockSymbol);
                 const stockPrice = pricePromise.c;
-                // console.log('%%%%%%%%1'+stockPrice+'1%%%%%%%%');
-                if(minutes%2==0){
-                    // if(hour>9 && minutes>=30 && hour< 24 ){
-                        // console.log('during hours');
-                        socket.emit('streamStockPriceTime',{price:stockPrice,time});
-                    // }
-                    // else{
-                        // console.log(stockPrice+'stockprice');
-                        // socket.emit('streamStockPriceTime',{price:'none',time:'none'});
-                    // }
+                if(minutes%5==0){
+                    socket.emit('streamStockPriceTime',{price:stockPrice,time});
                 }
                 setTimer(stockSymbol);
             }
-          }, 4000);
+          }, 60000);
     };
 
     ///////////////////////////////////////////////////////////////////////
@@ -92,20 +86,31 @@ io.on('connection', async(socket) => {
         console.log('price'+finnStockPriceData.c);
         socket.emit('clientStockPrice',{stockSymbol, stockPrice:finnStockPriceData.c});
     });
-    socket.on('startServerStockPrice',({stockSymbol})=>{
-        console.log('on!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!??????????????????????');
-        console.log('stock symbol'+stockSymbol);
+    socket.on('startStreamServerStockPrice',({stockSymbol})=>{
+        // for debuggin purposes
+        // console.log('stock symbol'+stockSymbol);
         // check date
         const date = new Date();
         // New York Time
         const newYorkDate = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
         const newYorkTime = new Date(newYorkDate);
-        const hour = newYorkTime.getHours();
-        const minutes = newYorkTime.getMinutes();
+        let hour = newYorkTime.getHours();
+        let minutes = newYorkTime.getMinutes();
 
         if(date.getDate()!=0||date.getDate()!=6){
-            if(hour>9 && minutes>=30 && hour< 24 ){
-                timer = setTimer(stockSymbol);
+            // for debuggin purposes
+            // timer = setTimer(stockSymbol);
+            if(hour >= 9 && hour <= 16 ){
+                // special case under 9:30 o'clock & everything over 4pm
+                if((hour==9&&minutes<30)||(hour==16&&minutes>=0)){
+                    console.log('not valid');
+                }
+                else{
+                    timer = setTimer(stockSymbol);
+                }
+            }
+            else{
+                console.log('too late');
             }
         }
     });

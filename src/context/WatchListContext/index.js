@@ -8,6 +8,8 @@ const WatchListContext = ()=>{
     const token = getToken();
 
     const [watchList,setWatchList]=useState(null);
+    const [livePrices,setLivePrices]=useState([]);
+    const [livesPricesLoaded,setLivesPricesLoaded]=useState(false);
 
     useEffect(()=>{
         getWatchList(authInfo._id,token).then(watchList=>{
@@ -17,8 +19,21 @@ const WatchListContext = ()=>{
     },[]);
 
     useEffect(()=>{
-        
-        
+        if(watchList!=null){
+            console.log('watchlist now has content');
+            console.log(watchList);
+            // set livePrices
+            watchList.map((stocks)=>{
+                livePrices.push({
+                    stockSymbol:stocks.tickerSymbol,
+                    livePrice:'~'
+                });
+                setLivePrices(livePrices);
+            });
+            console.log('live prices');
+            console.log(livePrices);
+            setLivesPricesLoaded(true);
+        }
     },[watchList]);
 
     const cardUpdate=(stockTicker,cardPriceTarget)=>{
@@ -43,10 +58,11 @@ const WatchListContext = ()=>{
         });
     };
 
-   return { watchList,cardUpdate, cardDelete };
+   return { watchList,livePrices,livesPricesLoaded,cardUpdate, cardDelete };
 };
 
 export { WatchListContext };
+
 
 
 

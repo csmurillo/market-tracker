@@ -272,6 +272,8 @@ exports.stockMovement = async (req,res)=>{
         let dateFromStockData =stockData.datetime;
         let dateDataFormat = dateFromStockData.split(' ')[0];
         const time = stockData.datetime;
+        // console.log(time);
+        // console.log('------------------------------------');
         for(var i=0; i<timeArray.length;i++){
             if(recentDateFormat==dateDataFormat){
                 if(timeArray[i]==time){
