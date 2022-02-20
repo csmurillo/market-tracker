@@ -14,9 +14,6 @@
     max-height: 500px;
     /* background-color: red; */
 }
-.active{
-    border: 3px solid green;
-}
 
 /* stock header styles */
 #stock-symbol-header{

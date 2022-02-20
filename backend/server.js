@@ -78,7 +78,10 @@ io.on('connection', async(socket) => {
     let timer=null;
     let stopTimer=false;
     console.log('a user connected userID'+socket.userID);
-
+    socket.on('serverWatchlistPriceSteam',({stocks})=>{
+        console.log('sssssssssssssssssssssssssssssssssssss');
+        console.log(stocks);
+    });
     socket.on('serverStockPrice',async ({stockSymbol})=>{
         const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
         const finnhubRes=await fetch(finnhub);

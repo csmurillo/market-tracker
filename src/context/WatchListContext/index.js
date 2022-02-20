@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { getWatchList,updateWatchList,deleteWatchList } from '../../adapters/watchlistApi';
 import { getToken, isAuthenticated } from '../../adapters/authApi';
 
-const WatchListContext = ()=>{
+const WatchListContext = (socket)=>{
 
     const authInfo = isAuthenticated();
     const token = getToken();
@@ -10,6 +10,23 @@ const WatchListContext = ()=>{
     const [watchList,setWatchList]=useState(null);
     const [livePrices,setLivePrices]=useState([]);
     const [livesPricesLoaded,setLivesPricesLoaded]=useState(false);
+
+    useEffect(()=>{
+        socket.connect();
+        console.log('socket connected');
+        return ()=>{
+            console.log('cards no longer listening');
+            socket.disconnect();
+        };
+    },[]);
+    
+    useEffect(()=>{
+        console.log('livepricechanged!!'+livePrices.length);
+        if(livesPricesLoaded){
+            console.log('emittted!!');
+            socket.emit('serverWatchlistPriceSteam',{stocks:livePrices})
+        }
+    },[livesPricesLoaded]);
 
     useEffect(()=>{
         getWatchList(authInfo._id,token).then(watchList=>{
@@ -35,6 +52,7 @@ const WatchListContext = ()=>{
             setLivesPricesLoaded(true);
         }
     },[watchList]);
+
 
     const cardUpdate=(stockTicker,cardPriceTarget)=>{
         updateWatchList(authInfo._id,token,{symbol:stockTicker,priceAlert:cardPriceTarget}).then(listUpdated=>{

@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React,{useEffect, useState} from 'react';
 import logo from '../../assets/images/stock-tracker-logos.png';
 import {FaUserCircle} from "react-icons/fa";
 import './header.css';
@@ -11,6 +11,8 @@ import SearchBox from '../SearchBox';
 
 
 const Header = () =>{
+
+    const [menuActive,setMenuActive]=useState(false);
 
     const { firstName, lastName } = isAuthenticated();
 
@@ -59,11 +61,11 @@ const Header = () =>{
     );
 
     const header= ()=>(
-        <div id="header" className="d-flex justify-content-between" style={{position:'relative'}}>
+        <div id="header" className="d-flex justify-content-between" style={menuActive?{zIndex:2}:{}}>
                 <div id="start" className="d-flex align-self-center ml-4">
                     <img id="logo"  src={logo}/>
                 </div>
-                <div id="end" className="d-flex justify-content-end" style={{backgroundColor:'white'}}>
+                <div id="end" className="d-flex justify-content-end" style={menuActive?{zIndex:2,backgroundColor:'white'}:{}}>
                     {isAuthenticated() && 
                         <div id="search-box-container" className="d-flex justify-content-center align-items-center w-100" style={{backgroundColor:'white'}}>
                                 <div className="w-100">
@@ -73,7 +75,7 @@ const Header = () =>{
                     }
                     <div id="header-options-container" className="d-flex justify-content-center align-self-center">
                         <div className="d-md-none d-flex align-self-center">
-                            <NavigationMenu ></NavigationMenu>
+                            <NavigationMenu setMenuActive={setMenuActive}></NavigationMenu>
                         </div>
                         {/* user: signed in */}
                         {/* desktop/laptop screen */}

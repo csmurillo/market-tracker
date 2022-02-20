@@ -16,7 +16,7 @@ const SearchBox = () =>{
                     <BsSearch style={{color:'lightgreen',fontSize:28}}></BsSearch>
                 </Button>
             </div>
-            <div id="search-input-form" className={"d-md-block " + (mobileSearchActive?'':'d-none')} style={{borderBottom:'1px solid black',backgroundColor:'white',height:'100%'}}>
+            <div id="search-input-form" className={"d-md-block " + (mobileSearchActive?'':'d-none')} style={{backgroundColor:'white',height:'100%'}}>
                 {
                     (mobileSearchActive && searchActiveResize) && 
                     <div id="search-input-back-container" className="d-flex justify-content-end mt-2 mb-3">

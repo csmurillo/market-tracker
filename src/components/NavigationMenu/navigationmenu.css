@@ -10,26 +10,29 @@
 #menu-icon-container:hover{
   cursor: pointer;
 }
-#navigation-sidebar-menu{
+#navigation-sidebar-menu-container{
+  z-index: -1;
   position: absolute;
+  top:0; left:0px;
+  height:100vh; width:100vw;
+  display:flex;
+  flex-direction:column;
+  display: none;
+}
+#navigation-sidebar-menu{
+  position: relative;
   z-index: 9999;
   display: none;
-  height:70vh; width:100vw;
-  background-color: rgb(255, 255, 255);
-  border-left: 1px solid lightgrey;
-  top:15vh;
-  right:0;
+  margin-top:112px;
+  flex-grow: 1;
 }
 #navigation-sidebar-menu.active{
-  position: absolute;
   display: block;
-  top:15vh;
-  right:0;
+  background-color: white;
 }
 /* navigation-sidebar-menu items styles */
 .user-profile{
   width:100%; height:100px;
-  /* background-color: lightpink; */
   display: flex;
   justify-content: center;
   align-items: center;

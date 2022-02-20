@@ -13,9 +13,16 @@
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 2;
 }
 #search-form{
     width:100%;
+}
+#search-input-form{
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    z-index: 9999;
 }
 #search-input{
     height:40px;

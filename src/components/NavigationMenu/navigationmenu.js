@@ -5,10 +5,16 @@ import './navigationmenu.css';
 import { Link } from 'react-router-dom';
 import {isAuthenticated} from '../../authentication/authApi';
 
-const NavigationMenu = ({userSignin}) =>{
+const NavigationMenu = ({userSignin,setMenuActive}) =>{
+
     const [active, setActive]=useState(false);
     const menuIconClick = () =>{
         setActive(!active);
+        setMenuActive(!active);
+    };
+    const linkCloseMenu = ()=>{
+        setActive(!active);
+        setMenuActive(!active);
     };
     const userNavigate = ()=>(
         <ul id="user-navigate-mobile" class="container">
@@ -17,12 +23,16 @@ const NavigationMenu = ({userSignin}) =>{
                     <FaUserCircle style={{color:'lightgreen'}}/>
                 </div>
             </li>
-            <li id="login-mobile" class="nav-items link-cont">
-                <Link style={{color:'black',textDecoration:'none'}}>Login</Link>
-            </li>
-            <li id="signup-mobile" class="nav-items link-cont">
-                <Link style={{color:'black',textDecoration:'none'}}>Signup</Link>
-            </li>
+            <Link to="/signin" onClick={linkCloseMenu} style={{color:'black',textDecoration:'none'}}>
+                <li id="login-mobile" class="nav-items link-cont">
+                    Login
+                </li>
+            </Link>
+            <Link to="/signup" onClick={linkCloseMenu} style={{color:'black',textDecoration:'none'}}>
+                <li id="signup-mobile" class="nav-items link-cont">
+                    Signup
+                </li>
+            </Link>
         </ul>
     );
     const userSignedin = ()=>(
@@ -33,18 +43,26 @@ const NavigationMenu = ({userSignin}) =>{
                 </div>
                 <div style={{ fontSize:'35px'}}>Angel M</div>
             </li>
-            <li class="nav-items link-cont">
-                <Link to="/watchlist" style={{color:'black',textDecoration:'none'}}>Watch List</Link>
-            </li>
-            <li id="account-mobile" class="nav-items link-cont">
-                <Link to="/account" style={{color:'black',textDecoration:'none'}}>Account</Link>
-            </li>
-            <li id="security-mobile" class="nav-items link-cont">
-                <Link to="/security" style={{color:'black',textDecoration:'none'}} class="link">Settings</Link>
-            </li>
-            <li id="logout-mobile" class="nav-items link-cont">
-                <Link style={{color:'black',textDecoration:'none'}}>Logout</Link>
-            </li>
+            <Link to="/watchlist" onClick={linkCloseMenu} style={{color:'black',textDecoration:'none'}}>
+                <li class="nav-items link-cont">
+                        Watch List
+                </li>
+            </Link>
+            <Link to="/account" onClick={linkCloseMenu} style={{color:'black',textDecoration:'none'}}>
+                <li id="account-mobile" class="nav-items link-cont">
+                    Account
+                </li>
+            </Link>
+            <Link to="/security" onClick={linkCloseMenu} style={{color:'black',textDecoration:'none'}} class="link">
+                <li id="security-mobile" class="nav-items link-cont">
+                    Settings
+                </li>
+            </Link>
+            <Link style={{color:'black',textDecoration:'none'}}>
+                <li id="logout-mobile" class="nav-items link-cont">
+                    Logout
+                </li>
+            </Link>
         </ul>
     );
 
@@ -53,12 +71,14 @@ const NavigationMenu = ({userSignin}) =>{
             <div id="menu-icon-container" onClick={menuIconClick}>
                 { active ? <GrFormClose style={{fontSize:50}}/> : <GrMenu style={{fontSize:28}}/> }
             </div>
-            <nav id="navigation-sidebar-menu"  className={`container ${ active ? 'active':'' }`}>
-                {/* user */}
-                {!isAuthenticated() && userNavigate()}
-                {/* user logged in */}
-                {isAuthenticated() && userSignedin()}
-            </nav>
+            <div id="navigation-sidebar-menu-container" className={`${ active ? 'd-flex':'' }`}>
+                <nav id="navigation-sidebar-menu"  className={`container ${ active ? 'active':'' }`}>
+                    {/* user */}
+                    {!isAuthenticated() && userNavigate()}
+                    {/* user logged in */}
+                    {isAuthenticated() && userSignedin()}
+                </nav>
+            </div>
         </div>
     );
 };

@@ -8,15 +8,15 @@ import './styles.css';
 
 const Watchlist = () =>{
 
-    useEffect(()=>{
-        socket.connect();
-        return ()=>{
-            console.log('cards no longer listening');
-            socket.disconnect();
-        };
-    },[]);
+    // useEffect(()=>{
+    //     socket.connect();
+    //     return ()=>{
+    //         console.log('cards no longer listening');
+    //         socket.disconnect();
+    //     };
+    // },[]);
 
-    const { watchList, livePrices,livesPricesLoaded, cardUpdate, cardDelete } = WatchListContext();
+    const { watchList, livePrices,livesPricesLoaded, cardUpdate, cardDelete } = WatchListContext(socket);
     return (
         <MainLayout>
             <div className="card-container row">
