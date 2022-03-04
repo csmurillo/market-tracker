@@ -27,12 +27,12 @@ const SearchBox = () =>{
                 }
                 <form id="search-form" className="d-flex justify-content-end" onSubmit={onHandleSubmit} autocomplete="off" style={{height:'40px'}}>
                         {
-                            (mobileSearchActive && searchActiveResize)?(<input id="search-input" type="text" id="name" name="name" autocomplete="off" placeholder="Search"
+                            (mobileSearchActive && searchActiveResize)?(<input id="search-input" type="text" name="name" autocomplete="off" placeholder="Search"
                                 style={{height:'100%', width:'80%'}}
                                 value={searchQuery} onChange={ onSearchQueryChange } 
                                 onKeyDown={ e=>{ onKeyHandle(e); onKeyHandleSearch(e);} } 
                                 onFocus={onSearchFocus}
-                            />):(<input id="search-input" type="text" id="name" name="name" autocomplete="off" placeholder="Search"
+                            />):(<input id="search-input" type="text" name="name" autocomplete="off" placeholder="Search"
                             style={{height:'100%', width:'80%'}}
                             value={searchQuery} onChange={ onSearchQueryChange }
                             onKeyDown={ e=>{ onKeyHandle(e); onKeyHandleSearch(e);} } 

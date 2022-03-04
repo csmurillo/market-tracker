@@ -28,7 +28,7 @@ app.use(express.json());
 app.use(cors({origin: '*'}));
 
 // connect to mongodb
-mongoose.connect()
+mongoose.connect('mongodb+srv://green:fg4Cn4oIbZ9GfV3a@cluster0.7fyco.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
         .then(()=>{console.log('db connected');})
         .catch(()=>{console.log('error db');});
 
