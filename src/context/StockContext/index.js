@@ -23,6 +23,39 @@ const StockContext = (path)=>{
     const [stockTimeMovement, setStockTimeMovement]=useState();
     const [stockPriceMovement, setStockPriceMovement]=useState();
 
+    const [graphSize,setGraphSize]=useState();
+    // use effect for graph resize
+    useEffect(()=>{
+        window.addEventListener('resize',resizeGraph);
+        window.onload=resizeGraph();
+        return ()=>{
+            window.removeEventListener('resize',resizeGraph)
+        };
+    },[]);
+    const resizeGraph = ()=>{
+        if(window.innerWidth>=1200){
+            setGraphSize(550);
+        }
+        else if(window.innerWidth>=1057.7){
+            setGraphSize(450);
+        }
+        else if(window.innerWidth>=1045){
+            setGraphSize(900);
+        }
+        else if(window.innerWidth>=1040){
+            setGraphSize(920);
+        }
+        else if(window.innerWidth>=990){
+            setGraphSize(900);
+        }
+        else if(window.innerWidth>=767){
+            setGraphSize(670);
+        }
+        else{
+            setGraphSize(490);
+        }
+    };
+
     useEffect(()=>{
         const stock=path.split('/');
         const stockSymbol=stock[stock.length-1];
@@ -162,9 +195,7 @@ const StockContext = (path)=>{
         });
     };
 
-    // const defaultTimeArray
-
-   return { stockSymbol,inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp,
+   return { stockSymbol,inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp,graphSize,
     updateGraphValues,
     onSubmitAddToWatchList, onChangeAddToWatchList,
     clickDayHistoricData,clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData, onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList};

@@ -26,8 +26,6 @@ const io = require('socket.io')(server, {
 app.use(expressValidator());
 app.use(express.json());
 app.use(cors({origin: '*'}));
-// app.use(cors());
-
 
 // connect to mongodb
 mongoose.connect()
@@ -71,7 +69,7 @@ io.on('connection', async(socket) => {
                 }
                 setTimer(stockSymbol);
             }
-          }, 60000);
+          },2000);
     };
 
     ///////////////////////////////////////////////////////////////////////

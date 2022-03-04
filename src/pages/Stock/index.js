@@ -12,7 +12,7 @@ const Stock = ({history}) =>{
     const { stockSymbol, inWatchList, loading, priceTarget, inputPriceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,
-            stockTimeMovement, stockPriceMovement, currentTimeStamp,
+            stockTimeMovement, stockPriceMovement, currentTimeStamp,graphSize,
             updateGraphValues,
             onSubmitAddToWatchList, onChangeAddToWatchList,
             clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
@@ -96,7 +96,7 @@ const Stock = ({history}) =>{
                                         }
                                     ]}
                                     layout={ 
-                                        {width: 550, height:250,margin: {
+                                        {width: graphSize, height:250,margin: {
                                         l: 30,
                                         r: 10,
                                         b: 30,

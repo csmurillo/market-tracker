@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from "../components/Header/header";
 import Footer from "../components/Footer";
+import './styles.css';
 
 const MainLayout = ({children}) =>{
 
     return (
-        <div>
-           <div>
-                <Header></Header>
-                <div className="container pt-5 h-100" style={{overflowX:'hidden',overflowY:'auto'}}>{children}</div>
-                <Footer></Footer>
-           </div>
+        <div id="main-layout">
+            <Header></Header>
+            <main id="main-content" className="container pt-5 h-100">
+                {children}
+            </main>
+            <Footer></Footer>
         </div>
     );
 };
