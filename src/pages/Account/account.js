@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import MainLayout from '../../layout/MainLayout';
 
+import {AccountContext} from '../../context/AccountContext';
 import { isAuthenticated } from '../../authentication/authApi';
 import './account.css';
 
 const Account = () =>{
+
+    const { stockHistory }=AccountContext();
+
 
     const [optionToggle,setOptionToggle]=useState(0);
 
@@ -32,10 +36,18 @@ const Account = () =>{
                 </div>
             </div>
             {/* if profile option */}
-            <div id="profile-information-container">
+            {
+                optionToggle==0&&<div id="profile-information-container">
                 <div id="user-name" className="profile-information">Username: { firstName } { lastName }</div>
                 <div id="email" className="profile-information">Email: { email }</div>
             </div>
+            }
+            {/* if stock history */}
+            {
+                optionToggle==1&&<div id="stock-history-container">
+                    Stock History
+                </div>
+            }
         </MainLayout>
     );
 };

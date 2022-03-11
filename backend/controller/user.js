@@ -168,6 +168,7 @@ exports.addToStockHistory = (req,res)=>{
 
 exports.stockHistory = (req,res)=>{
     const {userId}=req.userTokenData;
+    console.log('stock history route hit');
 
     User.findOne({ _id: userId }, (err, user) => {
         if(err){

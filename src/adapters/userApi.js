@@ -24,6 +24,17 @@ export const getSmsAlerts = (userId, token) =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
+export const getStockHistory = (userId,token) => {
+    return fetch(`${API}/stock/history/${userId}`,{
+        method:"GET",
+        headers:{
+            Accept:'application/json',
+            Authorization: `Bearder ${token}`
+        }
+    })
+    .then(res=>{return res.json()})
+    .catch(err=>{console.log(err);});
+};
 
 export const updateSmsAlerts = (userId, token, smsAlerts) => {
     return fetch(`${API}/user/account/enableAlerts/update/${userId}`, {

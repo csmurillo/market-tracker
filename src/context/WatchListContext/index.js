@@ -14,6 +14,18 @@ const WatchListContext = (socket)=>{
     useEffect(()=>{
         socket.connect();
         console.log('socket connected');
+        socket.on('serverWatchlistLivePriceStream',({stocks,hello})=>{
+            let newLivePrices=[];
+            stocks.map((stocks)=>{
+                newLivePrices.push({
+                    stockSymbol:stocks.stockSymbol,
+                    livePrice:stocks.livePrice
+                });
+            });
+            setLivePrices(newLivePrices);
+            console.log("!"+hello+'!'+JSON.stringify(stocks));
+            // console.log('stocks recieved symbol:'+stocks.stockSymbol+' liveprices:'+stocks.livePrice);
+        });
         return ()=>{
             console.log('cards no longer listening');
             socket.disconnect();
@@ -24,7 +36,7 @@ const WatchListContext = (socket)=>{
         console.log('livepricechanged!!'+livePrices.length);
         if(livesPricesLoaded){
             console.log('emittted!!');
-            socket.emit('serverWatchlistPriceSteam',{stocks:livePrices})
+            socket.emit('serverWatchlistPriceSteam',{stocks:livePrices});
         }
     },[livesPricesLoaded]);
 
