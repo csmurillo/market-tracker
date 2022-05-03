@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const StockSchema = mongoose.Schema({
     tickerName:{type:String, required:true},
     tickerSymbol:{type:String, required:true},
+    alertDirection:{type:String, enum:['above','below'], required:true},
     alertPrice:{type:Number},
     priceTargetReached:{type:Boolean},
     datePriceTargetReached:{type:String}

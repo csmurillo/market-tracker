@@ -138,9 +138,12 @@ io.on('connection', async(socket) => {
 const getStockPrice= async(stockSymbol)=>{
     return stockPrice;
 };
+
 // check users
-setInterval(function() {
-    console.log('server code that runs every 10 sec');
+// setInterval(function() {
+//     console.log('server code that runs every 10 sec');
+
+
     // User.find({} , (err, oo) => {
     //     console.log('users'+oo);
     //     if(err) //do something...
@@ -150,25 +153,27 @@ setInterval(function() {
     //         console.log(stocks);
     //     })
     // })
-    WatchList.find({},(err, watchLists) => {
-        if(err){}
-        else{
-            watchLists.map((userWatchList) => {
-                console.log(userWatchList.owner);
-                userWatchList.stocks.map(async(stock)=>{
-                    const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stock.tickerSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-                    const finnhubRes=await fetch(finnhub);
-                    const finnStockPriceData=await finnhubRes.json();
-                    let stockPrice=finnStockPriceData.c;
-                    console.log(stock);
-                    console.log('live stock price'+stockPrice+'compared to price target'+stock.alertPrice);
-                    if(stockPrice==stock.alertPrice){
-                        // price reached
-                    }
-                });
-                console.log('--------------');
-            })
-        }
-    })
-}, 9000)
+
+
+//     WatchList.find({},(err, watchLists) => {
+//         if(err){}
+//         else{
+//             watchLists.map((userWatchList) => {
+//                 console.log(userWatchList.owner);
+//                 userWatchList.stocks.map(async(stock)=>{
+//                     const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stock.tickerSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+//                     const finnhubRes=await fetch(finnhub);
+//                     const finnStockPriceData=await finnhubRes.json();
+//                     let stockPrice=finnStockPriceData.c;
+//                     console.log(stock);
+//                     console.log('live stock price'+stockPrice+'compared to price target'+stock.alertPrice);
+//                     if(stockPrice==stock.alertPrice){
+//                         // price reached
+//                     }
+//                 });
+//                 console.log('--------------');
+//             })
+//         }
+//     })
+// }, 9000)
 

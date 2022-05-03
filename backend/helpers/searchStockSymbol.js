@@ -13,7 +13,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AACG",
-    "Name":"ATA Creativity Global American Depositary Shares"
+    "Name":"ATA Creativity Global American "
     },
     {
     "Symbol":"AACI",
@@ -97,7 +97,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AAU",
-    "Name":"Almaden Minerals Ltd. Common Shares"
+    "Name":"Almaden Minerals Ltd. "
     },
     {
     "Symbol":"AAWW",
@@ -125,11 +125,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ABCL",
-    "Name":"AbCellera Biologics Inc. Common Shares"
+    "Name":"AbCellera Biologics Inc. "
     },
     {
     "Symbol":"ABCM",
-    "Name":"Abcam plc American Depositary Shares"
+    "Name":"Abcam plc American "
     },
     {
     "Symbol":"ABEO",
@@ -137,7 +137,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ABEV",
-    "Name":"Ambev S.A. American Depositary Shares (Each representing 1 Common Share)"
+    "Name":"Ambev S.A. American  (Each representing 1 Common Share)"
     },
     {
     "Symbol":"ABG",
@@ -145,7 +145,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ABGI",
-    "Name":"ABG Acquisition Corp. I Class A Ordinary Shares"
+    "Name":"ABG Acquisition Corp. I Class A"
     },
     {
     "Symbol":"ABIO",
@@ -241,11 +241,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACB",
-    "Name":"Aurora Cannabis Inc. Common Shares"
+    "Name":"Aurora Cannabis Inc. "
     },
     {
     "Symbol":"ACBA",
-    "Name":"Ace Global Business Acquisition Limited Ordinary Shares"
+    "Name":"Ace Global Business Acquisition Limited"
     },
     {
     "Symbol":"ACBAW",
@@ -269,7 +269,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACDI",
-    "Name":"Ascendant Digital Acquisition Corp. III Class A Ordinary Shares"
+    "Name":"Ascendant Digital Acquisition Corp. III Class A"
     },
     {
     "Symbol":"ACEL",
@@ -285,7 +285,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACEV",
-    "Name":"ACE Convergence Acquisition Corp. Class A Ordinary Shares"
+    "Name":"ACE Convergence Acquisition Corp. Class A"
     },
     {
     "Symbol":"ACEVU",
@@ -301,15 +301,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACGLN",
-    "Name":"Arch Capital Group Ltd. Depositary Shares each Representing a 1/1000th Interest in a 4.550% Non-Cumulative Preferred Share Series G"
+    "Name":"Arch Capital Group Ltd.  each Representing a 1/1000th Interest in a 4.550% Non-Cumulative Preferred Share Series G"
     },
     {
     "Symbol":"ACGLO",
-    "Name":"Arch Capital Group Ltd. Depositary Shares Each Representing 1/1000th Interest in a Share of 5.45% Non-Cumulative Preferred Shares Series F"
+    "Name":"Arch Capital Group Ltd.  Each Representing 1/1000th Interest in a Share of 5.45% Non-Cumulative Preferred Shares Series F"
     },
     {
     "Symbol":"ACH",
-    "Name":"Aluminum Corporation of China Limited American Depositary Shares"
+    "Name":"Aluminum Corporation of China Limited American "
     },
     {
     "Symbol":"ACHC",
@@ -317,7 +317,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACHL",
-    "Name":"Achilles Therapeutics plc American Depositary Shares"
+    "Name":"Achilles Therapeutics plc American "
     },
     {
     "Symbol":"ACHR",
@@ -325,7 +325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACHV",
-    "Name":"Achieve Life Sciences Inc. Common Shares"
+    "Name":"Achieve Life Sciences Inc. "
     },
     {
     "Symbol":"ACI",
@@ -344,18 +344,6 @@ const stockSymbolByName = [
     "Name":"ACI Worldwide Inc."
     },
     {
-    "Symbol":"ACKIT",
-    "Name":"Ackrell SPAC Partners I Co. Subunits"
-    },
-    {
-    "Symbol":"ACKIU",
-    "Name":"Ackrell SPAC Partners I Co. Units"
-    },
-    {
-    "Symbol":"ACKIW",
-    "Name":"Ackrell SPAC Partners I Co. Warrants"
-    },
-    {
     "Symbol":"ACLS",
     "Name":"Axcelis Technologies Inc."
     },
@@ -369,7 +357,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACN",
-    "Name":"Accenture plc Class A Ordinary Shares (Ireland)"
+    "Name":"Accenture plc Class A (Ireland)"
     },
     {
     "Symbol":"ACNB",
@@ -381,7 +369,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACP",
-    "Name":"Aberdeen Income Credit Strategies Fund Common Shares"
+    "Name":"Aberdeen Income Credit Strategies Fund "
     },
     {
     "Symbol":"ACP^A",
@@ -393,7 +381,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACQRU",
-    "Name":"Independence Holdings Corp. Units"
+    "Name":"Independence Holdings "
     },
     {
     "Symbol":"ACQRW",
@@ -453,7 +441,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ACV",
-    "Name":"Virtus AllianzGI Diversified Income & Convertible Fund Common Shares of Beneficial Interest"
+    "Name":"Virtus AllianzGI Diversified Income & Convertible Fund  of Beneficial Interest"
     },
     {
     "Symbol":"ACVA",
@@ -469,11 +457,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ADAG",
-    "Name":"Adagene Inc. American Depositary Shares"
+    "Name":"Adagene Inc. American "
     },
     {
     "Symbol":"ADAL",
-    "Name":"Anthemis Digital Acquisitions I Corp Class A Ordinary Shares"
+    "Name":"Anthemis Digital Acquisitions I Corp Class A"
     },
     {
     "Symbol":"ADALU",
@@ -485,7 +473,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ADAP",
-    "Name":"Adaptimmune Therapeutics plc American Depositary Shares"
+    "Name":"Adaptimmune Therapeutics plc American "
     },
     {
     "Symbol":"ADBE",
@@ -497,11 +485,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ADC^A",
-    "Name":"Agree Realty Corporation Depositary Shares each representing 1/1000th of a 4.250% Series A Cumulative Redeemable Preferred Stock"
+    "Name":"Agree Realty Corporation  each representing 1/1000th of a 4.250% Series A Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"ADCT",
-    "Name":"ADC Therapeutics SA Common Shares"
+    "Name":"ADC Therapeutics SA "
     },
     {
     "Symbol":"ADER",
@@ -557,7 +545,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ADNT",
-    "Name":"Adient plc Ordinary Shares"
+    "Name":"Adient plc"
     },
     {
     "Symbol":"ADNWW",
@@ -593,7 +581,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ADSE",
-    "Name":"ADS-TEC ENERGY PLC Ordinary Shares"
+    "Name":"ADS-TEC ENERGY PLC"
     },
     {
     "Symbol":"ADSEW",
@@ -641,7 +629,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ADXN",
-    "Name":"Addex Therapeutics Ltd American Depositary Shares"
+    "Name":"Addex Therapeutics Ltd American "
     },
     {
     "Symbol":"AE",
@@ -721,11 +709,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AEL^A",
-    "Name":"American Equity Investment Life Holding Company Depositary Shares each representing a 1/1000th interest in a share of 5.95% Fixed-Rate Reset Non-Cumulative Preferred Stock Series A"
+    "Name":"American Equity Investment Life Holding Company  each representing a 1/1000th interest in a share of 5.95% Fixed-Rate Reset Non-Cumulative Preferred Stock Series A"
     },
     {
     "Symbol":"AEL^B",
-    "Name":"American Equity Investment Life Holding Company Depositary Shares each representing a 1/1000th interest in a share of 6.625% Fixed-Rate Reset Non-Cumulative Preferred Stock Series B"
+    "Name":"American Equity Investment Life Holding Company  each representing a 1/1000th interest in a share of 6.625% Fixed-Rate Reset Non-Cumulative Preferred Stock Series B"
     },
     {
     "Symbol":"AEM",
@@ -737,7 +725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AENZ",
-    "Name":"Aenza S.A.A. American Depositary Shares"
+    "Name":"Aenza S.A.A. American "
     },
     {
     "Symbol":"AEO",
@@ -757,7 +745,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AER",
-    "Name":"AerCap Holdings N.V. Ordinary Shares"
+    "Name":"AerCap Holdings N.V."
     },
     {
     "Symbol":"AERC",
@@ -813,7 +801,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AFAQU",
-    "Name":"AF Acquisition Corp. Units"
+    "Name":"AF Acquisition "
     },
     {
     "Symbol":"AFAQW",
@@ -889,19 +877,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AFTR",
-    "Name":"AfterNext HealthTech Acquisition Corp. Class A Ordinary Shares"
+    "Name":"AfterNext HealthTech Acquisition Corp. Class A"
     },
     {
     "Symbol":"AFYA",
-    "Name":"Afya Limited Class A Common Shares"
+    "Name":"Afya Limited Class A "
     },
     {
     "Symbol":"AG",
-    "Name":"First Majestic Silver Corp. Ordinary Shares (Canada)"
+    "Name":"First Majestic Silver Corp. (Canada)"
     },
     {
     "Symbol":"AGAC",
-    "Name":"African Gold Acquisition Corporation Class A Ordinary Shares"
+    "Name":"African Gold Acquisition Corporation Class A"
     },
     {
     "Symbol":"AGBA",
@@ -917,7 +905,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AGCB",
-    "Name":"Altimeter Growth Corp. 2 Class A Ordinary Shares"
+    "Name":"Altimeter Growth Corp. 2 Class A"
     },
     {
     "Symbol":"AGCO",
@@ -949,7 +937,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AGGRU",
-    "Name":"Agile Growth Corp. Units"
+    "Name":"Agile Growth "
     },
     {
     "Symbol":"AGGRW",
@@ -957,7 +945,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AGI",
-    "Name":"Alamos Gold Inc. Class A Common Shares"
+    "Name":"Alamos Gold Inc. Class A "
     },
     {
     "Symbol":"AGIL",
@@ -1005,7 +993,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AGMH",
-    "Name":"AGM Group Holdings Inc. Class A Ordinary Shares"
+    "Name":"AGM Group Holdings Inc. Class A"
     },
     {
     "Symbol":"AGNC",
@@ -1013,19 +1001,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AGNCM",
-    "Name":"AGNC Investment Corp. Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock"
+    "Name":"AGNC Investment Corp.  rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"AGNCN",
-    "Name":"AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferred Stock"
+    "Name":"AGNC Investment Corp.  Each Representing a 1/1000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"AGNCO",
-    "Name":"AGNC Investment Corp. Depositary Shares each representing a 1/1000th interest in a share of 6.50% Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock"
+    "Name":"AGNC Investment Corp.  each representing a 1/1000th interest in a share of 6.50% Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"AGNCP",
-    "Name":"AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock"
+    "Name":"AGNC Investment Corp.  Each Representing a 1/1000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"AGO",
@@ -1037,7 +1025,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AGRI",
-    "Name":"AgriFORCE  Growing Systems Ltd. Common Shares"
+    "Name":"AgriFORCE  Growing Systems Ltd. "
     },
     {
     "Symbol":"AGRIW",
@@ -1045,7 +1033,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AGRO",
-    "Name":"Adecoagro S.A. Common Shares"
+    "Name":"Adecoagro S.A. "
     },
     {
     "Symbol":"AGRX",
@@ -1089,7 +1077,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AHI",
-    "Name":"Advanced Human Imaging Limited. American Depositary Shares"
+    "Name":"Advanced Human Imaging Limited. American "
     },
     {
     "Symbol":"AHL^C",
@@ -1101,11 +1089,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AHL^E",
-    "Name":"Aspen Insurance Holdings Limited Depositary Shares each representing a 1/1000th interest in a share of 5.625% Perpetual Non-Cumulative Preference Shares"
+    "Name":"Aspen Insurance Holdings Limited  each representing a 1/1000th interest in a share of 5.625% Perpetual Non-Cumulative Preference Shares"
     },
     {
     "Symbol":"AHPA",
-    "Name":"Avista Public Acquisition Corp. II Class A Ordinary Shares"
+    "Name":"Avista Public Acquisition Corp. II Class A"
     },
     {
     "Symbol":"AHPAU",
@@ -1165,11 +1153,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AIG^A",
-    "Name":"American International Group Inc. Depositary Shares Each Representing a 1/1000th Interest in a Share of Series A 5.85% Non-Cumulative Perpetual Preferred Stock"
+    "Name":"American International Group Inc.  Each Representing a 1/1000th Interest in a Share of Series A 5.85% Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"AIH",
-    "Name":"Aesthetic Medical International Holdings Group Ltd. American Depositary Shares"
+    "Name":"Aesthetic Medical International Holdings Group Ltd. American "
     },
     {
     "Symbol":"AIHS",
@@ -1201,7 +1189,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AIO",
-    "Name":"Virtus AllianzGI Artificial Intelligence & Technology Opportunities Fund Common Shares"
+    "Name":"Virtus AllianzGI Artificial Intelligence & Technology Opportunities Fund "
     },
     {
     "Symbol":"AIP",
@@ -1281,7 +1269,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AKIC",
-    "Name":"Sports Ventures Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Sports Ventures Acquisition Corp. Class A"
     },
     {
     "Symbol":"AKICU",
@@ -1317,7 +1305,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AKU",
-    "Name":"Akumin Inc. Common Shares"
+    "Name":"Akumin Inc. "
     },
     {
     "Symbol":"AKUS",
@@ -1337,7 +1325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ALAC",
-    "Name":"Alberton Acquisition Corporation Ordinary Shares"
+    "Name":"Alberton Acquisition Corporation"
     },
     {
     "Symbol":"ALACR",
@@ -1357,7 +1345,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ALC",
-    "Name":"Alcon Inc. Ordinary Shares"
+    "Name":"Alcon Inc."
     },
     {
     "Symbol":"ALCC",
@@ -1445,7 +1433,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ALKS",
-    "Name":"Alkermes plc Ordinary Shares"
+    "Name":"Alkermes plc"
     },
     {
     "Symbol":"ALKT",
@@ -1461,19 +1449,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ALL^G",
-    "Name":"Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series G"
+    "Name":"Allstate Corporation (The)  each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series G"
     },
     {
     "Symbol":"ALL^H",
-    "Name":"Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series H"
+    "Name":"Allstate Corporation (The)  each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series H"
     },
     {
     "Symbol":"ALL^I",
-    "Name":"Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series I"
+    "Name":"Allstate Corporation (The)  each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series I"
     },
     {
     "Symbol":"ALLE",
-    "Name":"Allegion plc Ordinary Shares"
+    "Name":"Allegion plc"
     },
     {
     "Symbol":"ALLK",
@@ -1489,7 +1477,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ALLT",
-    "Name":"Allot Ltd. Ordinary Shares"
+    "Name":"Allot Ltd."
     },
     {
     "Symbol":"ALLY",
@@ -1557,7 +1545,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ALSA",
-    "Name":"Alpha Star Acquisition Corporation Ordinary Shares"
+    "Name":"Alpha Star Acquisition Corporation"
     },
     {
     "Symbol":"ALSAR",
@@ -1585,7 +1573,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ALTG^A",
-    "Name":"Alta Equipment Group Inc. Depositary Shares (each representing 1/1000th in a share of 10% Series A Cumulative Perpetual Preferred Stock)"
+    "Name":"Alta Equipment Group Inc.  (each representing 1/1000th in a share of 10% Series A Cumulative Perpetual Preferred Stock)"
     },
     {
     "Symbol":"ALTM",
@@ -1645,7 +1633,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AMAM",
-    "Name":"Ambrx Biopharma Inc. American Depositary Shares (each representing seven Ordinary Shares)"
+    "Name":"Ambrx Biopharma Inc. American  (each representing seven)"
     },
     {
     "Symbol":"AMAO",
@@ -1661,7 +1649,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AMBA",
-    "Name":"Ambarella Inc. Ordinary Shares"
+    "Name":"Ambarella Inc."
     },
     {
     "Symbol":"AMBC",
@@ -1669,11 +1657,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AMBO",
-    "Name":"Ambow Education Holding Ltd. American Depository Shares each representing two Class A ordinary shares"
+    "Name":"Ambow Education Holding Ltd. American Depository Shares each representing two Class A"
     },
     {
     "Symbol":"AMBP",
-    "Name":"Ardagh Metal Packaging S.A. Ordinary Shares"
+    "Name":"Ardagh Metal Packaging S.A."
     },
     {
     "Symbol":"AMC",
@@ -1693,7 +1681,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AMCR",
-    "Name":"Amcor plc Ordinary Shares"
+    "Name":"Amcor plc"
     },
     {
     "Symbol":"AMCX",
@@ -1725,7 +1713,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AMH",
-    "Name":"American Homes 4 Rent Common Shares of Beneficial Interest"
+    "Name":"American Homes 4 Rent  of Beneficial Interest"
     },
     {
     "Symbol":"AMH^F",
@@ -1765,7 +1753,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AMOV",
-    "Name":"America Movil S.A.B. de C.V. Class A American Depositary Shares"
+    "Name":"America Movil S.A.B. de C.V. Class A American "
     },
     {
     "Symbol":"AMP",
@@ -1786,10 +1774,6 @@ const stockSymbolByName = [
     {
     "Symbol":"AMPH",
     "Name":"Amphastar Pharmaceuticals Inc."
-    },
-    {
-    "Symbol":"AMPI",
-    "Name":"Advanced Merger Partners Inc. Class A"
     },
     {
     "Symbol":"AMPL",
@@ -1877,7 +1861,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AMYT",
-    "Name":"Amryt Pharma plc American Depositary Shares"
+    "Name":"Amryt Pharma plc American "
     },
     {
     "Symbol":"AMZN",
@@ -1893,7 +1877,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ANAC",
-    "Name":"Arctos NorthStar Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Arctos NorthStar Acquisition Corp. Class A"
     },
     {
     "Symbol":"ANAT",
@@ -1945,7 +1929,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ANPC",
-    "Name":"AnPac Bio-Medical Science Co. Ltd. American Depositary Shares"
+    "Name":"AnPac Bio-Medical Science Co. Ltd. American "
     },
     {
     "Symbol":"ANSS",
@@ -1953,7 +1937,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ANTE",
-    "Name":"AirNet Technology Inc. American Depositary Shares"
+    "Name":"AirNet Technology Inc. American "
     },
     {
     "Symbol":"ANTM",
@@ -1965,7 +1949,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ANY",
-    "Name":"Sphere 3D Corp. Common Shares"
+    "Name":"Sphere 3D Corp. "
     },
     {
     "Symbol":"ANZU",
@@ -1993,7 +1977,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AON",
-    "Name":"Aon plc Class A Ordinary Shares (Ireland)"
+    "Name":"Aon plc Class A (Ireland)"
     },
     {
     "Symbol":"AORT",
@@ -2005,7 +1989,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AOSL",
-    "Name":"Alpha and Omega Semiconductor Limited Common Shares"
+    "Name":"Alpha and Omega Semiconductor Limited "
     },
     {
     "Symbol":"AOUT",
@@ -2021,7 +2005,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"APAC",
-    "Name":"StoneBridge Acquisition Corporation Class A Ordinary Shares"
+    "Name":"StoneBridge Acquisition Corporation Class A"
     },
     {
     "Symbol":"APACU",
@@ -2030,10 +2014,6 @@ const stockSymbolByName = [
     {
     "Symbol":"APACW",
     "Name":"StoneBridge Acquisition Corporation Warrant"
-    },
-    {
-    "Symbol":"APAM",
-    "Name":"Artisan Partners Asset Management Inc. Class A"
     },
     {
     "Symbol":"APCX",
@@ -2065,7 +2045,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"APGB",
-    "Name":"Apollo Strategic Growth Capital II Class A Ordinary Shares"
+    "Name":"Apollo Strategic Growth Capital II Class A"
     },
     {
     "Symbol":"APH",
@@ -2073,11 +2053,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"API",
-    "Name":"Agora Inc. American Depositary Shares"
+    "Name":"Agora Inc. American "
     },
     {
     "Symbol":"APLE",
-    "Name":"Apple Hospitality REIT Inc. Common Shares"
+    "Name":"Apple Hospitality REIT Inc. "
     },
     {
     "Symbol":"APLS",
@@ -2089,7 +2069,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"APM",
-    "Name":"Aptorum Group Limited Class A Ordinary Shares"
+    "Name":"Aptorum Group Limited Class A"
     },
     {
     "Symbol":"APMI",
@@ -2153,27 +2133,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"APSG",
-    "Name":"Apollo Strategic Growth Capital Class A Ordinary Shares"
+    "Name":"Apollo Strategic Growth Capital Class A"
     },
     {
     "Symbol":"APT",
     "Name":"Alpha Pro Tech Ltd."
     },
     {
-    "Symbol":"APTM",
-    "Name":"Alpha Partners Technology Merger Corp. Class A Ordinary Shares"
-    },
-    {
-    "Symbol":"APTMU",
-    "Name":"Alpha Partners Technology Merger Corp. Unit"
-    },
-    {
-    "Symbol":"APTMW",
-    "Name":"Alpha Partners Technology Merger Corp. Warrant"
-    },
-    {
     "Symbol":"APTO",
-    "Name":"Aptose Biosciences Inc. Common Shares"
+    "Name":"Aptose Biosciences Inc. "
     },
     {
     "Symbol":"APTS",
@@ -2181,7 +2149,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"APTV",
-    "Name":"Aptiv PLC Ordinary Shares"
+    "Name":"Aptiv PLC"
     },
     {
     "Symbol":"APTV^A",
@@ -2197,7 +2165,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"APWC",
-    "Name":"Asia Pacific Wire & Cable Corporation Ltd. Ordinary Shares (Bermuda)"
+    "Name":"Asia Pacific Wire & Cable Corporation Ltd. (Bermuda)"
     },
     {
     "Symbol":"APXIU",
@@ -2217,7 +2185,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AQN",
-    "Name":"Algonquin Power & Utilities Corp. Common Shares"
+    "Name":"Algonquin Power & Utilities Corp. "
     },
     {
     "Symbol":"AQNA",
@@ -2253,7 +2221,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARBE",
-    "Name":"Arbe Robotics Ltd. Ordinary Shares"
+    "Name":"Arbe Robotics Ltd."
     },
     {
     "Symbol":"ARBEW",
@@ -2273,7 +2241,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARBK",
-    "Name":"Argo Blockchain plc American Depositary Shares"
+    "Name":"Argo Blockchain plc American "
     },
     {
     "Symbol":"ARBKL",
@@ -2293,7 +2261,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARCE",
-    "Name":"Arco Platform Limited Class A Common Shares"
+    "Name":"Arco Platform Limited Class A "
     },
     {
     "Symbol":"ARCH",
@@ -2321,7 +2289,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARDC",
-    "Name":"Ares Dynamic Credit Allocation Fund Inc. Common Shares"
+    "Name":"Ares Dynamic Credit Allocation Fund Inc. "
     },
     {
     "Symbol":"ARDS",
@@ -2357,7 +2325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARGO^A",
-    "Name":"Argo Group International Holdings Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 7.00% Resettable Fixed Rate Preference Share Series A"
+    "Name":"Argo Group International Holdings Ltd.  Each Representing a 1/1000th Interest in a 7.00% Resettable Fixed Rate Preference Share Series A"
     },
     {
     "Symbol":"ARGU",
@@ -2373,7 +2341,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARGX",
-    "Name":"argenx SE American Depositary Shares"
+    "Name":"argenx SE American "
     },
     {
     "Symbol":"ARHS",
@@ -2424,10 +2392,6 @@ const stockSymbolByName = [
     "Name":"Arlo Technologies Inc."
     },
     {
-    "Symbol":"ARLP",
-    "Name":"Alliance Resource Partners L.P. Common Units representing Limited Partners Interests"
-    },
-    {
     "Symbol":"ARMK",
     "Name":"Aramark"
     },
@@ -2453,7 +2417,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARQQ",
-    "Name":"Arqit Quantum Inc. Ordinary Shares"
+    "Name":"Arqit Quantum Inc."
     },
     {
     "Symbol":"ARQQW",
@@ -2489,11 +2453,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARTA",
-    "Name":"Artisan Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Artisan Acquisition Corp. Class A"
     },
     {
     "Symbol":"ARTAU",
-    "Name":"Artisan Acquisition Corp. Units"
+    "Name":"Artisan Acquisition "
     },
     {
     "Symbol":"ARTAW",
@@ -2529,7 +2493,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARVL",
-    "Name":"Arrival Ordinary Shares"
+    "Name":"Arrival"
     },
     {
     "Symbol":"ARVN",
@@ -2549,7 +2513,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ARYE",
-    "Name":"ARYA Sciences Acquisition Corp V Class A Ordinary Shares"
+    "Name":"ARYA Sciences Acquisition Corp V Class A"
     },
     {
     "Symbol":"ASA",
@@ -2585,11 +2549,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ASB^E",
-    "Name":"Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of 5.875% Non-Cumulative Perpetual Preferred Stock Series E"
+    "Name":"Associated Banc-Corp  each representing a 1/40th interest in a share of 5.875% Non-Cumulative Perpetual Preferred Stock Series E"
     },
     {
     "Symbol":"ASB^F",
-    "Name":"Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of Associated Banc-Corp 5.625% Non-Cumulative Perpetual Preferred Stock Series F"
+    "Name":"Associated Banc-Corp  each representing a 1/40th interest in a share of Associated Banc-Corp 5.625% Non-Cumulative Perpetual Preferred Stock Series F"
     },
     {
     "Symbol":"ASC",
@@ -2601,7 +2565,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ASGI",
-    "Name":"Aberdeen Standard Global Infrastructure Income Fund Common Shares of Beneficial Interest"
+    "Name":"Aberdeen Standard Global Infrastructure Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"ASGN",
@@ -2621,11 +2585,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ASLN",
-    "Name":"ASLAN Pharmaceuticals Limited American Depositary Shares"
+    "Name":"ASLAN Pharmaceuticals Limited American "
     },
     {
     "Symbol":"ASM",
-    "Name":"Avino Silver & Gold Mines Ltd. Common Shares (Canada)"
+    "Name":"Avino Silver & Gold Mines Ltd.  (Canada)"
     },
     {
     "Symbol":"ASMB",
@@ -2637,7 +2601,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ASND",
-    "Name":"Ascendis Pharma A/S American Depositary Shares"
+    "Name":"Ascendis Pharma A/S American "
     },
     {
     "Symbol":"ASO",
@@ -2701,7 +2665,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ASTL",
-    "Name":"Algoma Steel Group Inc. Common Shares"
+    "Name":"Algoma Steel Group Inc. "
     },
     {
     "Symbol":"ASTLW",
@@ -2725,7 +2689,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ASX",
-    "Name":"ASE Technology Holding Co. Ltd. American Depositary Shares (each representing Two Common Shares)"
+    "Name":"ASE Technology Holding Co. Ltd. American  (each representing Two )"
     },
     {
     "Symbol":"ASXC",
@@ -2737,31 +2701,27 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ASZ",
-    "Name":"Austerlitz Acquisition Corporation II Class A Ordinary Shares"
+    "Name":"Austerlitz Acquisition Corporation II Class A"
     },
     {
     "Symbol":"ATA",
-    "Name":"Americas Technology Acquisition Corp. Ordinary Shares"
+    "Name":"Americas Technology Acquisition Corp."
     },
     {
     "Symbol":"ATAI",
-    "Name":"ATAI Life Sciences N.V. Common Shares"
+    "Name":"ATAI Life Sciences N.V. "
     },
     {
     "Symbol":"ATAQ",
-    "Name":"Altimar Acquisition Corp. III Class A Ordinary Shares"
-    },
-    {
-    "Symbol":"ATAX",
-    "Name":"America First Multifamily Investors L.P. Beneficial Unit Certificates (BUCs) representing Limited Partnership Interests"
+    "Name":"Altimar Acquisition Corp. III Class A"
     },
     {
     "Symbol":"ATC",
-    "Name":"Atotech Limited Common Shares"
+    "Name":"Atotech Limited "
     },
     {
     "Symbol":"ATCO",
-    "Name":"Atlas Corp. Common Shares"
+    "Name":"Atlas Corp. "
     },
     {
     "Symbol":"ATCO^D",
@@ -2805,19 +2765,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ATH^A",
-    "Name":"Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 6.35% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Share Series A"
+    "Name":"Athene Holding Ltd.  Each Representing a 1/1000th Interest in a 6.35% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Share Series A"
     },
     {
     "Symbol":"ATH^B",
-    "Name":"Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 5.625% Fixed Rate Perpetual Non- Cumulative Preference Share Series B par value $1.00 per share"
+    "Name":"Athene Holding Ltd.  Each Representing a 1/1000th Interest in a 5.625% Fixed Rate Perpetual Non- Cumulative Preference Share Series B par value $1.00 per share"
     },
     {
     "Symbol":"ATH^C",
-    "Name":"Athene Holding Ltd. Depositary Shares each representing a 1/1000th Interest in a Share of 6.375% Fixed-Rate Reset Perpetual Non-Cumulative Preference Shares Series C"
+    "Name":"Athene Holding Ltd.  each representing a 1/1000th Interest in a Share of 6.375% Fixed-Rate Reset Perpetual Non-Cumulative Preference Shares Series C"
     },
     {
     "Symbol":"ATH^D",
-    "Name":"Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 4.875% Fixed-Rate Perpetual Non-Cumulative Preference Share Series D"
+    "Name":"Athene Holding Ltd.  Each Representing a 1/1000th Interest in a 4.875% Fixed-Rate Perpetual Non-Cumulative Preference Share Series D"
     },
     {
     "Symbol":"ATHA",
@@ -2825,11 +2785,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ATHE",
-    "Name":"Alterity Therapeutics Limited American Depositary Shares"
+    "Name":"Alterity Therapeutics Limited American "
     },
     {
     "Symbol":"ATHM",
-    "Name":"Autohome Inc. American Depositary Shares each representing four class A ordinary shares."
+    "Name":"Autohome Inc. American  each representing four class A."
     },
     {
     "Symbol":"ATHX",
@@ -2841,7 +2801,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ATIF",
-    "Name":"ATIF Holdings Limited Ordinary Shares"
+    "Name":"ATIF Holdings Limited"
     },
     {
     "Symbol":"ATIP",
@@ -2928,20 +2888,8 @@ const stockSymbolByName = [
     "Name":"Air Transport Services Group Inc"
     },
     {
-    "Symbol":"ATSPT",
-    "Name":"Archimedes Tech SPAC Partners Co. Subunit"
-    },
-    {
-    "Symbol":"ATSPU",
-    "Name":"Archimedes Tech SPAC Partners Co. Unit"
-    },
-    {
-    "Symbol":"ATSPW",
-    "Name":"Archimedes Tech SPAC Partners Co. Warrant"
-    },
-    {
     "Symbol":"ATTO",
-    "Name":"Atento S.A. Ordinary Shares"
+    "Name":"Atento S.A."
     },
     {
     "Symbol":"ATUS",
@@ -2973,7 +2921,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ATY",
-    "Name":"AcuityAds Holdings Inc. Common Shares"
+    "Name":"AcuityAds Holdings Inc. "
     },
     {
     "Symbol":"AU",
@@ -2985,7 +2933,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AUBAP",
-    "Name":"Atlantic Union Bankshares Corporation Depositary Shares each representing a 1/400th ownership interest in a share of 6.875% Perpetual Non-Cumulative Preferred Stock Series A"
+    "Name":"Atlantic Union Bankshares Corporation  each representing a 1/400th ownership interest in a share of 6.875% Perpetual Non-Cumulative Preferred Stock Series A"
     },
     {
     "Symbol":"AUBN",
@@ -3013,7 +2961,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AUPH",
-    "Name":"Aurinia Pharmaceuticals Inc Ordinary Shares"
+    "Name":"Aurinia Pharmaceuticals Inc"
     },
     {
     "Symbol":"AUR",
@@ -3025,7 +2973,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AURC",
-    "Name":"Aurora Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Aurora Acquisition Corp. Class A"
     },
     {
     "Symbol":"AURCU",
@@ -3041,7 +2989,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AUS",
-    "Name":"Austerlitz Acquisition Corporation I Class A Ordinary Shares"
+    "Name":"Austerlitz Acquisition Corporation I Class A"
     },
     {
     "Symbol":"AUTL",
@@ -3069,7 +3017,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AUY",
-    "Name":"Yamana Gold Inc. Ordinary Shares (Canada)"
+    "Name":"Yamana Gold Inc. (Canada)"
     },
     {
     "Symbol":"AVA",
@@ -3097,7 +3045,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AVAN",
-    "Name":"Avanti Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Avanti Acquisition Corp. Class A"
     },
     {
     "Symbol":"AVAV",
@@ -3125,7 +3073,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AVDL",
-    "Name":"Avadel Pharmaceuticals plc American Depositary Shares"
+    "Name":"Avadel Pharmaceuticals plc American "
     },
     {
     "Symbol":"AVDX",
@@ -3245,7 +3193,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AWP",
-    "Name":"Aberdeen Global Premier Properties Fund Common Shares of Beneficial Interest"
+    "Name":"Aberdeen Global Premier Properties Fund  of Beneficial Interest"
     },
     {
     "Symbol":"AWR",
@@ -3305,7 +3253,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AXS^E",
-    "Name":"Axis Capital Holdings Limited Depositary Shares each representing 1/100th interest in a share of a 5.50% Series E Preferred Shares"
+    "Name":"Axis Capital Holdings Limited  each representing 1/100th interest in a share of a 5.50% Series E Preferred Shares"
     },
     {
     "Symbol":"AXSM",
@@ -3313,7 +3261,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AXTA",
-    "Name":"Axalta Coating Systems Ltd. Common Shares"
+    "Name":"Axalta Coating Systems Ltd. "
     },
     {
     "Symbol":"AXTI",
@@ -3321,11 +3269,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AXU",
-    "Name":"Alexco Resource Corp Common Shares (Canada)"
+    "Name":"Alexco Resource Corp  (Canada)"
     },
     {
     "Symbol":"AY",
-    "Name":"Atlantica Sustainable Infrastructure plc Ordinary Shares"
+    "Name":"Atlantica Sustainable Infrastructure plc"
     },
     {
     "Symbol":"AYI",
@@ -3349,7 +3297,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AZ",
-    "Name":"A2Z Smart Technologies Corp. Common Shares"
+    "Name":"A2Z Smart Technologies Corp. "
     },
     {
     "Symbol":"AZEK",
@@ -3357,7 +3305,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AZN",
-    "Name":"AstraZeneca PLC American Depositary Shares"
+    "Name":"AstraZeneca PLC American "
     },
     {
     "Symbol":"AZO",
@@ -3377,7 +3325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"AZUL",
-    "Name":"Azul S.A. American Depositary Shares (each representing three preferred shares)"
+    "Name":"Azul S.A. American  (each representing three preferred shares)"
     },
     {
     "Symbol":"AZYO",
@@ -3397,7 +3345,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BABA",
-    "Name":"Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share"
+    "Name":"Alibaba Group Holding Limited American  each representing eight Ordinary share"
     },
     {
     "Symbol":"BAC",
@@ -3405,7 +3353,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BAC^B",
-    "Name":"Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock Series GG"
+    "Name":"Bank of America Corporation  each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock Series GG"
     },
     {
     "Symbol":"BAC^E",
@@ -3413,7 +3361,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BAC^K",
-    "Name":"Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.875% Non- Cumulative Preferred Stock Series HH"
+    "Name":"Bank of America Corporation  each representing a 1/1000th interest in a share of 5.875% Non- Cumulative Preferred Stock Series HH"
     },
     {
     "Symbol":"BAC^L",
@@ -3421,23 +3369,23 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BAC^M",
-    "Name":"Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock Series KK"
+    "Name":"Bank of America Corporation  each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock Series KK"
     },
     {
     "Symbol":"BAC^N",
-    "Name":"Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 5.000% Non-Cumulative Preferred Stock Series LL"
+    "Name":"Bank of America Corporation  each representing 1/1000th interest in a share of 5.000% Non-Cumulative Preferred Stock Series LL"
     },
     {
     "Symbol":"BAC^O",
-    "Name":"Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 4.375% Non-Cumulative Preferred Stock Series NN"
+    "Name":"Bank of America Corporation  each representing 1/1000th interest in a share of 4.375% Non-Cumulative Preferred Stock Series NN"
     },
     {
     "Symbol":"BAC^P",
-    "Name":"Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 4.125% Non-Cumulative Preferred Stock Series PP"
+    "Name":"Bank of America Corporation  each representing a 1/1000th interest in a share of 4.125% Non-Cumulative Preferred Stock Series PP"
     },
     {
     "Symbol":"BAC^Q",
-    "Name":"Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 4.250% Non-Cumulative Preferred Stock Series QQ"
+    "Name":"Bank of America Corporation  each representing 1/1000th interest in a share of 4.250% Non-Cumulative Preferred Stock Series QQ"
     },
     {
     "Symbol":"BACA",
@@ -3472,16 +3420,12 @@ const stockSymbolByName = [
     "Name":"Brookfield Finance Inc. 4.50% Perpetual Subordinated Notes"
     },
     {
-    "Symbol":"BAMR",
-    "Name":"Brookfield Asset Management Reinsurance Partners Ltd. Class A Exchangeable Limited Voting Shares"
-    },
-    {
     "Symbol":"BANC",
     "Name":"Banc of California Inc."
     },
     {
     "Symbol":"BANC^E",
-    "Name":"Banc of California Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 7.000% Non-Cumulative Perpetual Preferred Stock Series E"
+    "Name":"Banc of California Inc.  Each Representing a 1/40th Interest in a Share of 7.000% Non-Cumulative Perpetual Preferred Stock Series E"
     },
     {
     "Symbol":"BAND",
@@ -3505,7 +3449,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BAOS",
-    "Name":"Baosheng Media Group Holdings Limited Ordinary shares"
+    "Name":"Baosheng Media Group Holdings Limited"
     },
     {
     "Symbol":"BAP",
@@ -3557,15 +3501,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BBD",
-    "Name":"Banco Bradesco Sa American Depositary Shares"
+    "Name":"Banco Bradesco Sa American "
     },
     {
     "Symbol":"BBDC",
     "Name":"Barings BDC Inc."
-    },
-    {
-    "Symbol":"BBDO",
-    "Name":"Banco Bradesco Sa American Depositary Shares (each representing one Common Share)"
     },
     {
     "Symbol":"BBGI",
@@ -3597,11 +3537,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BBLN",
-    "Name":"Babylon Holdings Limited Class A Ordinary Shares"
-    },
-    {
-    "Symbol":"BBN",
-    "Name":"BlackRock Taxable Municipal Bond Trust Common Shares of Beneficial Interest"
+    "Name":"Babylon Holdings Limited Class A"
     },
     {
     "Symbol":"BBQ",
@@ -3610,10 +3546,6 @@ const stockSymbolByName = [
     {
     "Symbol":"BBSI",
     "Name":"Barrett Business Services Inc."
-    },
-    {
-    "Symbol":"BBU",
-    "Name":"Brookfield Business Partners L.P. Limited Partnership Units"
     },
     {
     "Symbol":"BBVA",
@@ -3657,15 +3589,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BCACU",
-    "Name":"Brookline Capital Acquisition Corp. Units"
+    "Name":"Brookline Capital Acquisition "
     },
     {
     "Symbol":"BCACW",
     "Name":"Brookline Capital Acquisition Corp. Warrant"
-    },
-    {
-    "Symbol":"BCAT",
-    "Name":"BlackRock Capital Allocation Trust Common Shares of Beneficial Interest"
     },
     {
     "Symbol":"BCBP",
@@ -3733,7 +3661,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BCSA",
-    "Name":"Blockchain Coinvestors Acquisition Corp. I Class A Ordinary Shares"
+    "Name":"Blockchain Coinvestors Acquisition Corp. I Class A"
     },
     {
     "Symbol":"BCSAU",
@@ -3749,7 +3677,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BCTX",
-    "Name":"BriaCell Therapeutics Corp. Common Shares"
+    "Name":"BriaCell Therapeutics Corp. "
     },
     {
     "Symbol":"BCTXW",
@@ -3764,20 +3692,12 @@ const stockSymbolByName = [
     "Name":"Bancroft Fund Limited 5.375% Series A Cumulative Preferred Shares"
     },
     {
-    "Symbol":"BCX",
-    "Name":"BlackRock Resources Common Shares of Beneficial Interest"
-    },
-    {
     "Symbol":"BCYC",
-    "Name":"Bicycle Therapeutics plc American Depositary Shares"
+    "Name":"Bicycle Therapeutics plc American "
     },
     {
     "Symbol":"BDC",
     "Name":"Belden Inc"
-    },
-    {
-    "Symbol":"BDJ",
-    "Name":"Blackrock Enhanced Equity Dividend Trust"
     },
     {
     "Symbol":"BDL",
@@ -3809,7 +3729,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BDXB",
-    "Name":"Becton Dickinson and Company Depositary Shares each Representing a 1/20th Interest in a Share of 6.00% Mandatory Convertible Preferred Stock Series B"
+    "Name":"Becton Dickinson and Company  each Representing a 1/20th Interest in a Share of 6.00% Mandatory Convertible Preferred Stock Series B"
     },
     {
     "Symbol":"BE",
@@ -3833,7 +3753,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BEDU",
-    "Name":"Bright Scholar Education Holdings Limited American Depositary Shares each  representing one Class A Ordinary Share"
+    "Name":"Bright Scholar Education Holdings Limited American  each  representing one Class A Ordinary Share"
     },
     {
     "Symbol":"BEEM",
@@ -3845,7 +3765,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BEKE",
-    "Name":"KE Holdings Inc American Depositary Shares (each representing three Class A Ordinary Shares)"
+    "Name":"KE Holdings Inc American  (each representing three Class A)"
     },
     {
     "Symbol":"BELFA",
@@ -3876,14 +3796,6 @@ const stockSymbolByName = [
     "Name":"Benessere Capital Acquisition Corp. Warrant"
     },
     {
-    "Symbol":"BEP",
-    "Name":"Brookfield Renewable Partners L.P."
-    },
-    {
-    "Symbol":"BEP^A",
-    "Name":"Brookfield Renewable Partners L.P. 5.25% Class A Preferred Limited Partnership Units Series 17"
-    },
-    {
     "Symbol":"BEPC",
     "Name":"Brookfield Renewable Corporation Class A Subordinate Voting Shares"
     },
@@ -3901,7 +3813,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BEST",
-    "Name":"BEST Inc. American Depositary Shares each representing one Class A Ordinary Share"
+    "Name":"BEST Inc. American  each representing one Class A Ordinary Share"
     },
     {
     "Symbol":"BF/A",
@@ -3932,16 +3844,12 @@ const stockSymbolByName = [
     "Name":"BankFinancial Corporation"
     },
     {
-    "Symbol":"BFK",
-    "Name":"BlackRock Municipal Income Trust"
-    },
-    {
     "Symbol":"BFLY",
     "Name":"Butterfly Network Inc. Class A"
     },
     {
     "Symbol":"BFRA",
-    "Name":"Biofrontera AG American Depositary Shares"
+    "Name":"Biofrontera AG American "
     },
     {
     "Symbol":"BFRI",
@@ -3957,19 +3865,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BFS^D",
-    "Name":"Saul Centers Inc. Depositary Shares each representing 1/100th of a share of 6.125% Series D Cumulative Redeemable Preferred Stock"
+    "Name":"Saul Centers Inc.  each representing 1/100th of a share of 6.125% Series D Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"BFS^E",
-    "Name":"Saul Centers Inc. Depositary shares each representing a 1/100th fractional interest in a share of 6.000% Series E Cumulative Redeemable Preferred Stock"
+    "Name":"Saul Centers Inc.  each representing a 1/100th fractional interest in a share of 6.000% Series E Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"BFST",
     "Name":"Business First Bancshares Inc."
-    },
-    {
-    "Symbol":"BFZ",
-    "Name":"BlackRock California Municipal Income Trust"
     },
     {
     "Symbol":"BG",
@@ -3977,11 +3881,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BGB",
-    "Name":"Blackstone Strategic Credit Fund Common Shares"
-    },
-    {
-    "Symbol":"BGCP",
-    "Name":"BGC Partners Inc Class A"
+    "Name":"Blackstone Strategic Credit Fund "
     },
     {
     "Symbol":"BGFV",
@@ -3989,7 +3889,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BGH",
-    "Name":"Barings Global Short Duration High Yield Fund Common Shares of Beneficial Interests"
+    "Name":"Barings Global Short Duration High Yield Fund  of Beneficial Interests"
     },
     {
     "Symbol":"BGI",
@@ -3997,11 +3897,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BGNE",
-    "Name":"BeiGene Ltd. American Depositary Shares"
-    },
-    {
-    "Symbol":"BGR",
-    "Name":"BlackRock Energy and Resources Trust"
+    "Name":"BeiGene Ltd. American "
     },
     {
     "Symbol":"BGRY",
@@ -4024,16 +3920,8 @@ const stockSymbolByName = [
     "Name":"Build Acquisition Corp. Class A"
     },
     {
-    "Symbol":"BGT",
-    "Name":"BlackRock Floating Rate Income Trust"
-    },
-    {
     "Symbol":"BGX",
-    "Name":"Blackstone Long Short Credit Income Fund Common Shares"
-    },
-    {
-    "Symbol":"BGY",
-    "Name":"Blackrock Enhanced International Dividend Trust"
+    "Name":"Blackstone Long Short Credit Income Fund "
     },
     {
     "Symbol":"BH",
@@ -4053,7 +3941,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BHAT",
-    "Name":"Blue Hat Interactive Entertainment Technology Ordinary Shares"
+    "Name":"Blue Hat Interactive Entertainment Technology"
     },
     {
     "Symbol":"BHB",
@@ -4077,19 +3965,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BHFAM",
-    "Name":"Brighthouse Financial Inc. Depositary shares each representing a 1/1000th Interest in a Share of 4.625% Non-Cumulative Preferred Stock Series D"
+    "Name":"Brighthouse Financial Inc.  each representing a 1/1000th Interest in a Share of 4.625% Non-Cumulative Preferred Stock Series D"
     },
     {
     "Symbol":"BHFAN",
-    "Name":"Brighthouse Financial Inc. Depositary shares each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock Series C"
+    "Name":"Brighthouse Financial Inc.  each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock Series C"
     },
     {
     "Symbol":"BHFAO",
-    "Name":"Brighthouse Financial Inc. Depositary Shares 6.75% Non-Cumulative Preferred Stock Series B"
+    "Name":"Brighthouse Financial Inc.  6.75% Non-Cumulative Preferred Stock Series B"
     },
     {
     "Symbol":"BHFAP",
-    "Name":"Brighthouse Financial Inc. Depositary Shares 6.6% Non-Cumulative Preferred Stock Series A"
+    "Name":"Brighthouse Financial Inc.  6.6% Non-Cumulative Preferred Stock Series A"
     },
     {
     "Symbol":"BHG",
@@ -4100,16 +3988,12 @@ const stockSymbolByName = [
     "Name":"Benson Hill Inc."
     },
     {
-    "Symbol":"BHK",
-    "Name":"Blackrock Core Bond Trust Blackrock Core Bond Trust"
-    },
-    {
     "Symbol":"BHLB",
     "Name":"Berkshire Hills Bancorp Inc."
     },
     {
     "Symbol":"BHP",
-    "Name":"BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares)"
+    "Name":"BHP Group Limited American  (Each representing two)"
     },
     {
     "Symbol":"BHR",
@@ -4125,7 +4009,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BHSE",
-    "Name":"Bull Horn Holdings Corp. Ordinary Shares"
+    "Name":"Bull Horn Holdings Corp."
     },
     {
     "Symbol":"BHSEU",
@@ -4136,12 +4020,8 @@ const stockSymbolByName = [
     "Name":"Bull Horn Holdings Corp. Warrants"
     },
     {
-    "Symbol":"BHV",
-    "Name":"BlackRock Virginia Municipal Bond Trust"
-    },
-    {
     "Symbol":"BHVN",
-    "Name":"Biohaven Pharmaceutical Holding Company Ltd. Common Shares"
+    "Name":"Biohaven Pharmaceutical Holding Company Ltd. "
     },
     {
     "Symbol":"BIDU",
@@ -4160,16 +4040,12 @@ const stockSymbolByName = [
     "Name":"BigCommerce Holdings Inc. Series 1"
     },
     {
-    "Symbol":"BIGZ",
-    "Name":"BlackRock Innovation and Growth Trust Common Shares of Beneficial Interest"
-    },
-    {
     "Symbol":"BIIB",
     "Name":"Biogen Inc."
     },
     {
     "Symbol":"BILI",
-    "Name":"Bilibili Inc. American Depositary Shares"
+    "Name":"Bilibili Inc. American "
     },
     {
     "Symbol":"BILL",
@@ -4205,7 +4081,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BIOT",
-    "Name":"Biotech Acquisition Company Class A Ordinary Shares"
+    "Name":"Biotech Acquisition Company Class A"
     },
     {
     "Symbol":"BIOTU",
@@ -4217,23 +4093,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BIOX",
-    "Name":"Bioceres Crop Solutions Corp. Ordinary Shares"
-    },
-    {
-    "Symbol":"BIP",
-    "Name":"Brookfield Infrastructure Partners LP Limited Partnership Units"
-    },
-    {
-    "Symbol":"BIP^A",
-    "Name":"Brookfield Infrastructure Partners LP 5.125% Class A Preferred Limited Partnership Units Series 13"
-    },
-    {
-    "Symbol":"BIP^B",
-    "Name":"Brookfield Infrastructure Partners LP 5.000% Class A Preferred Limited Partnership Units Series 14"
-    },
-    {
-    "Symbol":"BIPC",
-    "Name":"Brookfield Infrastructure Partners LP Class A Subordinate Voting Shares"
+    "Name":"Bioceres Crop Solutions Corp."
     },
     {
     "Symbol":"BIPH",
@@ -4249,7 +4109,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BIT",
-    "Name":"BlackRock Multi-Sector Income Trust Common Shares of Beneficial Interest"
+    "Name":"BlackRock Multi-Sector Income Trust  of Beneficial Interest"
     },
     {
     "Symbol":"BITE",
@@ -4290,14 +4150,6 @@ const stockSymbolByName = [
     {
     "Symbol":"BKE",
     "Name":"Buckle Inc. (The)"
-    },
-    {
-    "Symbol":"BKEP",
-    "Name":"Blueknight Energy Partners L.P. Common Units"
-    },
-    {
-    "Symbol":"BKEPP",
-    "Name":"Blueknight Energy Partners L.P. Series A Preferred Units"
     },
     {
     "Symbol":"BKH",
@@ -4365,7 +4217,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BLCT",
-    "Name":"BlueCity Holdings Limited American Depositary Shares"
+    "Name":"BlueCity Holdings Limited American "
     },
     {
     "Symbol":"BLD",
@@ -4381,7 +4233,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BLDP",
-    "Name":"Ballard Power Systems Inc. Common Shares"
+    "Name":"Ballard Power Systems Inc. "
     },
     {
     "Symbol":"BLDR",
@@ -4393,7 +4245,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BLEU",
-    "Name":"bleuacacia ltd Class A Ordinary Shares"
+    "Name":"bleuacacia ltd Class A"
     },
     {
     "Symbol":"BLEUR",
@@ -4461,11 +4313,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BLRX",
-    "Name":"BioLineRx Ltd. American Depositary Shares"
+    "Name":"BioLineRx Ltd. American "
     },
     {
     "Symbol":"BLSA",
-    "Name":"BCLS Acquisition Corp. Class A Ordinary Shares"
+    "Name":"BCLS Acquisition Corp. Class A"
     },
     {
     "Symbol":"BLTS",
@@ -4481,11 +4333,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BLU",
-    "Name":"BELLUS Health Inc. Common Shares"
+    "Name":"BELLUS Health Inc. "
     },
     {
     "Symbol":"BLUA",
-    "Name":"BlueRiver Acquisition Corp. Class A Ordinary Shares"
+    "Name":"BlueRiver Acquisition Corp. Class A"
     },
     {
     "Symbol":"BLUE",
@@ -4505,7 +4357,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BMA",
-    "Name":"Banco Macro S.A.  ADR (representing Ten Class B Common Shares)"
+    "Name":"Banco Macro S.A.  ADR (representing Ten Class B )"
     },
     {
     "Symbol":"BMAC",
@@ -4521,7 +4373,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BMAQU",
-    "Name":"Blockchain Moon Acquisition Corp. Units"
+    "Name":"Blockchain Moon Acquisition "
     },
     {
     "Symbol":"BMAQW",
@@ -4541,7 +4393,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BMEZ",
-    "Name":"BlackRock Health Sciences Trust II Common Shares of Beneficial Interest"
+    "Name":"BlackRock Health Sciences Trust II  of Beneficial Interest"
     },
     {
     "Symbol":"BMI",
@@ -4549,19 +4401,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BML^G",
-    "Name":"Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a share of Floating Rate Non-Cumulative Preferred Stock  Series 1)"
+    "Name":"Bank of America Corporation Bank of America Corporation  (Each representing a 1/1200th interest in a share of Floating Rate Non-Cumulative Preferred Stock  Series 1)"
     },
     {
     "Symbol":"BML^H",
-    "Name":"Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 2)"
+    "Name":"Bank of America Corporation Bank of America Corporation  (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 2)"
     },
     {
     "Symbol":"BML^J",
-    "Name":"Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 4)"
+    "Name":"Bank of America Corporation Bank of America Corporation  (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 4)"
     },
     {
     "Symbol":"BML^L",
-    "Name":"Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 5)"
+    "Name":"Bank of America Corporation Bank of America Corporation  (Each representing a 1/1200th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 5)"
     },
     {
     "Symbol":"BMO",
@@ -4625,7 +4477,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BNNRU",
-    "Name":"Banner Acquisition Corp. Units"
+    "Name":"Banner Acquisition "
     },
     {
     "Symbol":"BNNRW",
@@ -4637,11 +4489,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BNR",
-    "Name":"Burning Rock Biotech Limited American Depositary Shares"
-    },
-    {
-    "Symbol":"BNS",
-    "Name":"Bank Nova Scotia Halifax Pfd 3 Ordinary Shares"
+    "Name":"Burning Rock Biotech Limited American "
     },
     {
     "Symbol":"BNSO",
@@ -4661,7 +4509,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BOAC",
-    "Name":"Bluescape Opportunities Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Bluescape Opportunities Acquisition Corp. Class A"
     },
     {
     "Symbol":"BOAS",
@@ -4677,7 +4525,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BOE",
-    "Name":"Blackrock Enhanced Global Dividend Trust Common Shares of Beneficial Interest"
+    "Name":"Blackrock Enhanced Global Dividend Trust  of Beneficial Interest"
     },
     {
     "Symbol":"BOH",
@@ -4685,7 +4533,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BOH^A",
-    "Name":"Bank of Hawaii Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.375% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"Bank of Hawaii Corporation  Each Representing a 1/40th Interest in a Share of 4.375% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"BOKF",
@@ -4701,7 +4549,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BON",
-    "Name":"Bon Natural Life Limited Ordinary Shares"
+    "Name":"Bon Natural Life Limited"
     },
     {
     "Symbol":"BOOM",
@@ -4713,7 +4561,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BORR",
-    "Name":"Borr Drilling Limited Common Shares"
+    "Name":"Borr Drilling Limited "
     },
     {
     "Symbol":"BOSC",
@@ -4760,10 +4608,6 @@ const stockSymbolByName = [
     "Name":"Blueprint Medicines Corporation"
     },
     {
-    "Symbol":"BPMP",
-    "Name":"BP Midstream Partners LP Common Units representing Limited Partner Interests"
-    },
-    {
     "Symbol":"BPOP",
     "Name":"Popular Inc."
     },
@@ -4788,24 +4632,8 @@ const stockSymbolByName = [
     "Name":"Biophytis SA American Depositary Share"
     },
     {
-    "Symbol":"BPYPM",
-    "Name":"Brookfield Property Partners L.P. 6.25% Class A Cumulative Redeemable Preferred Units Series 1"
-    },
-    {
-    "Symbol":"BPYPN",
-    "Name":"Brookfield Property Partners L.P. 5.750% Class A Cumulative Redeemable Perpetual Preferred Units Series 3"
-    },
-    {
-    "Symbol":"BPYPO",
-    "Name":"Brookfield Property Partners L.P. 6.375% Class A Cumulative Redeemable Perpetual Preferred Units Series 2"
-    },
-    {
-    "Symbol":"BPYPP",
-    "Name":"Brookfield Property Partners L.P. 6.50% Class A Cumulative Redeemable Perpetual Preferred Units"
-    },
-    {
     "Symbol":"BQ",
-    "Name":"Boqii Holding Limited American Depositary Shares representing Class A Ordinary Shares"
+    "Name":"Boqii Holding Limited American  representing Class A"
     },
     {
     "Symbol":"BR",
@@ -4817,7 +4645,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BRAG",
-    "Name":"Bragg Gaming Group Inc. Common Shares"
+    "Name":"Bragg Gaming Group Inc. "
     },
     {
     "Symbol":"BRBR",
@@ -4889,7 +4717,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BRIVU",
-    "Name":"B. Riley Principal 250 Merger Corp. Units"
+    "Name":"B. Riley Principal 250 Merger "
     },
     {
     "Symbol":"BRIVW",
@@ -4917,7 +4745,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BRLI",
-    "Name":"Brilliant Acquisition Corporation Ordinary Shares"
+    "Name":"Brilliant Acquisition Corporation"
     },
     {
     "Symbol":"BRLIW",
@@ -4941,7 +4769,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BROG",
-    "Name":"Brooge Energy Limited Ordinary Shares"
+    "Name":"Brooge Energy Limited"
     },
     {
     "Symbol":"BROGW",
@@ -4969,7 +4797,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BRQS",
-    "Name":"Borqs Technologies Inc. Ordinary Shares"
+    "Name":"Borqs Technologies Inc."
     },
     {
     "Symbol":"BRSP",
@@ -5005,7 +4833,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BSAQ",
-    "Name":"Black Spade Acquisition Co Class A Ordinary Shares"
+    "Name":"Black Spade Acquisition Co Class A"
     },
     {
     "Symbol":"BSBK",
@@ -5013,7 +4841,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BSBR",
-    "Name":"Banco Santander Brasil SA American Depositary Shares each representing one unit"
+    "Name":"Banco Santander Brasil SA American  each representing one unit"
     },
     {
     "Symbol":"BSET",
@@ -5040,20 +4868,8 @@ const stockSymbolByName = [
     "Name":"BrightSphere Investment Group Inc."
     },
     {
-    "Symbol":"BSKY",
-    "Name":"Big Sky Growth Partners Inc. Class A"
-    },
-    {
-    "Symbol":"BSKYU",
-    "Name":"Big Sky Growth Partners Inc. Unit"
-    },
-    {
-    "Symbol":"BSKYW",
-    "Name":"Big Sky Growth Partners Inc. Warrant"
-    },
-    {
     "Symbol":"BSL",
-    "Name":"Blackstone Senior Floating Rate Term Fund Common Shares of Beneficial Interest"
+    "Name":"Blackstone Senior Floating Rate Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"BSM",
@@ -5072,14 +4888,6 @@ const stockSymbolByName = [
     "Name":"Sierra Bancorp"
     },
     {
-    "Symbol":"BST",
-    "Name":"BlackRock Science and Technology Trust Common Shares of Beneficial Interest"
-    },
-    {
-    "Symbol":"BSTZ",
-    "Name":"BlackRock Science and Technology Trust II Common Shares of Beneficial Interest"
-    },
-    {
     "Symbol":"BSVN",
     "Name":"Bank7 Corp."
     },
@@ -5096,16 +4904,12 @@ const stockSymbolByName = [
     "Name":"Bentley Systems Incorporated Class B"
     },
     {
-    "Symbol":"BTA",
-    "Name":"BlackRock Long-Term Municipal Advantage Trust BlackRock Long-Term Municipal Advantage Trust Common Shares of Beneficial Interest"
-    },
-    {
     "Symbol":"BTAI",
     "Name":"BioXcel Therapeutics Inc."
     },
     {
     "Symbol":"BTAQ",
-    "Name":"Burgundy Technology Acquisition Corporation Class A Ordinary shares"
+    "Name":"Burgundy Technology Acquisition Corporation Class A"
     },
     {
     "Symbol":"BTAQU",
@@ -5117,7 +4921,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BTB",
-    "Name":"Bit Brother Limited Ordinary Shares"
+    "Name":"Bit Brother Limited"
     },
     {
     "Symbol":"BTBD",
@@ -5129,7 +4933,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BTBT",
-    "Name":"Bit Digital Inc. Ordinary Shares"
+    "Name":"Bit Digital Inc."
     },
     {
     "Symbol":"BTCM",
@@ -5145,7 +4949,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BTG",
-    "Name":"B2Gold Corp Common shares (Canada)"
+    "Name":"B2Gold Corp  (Canada)"
     },
     {
     "Symbol":"BTI",
@@ -5157,7 +4961,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BTNB",
-    "Name":"Bridgetown 2 Holdings Limited Class A Ordinary Shares"
+    "Name":"Bridgetown 2 Holdings Limited Class A"
     },
     {
     "Symbol":"BTO",
@@ -5166,10 +4970,6 @@ const stockSymbolByName = [
     {
     "Symbol":"BTRS",
     "Name":"BTRS Holdings Inc. Class 1"
-    },
-    {
-    "Symbol":"BTT",
-    "Name":"BlackRock Municipal 2030 Target Term Trust"
     },
     {
     "Symbol":"BTTR",
@@ -5185,7 +4985,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BTWN",
-    "Name":"Bridgetown Holdings Limited Class A Ordinary Shares"
+    "Name":"Bridgetown Holdings Limited Class A"
     },
     {
     "Symbol":"BTWNU",
@@ -5200,20 +5000,12 @@ const stockSymbolByName = [
     "Name":"Brooklyn ImmunoTherapeutics Inc."
     },
     {
-    "Symbol":"BTZ",
-    "Name":"BlackRock Credit Allocation Income Trust"
-    },
-    {
     "Symbol":"BUD",
     "Name":"Anheuser-Busch Inbev SA Sponsored ADR (Belgium)"
     },
     {
-    "Symbol":"BUI",
-    "Name":"BlackRock Utility Infrastructure & Power Opportunities Trust"
-    },
-    {
     "Symbol":"BUR",
-    "Name":"Burford Capital Limited Ordinary Shares"
+    "Name":"Burford Capital Limited"
     },
     {
     "Symbol":"BURL",
@@ -5241,7 +5033,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BVXV",
-    "Name":"BiondVax Pharmaceuticals Ltd. American Depositary Shares"
+    "Name":"BiondVax Pharmaceuticals Ltd. American "
     },
     {
     "Symbol":"BW",
@@ -5269,19 +5061,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BWAY",
-    "Name":"BrainsWay Ltd. American Depositary Shares"
+    "Name":"BrainsWay Ltd. American "
     },
     {
     "Symbol":"BWB",
     "Name":"Bridgewater Bancshares Inc."
     },
     {
-    "Symbol":"BWBBP",
-    "Name":"Bridgewater Bancshares Inc. Depositary Shares Each Representing a 1/100th Interest in a Share of 5.875% Non-Cumulative Perpetual Preferred Stock Series A"
-    },
-    {
     "Symbol":"BWC",
-    "Name":"Blue Whale Acquisition Corp I Class A Ordinary Shares"
+    "Name":"Blue Whale Acquisition Corp I"
     },
     {
     "Symbol":"BWCAU",
@@ -5309,7 +5097,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BWMX",
-    "Name":"Betterware de Mexico S.A.B. de C.V. Ordinary Shares"
+    "Name":"Betterware de Mexico S.A.B. de C.V."
     },
     {
     "Symbol":"BWNB",
@@ -5337,7 +5125,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BXMX",
-    "Name":"Nuveen S&P 500 Buy-Write Income Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen S&P 500 Buy-Write Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"BXP",
@@ -5349,7 +5137,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BXSL",
-    "Name":"Blackstone Secured Lending Fund Common Shares of Beneficial Interest"
+    "Name":"Blackstone Secured Lending Fund  of Beneficial Interest"
     },
     {
     "Symbol":"BY",
@@ -5365,7 +5153,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BYM",
-    "Name":"Blackrock Municipal Income Quality Trust Common Shares of Beneficial Interest"
+    "Name":"Blackrock Municipal Income Quality Trust  of Beneficial Interest"
     },
     {
     "Symbol":"BYND",
@@ -5377,15 +5165,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BYSI",
-    "Name":"BeyondSpring Inc. Ordinary Shares"
+    "Name":"BeyondSpring Inc."
     },
     {
     "Symbol":"BYTS",
-    "Name":"BYTE Acquisition Corp. Class A Ordinary Shares"
+    "Name":"BYTE Acquisition Corp. Class A"
     },
     {
     "Symbol":"BYTSU",
-    "Name":"BYTE Acquisition Corp. Units"
+    "Name":"BYTE Acquisition "
     },
     {
     "Symbol":"BYTSW",
@@ -5409,7 +5197,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"BZUN",
-    "Name":"Baozun Inc. American Depositary Shares"
+    "Name":"Baozun Inc. American "
     },
     {
     "Symbol":"C",
@@ -5429,7 +5217,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CAAP",
-    "Name":"Corporacion America Airports SA Common Shares"
+    "Name":"Corporacion America Airports SA "
     },
     {
     "Symbol":"CAAS",
@@ -5469,7 +5257,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CAE",
-    "Name":"CAE Inc. Ordinary Shares"
+    "Name":"CAE Inc."
     },
     {
     "Symbol":"CAF",
@@ -5485,7 +5273,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CAJ",
-    "Name":"Canon Inc. American Depositary Shares"
+    "Name":"Canon Inc. American "
     },
     {
     "Symbol":"CAKE",
@@ -5509,7 +5297,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CALT",
-    "Name":"Calliditas Therapeutics AB American Depositary Shares"
+    "Name":"Calliditas Therapeutics AB American "
     },
     {
     "Symbol":"CALX",
@@ -5521,11 +5309,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CAMT",
-    "Name":"Camtek Ltd. Ordinary Shares"
+    "Name":"Camtek Ltd."
     },
     {
     "Symbol":"CAN",
-    "Name":"Canaan Inc. American Depositary Shares"
+    "Name":"Canaan Inc. American "
     },
     {
     "Symbol":"CANF",
@@ -5533,15 +5321,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CANG",
-    "Name":"Cango Inc. American Depositary Shares  each representing two (2) Class A Ordinary Shares"
+    "Name":"Cango Inc. American   each representing two (2) Class A"
     },
     {
     "Symbol":"CANO",
     "Name":"Cano Health Inc. Class A"
-    },
-    {
-    "Symbol":"CAPL",
-    "Name":"CrossAmerica Partners LP Common Units representing limited partner interests"
     },
     {
     "Symbol":"CAPR",
@@ -5641,7 +5425,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CBH",
-    "Name":"Virtus AllianzGI Convertible & Income 2024 Target Term Fund Common Shares of Beneficial Interest"
+    "Name":"Virtus AllianzGI Convertible & Income 2024 Target Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"CBIO",
@@ -5665,7 +5449,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CBRG",
-    "Name":"Chain Bridge I Class A Ordinary Shares"
+    "Name":"Chain Bridge I Class A"
     },
     {
     "Symbol":"CBRGU",
@@ -5705,7 +5489,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CCAC",
-    "Name":"CITIC Capital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"CITIC Capital Acquisition Corp. Class A"
     },
     {
     "Symbol":"CCAI",
@@ -5740,16 +5524,8 @@ const stockSymbolByName = [
     "Name":"CCC Intelligent Solutions Holdings Inc."
     },
     {
-    "Symbol":"CCD",
-    "Name":"Calamos Dynamic Convertible & Income Fund"
-    },
-    {
     "Symbol":"CCEL",
     "Name":"Cryo-Cell International Inc."
-    },
-    {
-    "Symbol":"CCEP",
-    "Name":"Coca-Cola Europacific Partners plc Ordinary Shares"
     },
     {
     "Symbol":"CCF",
@@ -5777,7 +5553,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CCM",
-    "Name":"Concord Medical Services Holdings Limited ADS (Each represents three ordinary shares)"
+    "Name":"Concord Medical Services Holdings Limited ADS (Each represents three)"
     },
     {
     "Symbol":"CCMP",
@@ -5793,7 +5569,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CCNEP",
-    "Name":"CNB Financial Corporation Depositary Shares each representing a 1/40th ownership interest in a share of 7.125% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock"
+    "Name":"CNB Financial Corporation  each representing a 1/40th ownership interest in a share of 7.125% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"CCO",
@@ -5853,7 +5629,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CD",
-    "Name":"Chindata Group Holdings Limited American Depositary Shares"
+    "Name":"Chindata Group Holdings Limited American "
     },
     {
     "Symbol":"CDAK",
@@ -5861,7 +5637,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CDAQ",
-    "Name":"Compass Digital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Compass Digital Acquisition Corp. Class A"
     },
     {
     "Symbol":"CDAQU",
@@ -5921,7 +5697,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CDRO",
-    "Name":"Codere Online Luxembourg S.A. Ordinary Shares"
+    "Name":"Codere Online Luxembourg S.A."
     },
     {
     "Symbol":"CDROW",
@@ -5949,7 +5725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CDZIP",
-    "Name":"Cadiz Inc. Depositary Shares"
+    "Name":"Cadiz Inc. "
     },
     {
     "Symbol":"CE",
@@ -5988,10 +5764,6 @@ const stockSymbolByName = [
     "Name":"Celsius Holdings Inc."
     },
     {
-    "Symbol":"CELP",
-    "Name":"Cypress Environmental Partners L.P. Common Units representing limited partner interests"
-    },
-    {
     "Symbol":"CELU",
     "Name":"Celularity Inc. Class A"
     },
@@ -6017,11 +5789,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CENN",
-    "Name":"Cenntro Electric Group Limited Ordinary Shares"
+    "Name":"Cenntro Electric Group Limited"
     },
     {
     "Symbol":"CENQ",
-    "Name":"CENAQ Energy Corp. Class A Ordinary Shares"
+    "Name":"CENAQ Energy Corp. Class A"
     },
     {
     "Symbol":"CENQU",
@@ -6045,15 +5817,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CEPU",
-    "Name":"Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)"
-    },
-    {
-    "Symbol":"CEQP",
-    "Name":"Crestwood Equity Partners LP"
-    },
-    {
-    "Symbol":"CEQP^",
-    "Name":"Crestwood Equity Partners LP Preferred Units representing limited partner interests"
+    "Name":"Central Puerto S.A. American  (each represents ten )"
     },
     {
     "Symbol":"CERE",
@@ -6133,11 +5897,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CFG^D",
-    "Name":"Citizens Financial Group Inc. Depositary Shares each representing a 1/40th Interest in a Share of 6.350% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series D"
+    "Name":"Citizens Financial Group Inc.  each representing a 1/40th Interest in a Share of 6.350% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series D"
     },
     {
     "Symbol":"CFG^E",
-    "Name":"Citizens Financial Group Inc. Depositary Shares Each Representing 1/40th Interest in a Share of 5.000% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series E"
+    "Name":"Citizens Financial Group Inc.  Each Representing 1/40th Interest in a Share of 5.000% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series E"
     },
     {
     "Symbol":"CFIV",
@@ -6165,7 +5929,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CFR^B",
-    "Name":"Cullen/Frost Bankers Inc. Depositary Shares each representing a 1/40th ownership interest in a share of 4.450% non-cumulative perpetual preferred stock Series B"
+    "Name":"Cullen/Frost Bankers Inc.  each representing a 1/40th ownership interest in a share of 4.450% non-cumulative perpetual preferred stock Series B"
     },
     {
     "Symbol":"CFRX",
@@ -6205,7 +5969,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CGAU",
-    "Name":"Centerra Gold Inc. Common Shares"
+    "Name":"Centerra Gold Inc. "
     },
     {
     "Symbol":"CGBD",
@@ -6213,7 +5977,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CGC",
-    "Name":"Canopy Growth Corporation Common Shares"
+    "Name":"Canopy Growth Corporation "
     },
     {
     "Symbol":"CGEM",
@@ -6221,11 +5985,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CGEN",
-    "Name":"Compugen Ltd. Ordinary Shares"
+    "Name":"Compugen Ltd."
     },
     {
     "Symbol":"CGNT",
-    "Name":"Cognyte Software Ltd. Ordinary Shares"
+    "Name":"Cognyte Software Ltd."
     },
     {
     "Symbol":"CGNX",
@@ -6245,7 +6009,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CHAA",
-    "Name":"Catcha Investment Corp. Class A Ordinary Shares"
+    "Name":"Catcha Investment Corp. Class A"
     },
     {
     "Symbol":"CHCI",
@@ -6313,7 +6077,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CHKP",
-    "Name":"Check Point Software Technologies Ltd. Ordinary Shares"
+    "Name":"Check Point Software Technologies Ltd."
     },
     {
     "Symbol":"CHMG",
@@ -6449,7 +6213,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CIAN",
-    "Name":"Cian PLC American Depositary Shares each representing one Ordinary Share"
+    "Name":"Cian PLC American  each representing one Ordinary Share"
     },
     {
     "Symbol":"CIB",
@@ -6476,56 +6240,8 @@ const stockSymbolByName = [
     "Name":"Cipher Mining Inc. Warrant"
     },
     {
-    "Symbol":"CIG",
-    "Name":"Comp En De Mn Cemig ADS American Depositary Shares"
-    },
-    {
-    "Symbol":"CIGI",
-    "Name":"Colliers International Group Inc. Subordinate Voting Shares"
-    },
-    {
-    "Symbol":"CIH",
-    "Name":"China Index Holdings Limited American Depository Shares"
-    },
-    {
-    "Symbol":"CII",
-    "Name":"Blackrock Capital and Income Fund Inc."
-    },
-    {
-    "Symbol":"CIIG",
-    "Name":"CIIG Capital Partners II Inc. Class A"
-    },
-    {
-    "Symbol":"CIIGU",
-    "Name":"CIIG Capital Partners II Inc. Unit"
-    },
-    {
-    "Symbol":"CIIGW",
-    "Name":"CIIG Capital Partners II Inc. Warrant"
-    },
-    {
-    "Symbol":"CIK",
-    "Name":"Credit Suisse Asset Management Income Fund Inc."
-    },
-    {
     "Symbol":"CIM",
     "Name":"Chimera Investment Corporation"
-    },
-    {
-    "Symbol":"CIM^A",
-    "Name":"Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock"
-    },
-    {
-    "Symbol":"CIM^B",
-    "Name":"Chimera Investment Corporation 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock"
-    },
-    {
-    "Symbol":"CIM^C",
-    "Name":"Chimera Investment Corporation 7.75% Series C Fixed-to-Floating Rate  Cumulative Redeemable  Preferred Stock"
-    },
-    {
-    "Symbol":"CIM^D",
-    "Name":"Chimera Investment Corporation 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"CINC",
@@ -6544,12 +6260,8 @@ const stockSymbolByName = [
     "Name":"Cingulate Inc. Warrants"
     },
     {
-    "Symbol":"CINR",
-    "Name":"Ciner Resources LP Common Units representing Limited Partner Interests"
-    },
-    {
     "Symbol":"CINT",
-    "Name":"CI&T Inc Class A Common Shares"
+    "Name":"CI&T Inc Class A "
     },
     {
     "Symbol":"CIO",
@@ -6589,7 +6301,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CIXX",
-    "Name":"CI Financial Corp. Common Shares"
+    "Name":"CI Financial Corp. "
     },
     {
     "Symbol":"CIZN",
@@ -6597,7 +6309,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CJJD",
-    "Name":"China Jo-Jo Drugstores Inc. (Cayman Islands) Ordinary Shares"
+    "Name":"China Jo-Jo Drugstores Inc. (Cayman Islands)"
     },
     {
     "Symbol":"CKPT",
@@ -6613,7 +6325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLAA",
-    "Name":"Colonnade Acquisition Corp. II Class A Ordinary Shares"
+    "Name":"Colonnade Acquisition Corp. II Class A"
     },
     {
     "Symbol":"CLAQ",
@@ -6625,7 +6337,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLAQU",
-    "Name":"CleanTech Acquisition Corp. Units"
+    "Name":"CleanTech Acquisition "
     },
     {
     "Symbol":"CLAQW",
@@ -6661,7 +6373,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLBT",
-    "Name":"Cellebrite DI Ltd. Ordinary Shares"
+    "Name":"Cellebrite DI Ltd."
     },
     {
     "Symbol":"CLBTW",
@@ -6669,7 +6381,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLDT",
-    "Name":"Chatham Lodging Trust (REIT) Common Shares of Beneficial Interest"
+    "Name":"Chatham Lodging Trust (REIT)  of Beneficial Interest"
     },
     {
     "Symbol":"CLDT^A",
@@ -6681,7 +6393,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLEU",
-    "Name":"China Liberal Education Holdings Limited Ordinary Shares"
+    "Name":"China Liberal Education Holdings Limited"
     },
     {
     "Symbol":"CLF",
@@ -6693,7 +6405,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLGN",
-    "Name":"CollPlant Biotechnologies Ltd Ordinary Shares"
+    "Name":"CollPlant Biotechnologies Ltd"
     },
     {
     "Symbol":"CLH",
@@ -6709,15 +6421,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLLS",
-    "Name":"Cellectis S.A. American Depositary Shares"
+    "Name":"Cellectis S.A. American "
     },
     {
     "Symbol":"CLM",
     "Name":"Cornerstone Strategic Value Fund Inc. New"
-    },
-    {
-    "Symbol":"CLMT",
-    "Name":"Calumet Specialty Products Partners L.P. Common Units"
     },
     {
     "Symbol":"CLNE",
@@ -6801,7 +6509,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLVR",
-    "Name":"Clever Leaves Holdings Inc. Common Shares"
+    "Name":"Clever Leaves Holdings Inc. "
     },
     {
     "Symbol":"CLVRW",
@@ -6813,7 +6521,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CLVT",
-    "Name":"Clarivate Plc Ordinary Shares"
+    "Name":"Clarivate Plc"
     },
     {
     "Symbol":"CLVT^A",
@@ -6853,7 +6561,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CMBM",
-    "Name":"Cambium Networks Corporation Ordinary Shares"
+    "Name":"Cambium Networks Corporation"
     },
     {
     "Symbol":"CMC",
@@ -6861,7 +6569,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CMCA",
-    "Name":"Capitalworks Emerging Markets Acquisition Corp Class A Ordinary Shares"
+    "Name":"Capitalworks Emerging Markets Acquisition Corp Class A"
     },
     {
     "Symbol":"CMCAU",
@@ -6873,11 +6581,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CMCL",
-    "Name":"Caledonia Mining Corporation Plc Common Shares"
+    "Name":"Caledonia Mining Corporation Plc "
     },
     {
     "Symbol":"CMCM",
-    "Name":"Cheetah Mobile Inc. American Depositary Shares each representing 10 Class Ordinary Shares"
+    "Name":"Cheetah Mobile Inc. American  each representing 10 Class"
     },
     {
     "Symbol":"CMCO",
@@ -6929,7 +6637,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CMPR",
-    "Name":"Cimpress plc Ordinary Shares (Ireland)"
+    "Name":"Cimpress plc (Ireland)"
     },
     {
     "Symbol":"CMPS",
@@ -6973,7 +6681,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CMS^C",
-    "Name":"CMS Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 4.200% Cumulative Redeemable Perpetual Preferred Stock Series C"
+    "Name":"CMS Energy Corporation  each representing a 1/1000th interest in a share of 4.200% Cumulative Redeemable Perpetual Preferred Stock Series C"
     },
     {
     "Symbol":"CMSA",
@@ -7037,11 +6745,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CNEY",
-    "Name":"CN Energy Group Inc. Ordinary Shares"
+    "Name":"CN Energy Group Inc."
     },
     {
     "Symbol":"CNF",
-    "Name":"CNFinance Holdings Limited American Depositary Shares each representing  twenty (20) Ordinary Shares"
+    "Name":"CNFinance Holdings Limited American  each representing  twenty (20)"
     },
     {
     "Symbol":"CNFR",
@@ -7065,7 +6773,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CNHI",
-    "Name":"CNH Industrial N.V. Common Shares"
+    "Name":"CNH Industrial N.V. "
     },
     {
     "Symbol":"CNI",
@@ -7105,7 +6813,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CNOBP",
-    "Name":"ConnectOne Bancorp Inc. Depositary Shares each representing a 1/40th interest in a share of 5.25% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"ConnectOne Bancorp Inc.  each representing a 1/40th interest in a share of 5.25% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"CNP",
@@ -7133,15 +6841,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CNTA",
-    "Name":"Centessa Pharmaceuticals plc American Depositary Shares"
+    "Name":"Centessa Pharmaceuticals plc American "
     },
     {
     "Symbol":"CNTB",
-    "Name":"Connect Biopharma Holdings Limited American Depositary Shares"
+    "Name":"Connect Biopharma Holdings Limited American "
     },
     {
     "Symbol":"CNTG",
-    "Name":"Centogene N.V. Common Shares"
+    "Name":"Centogene N.V. "
     },
     {
     "Symbol":"CNTQ",
@@ -7217,7 +6925,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"COE",
-    "Name":"China Online Education Group American depositary shares each representing 15 Class A ordinary shares"
+    "Name":"China Online Education Group American  each representing 15 Class A"
     },
     {
     "Symbol":"COF",
@@ -7225,23 +6933,23 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"COF^I",
-    "Name":"Capital One Financial Corporation Depositary shares each representing a 1/40th interest in a share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series I of the Issuer"
+    "Name":"Capital One Financial Corporation  each representing a 1/40th interest in a share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series I of the Issuer"
     },
     {
     "Symbol":"COF^J",
-    "Name":"Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non- Cumulative Perpetual Preferred Stock Series J"
+    "Name":"Capital One Financial Corporation  Each Representing a 1/40th Interest in a Share of Fixed Rate Non- Cumulative Perpetual Preferred Stock Series J"
     },
     {
     "Symbol":"COF^K",
-    "Name":"Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series K"
+    "Name":"Capital One Financial Corporation  Each Representing a 1/40th Ownership Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series K"
     },
     {
     "Symbol":"COF^L",
-    "Name":"Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series L"
+    "Name":"Capital One Financial Corporation  Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series L"
     },
     {
     "Symbol":"COF^N",
-    "Name":"Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series N"
+    "Name":"Capital One Financial Corporation  Each Representing a 1/40th Ownership Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series N"
     },
     {
     "Symbol":"COFS",
@@ -7277,7 +6985,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"COLD",
-    "Name":"Americold Realty Trust Common Shares"
+    "Name":"Americold Realty Trust "
     },
     {
     "Symbol":"COLI",
@@ -7349,7 +7057,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"COOL",
-    "Name":"Corner Growth Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Corner Growth Acquisition Corp. Class A"
     },
     {
     "Symbol":"COOLU",
@@ -7373,11 +7081,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CORR^A",
-    "Name":"CorEnergy Infrastructure Trust Inc. Depositary Shares each representing a 1/100th fractional interest of a share of 7.375% Series A Cumulative Redeemable Preferred Stock"
+    "Name":"CorEnergy Infrastructure Trust Inc.  each representing a 1/100th fractional interest of a share of 7.375% Series A Cumulative Redeemable Preferred Stock"
     },
     {
     "Symbol":"CORS",
-    "Name":"Corsair Partnering Corporation Class A Ordinary Shares"
+    "Name":"Corsair Partnering Corporation Class A"
     },
     {
     "Symbol":"CORT",
@@ -7417,7 +7125,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"COVAW",
-    "Name":"COVA Acquisition Corp. Warrants to purchase Class A ordinary shares"
+    "Name":"COVA Acquisition Corp. Warrants to purchase Class A"
     },
     {
     "Symbol":"COWN",
@@ -7441,19 +7149,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CPAC",
-    "Name":"Cementos Pacasmayo S.A.A. American Depositary Shares (Each representing five Common Shares)"
-    },
-    {
-    "Symbol":"CPAR",
-    "Name":"Catalyst Partners Acquisition Corp. Class A Ordinary Share"
-    },
-    {
-    "Symbol":"CPARU",
-    "Name":"Catalyst Partners Acquisition Corp. Unit"
-    },
-    {
-    "Symbol":"CPARW",
-    "Name":"Catalyst Partners Acquisition Corp. Warrant"
+    "Name":"Cementos Pacasmayo S.A.A. American  (Each representing five )"
     },
     {
     "Symbol":"CPB",
@@ -7469,7 +7165,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CPG",
-    "Name":"Crescent Point Energy Corporation Ordinary Shares (Canada)"
+    "Name":"Crescent Point Energy Corporation (Canada)"
     },
     {
     "Symbol":"CPHC",
@@ -7492,20 +7188,16 @@ const stockSymbolByName = [
     "Name":"CorePoint Lodging Inc."
     },
     {
-    "Symbol":"CPLP",
-    "Name":"Capital Product Partners L.P. Common Units"
-    },
-    {
     "Symbol":"CPNG",
     "Name":"Coupang Inc. Class A"
     },
     {
     "Symbol":"CPOP",
-    "Name":"Pop Culture Group Co. Ltd Class A Ordinary Shares"
+    "Name":"Pop Culture Group Co. Ltd Class A"
     },
     {
     "Symbol":"CPRI",
-    "Name":"Capri Holdings Limited Ordinary Shares"
+    "Name":"Capri Holdings Limited"
     },
     {
     "Symbol":"CPRT",
@@ -7545,7 +7237,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CPTK",
-    "Name":"Crown PropTech Acquisitions Class A Ordinary Shares"
+    "Name":"Crown PropTech Acquisitions Class A"
     },
     {
     "Symbol":"CPUH",
@@ -7554,10 +7246,6 @@ const stockSymbolByName = [
     {
     "Symbol":"CPZ",
     "Name":"Calamos Long/Short Equity & Dynamic Income Trust"
-    },
-    {
-    "Symbol":"CQP",
-    "Name":"Cheniere Energy Partners LP Cheniere Energy Partners LP Common Units"
     },
     {
     "Symbol":"CR",
@@ -7597,11 +7285,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CRDL",
-    "Name":"Cardiol Therapeutics Inc. Class A Common Shares"
+    "Name":"Cardiol Therapeutics Inc. Class A "
     },
     {
     "Symbol":"CREC",
-    "Name":"Crescera Capital Acquisition Corp Class A Ordinary Shares"
+    "Name":"Crescera Capital Acquisition Corp Class A"
     },
     {
     "Symbol":"CRECU",
@@ -7621,7 +7309,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CRESY",
-    "Name":"Cresud S.A.C.I.F. y A. American Depositary Shares"
+    "Name":"Cresud S.A.C.I.F. y A. American "
     },
     {
     "Symbol":"CREX",
@@ -7641,11 +7329,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CRH",
-    "Name":"CRH PLC American Depositary Shares"
+    "Name":"CRH PLC American "
     },
     {
     "Symbol":"CRHC",
-    "Name":"Cohn Robbins Holdings Corp. Class A Ordinary Shares"
+    "Name":"Cohn Robbins Holdings Corp. Class A"
     },
     {
     "Symbol":"CRI",
@@ -7685,7 +7373,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CRNT",
-    "Name":"Ceragon Networks Ltd. Ordinary Shares"
+    "Name":"Ceragon Networks Ltd."
     },
     {
     "Symbol":"CRNX",
@@ -7705,7 +7393,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CRSP",
-    "Name":"CRISPR Therapeutics AG Common Shares"
+    "Name":"CRISPR Therapeutics AG "
     },
     {
     "Symbol":"CRSR",
@@ -7725,7 +7413,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CRTO",
-    "Name":"Criteo S.A. American Depositary Shares"
+    "Name":"Criteo S.A. American "
     },
     {
     "Symbol":"CRTX",
@@ -7765,7 +7453,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CRZN",
-    "Name":"Corazon Capital V838 Monoceros Corp Class A Ordinary Shares"
+    "Name":"Corazon Capital V838 Monoceros Corp Class A"
     },
     {
     "Symbol":"CRZNW",
@@ -7773,7 +7461,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CS",
-    "Name":"Credit Suisse Group American Depositary Shares"
+    "Name":"Credit Suisse Group American "
     },
     {
     "Symbol":"CSAN",
@@ -7789,7 +7477,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CSCW",
-    "Name":"Color Star Technology Co. Ltd. Ordinary Shares"
+    "Name":"Color Star Technology Co. Ltd."
     },
     {
     "Symbol":"CSGP",
@@ -7805,7 +7493,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CSIQ",
-    "Name":"Canadian Solar Inc. Common Shares (BC)"
+    "Name":"Canadian Solar Inc.  (BC)"
     },
     {
     "Symbol":"CSL",
@@ -7849,11 +7537,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CSTA",
-    "Name":"Constellation Acquisition Corp I Class A Ordinary Shares"
+    "Name":"Constellation Acquisition Corp I Class A"
     },
     {
     "Symbol":"CSTE",
-    "Name":"Caesarstone Ltd. Ordinary Shares"
+    "Name":"Caesarstone Ltd."
     },
     {
     "Symbol":"CSTL",
@@ -7861,7 +7549,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CSTM",
-    "Name":"Constellium SE Ordinary Shares (France)"
+    "Name":"Constellium SE (France)"
     },
     {
     "Symbol":"CSTR",
@@ -7945,7 +7633,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CTK",
-    "Name":"CooTek (Cayman) Inc. American Depositary Shares each representing 50 Class A Ordinary Shares"
+    "Name":"CooTek (Cayman) Inc. American  each representing 50 Class A"
     },
     {
     "Symbol":"CTKB",
@@ -7989,7 +7677,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CTRM",
-    "Name":"Castor Maritime Inc. Common Shares"
+    "Name":"Castor Maritime Inc. "
     },
     {
     "Symbol":"CTRN",
@@ -8041,7 +7729,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CUBE",
-    "Name":"CubeSmart Common Shares"
+    "Name":"CubeSmart "
     },
     {
     "Symbol":"CUBI",
@@ -8105,7 +7793,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CVAC",
-    "Name":"CureVac N.V. Ordinary Shares"
+    "Name":"CureVac N.V."
     },
     {
     "Symbol":"CVBF",
@@ -8125,7 +7813,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CVEO",
-    "Name":"Civeo Corporation (Canada) Common Shares"
+    "Name":"Civeo Corporation (Canada) "
     },
     {
     "Symbol":"CVET",
@@ -8213,7 +7901,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CWCO",
-    "Name":"Consolidated Water Co. Ltd. Ordinary Shares"
+    "Name":"Consolidated Water Co. Ltd."
     },
     {
     "Symbol":"CWEN",
@@ -8225,7 +7913,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CWK",
-    "Name":"Cushman & Wakefield plc Ordinary Shares"
+    "Name":"Cushman & Wakefield plc"
     },
     {
     "Symbol":"CWST",
@@ -8261,7 +7949,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CYAD",
-    "Name":"Celyad Oncology SA American Depositary Shares"
+    "Name":"Celyad Oncology SA American "
     },
     {
     "Symbol":"CYAN",
@@ -8273,11 +7961,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CYBN",
-    "Name":"Cybin Inc. Common Shares"
+    "Name":"Cybin Inc. "
     },
     {
     "Symbol":"CYBR",
-    "Name":"CyberArk Software Ltd. Ordinary Shares"
+    "Name":"CyberArk Software Ltd."
     },
     {
     "Symbol":"CYCC",
@@ -8305,7 +7993,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CYRN",
-    "Name":"CYREN Ltd. Ordinary Shares"
+    "Name":"CYREN Ltd."
     },
     {
     "Symbol":"CYRX",
@@ -8325,7 +8013,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CYTO",
-    "Name":"Altamira Therapeutics Ltd. Common Shares 0.01 SF (Bermuda)"
+    "Name":"Altamira Therapeutics Ltd.  0.01 SF (Bermuda)"
     },
     {
     "Symbol":"CYXT",
@@ -8337,7 +8025,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"CZOO",
-    "Name":"Cazoo Group Ltd Class A Ordinary Shares"
+    "Name":"Cazoo Group Ltd Class A"
     },
     {
     "Symbol":"CZR",
@@ -8357,7 +8045,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DADA",
-    "Name":"Dada Nexus Limited American Depositary Shares"
+    "Name":"Dada Nexus Limited American "
     },
     {
     "Symbol":"DAIO",
@@ -8385,11 +8073,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DAO",
-    "Name":"Youdao Inc. American Depositary Shares each representing one Class A Ordinary Share"
+    "Name":"Youdao Inc. American  each representing one Class A Ordinary Share"
     },
     {
     "Symbol":"DAOO",
-    "Name":"Crypto 1 Acquisition Corp Class A Ordinary Shares"
+    "Name":"Crypto 1 Acquisition Corp Class A"
     },
     {
     "Symbol":"DAOOU",
@@ -8421,7 +8109,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DAVA",
-    "Name":"Endava plc American Depositary Shares (each representing one Class A Ordinary Share)"
+    "Name":"Endava plc American  (each representing one Class A Ordinary Share)"
     },
     {
     "Symbol":"DAVE",
@@ -8457,7 +8145,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DBL",
-    "Name":"DoubleLine Opportunistic Credit Fund Common Shares of Beneficial Interest"
+    "Name":"DoubleLine Opportunistic Credit Fund  of Beneficial Interest"
     },
     {
     "Symbol":"DBRG",
@@ -8481,7 +8169,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DBVT",
-    "Name":"DBV Technologies S.A. American Depositary Shares"
+    "Name":"DBV Technologies S.A. American "
     },
     {
     "Symbol":"DBX",
@@ -8489,7 +8177,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DCBO",
-    "Name":"Docebo Inc. Common Shares"
+    "Name":"Docebo Inc. "
     },
     {
     "Symbol":"DCF",
@@ -8497,7 +8185,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DCFC",
-    "Name":"Tritium DCFC Limited Ordinary Shares"
+    "Name":"Tritium DCFC Limited"
     },
     {
     "Symbol":"DCFCW",
@@ -8581,7 +8269,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DDL",
-    "Name":"Dingdong (Cayman) Limited American Depositary Shares (each two representing three Ordinary Shares)"
+    "Name":"Dingdong (Cayman) Limited American  (each two representing three)"
     },
     {
     "Symbol":"DDOG",
@@ -8633,11 +8321,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DESP",
-    "Name":"Despegar.com Corp. Ordinary Shares"
+    "Name":"Despegar.com Corp."
     },
     {
     "Symbol":"DEX",
-    "Name":"Delaware Enhanced Global Dividend Common Shares of Beneficial Interest"
+    "Name":"Delaware Enhanced Global Dividend  of Beneficial Interest"
     },
     {
     "Symbol":"DFFN",
@@ -8685,7 +8373,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DGNU",
-    "Name":"Dragoneer Growth Opportunities Corp. III Class A Ordinary Shares"
+    "Name":"Dragoneer Growth Opportunities Corp. III Class A"
     },
     {
     "Symbol":"DGX",
@@ -8721,7 +8409,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DHC",
-    "Name":"Diversified Healthcare Trust Common Shares of Beneficial Interest"
+    "Name":"Diversified Healthcare Trust  of Beneficial Interest"
     },
     {
     "Symbol":"DHCA",
@@ -8793,7 +8481,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DIAX",
-    "Name":"Nuveen Dow 30SM Dynamic Overwrite Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Dow 30SM Dynamic Overwrite Fund  of Beneficial Interest"
     },
     {
     "Symbol":"DIBS",
@@ -8805,7 +8493,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DIDI",
-    "Name":"DiDi Global Inc. American Depositary Shares (each four representing one Class A Ordinary Share)"
+    "Name":"DiDi Global Inc. American  (each four representing one Class A Ordinary Share)"
     },
     {
     "Symbol":"DILA",
@@ -8833,7 +8521,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DISA",
-    "Name":"Disruptive Acquisition Corporation I Class A Ordinary Shares"
+    "Name":"Disruptive Acquisition Corporation I Class A"
     },
     {
     "Symbol":"DISAW",
@@ -8876,10 +8564,6 @@ const stockSymbolByName = [
     "Name":"Data Knights Acquisition Corp. Warrant"
     },
     {
-    "Symbol":"DKL",
-    "Name":"Delek Logistics Partners L.P. Common Units representing Limited Partner Interests"
-    },
-    {
     "Symbol":"DKNG",
     "Name":"DraftKings Inc. Class A"
     },
@@ -8897,7 +8581,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DLCA",
-    "Name":"Deep Lake Capital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Deep Lake Capital Acquisition Corp. Class A"
     },
     {
     "Symbol":"DLCAU",
@@ -8912,20 +8596,8 @@ const stockSymbolByName = [
     "Name":"DLH Holdings Corp."
     },
     {
-    "Symbol":"DLNG",
-    "Name":"Dynagas LNG Partners LP Common Units"
-    },
-    {
-    "Symbol":"DLNG^A",
-    "Name":"Dynagas LNG Partners LP 9.00% Series A Cumulative Redeemable Preferred Units"
-    },
-    {
-    "Symbol":"DLNG^B",
-    "Name":"Dynagas LNG Partners LP 8.75% Series B Fixed to Floating Rate Cumulative Redeemable Perpetual Preferred Units liquidation preference $25.00 per Uni"
-    },
-    {
     "Symbol":"DLO",
-    "Name":"DLocal Limited Class A Common Shares"
+    "Name":"DLocal Limited Class A "
     },
     {
     "Symbol":"DLPN",
@@ -8961,7 +8633,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DLY",
-    "Name":"DoubleLine Yield Opportunities Fund Common Shares of Beneficial Interest"
+    "Name":"DoubleLine Yield Opportunities Fund  of Beneficial Interest"
     },
     {
     "Symbol":"DM",
@@ -8992,10 +8664,6 @@ const stockSymbolByName = [
     "Name":"BNY Mellon Municipal Income Inc."
     },
     {
-    "Symbol":"DMLP",
-    "Name":"Dorchester Minerals L.P. Common Units Representing Limited Partnership Interests"
-    },
-    {
     "Symbol":"DMO",
     "Name":"Western Asset Mortgage Opportunity Fund Inc."
     },
@@ -9005,7 +8673,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DMS",
-    "Name":"Digital Media Solutions Inc. Class A Ordinary Shares"
+    "Name":"Digital Media Solutions Inc. Class A"
     },
     {
     "Symbol":"DMTK",
@@ -9025,15 +8693,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DNAB",
-    "Name":"Social Capital Suvretta Holdings Corp. II Class A Ordinary Shares"
+    "Name":"Social Capital Suvretta Holdings Corp. II Class A"
     },
     {
     "Symbol":"DNAC",
-    "Name":"Social Capital Suvretta Holdings Corp. III Class A ordinary shares"
+    "Name":"Social Capital Suvretta Holdings Corp. III Class A"
     },
     {
     "Symbol":"DNAD",
-    "Name":"Social Capital Suvretta Holdings Corp. IV Class A Ordinary Shares"
+    "Name":"Social Capital Suvretta Holdings Corp. IV Class A"
     },
     {
     "Symbol":"DNAY",
@@ -9053,7 +8721,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DNN",
-    "Name":"Denison Mines Corp Ordinary Shares (Canada)"
+    "Name":"Denison Mines Corp (Canada)"
     },
     {
     "Symbol":"DNOW",
@@ -9073,7 +8741,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DOC",
-    "Name":"Physicians Realty Trust Common Shares of Beneficial Interest"
+    "Name":"Physicians Realty Trust  of Beneficial Interest"
     },
     {
     "Symbol":"DOCN",
@@ -9093,7 +8761,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DOLE",
-    "Name":"Dole plc Ordinary Shares"
+    "Name":"Dole plc"
     },
     {
     "Symbol":"DOMA",
@@ -9109,7 +8777,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DOOR",
-    "Name":"Masonite International Corporation Ordinary Shares (Canada)"
+    "Name":"Masonite International Corporation (Canada)"
     },
     {
     "Symbol":"DORM",
@@ -9129,7 +8797,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DOX",
-    "Name":"Amdocs Limited Ordinary Shares"
+    "Name":"Amdocs Limited"
     },
     {
     "Symbol":"DOYU",
@@ -9137,7 +8805,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DPCS",
-    "Name":"DP Cap Acquisition Corp I Class A Ordinary Shares"
+    "Name":"DP Cap Acquisition Corp I Class A"
     },
     {
     "Symbol":"DPCSU",
@@ -9153,7 +8821,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DPRO",
-    "Name":"Draganfly Inc. Common Shares"
+    "Name":"Draganfly Inc. "
     },
     {
     "Symbol":"DPZ",
@@ -9161,11 +8829,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DQ",
-    "Name":"DAQO New Energy Corp. American Depositary Shares each representing five ordinary shares"
+    "Name":"DAQO New Energy Corp. American  each representing five"
     },
     {
     "Symbol":"DRAY",
-    "Name":"Macondray Capital Acquisition Corp. I Class A Ordinary Shares"
+    "Name":"Macondray Capital Acquisition Corp. I Class A"
     },
     {
     "Symbol":"DRAYU",
@@ -9177,7 +8845,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DRD",
-    "Name":"DRDGOLD Limited American Depositary Shares"
+    "Name":"DRDGOLD Limited American "
     },
     {
     "Symbol":"DRE",
@@ -9217,7 +8885,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DRTT",
-    "Name":"DIRTT Environmental Solutions Ltd. Common Shares"
+    "Name":"DIRTT Environmental Solutions Ltd. "
     },
     {
     "Symbol":"DRUG",
@@ -9245,7 +8913,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DSAC",
-    "Name":"Duddell Street Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Duddell Street Acquisition Corp. Class A"
     },
     {
     "Symbol":"DSACU",
@@ -9261,7 +8929,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DSEY",
-    "Name":"Diversey Holdings Ltd. Ordinary Shares"
+    "Name":"Diversey Holdings Ltd."
     },
     {
     "Symbol":"DSGN",
@@ -9281,7 +8949,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DSL",
-    "Name":"DoubleLine Income Solutions Fund Common Shares of Beneficial Interests"
+    "Name":"DoubleLine Income Solutions Fund  of Beneficial Interests"
     },
     {
     "Symbol":"DSM",
@@ -9301,7 +8969,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DSWL",
-    "Name":"Deswell Industries Inc. Common Shares"
+    "Name":"Deswell Industries Inc. "
     },
     {
     "Symbol":"DSX",
@@ -9401,7 +9069,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DUK^A",
-    "Name":"Duke Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock"
+    "Name":"Duke Energy Corporation  each representing a 1/1000th interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock"
     },
     {
     "Symbol":"DUKB",
@@ -9421,7 +9089,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DUO",
-    "Name":"Fangdd Network Group Ltd. American Depositary Shares"
+    "Name":"Fangdd Network Group Ltd. American "
     },
     {
     "Symbol":"DUOL",
@@ -9453,7 +9121,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DWACU",
-    "Name":"Digital World Acquisition Corp. Units"
+    "Name":"Digital World Acquisition "
     },
     {
     "Symbol":"DWACW",
@@ -9485,7 +9153,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DXF",
-    "Name":"Dunxin Financial Holdings Limited American Depositary Shares"
+    "Name":"Dunxin Financial Holdings Limited American "
     },
     {
     "Symbol":"DXLG",
@@ -9513,7 +9181,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"DYFN",
-    "Name":"Angel Oak Dynamic Financial Strategies Income Term Trust Common Shares of Beneficial Interest"
+    "Name":"Angel Oak Dynamic Financial Strategies Income Term Trust  of Beneficial Interest"
     },
     {
     "Symbol":"DYN",
@@ -9545,7 +9213,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EACPU",
-    "Name":"Edify Acquisition Corp. Units"
+    "Name":"Edify Acquisition "
     },
     {
     "Symbol":"EACPW",
@@ -9553,7 +9221,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EAD",
-    "Name":"Allspring Income Opportunities Fund Common Shares"
+    "Name":"Allspring Income Opportunities Fund "
     },
     {
     "Symbol":"EAF",
@@ -9569,7 +9237,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EARN",
-    "Name":"Ellington Residential Mortgage REIT Common Shares of Beneficial Interest"
+    "Name":"Ellington Residential Mortgage REIT  of Beneficial Interest"
     },
     {
     "Symbol":"EAST",
@@ -9585,11 +9253,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EBAC",
-    "Name":"European Biotech Acquisition Corp. Class A Ordinary Shares"
+    "Name":"European Biotech Acquisition Corp. Class A"
     },
     {
     "Symbol":"EBACU",
-    "Name":"European Biotech Acquisition Corp. Units"
+    "Name":"European Biotech Acquisition "
     },
     {
     "Symbol":"EBACW",
@@ -9621,11 +9289,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EBON",
-    "Name":"Ebang International Holdings Inc. Class A Ordinary Shares"
+    "Name":"Ebang International Holdings Inc. Class A"
     },
     {
     "Symbol":"EBR",
-    "Name":"Centrais Electricas Brasileiras S A American Depositary Shares (Each representing one Common Share)"
+    "Name":"Centrais Electricas Brasileiras S A American  (Each representing one Common Share)"
     },
     {
     "Symbol":"EBS",
@@ -9637,11 +9305,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EC",
-    "Name":"Ecopetrol S.A. American Depositary Shares"
+    "Name":"Ecopetrol S.A. American "
     },
     {
     "Symbol":"ECAT",
-    "Name":"BlackRock ESG Capital Allocation Trust Common Shares of Beneficial Interest"
+    "Name":"BlackRock ESG Capital Allocation Trust  of Beneficial Interest"
     },
     {
     "Symbol":"ECC",
@@ -9713,7 +9381,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EDAP",
-    "Name":"EDAP TMS S.A. American Depositary Shares"
+    "Name":"EDAP TMS S.A. American "
     },
     {
     "Symbol":"EDD",
@@ -9721,11 +9389,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EDF",
-    "Name":"Stone Harbor Emerging Markets Income Fund Common Shares of Beneficial Interest"
+    "Name":"Stone Harbor Emerging Markets Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EDI",
-    "Name":"Stone Harbor Emerging Markets Total Income Fund Common Shares of Beneficial Interests"
+    "Name":"Stone Harbor Emerging Markets Total Income Fund  of Beneficial Interests"
     },
     {
     "Symbol":"EDIT",
@@ -9733,11 +9401,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EDN",
-    "Name":"Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares"
+    "Name":"Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American "
     },
     {
     "Symbol":"EDNC",
-    "Name":"Endurance Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Endurance Acquisition Corp. Class A"
     },
     {
     "Symbol":"EDNCU",
@@ -9753,11 +9421,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EDRY",
-    "Name":"EuroDry Ltd. Common Shares"
+    "Name":"EuroDry Ltd. "
     },
     {
     "Symbol":"EDSA",
-    "Name":"Edesa Biotech Inc. Common Shares"
+    "Name":"Edesa Biotech Inc. "
     },
     {
     "Symbol":"EDTK",
@@ -9809,7 +9477,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EFL",
-    "Name":"Eaton Vance Floating-Rate 2022 Target Term Trust Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Floating-Rate 2022 Target Term Trust  of Beneficial Interest"
     },
     {
     "Symbol":"EFOI",
@@ -9817,7 +9485,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EFR",
-    "Name":"Eaton Vance Senior Floating-Rate Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Senior Floating-Rate Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EFSC",
@@ -9825,11 +9493,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EFSCP",
-    "Name":"Enterprise Financial Services Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 5% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"Enterprise Financial Services Corporation  Each Representing a 1/40th Interest in a Share of 5% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"EFT",
-    "Name":"Eaton Vance Floating Rate Income Trust Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Floating Rate Income Trust  of Beneficial Interest"
     },
     {
     "Symbol":"EFTR",
@@ -9873,7 +9541,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EGO",
-    "Name":"Eldorado Gold Corporation Ordinary Shares"
+    "Name":"Eldorado Gold Corporation"
     },
     {
     "Symbol":"EGP",
@@ -9921,7 +9589,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EIM",
-    "Name":"Eaton Vance Municipal Bond Fund Common Shares of Beneficial Interest $.01 par value"
+    "Name":"Eaton Vance Municipal Bond Fund  of Beneficial Interest $.01 par value"
     },
     {
     "Symbol":"EIX",
@@ -9941,7 +9609,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EJH",
-    "Name":"E-Home Household Service Holdings Limited Ordinary Shares"
+    "Name":"E-Home Household Service Holdings Limited"
     },
     {
     "Symbol":"EKSO",
@@ -9981,7 +9649,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ELLO",
-    "Name":"Ellomay Capital Ltd Ordinary Shares (Israel)"
+    "Name":"Ellomay Capital Ltd (Israel)"
     },
     {
     "Symbol":"ELMD",
@@ -10001,7 +9669,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ELP",
-    "Name":"Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing one Unit consisting one Common Share and four non-voting Class B Preferred Shares)"
+    "Name":"Companhia Paranaense de Energia (COPEL) American  (each representing one Unit consisting one Common Share and four non-voting Class B Preferred Shares)"
     },
     {
     "Symbol":"ELS",
@@ -10013,7 +9681,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ELTK",
-    "Name":"Eltek Ltd. Ordinary Shares"
+    "Name":"Eltek Ltd."
     },
     {
     "Symbol":"ELVT",
@@ -10033,7 +9701,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EM",
-    "Name":"Smart Share Global Limited American Depositary Shares"
+    "Name":"Smart Share Global Limited American "
     },
     {
     "Symbol":"EMAN",
@@ -10093,7 +9761,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EMX",
-    "Name":"EMX Royalty Corporation Common Shares (Canada)"
+    "Name":"EMX Royalty Corporation  (Canada)"
     },
     {
     "Symbol":"ENB",
@@ -10105,7 +9773,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ENCP",
-    "Name":"Energem Corp Class A Ordinary Shares"
+    "Name":"Energem Corp Class A"
     },
     {
     "Symbol":"ENCPU",
@@ -10117,7 +9785,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ENDP",
-    "Name":"Endo International plc Ordinary Shares"
+    "Name":"Endo International plc"
     },
     {
     "Symbol":"ENER",
@@ -10145,11 +9813,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ENIA",
-    "Name":"Enel Americas S.A. American Depositary Shares"
+    "Name":"Enel Americas S.A. American "
     },
     {
     "Symbol":"ENIC",
-    "Name":"Enel Chile S.A. American Depositary Shares (Each representing 50 shares of  )"
+    "Name":"Enel Chile S.A. American  (Each representing 50 shares of  )"
     },
     {
     "Symbol":"ENJ",
@@ -10169,7 +9837,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ENLV",
-    "Name":"Enlivex Therapeutics Ltd. Ordinary Shares"
+    "Name":"Enlivex Therapeutics Ltd."
     },
     {
     "Symbol":"ENNV",
@@ -10225,7 +9893,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ENTF",
-    "Name":"Enterprise 4.0 Technology Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Enterprise 4.0 Technology Acquisition Corp. Class A"
     },
     {
     "Symbol":"ENTFU",
@@ -10241,7 +9909,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ENTX",
-    "Name":"Entera Bio Ltd. Ordinary Shares"
+    "Name":"Entera Bio Ltd."
     },
     {
     "Symbol":"ENTXW",
@@ -10277,7 +9945,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ENX",
-    "Name":"Eaton Vance New York Municipal Bond Fund Common Shares of Beneficial Interest $.01 par value"
+    "Name":"Eaton Vance New York Municipal Bond Fund  of Beneficial Interest $.01 par value"
     },
     {
     "Symbol":"ENZ",
@@ -10285,11 +9953,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EOCW",
-    "Name":"Elliott Opportunity II Corp. Class A Ordinary Shares"
+    "Name":"Elliott Opportunity II Corp. Class A"
     },
     {
     "Symbol":"EOD",
-    "Name":"Allspring Global Dividend Opportunity Fund Common Shares of Beneficial Interest"
+    "Name":"Allspring Global Dividend Opportunity Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EOG",
@@ -10338,10 +10006,6 @@ const stockSymbolByName = [
     {
     "Symbol":"EPC",
     "Name":"Edgewell Personal Care Company"
-    },
-    {
-    "Symbol":"EPD",
-    "Name":"Enterprise Products Partners L.P."
     },
     {
     "Symbol":"EPHY",
@@ -10405,7 +10069,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EQC",
-    "Name":"Equity Commonwealth Common Shares of Beneficial Interest"
+    "Name":"Equity Commonwealth  of Beneficial Interest"
     },
     {
     "Symbol":"EQC^D",
@@ -10421,11 +10085,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EQH^A",
-    "Name":"Equitable Holdings Inc. Depositary Shares"
+    "Name":"Equitable Holdings Inc. "
     },
     {
     "Symbol":"EQH^C",
-    "Name":"Equitable Holdings Inc. Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series C"
+    "Name":"Equitable Holdings Inc.  each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series C"
     },
     {
     "Symbol":"EQHA",
@@ -10441,11 +10105,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EQOS",
-    "Name":"EQONEX LIMITED Ordinary Shares"
+    "Name":"EQONEX LIMITED"
     },
     {
     "Symbol":"EQR",
-    "Name":"Equity Residential Common Shares of Beneficial Interest"
+    "Name":"Equity Residential  of Beneficial Interest"
     },
     {
     "Symbol":"EQRX",
@@ -10465,7 +10129,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EQX",
-    "Name":"Equinox Gold Corp. Common Shares"
+    "Name":"Equinox Gold Corp. "
     },
     {
     "Symbol":"ERAS",
@@ -10493,11 +10157,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ERH",
-    "Name":"Allspring Utilities and High Income Fund Common Shares"
+    "Name":"Allspring Utilities and High Income Fund "
     },
     {
     "Symbol":"ERIC",
-    "Name":"Ericsson American Depositary Shares"
+    "Name":"Ericsson American "
     },
     {
     "Symbol":"ERIE",
@@ -10513,11 +10177,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ERO",
-    "Name":"Ero Copper Corp. Common Shares"
+    "Name":"Ero Copper Corp. "
     },
     {
     "Symbol":"ERYP",
-    "Name":"Erytech Pharma S.A. American Depositary Shares"
+    "Name":"Erytech Pharma S.A. American "
     },
     {
     "Symbol":"ES",
@@ -10525,7 +10189,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ESAC",
-    "Name":"ESGEN Acquisition Corporation Class A Ordinary Shares"
+    "Name":"ESGEN Acquisition Corporation Class A"
     },
     {
     "Symbol":"ESACU",
@@ -10553,11 +10217,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ESGC",
-    "Name":"Eros STX Global Corporation A Ordinary Shares"
+    "Name":"Eros STX Global Corporation A"
     },
     {
     "Symbol":"ESGR",
-    "Name":"Enstar Group Limited Ordinary Shares"
+    "Name":"Enstar Group Limited"
     },
     {
     "Symbol":"ESGRO",
@@ -10565,7 +10229,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ESGRP",
-    "Name":"Enstar Group Limited Depositary Shares Each Representing 1/1000th of an interest in Preference Shares"
+    "Name":"Enstar Group Limited  Each Representing 1/1000th of an interest in Preference Shares"
     },
     {
     "Symbol":"ESI",
@@ -10573,11 +10237,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ESLT",
-    "Name":"Elbit Systems Ltd. Ordinary Shares"
+    "Name":"Elbit Systems Ltd."
     },
     {
     "Symbol":"ESM",
-    "Name":"ESM Acquisition Corporation Class A Ordinary Shares"
+    "Name":"ESM Acquisition Corporation Class A"
     },
     {
     "Symbol":"ESMT",
@@ -10585,7 +10249,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ESNT",
-    "Name":"Essent Group Ltd. Common Shares"
+    "Name":"Essent Group Ltd. "
     },
     {
     "Symbol":"ESP",
@@ -10613,7 +10277,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ESSC",
-    "Name":"East Stone Acquisition Corporation Ordinary Shares"
+    "Name":"East Stone Acquisition Corporation"
     },
     {
     "Symbol":"ESSCR",
@@ -10625,11 +10289,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ESTA",
-    "Name":"Establishment Labs Holdings Inc. Common Shares"
+    "Name":"Establishment Labs Holdings Inc. "
     },
     {
     "Symbol":"ESTC",
-    "Name":"Elastic N.V. Ordinary Shares"
+    "Name":"Elastic N.V."
     },
     {
     "Symbol":"ESTE",
@@ -10665,7 +10329,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ETB",
-    "Name":"Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"ETD",
@@ -10673,7 +10337,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ETG",
-    "Name":"Eaton Vance Tax-Advantaged Global Dividend Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Tax-Advantaged Global Dividend Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"ETI^",
@@ -10681,11 +10345,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ETJ",
-    "Name":"Eaton Vance Risk-Managed Diversified Equity Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Risk-Managed Diversified Equity Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"ETN",
-    "Name":"Eaton Corporation PLC Ordinary Shares"
+    "Name":"Eaton Corporation PLC"
     },
     {
     "Symbol":"ETNB",
@@ -10717,11 +10381,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ETV",
-    "Name":"Eaton Vance Corporation Eaton Vance Tax-Managed Buy-Write Opportunities Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Corporation Eaton Vance Tax-Managed Buy-Write Opportunities Fund  of Beneficial Interest"
     },
     {
     "Symbol":"ETW",
-    "Name":"Eaton Vance Corporation Eaton Vance Tax-Managed Global Buy-Write Opportunites Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Corporation Eaton Vance Tax-Managed Global Buy-Write Opportunites Fund  of Beneficial Interest"
     },
     {
     "Symbol":"ETWO",
@@ -10729,15 +10393,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ETX",
-    "Name":"Eaton Vance Municipal Income 2028 Term Trust Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Municipal Income 2028 Term Trust  of Beneficial Interest"
     },
     {
     "Symbol":"ETY",
-    "Name":"Eaton Vance Tax-Managed Diversified Equity Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Tax-Managed Diversified Equity Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EUCR",
-    "Name":"Eucrates Biomedical Acquisition Corp. Ordinary Shares"
+    "Name":"Eucrates Biomedical Acquisition Corp."
     },
     {
     "Symbol":"EUCRU",
@@ -10749,7 +10413,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EURN",
-    "Name":"Euronav NV Ordinary Shares"
+    "Name":"Euronav NV"
     },
     {
     "Symbol":"EVA",
@@ -10789,11 +10453,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EVG",
-    "Name":"Eaton Vance Short Diversified Income Fund Eaton Vance Short Duration Diversified Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Short Diversified Income Fund Eaton Vance Short Duration Diversified Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EVGN",
-    "Name":"Evogene Ltd Ordinary Shares"
+    "Name":"Evogene Ltd"
     },
     {
     "Symbol":"EVGO",
@@ -10829,7 +10493,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EVM",
-    "Name":"Eaton Vance California Municipal Bond Fund Common Shares of Beneficial Interest $.01 par value"
+    "Name":"Eaton Vance California Municipal Bond Fund  of Beneficial Interest $.01 par value"
     },
     {
     "Symbol":"EVN",
@@ -10837,7 +10501,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EVO",
-    "Name":"Evotec SE American Depositary Shares"
+    "Name":"Evotec SE American "
     },
     {
     "Symbol":"EVOJ",
@@ -10877,7 +10541,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EVT",
-    "Name":"Eaton Vance Tax Advantaged Dividend Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Tax Advantaged Dividend Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EVTC",
@@ -10885,11 +10549,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EVTL",
-    "Name":"Vertical Aerospace Ltd. Ordinary Shares"
+    "Name":"Vertical Aerospace Ltd."
     },
     {
     "Symbol":"EVV",
-    "Name":"Eaton Vance Limited Duration Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Limited Duration Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EW",
@@ -10909,7 +10573,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EXAI",
-    "Name":"Exscientia Plc American Depositary Shares"
+    "Name":"Exscientia Plc American "
     },
     {
     "Symbol":"EXAS",
@@ -10925,7 +10589,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EXD",
-    "Name":"Eaton Vance Tax-Managed Buy-Write Strategy Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Tax-Managed Buy-Write Strategy Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EXEL",
@@ -10937,11 +10601,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EXG",
-    "Name":"Eaton Vance Tax-Managed Global Diversified Equity Income Fund Eaton Vance Tax-Managed Global Diversified Equity Income Fund Common Shares of Beneficial Interest"
+    "Name":"Eaton Vance Tax-Managed Global Diversified Equity Income Fund Eaton Vance Tax-Managed Global Diversified Equity Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"EXK",
-    "Name":"Endeavour Silver Corporation Ordinary Shares (Canada)"
+    "Name":"Endeavour Silver Corporation (Canada)"
     },
     {
     "Symbol":"EXLS",
@@ -10949,7 +10613,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EXN",
-    "Name":"Excellon Resources Inc. Common Shares"
+    "Name":"Excellon Resources Inc. "
     },
     {
     "Symbol":"EXP",
@@ -11013,7 +10677,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"EZGO",
-    "Name":"EZGO Technologies Ltd. Ordinary Shares"
+    "Name":"EZGO Technologies Ltd."
     },
     {
     "Symbol":"EZPW",
@@ -11041,7 +10705,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FACT",
-    "Name":"Freedom Acquisition I Corp. Class A Ordinary Shares"
+    "Name":"Freedom Acquisition I Corp. Class A"
     },
     {
     "Symbol":"FAF",
@@ -11049,11 +10713,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FAM",
-    "Name":"First Trust/Aberdeen Global Opportunity Income Fund First Trust/Aberdeen Global Opportunity Income Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust/Aberdeen Global Opportunity Income Fund First Trust/Aberdeen Global Opportunity Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FAMI",
-    "Name":"Farmmi Inc. Ordinary Shares"
+    "Name":"Farmmi Inc."
     },
     {
     "Symbol":"FANG",
@@ -11061,7 +10725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FANH",
-    "Name":"Fanhua Inc. American Depositary Shares"
+    "Name":"Fanhua Inc. American "
     },
     {
     "Symbol":"FARM",
@@ -11173,7 +10837,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FCAX",
-    "Name":"Fortress Capital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Fortress Capital Acquisition Corp. Class A"
     },
     {
     "Symbol":"FCBC",
@@ -11209,7 +10873,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FCNCP",
-    "Name":"First Citizens BancShares Inc. Depositary Shares"
+    "Name":"First Citizens BancShares Inc. "
     },
     {
     "Symbol":"FCO",
@@ -11229,7 +10893,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FCT",
-    "Name":"First Trust Senior Floating Rate Income Fund II Common Shares of Beneficial Interest"
+    "Name":"First Trust Senior Floating Rate Income Fund II  of Beneficial Interest"
     },
     {
     "Symbol":"FCUV",
@@ -11245,7 +10909,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FDEU",
-    "Name":"First Trust Dynamic Europe Equity Income Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust Dynamic Europe Equity Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FDMT",
@@ -11273,11 +10937,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FEDU",
-    "Name":"Four Seasons Education (Cayman) Inc. American Depositary Shares each two ADSs representing one ordinary share"
+    "Name":"Four Seasons Education (Cayman) Inc. American  each two ADSs representing one ordinary share"
     },
     {
     "Symbol":"FEI",
-    "Name":"First Trust MLP and Energy Income Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust MLP and Energy Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FEIM",
@@ -11301,15 +10965,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FENG",
-    "Name":"Phoenix New Media Limited American Depositary Shares each representing 8 Class A ordinary shares."
+    "Name":"Phoenix New Media Limited American  each representing 8 Class A."
     },
     {
     "Symbol":"FEO",
-    "Name":"First Trust/Aberdeen Emerging Opportunity Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust/Aberdeen Emerging Opportunity Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FERG",
-    "Name":"Ferguson plc Ordinary Shares"
+    "Name":"Ferguson plc"
     },
     {
     "Symbol":"FET",
@@ -11325,7 +10989,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FEXDU",
-    "Name":"Fintech Ecosystem Development Corp. Units"
+    "Name":"Fintech Ecosystem Development "
     },
     {
     "Symbol":"FEXDW",
@@ -11333,7 +10997,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FF",
-    "Name":"FutureFuel Corp.  Common shares"
+    "Name":"FutureFuel Corp.  "
     },
     {
     "Symbol":"FFA",
@@ -11353,7 +11017,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FFHL",
-    "Name":"Fuwei Films (Holdings) Co. Ltd. Ordinary Shares"
+    "Name":"Fuwei Films (Holdings) Co. Ltd."
     },
     {
     "Symbol":"FFIC",
@@ -11409,7 +11073,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FGI",
-    "Name":"FGI Industries Ltd. Ordinary Shares"
+    "Name":"FGI Industries Ltd."
     },
     {
     "Symbol":"FGIWW",
@@ -11441,27 +11105,27 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FHN^B",
-    "Name":"First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series B"
+    "Name":"First Horizon Corporation  each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series B"
     },
     {
     "Symbol":"FHN^C",
-    "Name":"First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series C"
+    "Name":"First Horizon Corporation  each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series C"
     },
     {
     "Symbol":"FHN^D",
-    "Name":"First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series D"
+    "Name":"First Horizon Corporation  each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series D"
     },
     {
     "Symbol":"FHN^E",
-    "Name":"First Horizon Corporation Depositary Shares each representing a 1/4000th interest in a share of Non-Cumulative Perpetual Preferred Stock Series E"
+    "Name":"First Horizon Corporation  each representing a 1/4000th interest in a share of Non-Cumulative Perpetual Preferred Stock Series E"
     },
     {
     "Symbol":"FHN^F",
-    "Name":"First Horizon Corporation Depositary Shares each representing 1/4000th Interest in a Share of Non-Cumulative Perpetual Preferred Stock Series F"
+    "Name":"First Horizon Corporation  each representing 1/4000th Interest in a Share of Non-Cumulative Perpetual Preferred Stock Series F"
     },
     {
     "Symbol":"FHS",
-    "Name":"First High-School Education Group Co. Ltd. American Depositary Shares"
+    "Name":"First High-School Education Group Co. Ltd. American "
     },
     {
     "Symbol":"FHTX",
@@ -11489,7 +11153,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FICV",
-    "Name":"Frontier Investment Corp Class A Ordinary Shares"
+    "Name":"Frontier Investment Corp Class A"
     },
     {
     "Symbol":"FICVU",
@@ -11497,7 +11161,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FIF",
-    "Name":"First Trust Energy Infrastructure Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust Energy Infrastructure Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FIGS",
@@ -11517,11 +11181,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FINS",
-    "Name":"Angel Oak Financial Strategies Income Term Trust Common Shares of Beneficial Interest"
+    "Name":"Angel Oak Financial Strategies Income Term Trust  of Beneficial Interest"
     },
     {
     "Symbol":"FINV",
-    "Name":"FinVolution Group American Depositary Shares"
+    "Name":"FinVolution Group American "
     },
     {
     "Symbol":"FINW",
@@ -11545,15 +11209,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FITBI",
-    "Name":"Fifth Third Bancorp Depositary Shares"
+    "Name":"Fifth Third Bancorp "
     },
     {
     "Symbol":"FITBO",
-    "Name":"Fifth Third Bancorp Depositary Shares each representing a 1/1000th ownership interest in a share of Non-Cumulative Perpetual Preferred Stock Series K"
+    "Name":"Fifth Third Bancorp  each representing a 1/1000th ownership interest in a share of Non-Cumulative Perpetual Preferred Stock Series K"
     },
     {
     "Symbol":"FITBP",
-    "Name":"Fifth Third Bancorp Depositary Shares each representing 1/40th share of Fifth Third 6.00% Non-Cumulative Perpetual Class B Preferred Stock Series A"
+    "Name":"Fifth Third Bancorp  each representing 1/40th share of Fifth Third 6.00% Non-Cumulative Perpetual Class B Preferred Stock Series A"
     },
     {
     "Symbol":"FIVE",
@@ -11585,7 +11249,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FLAC",
-    "Name":"Frazier Lifesciences Acquisition Corporation Class A Ordinary Shares"
+    "Name":"Frazier Lifesciences Acquisition Corporation Class A"
     },
     {
     "Symbol":"FLACU",
@@ -11609,7 +11273,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FLEX",
-    "Name":"Flex Ltd. Ordinary Shares"
+    "Name":"Flex Ltd."
     },
     {
     "Symbol":"FLGC",
@@ -11645,7 +11309,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FLNG",
-    "Name":"FLEX LNG Ltd. Ordinary Shares"
+    "Name":"FLEX LNG Ltd."
     },
     {
     "Symbol":"FLNT",
@@ -11685,7 +11349,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FLYA",
-    "Name":"SOAR Technology Acquisition Corp. Class A Ordinary Shares"
+    "Name":"SOAR Technology Acquisition Corp. Class A"
     },
     {
     "Symbol":"FLYW",
@@ -11709,11 +11373,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FMBIO",
-    "Name":"First Midwest Bancorp Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series C"
+    "Name":"First Midwest Bancorp Inc.  Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series C"
     },
     {
     "Symbol":"FMBIP",
-    "Name":"First Midwest Bancorp Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"First Midwest Bancorp Inc.  Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"FMC",
@@ -11741,7 +11405,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FMO",
-    "Name":"Fiduciary/Claymore Energy Infrastructure Fund Common Shares of Beneficial Interest"
+    "Name":"Fiduciary/Claymore Energy Infrastructure Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FMS",
@@ -11757,11 +11421,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FMY",
-    "Name":"First Trust Motgage Income Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust Motgage Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FN",
-    "Name":"Fabrinet Ordinary Shares"
+    "Name":"Fabrinet"
     },
     {
     "Symbol":"FNA",
@@ -11773,7 +11437,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FNB^E",
-    "Name":"F.N.B. Corporation Depositary Shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred  Stock Series E"
+    "Name":"F.N.B. Corporation  each representing a 1/40th interest in a share of Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred  Stock Series E"
     },
     {
     "Symbol":"FNCB",
@@ -11813,11 +11477,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FNVT",
-    "Name":"Finnovate Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Finnovate Acquisition Corp. Class A"
     },
     {
     "Symbol":"FNVTU",
-    "Name":"Finnovate Acquisition Corp. Units"
+    "Name":"Finnovate Acquisition "
     },
     {
     "Symbol":"FNVTW",
@@ -11834,10 +11498,6 @@ const stockSymbolByName = [
     {
     "Symbol":"FOA",
     "Name":"Finance of America Companies Inc. Class A"
-    },
-    {
-    "Symbol":"FOCS",
-    "Name":"Focus Financial Partners Inc. Class A"
     },
     {
     "Symbol":"FOE",
@@ -11881,7 +11541,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FORTY",
-    "Name":"Formula Systems (1985) Ltd. American Depositary Shares"
+    "Name":"Formula Systems (1985) Ltd. American "
     },
     {
     "Symbol":"FOSL",
@@ -11893,7 +11553,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FOUN",
-    "Name":"Founder SPAC Class A Ordinary Shares"
+    "Name":"Founder SPAC Class A"
     },
     {
     "Symbol":"FOUNU",
@@ -11929,7 +11589,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FPAC",
-    "Name":"Far Peak Acquisition Corporation Class A Ordinary Shares"
+    "Name":"Far Peak Acquisition Corporation Class A"
     },
     {
     "Symbol":"FPAY",
@@ -11937,19 +11597,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FPF",
-    "Name":"First Trust Intermediate Duration Preferred & Income Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust Intermediate Duration Preferred & Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FPH",
-    "Name":"Five Point Holdings LLC Class A Common Shares"
-    },
-    {
-    "Symbol":"FPI",
-    "Name":"Farmland Partners Inc."
+    "Name":"Five Point Holdings LLC Class A "
     },
     {
     "Symbol":"FPL",
-    "Name":"First Trust New Opportunities MLP & Energy Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust New Opportunities MLP & Energy Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FR",
@@ -11981,31 +11637,31 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FRC^H",
-    "Name":"FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 5.125% Noncumulative Perpetual Series H Preferred Stock par value $0.01 per share"
+    "Name":"FIRST REPUBLIC BANK  each representing a 1/40th interest in a share of 5.125% Noncumulative Perpetual Series H Preferred Stock par value $0.01 per share"
     },
     {
     "Symbol":"FRC^I",
-    "Name":"FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 5.50% Noncumulative Perpetual Series I Preferred Stock par value $0.01 per share"
+    "Name":"FIRST REPUBLIC BANK  each representing a 1/40th interest in a share of 5.50% Noncumulative Perpetual Series I Preferred Stock par value $0.01 per share"
     },
     {
     "Symbol":"FRC^J",
-    "Name":"FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.70% Noncumulative Perpetual Series J Preferred Stock"
+    "Name":"FIRST REPUBLIC BANK  Each Representing a 1/40th Interest in a Share of 4.70% Noncumulative Perpetual Series J Preferred Stock"
     },
     {
     "Symbol":"FRC^K",
-    "Name":"FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.125% Noncumulative Perpetual Series K Preferred Stock"
+    "Name":"FIRST REPUBLIC BANK  Each Representing a 1/40th Interest in a Share of 4.125% Noncumulative Perpetual Series K Preferred Stock"
     },
     {
     "Symbol":"FRC^L",
-    "Name":"FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.250% Noncumulative Perpetual Series L Preferred Stock"
+    "Name":"FIRST REPUBLIC BANK  Each Representing a 1/40th Interest in a Share of 4.250% Noncumulative Perpetual Series L Preferred Stock"
     },
     {
     "Symbol":"FRC^M",
-    "Name":"FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 4.000% Noncumulative Perpetual Series M Preferred Stock"
+    "Name":"FIRST REPUBLIC BANK  each representing a 1/40th interest in a share of 4.000% Noncumulative Perpetual Series M Preferred Stock"
     },
     {
     "Symbol":"FRC^N",
-    "Name":"First Republic Bank Depositary Shares Each Representing a 1/40th Interest in a Share of 4.500% Noncumulative Perpetual Series N Preferred Stock"
+    "Name":"First Republic Bank  Each Representing a 1/40th Interest in a Share of 4.500% Noncumulative Perpetual Series N Preferred Stock"
     },
     {
     "Symbol":"FRD",
@@ -12025,7 +11681,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FREY",
-    "Name":"FREYR Battery Ordinary Shares"
+    "Name":"FREYR Battery"
     },
     {
     "Symbol":"FRG",
@@ -12057,7 +11713,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FRLN",
-    "Name":"Freeline Therapeutics Holdings plc American Depositary Shares"
+    "Name":"Freeline Therapeutics Holdings plc American "
     },
     {
     "Symbol":"FRME",
@@ -12065,19 +11721,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FRO",
-    "Name":"Frontline Ltd. Ordinary Shares"
+    "Name":"Frontline Ltd."
     },
     {
     "Symbol":"FROG",
-    "Name":"JFrog Ltd. Ordinary Shares"
+    "Name":"JFrog Ltd."
     },
     {
     "Symbol":"FRON",
-    "Name":"Frontier Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Frontier Acquisition Corp. Class A"
     },
     {
     "Symbol":"FRONU",
-    "Name":"Frontier Acquisition Corp. Units"
+    "Name":"Frontier Acquisition "
     },
     {
     "Symbol":"FRPH",
@@ -12109,7 +11765,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FRSX",
-    "Name":"Foresight Autonomous Holdings Ltd. American Depositary Shares"
+    "Name":"Foresight Autonomous Holdings Ltd. American "
     },
     {
     "Symbol":"FRT",
@@ -12117,7 +11773,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FRT^C",
-    "Name":"Federal Realty Investment Trust Depositary Shares each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share"
+    "Name":"Federal Realty Investment Trust  each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share"
     },
     {
     "Symbol":"FRTA",
@@ -12145,7 +11801,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FSD",
-    "Name":"First Trust High Income Long Short Fund Common Shares of Beneficial Interest"
+    "Name":"First Trust High Income Long Short Fund  of Beneficial Interest"
     },
     {
     "Symbol":"FSEA",
@@ -12173,7 +11829,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FSM",
-    "Name":"Fortuna Silver Mines Inc Ordinary Shares (Canada)"
+    "Name":"Fortuna Silver Mines Inc (Canada)"
     },
     {
     "Symbol":"FSNB",
@@ -12229,7 +11885,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FSV",
-    "Name":"FirstService Corporation Common Shares"
+    "Name":"FirstService Corporation "
     },
     {
     "Symbol":"FT",
@@ -12249,7 +11905,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FTAI",
-    "Name":"Fortress Transportation and Infrastructure Investors LLC Common Shares"
+    "Name":"Fortress Transportation and Infrastructure Investors LLC "
     },
     {
     "Symbol":"FTAI^A",
@@ -12265,7 +11921,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FTCH",
-    "Name":"Farfetch Limited Class A Ordinary Shares"
+    "Name":"Farfetch Limited Class A"
     },
     {
     "Symbol":"FTCI",
@@ -12293,11 +11949,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FTEV",
-    "Name":"FinTech Evolution Acquisition Group Class A Ordinary Shares"
+    "Name":"FinTech Evolution Acquisition Group Class A"
     },
     {
     "Symbol":"FTF",
-    "Name":"Franklin Limited Duration Income Trust Common Shares of Beneficial Interest"
+    "Name":"Franklin Limited Duration Income Trust  of Beneficial Interest"
     },
     {
     "Symbol":"FTFT",
@@ -12337,11 +11993,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FTRP",
-    "Name":"Field Trip Health Ltd. Common Shares"
+    "Name":"Field Trip Health Ltd. "
     },
     {
     "Symbol":"FTS",
-    "Name":"Fortis Inc. Common Shares"
+    "Name":"Fortis Inc. "
     },
     {
     "Symbol":"FTSI",
@@ -12381,7 +12037,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FULTP",
-    "Name":"Fulton Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"Fulton Financial Corporation  Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"FUN",
@@ -12397,7 +12053,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FURY",
-    "Name":"Fury Gold Mines Limited Common Shares"
+    "Name":"Fury Gold Mines Limited "
     },
     {
     "Symbol":"FUSB",
@@ -12405,11 +12061,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FUSN",
-    "Name":"Fusion Pharmaceuticals Inc. Common Shares"
+    "Name":"Fusion Pharmaceuticals Inc. "
     },
     {
     "Symbol":"FUTU",
-    "Name":"Futu Holdings Limited American Depositary Shares"
+    "Name":"Futu Holdings Limited American "
     },
     {
     "Symbol":"FUV",
@@ -12433,7 +12089,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FVRR",
-    "Name":"Fiverr International Ltd. Ordinary Shares no par value"
+    "Name":"Fiverr International Ltd. no par value"
     },
     {
     "Symbol":"FVT",
@@ -12441,7 +12097,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FWAC",
-    "Name":"Fifth Wall Acquisition Corp. III Class A Ordinary Shares"
+    "Name":"Fifth Wall Acquisition Corp. III Class A"
     },
     {
     "Symbol":"FWBI",
@@ -12457,7 +12113,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"FWP",
-    "Name":"Forward Pharma A/S American Depositary Shares"
+    "Name":"Forward Pharma A/S American "
     },
     {
     "Symbol":"FWRD",
@@ -12561,7 +12217,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GAMB",
-    "Name":"Gambling.com Group Limited Ordinary Shares"
+    "Name":"Gambling.com Group Limited"
     },
     {
     "Symbol":"GAMC",
@@ -12581,7 +12237,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GAN",
-    "Name":"GAN Limited Ordinary Shares"
+    "Name":"GAN Limited"
     },
     {
     "Symbol":"GANX",
@@ -12621,11 +12277,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GB",
-    "Name":"Global Blue Group Holding AG Ordinary Shares"
+    "Name":"Global Blue Group Holding AG"
     },
     {
     "Symbol":"GBAB",
-    "Name":"Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust Common Shares of Beneficial Interest"
+    "Name":"Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust  of Beneficial Interest"
     },
     {
     "Symbol":"GBCI",
@@ -12653,7 +12309,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GBNH",
-    "Name":"Greenbrook TMS Inc. Common Shares"
+    "Name":"Greenbrook TMS Inc. "
     },
     {
     "Symbol":"GBNY",
@@ -12741,7 +12397,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GDEV",
-    "Name":"Nexters Inc. Ordinary Shares"
+    "Name":"Nexters Inc."
     },
     {
     "Symbol":"GDEVW",
@@ -12749,7 +12405,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GDL",
-    "Name":"GDL Fund The Common Shares of Beneficial Interest"
+    "Name":"GDL Fund The  of Beneficial Interest"
     },
     {
     "Symbol":"GDL^C",
@@ -12785,7 +12441,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GDV",
-    "Name":"Gabelli Dividend & Income Trust Common Shares of Beneficial Interest"
+    "Name":"Gabelli Dividend & Income Trust  of Beneficial Interest"
     },
     {
     "Symbol":"GDV^G",
@@ -12825,7 +12481,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GEEX",
-    "Name":"Games & Esports Experience Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Games & Esports Experience Acquisition Corp. Class A"
     },
     {
     "Symbol":"GEEXU",
@@ -12857,7 +12513,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GENI",
-    "Name":"Genius Sports Limited Ordinary Shares"
+    "Name":"Genius Sports Limited"
     },
     {
     "Symbol":"GEO",
@@ -12881,7 +12537,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GET",
-    "Name":"Getnet Adquirencia e Servicos para Meios de Pagamento S.A. American Depositary Shares"
+    "Name":"Getnet Adquirencia e Servicos para Meios de Pagamento S.A. American "
     },
     {
     "Symbol":"GEVO",
@@ -12893,7 +12549,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GFAI",
-    "Name":"Guardforce AI Co. Limited Ordinary Shares"
+    "Name":"Guardforce AI Co. Limited"
     },
     {
     "Symbol":"GFAIW",
@@ -12913,7 +12569,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GFI",
-    "Name":"Gold Fields Limited American Depositary Shares"
+    "Name":"Gold Fields Limited American "
     },
     {
     "Symbol":"GFL",
@@ -12929,7 +12585,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GFS",
-    "Name":"GlobalFoundries Inc. Ordinary Shares"
+    "Name":"GlobalFoundries Inc."
     },
     {
     "Symbol":"GFX",
@@ -12941,7 +12597,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GGAL",
-    "Name":"Grupo Financiero Galicia S.A. American Depositary Shares"
+    "Name":"Grupo Financiero Galicia S.A. American "
     },
     {
     "Symbol":"GGB",
@@ -13005,7 +12661,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GGZ",
-    "Name":"Gabelli Global Small and Mid Cap Value Trust (The) Common Shares of Beneficial Interest"
+    "Name":"Gabelli Global Small and Mid Cap Value Trust (The)  of Beneficial Interest"
     },
     {
     "Symbol":"GGZ^A",
@@ -13033,7 +12689,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GHG",
-    "Name":"GreenTree Hospitality Group Ltd. American depositary shares each representing one Class A ordinary share"
+    "Name":"GreenTree Hospitality Group Ltd. American  each representing one Class A ordinary share"
     },
     {
     "Symbol":"GHIXU",
@@ -13053,7 +12709,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GHRS",
-    "Name":"GH Research PLC Ordinary Shares"
+    "Name":"GH Research PLC"
     },
     {
     "Symbol":"GHSI",
@@ -13069,7 +12725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GIAC",
-    "Name":"Gesher I Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Gesher I Acquisition Corp. Class A"
     },
     {
     "Symbol":"GIACU",
@@ -13093,7 +12749,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GIGM",
-    "Name":"GigaMedia Limited Ordinary Shares"
+    "Name":"GigaMedia Limited"
     },
     {
     "Symbol":"GIII",
@@ -13121,7 +12777,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GILT",
-    "Name":"Gilat Satellite Networks Ltd. Ordinary Shares"
+    "Name":"Gilat Satellite Networks Ltd."
     },
     {
     "Symbol":"GIM",
@@ -13201,7 +12857,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GLBE",
-    "Name":"Global-E Online Ltd. Ordinary Shares"
+    "Name":"Global-E Online Ltd."
     },
     {
     "Symbol":"GLBL",
@@ -13225,7 +12881,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GLDG",
-    "Name":"GoldMining Inc. Common Shares"
+    "Name":"GoldMining Inc. "
     },
     {
     "Symbol":"GLEE",
@@ -13265,7 +12921,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GLMD",
-    "Name":"Galmed Pharmaceuticals Ltd. Ordinary Shares"
+    "Name":"Galmed Pharmaceuticals Ltd."
     },
     {
     "Symbol":"GLNG",
@@ -13277,43 +12933,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GLOB",
-    "Name":"Globant S.A. Common Shares"
+    "Name":"Globant S.A. "
     },
     {
     "Symbol":"GLOG^A",
     "Name":"GasLog LP. 8.75% Series A Cumulative Redeemable Perpetual Preference Shares"
     },
     {
-    "Symbol":"GLOP",
-    "Name":"GasLog Partners LP Common Units representing limited partnership interests"
-    },
-    {
-    "Symbol":"GLOP^A",
-    "Name":"GasLog Partners LP 8.625% Series A Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units"
-    },
-    {
-    "Symbol":"GLOP^B",
-    "Name":"GasLog Partners LP 8.200% Series B Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units"
-    },
-    {
-    "Symbol":"GLOP^C",
-    "Name":"GasLog Partners LP 8.500% Series C Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units"
-    },
-    {
-    "Symbol":"GLP",
-    "Name":"Global Partners LP Global Partners LP Common Units representing Limited Partner Interests"
-    },
-    {
-    "Symbol":"GLP^A",
-    "Name":"Global Partners LP 9.75% Series A Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests"
-    },
-    {
-    "Symbol":"GLP^B",
-    "Name":"Global Partners LP 9.50% Series B Fixed Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests"
-    },
-    {
     "Symbol":"GLPG",
-    "Name":"Galapagos NV American Depositary Shares"
+    "Name":"Galapagos NV American "
     },
     {
     "Symbol":"GLPI",
@@ -13321,11 +12949,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GLQ",
-    "Name":"Clough Global Equity Fund Clough Global Equity Fund Common Shares of Beneficial Interest"
+    "Name":"Clough Global Equity Fund Clough Global Equity Fund  of Beneficial Interest"
     },
     {
     "Symbol":"GLRE",
-    "Name":"Greenlight Capital Re Ltd. Class A Ordinary Shares"
+    "Name":"Greenlight Capital Re Ltd. Class A"
     },
     {
     "Symbol":"GLS",
@@ -13336,20 +12964,12 @@ const stockSymbolByName = [
     "Name":"Greenwich LifeSciences Inc."
     },
     {
-    "Symbol":"GLSPT",
-    "Name":"Global SPAC Partners Co. Subunit"
-    },
-    {
-    "Symbol":"GLSPW",
-    "Name":"Global SPAC Partners Co. Warrants"
-    },
-    {
     "Symbol":"GLT",
     "Name":"Glatfelter Corporation"
     },
     {
     "Symbol":"GLTA",
-    "Name":"Galata Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Galata Acquisition Corp. Class A"
     },
     {
     "Symbol":"GLTO",
@@ -13357,7 +12977,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GLU",
-    "Name":"Gabelli Global Utility Common Shares of Beneficial Ownership"
+    "Name":"Gabelli Global Utility  of Beneficial Ownership"
     },
     {
     "Symbol":"GLU^A",
@@ -13373,7 +12993,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GLV",
-    "Name":"Clough Global Dividend and Income Fund Common Shares of beneficial interest"
+    "Name":"Clough Global Dividend and Income Fund  of beneficial interest"
     },
     {
     "Symbol":"GLW",
@@ -13417,7 +13037,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GMDA",
-    "Name":"Gamida Cell Ltd. Ordinary Shares"
+    "Name":"Gamida Cell Ltd."
     },
     {
     "Symbol":"GME",
@@ -13449,7 +13069,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GMVD",
-    "Name":"G Medical Innovations Holdings Ltd. Ordinary Shares"
+    "Name":"G Medical Innovations Holdings Ltd."
     },
     {
     "Symbol":"GMVDW",
@@ -13481,11 +13101,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GNFT",
-    "Name":"GENFIT S.A. American Depositary Shares"
+    "Name":"GENFIT S.A. American "
     },
     {
     "Symbol":"GNK",
-    "Name":"Genco Shipping & Trading Limited Ordinary Shares New (Marshall Islands)"
+    "Name":"Genco Shipping & Trading Limited New (Marshall Islands)"
     },
     {
     "Symbol":"GNL",
@@ -13529,7 +13149,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GNTA",
-    "Name":"Genenta Science S.p.A. American Depositary Shares"
+    "Name":"Genenta Science S.p.A. American "
     },
     {
     "Symbol":"GNTX",
@@ -13557,7 +13177,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GOBI",
-    "Name":"Gobi Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Gobi Acquisition Corp. Class A"
     },
     {
     "Symbol":"GOCO",
@@ -13577,7 +13197,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GOF",
-    "Name":"Guggenheim Strategic Opportunities Fund Common Shares of Beneficial Interest"
+    "Name":"Guggenheim Strategic Opportunities Fund  of Beneficial Interest"
     },
     {
     "Symbol":"GOGL",
@@ -13585,7 +13205,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GOGN",
-    "Name":"GoGreen Investments Corporation Class A Ordinary Shares"
+    "Name":"GoGreen Investments Corporation Class A"
     },
     {
     "Symbol":"GOGO",
@@ -13637,7 +13257,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GOTU",
-    "Name":"Gaotu Techedu Inc. American Depositary Shares"
+    "Name":"Gaotu Techedu Inc. American "
     },
     {
     "Symbol":"GOVX",
@@ -13649,7 +13269,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GP",
-    "Name":"GreenPower Motor Company Inc. Common Shares"
+    "Name":"GreenPower Motor Company Inc. "
     },
     {
     "Symbol":"GPAC",
@@ -13669,7 +13289,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GPCO",
-    "Name":"Golden Path Acquisition Corporation Ordinary Shares"
+    "Name":"Golden Path Acquisition Corporation"
     },
     {
     "Symbol":"GPCOW",
@@ -13689,7 +13309,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GPL",
-    "Name":"Great Panther Mining Limited Ordinary Shares (Canada)"
+    "Name":"Great Panther Mining Limited (Canada)"
     },
     {
     "Symbol":"GPMT",
@@ -13705,11 +13325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GPOR",
-    "Name":"Gulfport Energy Corporation Common Shares"
-    },
-    {
-    "Symbol":"GPP",
-    "Name":"Green Plains Partners LP Common Units"
+    "Name":"Gulfport Energy Corporation "
     },
     {
     "Symbol":"GPRE",
@@ -13717,7 +13333,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GPRK",
-    "Name":"Geopark Ltd Common Shares"
+    "Name":"Geopark Ltd "
     },
     {
     "Symbol":"GPRO",
@@ -13729,7 +13345,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GRAB",
-    "Name":"Grab Holdings Limited Class A Ordinary Shares"
+    "Name":"Grab Holdings Limited Class A"
     },
     {
     "Symbol":"GRABW",
@@ -13740,24 +13356,16 @@ const stockSymbolByName = [
     "Name":"Graybug Vision Inc."
     },
     {
-    "Symbol":"GRBK",
-    "Name":"Green Brick Partners Inc."
-    },
-    {
-    "Symbol":"GRBK^A",
-    "Name":"Green Brick Partners Inc. Depositary Shares (each representing a 1/1000th fractional interest in a share of 5.75% Series A Cumulative Perpetual Preferred Stock)"
-    },
-    {
     "Symbol":"GRC",
     "Name":"Gorman-Rupp Company (The)"
     },
     {
     "Symbol":"GRCL",
-    "Name":"Gracell Biotechnologies Inc. American Depositary Shares"
+    "Name":"Gracell Biotechnologies Inc. American "
     },
     {
     "Symbol":"GRCY",
-    "Name":"Greencity Acquisition Corporation Ordinary Shares"
+    "Name":"Greencity Acquisition Corporation"
     },
     {
     "Symbol":"GREE",
@@ -13773,7 +13381,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GRFS",
-    "Name":"Grifols S.A. American Depositary Shares"
+    "Name":"Grifols S.A. American "
     },
     {
     "Symbol":"GRIL",
@@ -13781,7 +13389,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GRIN",
-    "Name":"Grindrod Shipping Holdings Ltd. Ordinary Shares"
+    "Name":"Grindrod Shipping Holdings Ltd."
     },
     {
     "Symbol":"GRMN",
@@ -13805,7 +13413,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GROY",
-    "Name":"Gold Royalty Corp. Common Shares"
+    "Name":"Gold Royalty Corp. "
     },
     {
     "Symbol":"GRPH",
@@ -13825,7 +13433,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GRUB",
-    "Name":"Just Eat Takeaway.com N.V. American Depositary Shares"
+    "Name":"Just Eat Takeaway.com N.V. American "
     },
     {
     "Symbol":"GRVI",
@@ -13841,7 +13449,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GRX",
-    "Name":"The Gabelli Healthcare & Wellness Trust Common Shares of Beneficial Interest"
+    "Name":"The Gabelli Healthcare & Wellness Trust  of Beneficial Interest"
     },
     {
     "Symbol":"GS",
@@ -13849,7 +13457,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GS^A",
-    "Name":"Goldman Sachs Group Inc. (The) Depositary Shares each representing 1/1000th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series A"
+    "Name":"Goldman Sachs Group Inc. (The)  each representing 1/1000th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series A"
     },
     {
     "Symbol":"GS^C",
@@ -13869,11 +13477,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GSAQ",
-    "Name":"Global Synergy Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Global Synergy Acquisition Corp. Class A"
     },
     {
     "Symbol":"GSAQU",
-    "Name":"Global Synergy Acquisition Corp. Units"
+    "Name":"Global Synergy Acquisition "
     },
     {
     "Symbol":"GSAQW",
@@ -13921,7 +13529,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GSL",
-    "Name":"Global Ship Lease Inc New Class A Common Shares"
+    "Name":"Global Ship Lease Inc New Class A "
     },
     {
     "Symbol":"GSL^B",
@@ -13933,7 +13541,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GSM",
-    "Name":"Ferroglobe PLC Ordinary Shares"
+    "Name":"Ferroglobe PLC"
     },
     {
     "Symbol":"GSMG",
@@ -13945,11 +13553,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GSQB",
-    "Name":"G Squared Ascend II Inc. Class A Ordinary Shares"
+    "Name":"G Squared Ascend II Inc. Class A"
     },
     {
     "Symbol":"GSQD",
-    "Name":"G Squared Ascend I Inc. Class A Ordinary Shares"
+    "Name":"G Squared Ascend I Inc. Class A"
     },
     {
     "Symbol":"GSS",
@@ -13965,7 +13573,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GTAC",
-    "Name":"Global Technology Acquisition Corp. I Class A Ordinary Shares"
+    "Name":"Global Technology Acquisition Corp. I Class A"
     },
     {
     "Symbol":"GTACU",
@@ -13981,11 +13589,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GTEC",
-    "Name":"Greenland Technologies Holding Corporation Ordinary Shares"
+    "Name":"Greenland Technologies Holding Corporation"
     },
     {
     "Symbol":"GTES",
-    "Name":"Gates Industrial Corporation plc Ordinary Shares"
+    "Name":"Gates Industrial Corporation plc"
     },
     {
     "Symbol":"GTH",
@@ -14012,22 +13620,6 @@ const stockSymbolByName = [
     "Name":"Gray Television Inc."
     },
     {
-    "Symbol":"GTPA",
-    "Name":"Gores Technology Partners Inc. Class A"
-    },
-    {
-    "Symbol":"GTPAW",
-    "Name":"Gores Technology Partners Inc. Warrant"
-    },
-    {
-    "Symbol":"GTPB",
-    "Name":"Gores Technology Partners II Inc. Class A"
-    },
-    {
-    "Symbol":"GTPBU",
-    "Name":"Gores Technology Partners II Inc. Units"
-    },
-    {
     "Symbol":"GTS",
     "Name":"Triple-S Management Corporation"
     },
@@ -14049,7 +13641,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GUG",
-    "Name":"Guggenheim Active Allocation Fund Common Shares of Beneficial Interest"
+    "Name":"Guggenheim Active Allocation Fund  of Beneficial Interest"
     },
     {
     "Symbol":"GURE",
@@ -14073,7 +13665,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"GVCI",
-    "Name":"Green Visor Financial Technology Acquisition Corp. I Class A Ordinary Shares"
+    "Name":"Green Visor Financial Technology Acquisition Corp. I Class A"
     },
     {
     "Symbol":"GVCIW",
@@ -14185,7 +13777,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HAPP",
-    "Name":"Happiness Development Group Limited Class A Ordinary Shares"
+    "Name":"Happiness Development Group Limited Class A"
     },
     {
     "Symbol":"HARP",
@@ -14213,11 +13805,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HBANM",
-    "Name":"Huntington Bancshares Incorporated Depositary Shares each representing a 1/1000th interest in a share of Huntington Series I Preferred Stock"
+    "Name":"Huntington Bancshares Incorporated  each representing a 1/1000th interest in a share of Huntington Series I Preferred Stock"
     },
     {
     "Symbol":"HBANP",
-    "Name":"Huntington Bancshares Incorporated Depositary Shares 4.500% Series H Non-Cumulative Perpetual Preferred Stock"
+    "Name":"Huntington Bancshares Incorporated  4.500% Series H Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"HBB",
@@ -14237,7 +13829,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HBM",
-    "Name":"Hudbay Minerals Inc. Ordinary Shares (Canada)"
+    "Name":"Hudbay Minerals Inc. (Canada)"
     },
     {
     "Symbol":"HBNC",
@@ -14341,7 +13933,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HCM",
-    "Name":"HUTCHMED (China) Limited American Depositary Shares"
+    "Name":"HUTCHMED (China) Limited American "
     },
     {
     "Symbol":"HCMAU",
@@ -14420,28 +14012,24 @@ const stockSymbolByName = [
     "Name":"Helen of Troy Limited"
     },
     {
-    "Symbol":"HEP",
-    "Name":"Holly Energy Partners L.P."
-    },
-    {
     "Symbol":"HEPA",
     "Name":"Hepion Pharmaceuticals Inc."
     },
     {
     "Symbol":"HEPS",
-    "Name":"D-Market Electronic Services & Trading American Depositary Shares"
+    "Name":"D-Market Electronic Services & Trading American "
     },
     {
     "Symbol":"HEQ",
-    "Name":"John Hancock Hedged Equity & Income Fund Common Shares of Beneficial Interest"
+    "Name":"John Hancock Hedged Equity & Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"HERA",
-    "Name":"FTAC Hera Acquisition Corp. Class A Ordinary Shares"
+    "Name":"FTAC Hera Acquisition Corp. Class A"
     },
     {
     "Symbol":"HERAU",
-    "Name":"FTAC Hera Acquisition Corp. Units"
+    "Name":"FTAC Hera Acquisition "
     },
     {
     "Symbol":"HERAW",
@@ -14457,7 +14045,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HEXO",
-    "Name":"HEXO Corp. Common Shares"
+    "Name":"HEXO Corp. "
     },
     {
     "Symbol":"HFBL",
@@ -14517,7 +14105,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HHGC",
-    "Name":"HHG Capital Corporation Ordinary Shares"
+    "Name":"HHG Capital Corporation"
     },
     {
     "Symbol":"HHGCR",
@@ -14529,11 +14117,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HHLA",
-    "Name":"HH&L Acquisition Co. Class A Ordinary Shares"
+    "Name":"HH&L Acquisition Co. Class A"
     },
     {
     "Symbol":"HHR",
-    "Name":"HeadHunter Group PLC American Depositary Shares"
+    "Name":"HeadHunter Group PLC American "
     },
     {
     "Symbol":"HHS",
@@ -14549,7 +14137,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HIE",
-    "Name":"Miller/Howard High Income Equity Fund Common Shares of Beneficial Interest"
+    "Name":"Miller/Howard High Income Equity Fund  of Beneficial Interest"
     },
     {
     "Symbol":"HIFS",
@@ -14561,11 +14149,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HIG^G",
-    "Name":"Hartford Financial Services Group Inc. (The) Depositary Shares each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock Series G $0.01 par value"
+    "Name":"Hartford Financial Services Group Inc. (The)  each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock Series G $0.01 par value"
     },
     {
     "Symbol":"HIGA",
-    "Name":"H.I.G. Acquisition Corp. Class A Ordinary Shares"
+    "Name":"H.I.G. Acquisition Corp. Class A"
     },
     {
     "Symbol":"HIHO",
@@ -14601,7 +14189,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HIMX",
-    "Name":"Himax Technologies Inc. American Depositary Shares"
+    "Name":"Himax Technologies Inc. American "
     },
     {
     "Symbol":"HIO",
@@ -14613,11 +14201,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HITI",
-    "Name":"High Tide Inc. Common Shares"
+    "Name":"High Tide Inc. "
     },
     {
     "Symbol":"HIVE",
-    "Name":"Hive Blockchain Technologies Ltd. Common Shares"
+    "Name":"Hive Blockchain Technologies Ltd. "
     },
     {
     "Symbol":"HIW",
@@ -14629,7 +14217,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HKIB",
-    "Name":"AMTD International Inc. American Depositary Shares each representing one Class A Ordinary Share"
+    "Name":"AMTD International Inc. American  each representing one Class A Ordinary Share"
     },
     {
     "Symbol":"HL",
@@ -14665,7 +14253,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HLG",
-    "Name":"Hailiang Education Group Inc. American Depositary Shares"
+    "Name":"Hailiang Education Group Inc. American "
     },
     {
     "Symbol":"HLGN",
@@ -14709,7 +14297,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HLXA",
-    "Name":"Helix Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Helix Acquisition Corp. Class A"
     },
     {
     "Symbol":"HMC",
@@ -14730,14 +14318,6 @@ const stockSymbolByName = [
     {
     "Symbol":"HMHC",
     "Name":"Houghton Mifflin Harcourt Company"
-    },
-    {
-    "Symbol":"HMLP",
-    "Name":"Hoegh LNG Partners LP Common Units representing Limited Partner Interests"
-    },
-    {
-    "Symbol":"HMLP^A",
-    "Name":"Hoegh LNG Partners LP 8.75% Series A Cumulative Redeemable Preferred Units"
     },
     {
     "Symbol":"HMN",
@@ -14813,7 +14393,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HOLI",
-    "Name":"Hollysys Automation Technologies Ltd. Common Shares (British Virgin Islands)"
+    "Name":"Hollysys Automation Technologies Ltd.  (British Virgin Islands)"
     },
     {
     "Symbol":"HOLX",
@@ -14881,7 +14461,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HPI",
-    "Name":"John Hancock Preferred Income Fund Common Shares of Beneficial Interest"
+    "Name":"John Hancock Preferred Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"HPK",
@@ -14921,7 +14501,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HPX",
-    "Name":"HPX Corp. Class A Ordinary Shares"
+    "Name":"HPX Corp. Class A"
     },
     {
     "Symbol":"HQH",
@@ -14985,7 +14565,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HSAQ",
-    "Name":"Health Sciences Acquisitions Corporation 2 Ordinary Shares"
+    "Name":"Health Sciences Acquisitions Corporation 2"
     },
     {
     "Symbol":"HSBC",
@@ -15033,7 +14613,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HT",
-    "Name":"Hersha Hospitality Trust Class A Common Shares of Beneficial Interest"
+    "Name":"Hersha Hospitality Trust Class A  of Beneficial Interest"
     },
     {
     "Symbol":"HT^C",
@@ -15053,7 +14633,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HTAQ",
-    "Name":"Hunt Companies Acquisition Corp. I Class A Ordinary Shares"
+    "Name":"Hunt Companies Acquisition Corp. I Class A"
     },
     {
     "Symbol":"HTBI",
@@ -15069,7 +14649,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HTD",
-    "Name":"John Hancock Tax Advantaged Dividend Income Fund Common Shares of Beneficial Interest"
+    "Name":"John Hancock Tax Advantaged Dividend Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"HTFB",
@@ -15089,7 +14669,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HTHT",
-    "Name":"Huazhu Group Limited American Depositary Shares"
+    "Name":"Huazhu Group Limited American "
     },
     {
     "Symbol":"HTIA",
@@ -15109,23 +14689,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HTLFP",
-    "Name":"Heartland Financial USA Inc. Depositary Shares each representing a 1/400th ownership interest in a share of 7.00% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series E"
+    "Name":"Heartland Financial USA Inc.  each representing a 1/400th ownership interest in a share of 7.00% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series E"
     },
     {
     "Symbol":"HTOO",
-    "Name":"Fusion Fuel Green PLC Class A Ordinary Shares"
+    "Name":"Fusion Fuel Green PLC Class A"
     },
     {
     "Symbol":"HTOOW",
     "Name":"Fusion Fuel Green PLC Warrant"
     },
     {
-    "Symbol":"HTPA",
-    "Name":"Highland Transcend Partners I Corp. Class A Ordinary Shares"
-    },
-    {
     "Symbol":"HTY",
-    "Name":"John Hancock Tax-Advantaged Global Shareholder Yield Fund Common Shares of Beneficial Interest"
+    "Name":"John Hancock Tax-Advantaged Global Shareholder Yield Fund  of Beneficial Interest"
     },
     {
     "Symbol":"HTZ",
@@ -15149,7 +14725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HUDI",
-    "Name":"Huadi International Group Co. Ltd. Ordinary Shares"
+    "Name":"Huadi International Group Co. Ltd."
     },
     {
     "Symbol":"HUGE",
@@ -15161,7 +14737,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HUIZ",
-    "Name":"Huize Holding Limited American Depositary Shares"
+    "Name":"Huize Holding Limited American "
     },
     {
     "Symbol":"HUM",
@@ -15193,15 +14769,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HUSN",
-    "Name":"Hudson Capital Inc. Ordinary Shares"
+    "Name":"Hudson Capital Inc."
     },
     {
     "Symbol":"HUT",
-    "Name":"Hut 8 Mining Corp. Common Shares"
+    "Name":"Hut 8 Mining Corp. "
     },
     {
     "Symbol":"HUYA",
-    "Name":"HUYA Inc. American depositary shares each  representing one Class A ordinary share"
+    "Name":"HUYA Inc. American  each  representing one Class A ordinary share"
     },
     {
     "Symbol":"HVBC",
@@ -15317,7 +14893,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HYW",
-    "Name":"Hywin Holdings Ltd. American Depositary Shares"
+    "Name":"Hywin Holdings Ltd. American "
     },
     {
     "Symbol":"HYZN",
@@ -15329,11 +14905,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HZN",
-    "Name":"Horizon Global Corporation Common Shares"
+    "Name":"Horizon Global Corporation "
     },
     {
     "Symbol":"HZNP",
-    "Name":"Horizon Therapeutics Public Limited Company Ordinary Shares"
+    "Name":"Horizon Therapeutics Public Limited Company"
     },
     {
     "Symbol":"HZO",
@@ -15341,7 +14917,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"HZON",
-    "Name":"Horizon Acquisition Corporation II Class A Ordinary Shares"
+    "Name":"Horizon Acquisition Corporation II Class A"
     },
     {
     "Symbol":"IAA",
@@ -15353,11 +14929,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IACC",
-    "Name":"ION Acquisition Corp 3 Ltd. Class A Ordinary Shares"
+    "Name":"ION Acquisition Corp 3 Ltd. Class A"
     },
     {
     "Symbol":"IAE",
-    "Name":"Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest"
+    "Name":"Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"IAF",
@@ -15365,7 +14941,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IAG",
-    "Name":"Iamgold Corporation Ordinary Shares"
+    "Name":"Iamgold Corporation"
     },
     {
     "Symbol":"IART",
@@ -15385,11 +14961,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IBER",
-    "Name":"Ibere Pharmaceuticals Class A Ordinary Shares"
+    "Name":"Ibere Pharmaceuticals Class A"
     },
     {
     "Symbol":"IBEX",
-    "Name":"IBEX Limited Common Shares"
+    "Name":"IBEX Limited "
     },
     {
     "Symbol":"IBIO",
@@ -15437,7 +15013,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ICCM",
-    "Name":"IceCure Medical Ltd. Ordinary Shares"
+    "Name":"IceCure Medical Ltd."
     },
     {
     "Symbol":"ICD",
@@ -15453,19 +15029,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ICHR",
-    "Name":"Ichor Holdings Ordinary Shares"
+    "Name":"Ichor Holdings"
     },
     {
     "Symbol":"ICL",
-    "Name":"ICL Group Ltd. Ordinary Shares"
+    "Name":"ICL Group Ltd."
     },
     {
     "Symbol":"ICLK",
-    "Name":"iClick Interactive Asia Group Limited American Depositary Shares"
+    "Name":"iClick Interactive Asia Group Limited American "
     },
     {
     "Symbol":"ICLR",
-    "Name":"ICON plc Ordinary Shares"
+    "Name":"ICON plc"
     },
     {
     "Symbol":"ICMB",
@@ -15473,7 +15049,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ICNC",
-    "Name":"Iconic Sports Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Iconic Sports Acquisition Corp. Class A"
     },
     {
     "Symbol":"ICPT",
@@ -15501,7 +15077,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IDBA",
-    "Name":"IDEX Biometrics ASA American Depositary Shares"
+    "Name":"IDEX Biometrics ASA American "
     },
     {
     "Symbol":"IDCC",
@@ -15509,7 +15085,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IDE",
-    "Name":"Voya Infrastructure Industrials and Materials Fund Common Shares of Beneficial Interest"
+    "Name":"Voya Infrastructure Industrials and Materials Fund  of Beneficial Interest"
     },
     {
     "Symbol":"IDEX",
@@ -15561,7 +15137,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IFBD",
-    "Name":"Infobird Co. Ltd Ordinary Shares"
+    "Name":"Infobird Co. Ltd"
     },
     {
     "Symbol":"IFF",
@@ -15569,7 +15145,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IFIN",
-    "Name":"InFinT Acquisition Corporation Class A Ordinary Shares"
+    "Name":"InFinT Acquisition Corporation Class A"
     },
     {
     "Symbol":"IFN",
@@ -15581,11 +15157,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IFS",
-    "Name":"Intercorp Financial Services Inc. Common Shares"
+    "Name":"Intercorp Financial Services Inc. "
     },
     {
     "Symbol":"IGA",
-    "Name":"Voya Global Advantage and Premium Opportunity Fund Common Shares of Beneficial Interest"
+    "Name":"Voya Global Advantage and Premium Opportunity Fund  of Beneficial Interest"
     },
     {
     "Symbol":"IGAC",
@@ -15637,11 +15213,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IGR",
-    "Name":"CBRE Global Real Estate Income Fund Common Shares of Beneficial Interest"
+    "Name":"CBRE Global Real Estate Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"IGT",
-    "Name":"International Game Technology Ordinary Shares"
+    "Name":"International Game Technology"
     },
     {
     "Symbol":"IGTA",
@@ -15661,7 +15237,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IH",
-    "Name":"iHuman Inc. American depositary shares each representing five Class A ordinary shares"
+    "Name":"iHuman Inc. American  each representing five Class A"
     },
     {
     "Symbol":"IHC",
@@ -15669,15 +15245,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IHD",
-    "Name":"Voya Emerging Markets High Income Dividend Equity Fund Common Shares"
+    "Name":"Voya Emerging Markets High Income Dividend Equity Fund "
     },
     {
     "Symbol":"IHG",
-    "Name":"Intercontinental Hotels Group American Depositary Shares (Each representing one Ordinary Share)"
+    "Name":"Intercontinental Hotels Group American  (Each representing one Ordinary Share)"
     },
     {
     "Symbol":"IHIT",
-    "Name":"Invesco High Income 2023 Target Term Fund Common Shares of Beneficial Interest"
+    "Name":"Invesco High Income 2023 Target Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"IHRT",
@@ -15685,7 +15261,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IHS",
-    "Name":"IHS Holding Limited Ordinary Shares"
+    "Name":"IHS Holding Limited"
     },
     {
     "Symbol":"IHT",
@@ -15693,7 +15269,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IHTA",
-    "Name":"Invesco High Income 2024 Target Term Fund Common Shares of Beneficial Interest No par value per share"
+    "Name":"Invesco High Income 2024 Target Term Fund  of Beneficial Interest No par value per share"
     },
     {
     "Symbol":"IIF",
@@ -15729,7 +15305,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IINN",
-    "Name":"Inspira Technologies Oxy B.H.N. Ltd. Ordinary Shares"
+    "Name":"Inspira Technologies Oxy B.H.N. Ltd."
     },
     {
     "Symbol":"IINNW",
@@ -15765,11 +15341,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ILPT",
-    "Name":"Industrial Logistics Properties Trust Common Shares of Beneficial Interest"
+    "Name":"Industrial Logistics Properties Trust  of Beneficial Interest"
     },
     {
     "Symbol":"IMAB",
-    "Name":"I-MAB American Depositary Shares"
+    "Name":"I-MAB American "
     },
     {
     "Symbol":"IMAC",
@@ -15809,11 +15385,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMCC",
-    "Name":"IM Cannabis Corp. Common Shares"
+    "Name":"IM Cannabis Corp. "
     },
     {
     "Symbol":"IMCR",
-    "Name":"Immunocore Holdings plc American Depositary Shares"
+    "Name":"Immunocore Holdings plc American "
     },
     {
     "Symbol":"IMGN",
@@ -15833,7 +15409,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMMP",
-    "Name":"Immutep Limited American Depositary Shares"
+    "Name":"Immutep Limited American "
     },
     {
     "Symbol":"IMMR",
@@ -15853,7 +15429,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMOS",
-    "Name":"ChipMOS TECHNOLOGIES INC. American Depositary Shares"
+    "Name":"ChipMOS TECHNOLOGIES INC. American "
     },
     {
     "Symbol":"IMPL",
@@ -15861,7 +15437,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMPP",
-    "Name":"Imperial Petroleum Inc. Common Shares"
+    "Name":"Imperial Petroleum Inc. "
     },
     {
     "Symbol":"IMPPP",
@@ -15869,7 +15445,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMPX",
-    "Name":"AEA-Bridges Impact Corp. Class A Ordinary Shares"
+    "Name":"AEA-Bridges Impact Corp. Class A"
     },
     {
     "Symbol":"IMRA",
@@ -15877,7 +15453,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMRN",
-    "Name":"Immuron Limited American Depositary Shares"
+    "Name":"Immuron Limited American "
     },
     {
     "Symbol":"IMRNW",
@@ -15889,11 +15465,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMTE",
-    "Name":"Integrated Media Technology Limited Ordinary Shares"
+    "Name":"Integrated Media Technology Limited"
     },
     {
     "Symbol":"IMTX",
-    "Name":"Immatics N.V. Ordinary Shares"
+    "Name":"Immatics N.V."
     },
     {
     "Symbol":"IMTXW",
@@ -15905,7 +15481,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IMV",
-    "Name":"IMV Inc. Common Shares"
+    "Name":"IMV Inc. "
     },
     {
     "Symbol":"IMVT",
@@ -15937,7 +15513,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"INCR",
-    "Name":"Intercure Ltd. Ordinary Shares"
+    "Name":"Intercure Ltd."
     },
     {
     "Symbol":"INCY",
@@ -15957,7 +15533,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"INDO",
-    "Name":"Indonesia Energy Corporation Limited Ordinary Shares"
+    "Name":"Indonesia Energy Corporation Limited"
     },
     {
     "Symbol":"INDP",
@@ -15981,7 +15557,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"INFO",
-    "Name":"IHS Markit Ltd. Common Shares"
+    "Name":"IHS Markit Ltd. "
     },
     {
     "Symbol":"INFU",
@@ -15989,7 +15565,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"INFY",
-    "Name":"Infosys Limited American Depositary Shares"
+    "Name":"Infosys Limited American "
     },
     {
     "Symbol":"ING",
@@ -16021,7 +15597,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"INM",
-    "Name":"InMed Pharmaceuticals Inc. Common Shares"
+    "Name":"InMed Pharmaceuticals Inc. "
     },
     {
     "Symbol":"INMB",
@@ -16029,7 +15605,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"INMD",
-    "Name":"InMode Ltd. Ordinary Shares"
+    "Name":"InMode Ltd."
     },
     {
     "Symbol":"INN",
@@ -16149,7 +15725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"INVZ",
-    "Name":"Innoviz Technologies Ltd. Ordinary shares"
+    "Name":"Innoviz Technologies Ltd."
     },
     {
     "Symbol":"INVZW",
@@ -16165,7 +15741,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IOAC",
-    "Name":"Innovative International Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Innovative International Acquisition Corp. Class A"
     },
     {
     "Symbol":"IOACU",
@@ -16241,11 +15817,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IPOD",
-    "Name":"Social Capital Hedosophia Holdings Corp. IV Class A Ordinary Shares"
+    "Name":"Social Capital Hedosophia Holdings Corp. IV Class A"
     },
     {
     "Symbol":"IPOF",
-    "Name":"Social Capital Hedosophia Holdings Corp. VI Class A Ordinary Shares"
+    "Name":"Social Capital Hedosophia Holdings Corp. VI Class A"
     },
     {
     "Symbol":"IPSC",
@@ -16254,18 +15830,6 @@ const stockSymbolByName = [
     {
     "Symbol":"IPVA",
     "Name":"InterPrivate II Acquisition Corp. Class A"
-    },
-    {
-    "Symbol":"IPVF",
-    "Name":"InterPrivate III Financial Partners Inc. Class A"
-    },
-    {
-    "Symbol":"IPVI",
-    "Name":"InterPrivate IV InfraTech Partners Inc. Class A"
-    },
-    {
-    "Symbol":"IPVIU",
-    "Name":"InterPrivate IV InfraTech Partners Inc. Units"
     },
     {
     "Symbol":"IPW",
@@ -16277,7 +15841,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IQ",
-    "Name":"iQIYI Inc. American Depositary Shares"
+    "Name":"iQIYI Inc. American "
     },
     {
     "Symbol":"IQI",
@@ -16309,7 +15873,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IRCP",
-    "Name":"IRSA Propiedades Comerciales S.A. American Depositary Shares"
+    "Name":"IRSA Propiedades Comerciales S.A. American "
     },
     {
     "Symbol":"IRDM",
@@ -16317,7 +15881,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IREN",
-    "Name":"Iris Energy Limited Ordinary Shares"
+    "Name":"Iris Energy Limited"
     },
     {
     "Symbol":"IRIX",
@@ -16365,7 +15929,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IS",
-    "Name":"ironSource Ltd. Class A Ordinary Shares"
+    "Name":"ironSource Ltd. Class A"
     },
     {
     "Symbol":"ISAA",
@@ -16437,7 +16001,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ITCB",
-    "Name":"Itau CorpBanca American Depositary Shares (each representing 1500 shares of   no par value)"
+    "Name":"Itau CorpBanca American  (each representing 1500 shares of   no par value)"
     },
     {
     "Symbol":"ITCI",
@@ -16449,7 +16013,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ITHX",
-    "Name":"ITHAX Acquisition Corp. Class A Ordinary Shares"
+    "Name":"ITHAX Acquisition Corp. Class A"
     },
     {
     "Symbol":"ITHXU",
@@ -16477,7 +16041,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ITQ",
-    "Name":"Itiquira Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Itiquira Acquisition Corp. Class A"
     },
     {
     "Symbol":"ITQRU",
@@ -16489,7 +16053,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ITRG",
-    "Name":"Integra Resources Corp. Common Shares"
+    "Name":"Integra Resources Corp. "
     },
     {
     "Symbol":"ITRI",
@@ -16501,7 +16065,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ITRN",
-    "Name":"Ituran Location and Control Ltd. Ordinary Shares"
+    "Name":"Ituran Location and Control Ltd."
     },
     {
     "Symbol":"ITT",
@@ -16509,7 +16073,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ITUB",
-    "Name":"Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares)"
+    "Name":"Itau Unibanco Banco Holding SA American  (Each repstg 500 Preferred shares)"
     },
     {
     "Symbol":"ITW",
@@ -16525,7 +16089,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"IVAN",
-    "Name":"Ivanhoe Capital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Ivanhoe Capital Acquisition Corp. Class A"
     },
     {
     "Symbol":"IVC",
@@ -16621,7 +16185,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JATT",
-    "Name":"JATT Acquisition Corp Class A Ordinary Shares"
+    "Name":"JATT Acquisition Corp Class A"
     },
     {
     "Symbol":"JAZZ",
@@ -16629,7 +16193,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JBGS",
-    "Name":"JBG SMITH Properties Common Shares"
+    "Name":"JBG SMITH Properties "
     },
     {
     "Symbol":"JBHT",
@@ -16661,7 +16225,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JCE",
-    "Name":"Nuveen Core Equity Alpha Fund Nuveen Core Equity Alpha Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Core Equity Alpha Fund Nuveen Core Equity Alpha Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JCI",
@@ -16669,11 +16233,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JCIC",
-    "Name":"Jack Creek Investment Corp. Class A Ordinary Shares"
+    "Name":"Jack Creek Investment Corp. Class A"
     },
     {
     "Symbol":"JCICU",
-    "Name":"Jack Creek Investment Corp. Units"
+    "Name":"Jack Creek Investment "
     },
     {
     "Symbol":"JCICW",
@@ -16681,7 +16245,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JCO",
-    "Name":"Nuveen Credit Opportunities 2022 Target Term Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Credit Opportunities 2022 Target Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JCS",
@@ -16689,11 +16253,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JCTCF",
-    "Name":"Jewett-Cameron Trading Company Common Shares"
+    "Name":"Jewett-Cameron Trading Company "
     },
     {
     "Symbol":"JD",
-    "Name":"JD.com Inc. American Depositary Shares"
+    "Name":"JD.com Inc. American "
     },
     {
     "Symbol":"JEF",
@@ -16705,7 +16269,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JEMD",
-    "Name":"Nuveen Emerging Markets Debt 2022 Target Term Fund Common Shares of Beneficial Interest $0.01 par value per share"
+    "Name":"Nuveen Emerging Markets Debt 2022 Target Term Fund  of Beneficial Interest $0.01 par value per share"
     },
     {
     "Symbol":"JEQ",
@@ -16713,7 +16277,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JFIN",
-    "Name":"Jiayin Group Inc. American Depositary Shares"
+    "Name":"Jiayin Group Inc. American "
     },
     {
     "Symbol":"JFR",
@@ -16721,15 +16285,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JFU",
-    "Name":"9F Inc. American Depositary Shares"
+    "Name":"9F Inc. American "
     },
     {
     "Symbol":"JG",
-    "Name":"Aurora Mobile Limited American Depositary Shares"
+    "Name":"Aurora Mobile Limited American "
     },
     {
     "Symbol":"JGH",
-    "Name":"Nuveen Global High Income Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Global High Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JHAA",
@@ -16737,7 +16301,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JHG",
-    "Name":"Janus Henderson Group plc Ordinary Shares"
+    "Name":"Janus Henderson Group plc"
     },
     {
     "Symbol":"JHI",
@@ -16749,7 +16313,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JHX",
-    "Name":"James Hardie Industries plc American Depositary Shares (Ireland)"
+    "Name":"James Hardie Industries plc American  (Ireland)"
     },
     {
     "Symbol":"JILL",
@@ -16765,7 +16329,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JKS",
-    "Name":"JinkoSolar Holding Company Limited American Depositary Shares (each representing 4 Common Shares)"
+    "Name":"JinkoSolar Holding Company Limited American  (each representing 4 )"
     },
     {
     "Symbol":"JLL",
@@ -16781,7 +16345,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JMACU",
-    "Name":"Maxpro Capital Acquisition Corp. Units"
+    "Name":"Maxpro Capital Acquisition "
     },
     {
     "Symbol":"JMACW",
@@ -16789,7 +16353,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JMIA",
-    "Name":"Jumia Technologies AG American Depositary Shares each representing two Ordinary Shares"
+    "Name":"Jumia Technologies AG American  each representing two"
     },
     {
     "Symbol":"JMM",
@@ -16817,7 +16381,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JOBS",
-    "Name":"51job Inc. American Depositary Shares"
+    "Name":"51job Inc. American "
     },
     {
     "Symbol":"JOBY",
@@ -16849,7 +16413,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JP",
-    "Name":"Jupai Holdings Limited American Depositary Shares each representing six ordinary shares"
+    "Name":"Jupai Holdings Limited American  each representing six"
     },
     {
     "Symbol":"JPC",
@@ -16857,7 +16421,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JPI",
-    "Name":"Nuveen Preferred and Income Term Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Preferred and Income Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JPM",
@@ -16865,27 +16429,27 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JPM^C",
-    "Name":"J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 6.00% Non-Cumulative  Preferred Stock Series EE"
+    "Name":"J P Morgan Chase & Co  each representing a 1/400th interest in a share of 6.00% Non-Cumulative  Preferred Stock Series EE"
     },
     {
     "Symbol":"JPM^D",
-    "Name":"J P Morgan Chase & Co Depositary Shares each representing a 1/400th  interest in a share of 5.75% Non-Cumulative  Preferred Stock Series DD"
+    "Name":"J P Morgan Chase & Co  each representing a 1/400th  interest in a share of 5.75% Non-Cumulative  Preferred Stock Series DD"
     },
     {
     "Symbol":"JPM^J",
-    "Name":"J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of JPMorgan Chase & Co. 4.75% Non-Cumulative Preferred Stock Series GG"
+    "Name":"J P Morgan Chase & Co  each representing a 1/400th interest in a share of JPMorgan Chase & Co. 4.75% Non-Cumulative Preferred Stock Series GG"
     },
     {
     "Symbol":"JPM^K",
-    "Name":"J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 4.55% Non-Cumulative Preferred Stock Series JJ"
+    "Name":"J P Morgan Chase & Co  each representing a 1/400th interest in a share of 4.55% Non-Cumulative Preferred Stock Series JJ"
     },
     {
     "Symbol":"JPM^L",
-    "Name":"J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 4.625% Non-Cumulative Preferred Stock Series LL"
+    "Name":"J P Morgan Chase & Co  each representing a 1/400th interest in a share of 4.625% Non-Cumulative Preferred Stock Series LL"
     },
     {
     "Symbol":"JPM^M",
-    "Name":"J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 4.20% Non-Cumulative Preferred Stock Series MM"
+    "Name":"J P Morgan Chase & Co  each representing a 1/400th interest in a share of 4.20% Non-Cumulative Preferred Stock Series MM"
     },
     {
     "Symbol":"JPS",
@@ -16893,7 +16457,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JPT",
-    "Name":"Nuveen Preferred and Income 2022 Term Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Preferred and Income 2022 Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JQC",
@@ -16901,7 +16465,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JRI",
-    "Name":"Nuveen Real Asset Income and Growth Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Real Asset Income and Growth Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JRO",
@@ -16909,7 +16473,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JRS",
-    "Name":"Nuveen Real Estate Income Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Real Estate Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JRSH",
@@ -16917,11 +16481,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JRVR",
-    "Name":"James River Group Holdings Ltd. Common Shares"
+    "Name":"James River Group Holdings Ltd. "
     },
     {
     "Symbol":"JSD",
-    "Name":"Nuveen Short Duration Credit Opportunities Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Short Duration Credit Opportunities Fund  of Beneficial Interest"
     },
     {
     "Symbol":"JSM",
@@ -16937,7 +16501,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JT",
-    "Name":"Jianpu Technology Inc. American depositary shares"
+    "Name":"Jianpu Technology Inc. American "
     },
     {
     "Symbol":"JUGG",
@@ -16985,7 +16549,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JWEL",
-    "Name":"Jowell Global Ltd. Ordinary Shares"
+    "Name":"Jowell Global Ltd."
     },
     {
     "Symbol":"JWN",
@@ -16993,7 +16557,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JWSM",
-    "Name":"Jaws Mustang Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Jaws Mustang Acquisition Corp. Class A"
     },
     {
     "Symbol":"JXN",
@@ -17009,7 +16573,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"JZXN",
-    "Name":"Jiuzi Holdings Inc. Ordinary Shares"
+    "Name":"Jiuzi Holdings Inc."
     },
     {
     "Symbol":"K",
@@ -17017,7 +16581,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KACL",
-    "Name":"Kairous Acquisition Corp. Limited Ordinary Shares"
+    "Name":"Kairous Acquisition Corp. Limited"
     },
     {
     "Symbol":"KACLR",
@@ -17041,7 +16605,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KAII",
-    "Name":"Kismet Acquisition Two Corp. Class A Ordinary Shares"
+    "Name":"Kismet Acquisition Two Corp. Class A"
     },
     {
     "Symbol":"KAIIU",
@@ -17053,7 +16617,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KAIR",
-    "Name":"Kairos Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Kairos Acquisition Corp. Class A"
     },
     {
     "Symbol":"KAIRU",
@@ -17085,7 +16649,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KARO",
-    "Name":"Karooooo Ltd. Ordinary Shares"
+    "Name":"Karooooo Ltd."
     },
     {
     "Symbol":"KAVL",
@@ -17117,11 +16681,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KC",
-    "Name":"Kingsoft Cloud Holdings Limited American Depositary Shares"
+    "Name":"Kingsoft Cloud Holdings Limited American "
     },
     {
     "Symbol":"KCGI",
-    "Name":"Kensington Capital Acquisition Corp. V Class A Ordinary Shares"
+    "Name":"Kensington Capital Acquisition Corp. V Class A"
     },
     {
     "Symbol":"KD",
@@ -17149,7 +16713,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KEN",
-    "Name":"Kenon Holdings Ltd. Ordinary Shares"
+    "Name":"Kenon Holdings Ltd."
     },
     {
     "Symbol":"KEP",
@@ -17177,15 +16741,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KEY^I",
-    "Name":"KeyCorp Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed-to-Floating Rate Perpetual Non-Cumulative Preferred Stock Series E"
+    "Name":"KeyCorp  Each Representing a 1/40th Ownership Interest in a Share of Fixed-to-Floating Rate Perpetual Non-Cumulative Preferred Stock Series E"
     },
     {
     "Symbol":"KEY^J",
-    "Name":"KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock Series F"
+    "Name":"KeyCorp  each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock Series F"
     },
     {
     "Symbol":"KEY^K",
-    "Name":"KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock Series G"
+    "Name":"KeyCorp  each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock Series G"
     },
     {
     "Symbol":"KEYS",
@@ -17225,7 +16789,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KIII",
-    "Name":"Kismet Acquisition Three Corp. Class A Ordinary Shares"
+    "Name":"Kismet Acquisition Three Corp. Class A"
     },
     {
     "Symbol":"KIIIU",
@@ -17241,11 +16805,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KIM^L",
-    "Name":"Kimco Realty Corporation Class L Depositary Shares each of which represents a one-one thousandth fractional interest in a share of 5.125% Class L Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share"
+    "Name":"Kimco Realty Corporation Class L  each of which represents a one-one thousandth fractional interest in a share of 5.125% Class L Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share"
     },
     {
     "Symbol":"KIM^M",
-    "Name":"Kimco Realty Corporation Class M Depositary Shares each of which represents a one-one thousandth fractional interest in a share of 5.25% Class M Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share"
+    "Name":"Kimco Realty Corporation Class M  each of which represents a one-one thousandth fractional interest in a share of 5.25% Class M Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share"
     },
     {
     "Symbol":"KIND",
@@ -17269,11 +16833,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KIO",
-    "Name":"KKR Income Opportunities Fund Common Shares"
+    "Name":"KKR Income Opportunities Fund "
     },
     {
     "Symbol":"KIQ",
-    "Name":"Kelso Technologies Inc Ordinary Shares"
+    "Name":"Kelso Technologies Inc"
     },
     {
     "Symbol":"KIRK",
@@ -17293,7 +16857,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KL",
-    "Name":"Kirkland Lake Gold Ltd. Common Shares"
+    "Name":"Kirkland Lake Gold Ltd. "
     },
     {
     "Symbol":"KLAC",
@@ -17337,7 +16901,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KMDA",
-    "Name":"Kamada Ltd. Ordinary Shares"
+    "Name":"Kamada Ltd."
     },
     {
     "Symbol":"KMF",
@@ -17376,10 +16940,6 @@ const stockSymbolByName = [
     "Name":"Kandi Technologies Group Inc"
     },
     {
-    "Symbol":"KNOP",
-    "Name":"KNOT Offshore Partners LP Common Units representing Limited Partner Interests"
-    },
-    {
     "Symbol":"KNSA",
     "Name":"Kiniksa Pharmaceuticals Ltd. Class A"
     },
@@ -17409,7 +16969,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KOF",
-    "Name":"Coca Cola Femsa S.A.B. de C.V.  American Depositary Shares each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)"
+    "Name":"Coca Cola Femsa S.A.B. de C.V.  American  each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)"
     },
     {
     "Symbol":"KOP",
@@ -17425,7 +16985,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KOS",
-    "Name":"Kosmos Energy Ltd. Common Shares (DE)"
+    "Name":"Kosmos Energy Ltd.  (DE)"
     },
     {
     "Symbol":"KOSS",
@@ -17477,7 +17037,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KRKR",
-    "Name":"36Kr Holdings Inc. American Depositary Shares"
+    "Name":"36Kr Holdings Inc. American "
     },
     {
     "Symbol":"KRMD",
@@ -17485,7 +17045,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KRNL",
-    "Name":"Kernel Group Holdings Inc. Class A Ordinary Shares"
+    "Name":"Kernel Group Holdings Inc. Class A"
     },
     {
     "Symbol":"KRNLW",
@@ -17493,7 +17053,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KRNT",
-    "Name":"Kornit Digital Ltd. Ordinary Shares"
+    "Name":"Kornit Digital Ltd."
     },
     {
     "Symbol":"KRNY",
@@ -17510,10 +17070,6 @@ const stockSymbolByName = [
     {
     "Symbol":"KROS",
     "Name":"Keros Therapeutics Inc."
-    },
-    {
-    "Symbol":"KRP",
-    "Name":"Kimbell Royalty Partners Common Units Representing Limited Partner Interests"
     },
     {
     "Symbol":"KRT",
@@ -17593,7 +17149,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KUKE",
-    "Name":"Kuke Music Holding Limited American Depositary Shares each representing one Ordinary Share"
+    "Name":"Kuke Music Holding Limited American  each representing one Ordinary Share"
     },
     {
     "Symbol":"KULR",
@@ -17629,7 +17185,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KXIN",
-    "Name":"Kaixin Auto Holdings Ordinary Shares"
+    "Name":"Kaixin Auto Holdings"
     },
     {
     "Symbol":"KYCHU",
@@ -17645,7 +17201,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"KZIA",
-    "Name":"Kazia Therapeutics Limited American Depositary Shares"
+    "Name":"Kazia Therapeutics Limited American "
     },
     {
     "Symbol":"KZR",
@@ -17657,7 +17213,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LAAA",
-    "Name":"Lakeshore Acquisition I Corp. Ordinary Shares"
+    "Name":"Lakeshore Acquisition I Corp."
     },
     {
     "Symbol":"LABP",
@@ -17665,7 +17221,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LAC",
-    "Name":"Lithium Americas Corp. Common Shares"
+    "Name":"Lithium Americas Corp. "
     },
     {
     "Symbol":"LAD",
@@ -17677,7 +17233,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LAIX",
-    "Name":"LAIX Inc. American Depositary Shares each  representing one Class A Ordinary Share"
+    "Name":"LAIX Inc. American  each  representing one Class A Ordinary Share"
     },
     {
     "Symbol":"LAKE",
@@ -17729,7 +17285,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LAX",
-    "Name":"8i Acquisition 2 Corp. Ordinary Shares"
+    "Name":"8i Acquisition 2 Corp."
     },
     {
     "Symbol":"LAXXR",
@@ -17769,7 +17325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LBPS",
-    "Name":"4D pharma plc American Depositary Shares"
+    "Name":"4D pharma plc American "
     },
     {
     "Symbol":"LBPSW",
@@ -17793,15 +17349,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LBTYA",
-    "Name":"Liberty Global plc Class A Ordinary Shares"
+    "Name":"Liberty Global plc Class A"
     },
     {
     "Symbol":"LBTYB",
-    "Name":"Liberty Global plc Class B Ordinary Shares"
+    "Name":"Liberty Global plc Class B"
     },
     {
     "Symbol":"LBTYK",
-    "Name":"Liberty Global plc Class C Ordinary Shares"
+    "Name":"Liberty Global plc Class C"
     },
     {
     "Symbol":"LC",
@@ -17813,7 +17369,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LCAA",
-    "Name":"L Catterton Asia Acquisition Corp Class A Ordinary Shares"
+    "Name":"L Catterton Asia Acquisition Corp Class A"
     },
     {
     "Symbol":"LCAAU",
@@ -17869,11 +17425,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LCW",
-    "Name":"Learn CW Investment Corporation Class A Ordinary Shares"
+    "Name":"Learn CW Investment Corporation Class A"
     },
     {
     "Symbol":"LDHA",
-    "Name":"LDH Growth Corp I Class A Ordinary Shares"
+    "Name":"LDH Growth Corp I Class A"
     },
     {
     "Symbol":"LDHAU",
@@ -17905,11 +17461,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LEAP",
-    "Name":"Ribbit LEAP Ltd. Class A Ordinary Shares"
+    "Name":"Ribbit LEAP Ltd. Class A"
     },
     {
     "Symbol":"LECO",
-    "Name":"Lincoln Electric Holdings Inc. Common Shares"
+    "Name":"Lincoln Electric Holdings Inc. "
     },
     {
     "Symbol":"LEDS",
@@ -17925,7 +17481,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LEGA",
-    "Name":"Lead Edge Growth Opportunities Ltd Class A Ordinary Shares"
+    "Name":"Lead Edge Growth Opportunities Ltd Class A"
     },
     {
     "Symbol":"LEGAU",
@@ -17941,11 +17497,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LEGN",
-    "Name":"Legend Biotech Corporation American Depositary Shares"
+    "Name":"Legend Biotech Corporation American "
     },
     {
     "Symbol":"LEJU",
-    "Name":"Leju Holdings Limited American Depositary Shares each representing one Ordinary share"
+    "Name":"Leju Holdings Limited American  each representing one Ordinary share"
     },
     {
     "Symbol":"LEN",
@@ -17965,7 +17521,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LEV",
-    "Name":"The Lion Electric Company Common Shares"
+    "Name":"The Lion Electric Company "
     },
     {
     "Symbol":"LEVI",
@@ -17977,7 +17533,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LEVLP",
-    "Name":"Level One Bancorp Inc. Depositary Shares Each Representing a 1/100th Interest in a Share of 7.50% Non-Cumulative Perpetual Preferred Stock Series B"
+    "Name":"Level One Bancorp Inc.  Each Representing a 1/100th Interest in a Share of 7.50% Non-Cumulative Perpetual Preferred Stock Series B"
     },
     {
     "Symbol":"LEXX",
@@ -18001,7 +17557,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LFC",
-    "Name":"China Life Insurance Company Limited American Depositary Shares"
+    "Name":"China Life Insurance Company Limited American "
     },
     {
     "Symbol":"LFG",
@@ -18049,7 +17605,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LGAC",
-    "Name":"Lazard Growth Acquisition Corp. I Ordinary Shares"
+    "Name":"Lazard Growth Acquisition Corp. I"
     },
     {
     "Symbol":"LGACU",
@@ -18085,11 +17641,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LGO",
-    "Name":"Largo Inc. Common Shares"
+    "Name":"Largo Inc. "
     },
     {
     "Symbol":"LGST",
-    "Name":"Semper Paratus Acquisition Corporation Class A Ordinary Shares"
+    "Name":"Semper Paratus Acquisition Corporation Class A"
     },
     {
     "Symbol":"LGSTU",
@@ -18117,7 +17673,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LGVC",
-    "Name":"LAMF Global Ventures Corp. I Class A Ordinary Shares"
+    "Name":"LAMF Global Ventures Corp. I Class A"
     },
     {
     "Symbol":"LGVCU",
@@ -18141,7 +17697,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LHC",
-    "Name":"Leo Holdings Corp. II Class A Ordinary Shares"
+    "Name":"Leo Holdings Corp. II Class A"
     },
     {
     "Symbol":"LHCG",
@@ -18157,11 +17713,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LI",
-    "Name":"Li Auto Inc. American Depositary Shares"
+    "Name":"Li Auto Inc. American "
     },
     {
     "Symbol":"LIAN",
-    "Name":"LianBio American Depositary Shares"
+    "Name":"LianBio American "
     },
     {
     "Symbol":"LIBY",
@@ -18173,7 +17729,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LICY",
-    "Name":"Li-Cycle Holdings Corp. Common Shares"
+    "Name":"Li-Cycle Holdings Corp. "
     },
     {
     "Symbol":"LIDR",
@@ -18201,7 +17757,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LILM",
-    "Name":"Lilium N.V. Class A Ordinary Shares"
+    "Name":"Lilium N.V. Class A"
     },
     {
     "Symbol":"LILMW",
@@ -18241,7 +17797,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LITB",
-    "Name":"LightInTheBox Holding Co. Ltd. American Depositary Shares each representing 2 ordinary shares"
+    "Name":"LightInTheBox Holding Co. Ltd. American  each representing 2"
     },
     {
     "Symbol":"LITE",
@@ -18249,7 +17805,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LITM",
-    "Name":"Snow Lake Resources Ltd. Common Shares"
+    "Name":"Snow Lake Resources Ltd. "
     },
     {
     "Symbol":"LITT",
@@ -18257,7 +17813,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LITTU",
-    "Name":"Logistics Innovation Technologies Corp. Units"
+    "Name":"Logistics Innovation Technologies "
     },
     {
     "Symbol":"LITTW",
@@ -18269,7 +17825,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LIVN",
-    "Name":"LivaNova PLC Ordinary Shares"
+    "Name":"LivaNova PLC"
     },
     {
     "Symbol":"LIXT",
@@ -18281,7 +17837,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LIZI",
-    "Name":"LIZHI INC. American Depositary Shares"
+    "Name":"LIZHI INC. American "
     },
     {
     "Symbol":"LJAQ",
@@ -18301,7 +17857,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LKCO",
-    "Name":"Luokung Technology Corp Ordinary Shares"
+    "Name":"Luokung Technology Corp"
     },
     {
     "Symbol":"LKFN",
@@ -18361,7 +17917,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LMDX",
-    "Name":"LumiraDx Limited Common Shares"
+    "Name":"LumiraDx Limited "
     },
     {
     "Symbol":"LMDXW",
@@ -18377,7 +17933,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LMNL",
-    "Name":"Liminal BioSciences Inc. Common Shares"
+    "Name":"Liminal BioSciences Inc. "
     },
     {
     "Symbol":"LMNR",
@@ -18409,7 +17965,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LNFA",
-    "Name":"L&amp;F Acquisition Corp. Class A Ordinary Shares"
+    "Name":"L&amp;F Acquisition Corp. Class A"
     },
     {
     "Symbol":"LNG",
@@ -18461,7 +18017,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LOGI",
-    "Name":"Logitech International S.A. Ordinary Shares"
+    "Name":"Logitech International S.A."
     },
     {
     "Symbol":"LOKM",
@@ -18489,7 +18045,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LOV",
-    "Name":"Spark Networks Inc. American Depositary Shares (each representing one-tenth of an Ordinary Share)"
+    "Name":"Spark Networks Inc. American  (each representing one-tenth of an Ordinary Share)"
     },
     {
     "Symbol":"LOVE",
@@ -18661,7 +18217,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LU",
-    "Name":"Lufax Holding Ltd American Depositary Shares two of which representing one Ordinary Share"
+    "Name":"Lufax Holding Ltd American  two of which representing one Ordinary Share"
     },
     {
     "Symbol":"LUB",
@@ -18701,7 +18257,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LUXAU",
-    "Name":"Lux Health Tech Acquisition Corp. Units"
+    "Name":"Lux Health Tech Acquisition "
     },
     {
     "Symbol":"LUXAW",
@@ -18741,7 +18297,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LVRA",
-    "Name":"Levere Holdings Corp. Class A Ordinary Shares"
+    "Name":"Levere Holdings Corp. Class A"
     },
     {
     "Symbol":"LVRAU",
@@ -18757,7 +18313,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LVTX",
-    "Name":"LAVA Therapeutics N.V. Ordinary Shares"
+    "Name":"LAVA Therapeutics N.V."
     },
     {
     "Symbol":"LW",
@@ -18773,15 +18329,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LX",
-    "Name":"LexinFintech Holdings Ltd. American Depositary Shares"
+    "Name":"LexinFintech Holdings Ltd. American "
     },
     {
     "Symbol":"LXEH",
-    "Name":"Lixiang Education Holding Co. Ltd. American Depositary Shares"
+    "Name":"Lixiang Education Holding Co. Ltd. American "
     },
     {
     "Symbol":"LXFR",
-    "Name":"Luxfer Holdings PLC Ordinary Shares"
+    "Name":"Luxfer Holdings PLC"
     },
     {
     "Symbol":"LXP",
@@ -18801,7 +18357,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LYB",
-    "Name":"LyondellBasell Industries NV Ordinary Shares Class A (Netherlands)"
+    "Name":"LyondellBasell Industries NV Class A (Netherlands)"
     },
     {
     "Symbol":"LYEL",
@@ -18813,11 +18369,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"LYG",
-    "Name":"Lloyds Banking Group Plc American Depositary Shares"
+    "Name":"Lloyds Banking Group Plc American "
     },
     {
     "Symbol":"LYL",
-    "Name":"Dragon Victory International Limited Ordinary Shares"
+    "Name":"Dragon Victory International Limited"
     },
     {
     "Symbol":"LYLT",
@@ -18881,7 +18437,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MACA",
-    "Name":"Moringa Acquisition Corp Class A Ordinary Shares"
+    "Name":"Moringa Acquisition Corp Class A"
     },
     {
     "Symbol":"MACAU",
@@ -18909,7 +18465,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MAG",
-    "Name":"MAG Silver Corporation Ordinary Shares"
+    "Name":"MAG Silver Corporation"
     },
     {
     "Symbol":"MAIN",
@@ -18929,7 +18485,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MANU",
-    "Name":"Manchester United Ltd. Class A Ordinary Shares"
+    "Name":"Manchester United Ltd. Class A"
     },
     {
     "Symbol":"MAPS",
@@ -18997,7 +18553,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MAXN",
-    "Name":"Maxeon Solar Technologies Ltd. Ordinary Shares"
+    "Name":"Maxeon Solar Technologies Ltd."
     },
     {
     "Symbol":"MAXR",
@@ -19029,11 +18585,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MBINN",
-    "Name":"Merchants Bancorp Depositary Shares Preferred Series C"
+    "Name":"Merchants Bancorp  Preferred Series C"
     },
     {
     "Symbol":"MBINO",
-    "Name":"Merchants Bancorp Depositary Shares Each Representing a 1/40th Interest in a Share of Series B  Fixed-to-Floating Rate"
+    "Name":"Merchants Bancorp  Each Representing a 1/40th Interest in a Share of Series B  Fixed-to-Floating Rate"
     },
     {
     "Symbol":"MBINP",
@@ -19061,11 +18617,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MBT",
-    "Name":"Mobile TeleSystems Public Joint Stock Company American Depositary Shares (Each representing 2 Shares of  )"
+    "Name":"Mobile TeleSystems Public Joint Stock Company American  (Each representing 2 Shares of  )"
     },
     {
     "Symbol":"MBTC",
-    "Name":"Nocturne Acquisition Corporation Ordinary Shares"
+    "Name":"Nocturne Acquisition Corporation"
     },
     {
     "Symbol":"MBTCR",
@@ -19093,7 +18649,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MCAA",
-    "Name":"Mountain & Co. I Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Mountain & Co. I Acquisition Corp. Class A"
     },
     {
     "Symbol":"MCAAU",
@@ -19177,7 +18733,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MCLD",
-    "Name":"mCloud Technologies Corp. Common Shares"
+    "Name":"mCloud Technologies Corp. "
     },
     {
     "Symbol":"MCMJ",
@@ -19237,7 +18793,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MDGS",
-    "Name":"Medigus Ltd. American Depositary Shares"
+    "Name":"Medigus Ltd. American "
     },
     {
     "Symbol":"MDGSW",
@@ -19261,7 +18817,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MDNA",
-    "Name":"Medicenna Therapeutics Corp. Common Shares"
+    "Name":"Medicenna Therapeutics Corp. "
     },
     {
     "Symbol":"MDRR",
@@ -19277,7 +18833,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MDT",
-    "Name":"Medtronic plc. Ordinary Shares"
+    "Name":"Medtronic plc."
     },
     {
     "Symbol":"MDU",
@@ -19293,7 +18849,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MDWD",
-    "Name":"MediWound Ltd. Ordinary Shares"
+    "Name":"MediWound Ltd."
     },
     {
     "Symbol":"MDWT",
@@ -19305,7 +18861,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MDXH",
-    "Name":"MDxHealth SA American Depositary Shares"
+    "Name":"MDxHealth SA American "
     },
     {
     "Symbol":"ME",
@@ -19345,7 +18901,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MEGI",
-    "Name":"MainStay CBRE Global Infrastructure Megatrends Fund Common Shares"
+    "Name":"MainStay CBRE Global Infrastructure Megatrends Fund "
     },
     {
     "Symbol":"MEI",
@@ -19357,7 +18913,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MEKA",
-    "Name":"MELI Kaszek Pioneer Corp Class A Ordinary Shares"
+    "Name":"MELI Kaszek Pioneer Corp Class A"
     },
     {
     "Symbol":"MELI",
@@ -19389,7 +18945,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MESO",
-    "Name":"Mesoblast Limited American Depositary Shares"
+    "Name":"Mesoblast Limited American "
     },
     {
     "Symbol":"MET",
@@ -19401,11 +18957,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MET^E",
-    "Name":"MetLife Inc. Depositary shares each representing a 1/1000th interest in a share of the Issuera??s 5.625% Non-Cumulative Preferred Stock Series E."
+    "Name":"MetLife Inc.  each representing a 1/1000th interest in a share of the Issuera??s 5.625% Non-Cumulative Preferred Stock Series E."
     },
     {
     "Symbol":"MET^F",
-    "Name":"MetLife Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.75% Non-Cumulative Preferred Stock Series F"
+    "Name":"MetLife Inc.  each representing a 1/1000th interest in a share of 4.75% Non-Cumulative Preferred Stock Series F"
     },
     {
     "Symbol":"METC",
@@ -19417,7 +18973,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"METX",
-    "Name":"Meten Holding Group Ltd. Ordinary Shares"
+    "Name":"Meten Holding Group Ltd."
     },
     {
     "Symbol":"METXW",
@@ -19425,7 +18981,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MF",
-    "Name":"Missfresh Limited American Depositary Shares"
+    "Name":"Missfresh Limited American "
     },
     {
     "Symbol":"MFA",
@@ -19465,7 +19021,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MFL",
-    "Name":"Blackrock MuniHoldings Investment Quality Fund Common Shares of Beneficial Interest"
+    "Name":"Blackrock MuniHoldings Investment Quality Fund  of Beneficial Interest"
     },
     {
     "Symbol":"MFM",
@@ -19497,7 +19053,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MGIC",
-    "Name":"Magic Software Enterprises Ltd. Ordinary Shares"
+    "Name":"Magic Software Enterprises Ltd."
     },
     {
     "Symbol":"MGM",
@@ -19513,7 +19069,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MGP",
-    "Name":"MGM Growth Properties LLC Class A common shares representing limited liability company interests"
+    "Name":"MGM Growth Properties LLC Class A  representing limited liability company interests"
     },
     {
     "Symbol":"MGPI",
@@ -19541,7 +19097,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MGTX",
-    "Name":"MeiraGTx Holdings plc Ordinary Shares"
+    "Name":"MeiraGTx Holdings plc"
     },
     {
     "Symbol":"MGU",
@@ -19633,7 +19189,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MIME",
-    "Name":"Mimecast Limited Ordinary Shares"
+    "Name":"Mimecast Limited"
     },
     {
     "Symbol":"MIMO",
@@ -19673,7 +19229,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MIST",
-    "Name":"Milestone Pharmaceuticals Inc. Common Shares"
+    "Name":"Milestone Pharmaceuticals Inc. "
     },
     {
     "Symbol":"MIT",
@@ -19689,7 +19245,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MITC",
-    "Name":"MeaTech 3D Ltd. American Depositary Shares"
+    "Name":"MeaTech 3D Ltd. American "
     },
     {
     "Symbol":"MITK",
@@ -19721,7 +19277,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MIXT",
-    "Name":"MiX Telematics Limited American Depositary Shares each representing 25 Ordinary Shares"
+    "Name":"MiX Telematics Limited American  each representing 25"
     },
     {
     "Symbol":"MIY",
@@ -19733,7 +19289,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MKD",
-    "Name":"Molecular Data Inc. American Depositary Shares"
+    "Name":"Molecular Data Inc. American "
     },
     {
     "Symbol":"MKFG",
@@ -19769,7 +19325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MLAC",
-    "Name":"Malacca Straits Acquisition Company Limited Class A Ordinary Shares"
+    "Name":"Malacca Straits Acquisition Company Limited Class A"
     },
     {
     "Symbol":"MLACW",
@@ -19789,7 +19345,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MLCO",
-    "Name":"Melco Resorts & Entertainment Limited American Depositary Shares"
+    "Name":"Melco Resorts & Entertainment Limited American "
     },
     {
     "Symbol":"MLI",
@@ -19840,20 +19396,12 @@ const stockSymbolByName = [
     "Name":"Marcus & Millichap Inc."
     },
     {
-    "Symbol":"MMLP",
-    "Name":"Martin Midstream Partners L.P. Limited Partnership"
-    },
-    {
     "Symbol":"MMM",
     "Name":"3M Company"
     },
     {
     "Symbol":"MMMB",
     "Name":"MamaMancini's Holdings Inc."
-    },
-    {
-    "Symbol":"MMP",
-    "Name":"Magellan Midstream Partners L.P. Limited Partnership"
     },
     {
     "Symbol":"MMS",
@@ -19873,11 +19421,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MMX",
-    "Name":"Maverix Metals Inc. Common Shares"
+    "Name":"Maverix Metals Inc. "
     },
     {
     "Symbol":"MMYT",
-    "Name":"MakeMyTrip Limited Ordinary Shares"
+    "Name":"MakeMyTrip Limited"
     },
     {
     "Symbol":"MN",
@@ -19885,7 +19433,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MNDO",
-    "Name":"MIND C.T.I. Ltd. Ordinary Shares"
+    "Name":"MIND C.T.I. Ltd."
     },
     {
     "Symbol":"MNDT",
@@ -19893,7 +19441,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MNDY",
-    "Name":"monday.com Ltd. Ordinary Shares"
+    "Name":"monday.com Ltd."
     },
     {
     "Symbol":"MNKD",
@@ -19906,10 +19454,6 @@ const stockSymbolByName = [
     {
     "Symbol":"MNOV",
     "Name":"Medicinova Inc"
-    },
-    {
-    "Symbol":"MNP",
-    "Name":"Western Asset Municipal Partners Fund Inc."
     },
     {
     "Symbol":"MNPR",
@@ -19937,11 +19481,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MNSBP",
-    "Name":"MainStreet Bancshares Inc. Depositary Shares"
+    "Name":"MainStreet Bancshares Inc. "
     },
     {
     "Symbol":"MNSO",
-    "Name":"MINISO Group Holding Limited American Depositary Shares each representing four Class A Ordinary Shares"
+    "Name":"MINISO Group Holding Limited American  each representing four Class A"
     },
     {
     "Symbol":"MNST",
@@ -20001,11 +19545,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MOGO",
-    "Name":"Mogo Inc. Common Shares"
+    "Name":"Mogo Inc. "
     },
     {
     "Symbol":"MOGU",
-    "Name":"MOGU Inc. American Depositary Shares (each  representing 25 Class A Ordinary Shares)"
+    "Name":"MOGU Inc. American  (each  representing 25 Class A)"
     },
     {
     "Symbol":"MOH",
@@ -20013,15 +19557,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MOHO",
-    "Name":"ECMOHO Limited American Depositary Shares"
-    },
-    {
-    "Symbol":"MOLN",
-    "Name":"Molecular Partners AG American Depositary Shares"
+    "Name":"ECMOHO Limited American "
     },
     {
     "Symbol":"MOMO",
-    "Name":"Hello Group Inc. American Depositary Shares"
+    "Name":"Hello Group Inc. American "
     },
     {
     "Symbol":"MON",
@@ -20037,7 +19577,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MOR",
-    "Name":"MorphoSys AG American Depositary Shares"
+    "Name":"MorphoSys AG American "
     },
     {
     "Symbol":"MORF",
@@ -20057,7 +19597,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MOTV",
-    "Name":"Motive Capital Corp Class A Ordinary Shares"
+    "Name":"Motive Capital Corp Class A"
     },
     {
     "Symbol":"MOV",
@@ -20069,7 +19609,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MOXC",
-    "Name":"Moxian (BVI) Inc Ordinary Shares"
+    "Name":"Moxian (BVI) Inc"
     },
     {
     "Symbol":"MP",
@@ -20093,7 +19633,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MPACU",
-    "Name":"Model Performance Acquisition Corp. Units"
+    "Name":"Model Performance Acquisition "
     },
     {
     "Symbol":"MPACW",
@@ -20114,14 +19654,6 @@ const stockSymbolByName = [
     {
     "Symbol":"MPLX",
     "Name":"MPLX LP Common Units Representing Limited Partner Interests"
-    },
-    {
-    "Symbol":"MPRA",
-    "Name":"Mercato Partners Acquisition Corporation Class A"
-    },
-    {
-    "Symbol":"MPRAW",
-    "Name":"Mercato Partners Acquisition Corporation Warrant"
     },
     {
     "Symbol":"MPV",
@@ -20177,7 +19709,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MREO",
-    "Name":"Mereo BioPharma Group plc American Depositary Shares"
+    "Name":"Mereo BioPharma Group plc American "
     },
     {
     "Symbol":"MRIN",
@@ -20221,7 +19753,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MRUS",
-    "Name":"Merus N.V. Common Shares"
+    "Name":"Merus N.V. "
     },
     {
     "Symbol":"MRVI",
@@ -20241,7 +19773,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MS^E",
-    "Name":"Morgan Stanley DEPOSITARY SHARES REP 1/1000TH SHARES FIXED/FLTG PREFERRED STOCK SERIES E"
+    "Name":"Morgan Stanley  REP 1/1000TH SHARES FIXED/FLTG PREFERRED STOCK SERIES E"
     },
     {
     "Symbol":"MS^F",
@@ -20253,15 +19785,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MS^K",
-    "Name":"Morgan Stanley Depositary Shares each representing 1/1000th of a share of Fixed-to-Floating Rate Non-Cumulative Preferred Stock  Series K"
+    "Name":"Morgan Stanley  each representing 1/1000th of a share of Fixed-to-Floating Rate Non-Cumulative Preferred Stock  Series K"
     },
     {
     "Symbol":"MS^L",
-    "Name":"Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.875% Non-Cumulative Preferred Stock Series L"
+    "Name":"Morgan Stanley  each representing 1/1000th of a share of 4.875% Non-Cumulative Preferred Stock Series L"
     },
     {
     "Symbol":"MS^O",
-    "Name":"Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.250% Non-Cumulative Preferred Stock Series O"
+    "Name":"Morgan Stanley  each representing 1/1000th of a share of 4.250% Non-Cumulative Preferred Stock Series O"
     },
     {
     "Symbol":"MSA",
@@ -20285,7 +19817,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MSC",
-    "Name":"Studio City International Holdings Limited American depositary shares each representing four  Class A ordinary shares"
+    "Name":"Studio City International Holdings Limited American  each representing four  Class A"
     },
     {
     "Symbol":"MSCI",
@@ -20297,7 +19829,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MSDA",
-    "Name":"MSD Acquisition Corp. Class A Ordinary Shares"
+    "Name":"MSD Acquisition Corp. Class A"
     },
     {
     "Symbol":"MSDAU",
@@ -20373,7 +19905,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MTAL",
-    "Name":"Metals Acquisition Corp Class A Ordinary Shares"
+    "Name":"Metals Acquisition Corp Class A"
     },
     {
     "Symbol":"MTB",
@@ -20389,7 +19921,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MTC",
-    "Name":"MMTec Inc. Common Shares"
+    "Name":"MMTec Inc. "
     },
     {
     "Symbol":"MTCH",
@@ -20429,15 +19961,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MTL",
-    "Name":"Mechel PAO American Depositary Shares (Each rep. 1 common shares)"
+    "Name":"Mechel PAO American  (Each rep. 1 )"
     },
     {
     "Symbol":"MTL^",
-    "Name":"Mechel PAO American Depositary Shares (each representing one-half of a Preferred Share)"
+    "Name":"Mechel PAO American  (each representing one-half of a Preferred Share)"
     },
     {
     "Symbol":"MTLS",
-    "Name":"Materialise NV American Depositary Shares"
+    "Name":"Materialise NV American "
     },
     {
     "Symbol":"MTN",
@@ -20524,20 +20056,8 @@ const stockSymbolByName = [
     "Name":"Mudrick Capital Acquisition Corporation II Warrant"
     },
     {
-    "Symbol":"MUE",
-    "Name":"Blackrock MuniHoldings Quality Fund II Inc."
-    },
-    {
     "Symbol":"MUFG",
     "Name":"Mitsubishi UFJ Financial Group Inc."
-    },
-    {
-    "Symbol":"MUI",
-    "Name":"BlackRock Municipal Income Fund Inc."
-    },
-    {
-    "Symbol":"MUJ",
-    "Name":"Blackrock MuniHoldings New Jersey Quality Fund Inc."
     },
     {
     "Symbol":"MULN",
@@ -20560,10 +20080,6 @@ const stockSymbolByName = [
     "Name":"MVB Financial Corp."
     },
     {
-    "Symbol":"MVF",
-    "Name":"Blackrock MuniVest Fund Inc."
-    },
-    {
     "Symbol":"MVIS",
     "Name":"MicroVision Inc."
     },
@@ -20578,10 +20094,6 @@ const stockSymbolByName = [
     {
     "Symbol":"MVSTW",
     "Name":"Microvast Holdings Inc. Warrants"
-    },
-    {
-    "Symbol":"MVT",
-    "Name":"Blackrock MuniVest Fund II Inc. "
     },
     {
     "Symbol":"MWA",
@@ -20612,14 +20124,6 @@ const stockSymbolByName = [
     "Name":"MaxLinear Inc."
     },
     {
-    "Symbol":"MYC",
-    "Name":"Blackrock MuniYield California Fund Inc."
-    },
-    {
-    "Symbol":"MYD",
-    "Name":"Blackrock MuniYield Fund Inc. "
-    },
-    {
     "Symbol":"MYE",
     "Name":"Myers Industries Inc."
     },
@@ -20632,20 +20136,8 @@ const stockSymbolByName = [
     "Name":"Myriad Genetics Inc."
     },
     {
-    "Symbol":"MYI",
-    "Name":"Blackrock MuniYield Quality Fund III Inc"
-    },
-    {
-    "Symbol":"MYJ",
-    "Name":"Blackrock MuniYield New Jersey Fund Inc"
-    },
-    {
     "Symbol":"MYMD",
     "Name":"MyMD Pharmaceuticals Inc."
-    },
-    {
-    "Symbol":"MYN",
-    "Name":"Blackrock MuniYield New York Quality Fund Inc."
     },
     {
     "Symbol":"MYNA",
@@ -20653,7 +20145,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MYNZ",
-    "Name":"Mainz Biomed B.V. Ordinary Shares"
+    "Name":"Mainz Biomed B.V."
     },
     {
     "Symbol":"MYO",
@@ -20661,7 +20153,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MYOV",
-    "Name":"Myovant Sciences Ltd. Common Shares"
+    "Name":"Myovant Sciences Ltd. "
     },
     {
     "Symbol":"MYPS",
@@ -20681,7 +20173,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"MYTE",
-    "Name":"MYT Netherlands Parent B.V. American Depositary Shares each representing one Ordinary Share"
+    "Name":"MYT Netherlands Parent B.V. American  each representing one Ordinary Share"
     },
     {
     "Symbol":"NAAC",
@@ -20765,7 +20257,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NBB",
-    "Name":"Nuveen Taxable Municipal Income Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Taxable Municipal Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NBEV",
@@ -20797,7 +20289,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NBRV",
-    "Name":"Nabriva Therapeutics plc Ordinary Shares Ireland"
+    "Name":"Nabriva Therapeutics plc Ireland"
     },
     {
     "Symbol":"NBSE",
@@ -20821,7 +20313,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NBTX",
-    "Name":"Nanobiotix S.A. American Depositary Shares"
+    "Name":"Nanobiotix S.A. American "
     },
     {
     "Symbol":"NBW",
@@ -20861,7 +20353,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NCLH",
-    "Name":"Norwegian Cruise Line Holdings Ltd. Ordinary Shares"
+    "Name":"Norwegian Cruise Line Holdings Ltd."
     },
     {
     "Symbol":"NCMI",
@@ -20889,7 +20381,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NCV",
-    "Name":"Virtus AllianzGI Convertible & Income Fund Common Shares of Beneficial Interest"
+    "Name":"Virtus AllianzGI Convertible & Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NCV^A",
@@ -20897,7 +20389,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NCZ",
-    "Name":"Virtus AllianzGI Convertible & Income Fund II Common Shares of Beneficial Interest"
+    "Name":"Virtus AllianzGI Convertible & Income Fund II  of Beneficial Interest"
     },
     {
     "Symbol":"NCZ^A",
@@ -20925,7 +20417,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NDMO",
-    "Name":"Nuveen Dynamic Municipal Opportunities Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Dynamic Municipal Opportunities Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NDP",
@@ -20945,11 +20437,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NE",
-    "Name":"Noble Corporation plc Ordinary Shares"
+    "Name":"Noble Corporation plc"
     },
     {
     "Symbol":"NEA",
-    "Name":"Nuveen AMT-Free Quality Municipal Income Fund Common Shares of Beneficial Interest Par Value $.01"
+    "Name":"Nuveen AMT-Free Quality Municipal Income Fund  of Beneficial Interest Par Value $.01"
     },
     {
     "Symbol":"NECB",
@@ -20977,15 +20469,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NEGG",
-    "Name":"Newegg Commerce Inc. Common Shares"
+    "Name":"Newegg Commerce Inc. "
     },
     {
     "Symbol":"NEM",
     "Name":"Newmont Corporation"
-    },
-    {
-    "Symbol":"NEN",
-    "Name":"New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership"
     },
     {
     "Symbol":"NEO",
@@ -21000,16 +20488,12 @@ const stockSymbolByName = [
     "Name":"Neonode Inc."
     },
     {
-    "Symbol":"NEP",
-    "Name":"NextEra Energy Partners LP Common Units representing limited partner interests"
-    },
-    {
     "Symbol":"NEPH",
     "Name":"Nephros Inc."
     },
     {
     "Symbol":"NEPT",
-    "Name":"Neptune Wellness Solutions Inc. Ordinary Shares"
+    "Name":"Neptune Wellness Solutions Inc."
     },
     {
     "Symbol":"NERV",
@@ -21021,7 +20505,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NESR",
-    "Name":"National Energy Services Reunited Corp. Ordinary Shares"
+    "Name":"National Energy Services Reunited Corp."
     },
     {
     "Symbol":"NESRW",
@@ -21045,15 +20529,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NEV",
-    "Name":"Nuveen Enhanced Municipal Value Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Enhanced Municipal Value Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NEW",
-    "Name":"Puxin Limited American Depositary Shares each representing two Ordinary Shares"
+    "Name":"Puxin Limited American  each representing two"
     },
     {
     "Symbol":"NEWP",
-    "Name":"New Pacific Metals Corp. Common Shares"
+    "Name":"New Pacific Metals Corp. "
     },
     {
     "Symbol":"NEWR",
@@ -21077,7 +20561,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NEXA",
-    "Name":"Nexa Resources S.A. Common Shares"
+    "Name":"Nexa Resources S.A. "
     },
     {
     "Symbol":"NEXI",
@@ -21101,15 +20585,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NFGC",
-    "Name":"New Found Gold Corp Common Shares"
+    "Name":"New Found Gold Corp "
     },
     {
     "Symbol":"NFH",
-    "Name":"New Frontier Health Corporation Ordinary Shares"
+    "Name":"New Frontier Health Corporation"
     },
     {
     "Symbol":"NFJ",
-    "Name":"Virtus Dividend Interest & Premium Strategy Fund Common Shares of Beneficial Interest"
+    "Name":"Virtus Dividend Interest & Premium Strategy Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NFLX",
@@ -21117,11 +20601,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NFNT",
-    "Name":"Infinite Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Infinite Acquisition Corp. Class A"
     },
     {
     "Symbol":"NFYS",
-    "Name":"Enphys Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Enphys Acquisition Corp. Class A"
     },
     {
     "Symbol":"NG",
@@ -21137,19 +20621,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NGG",
-    "Name":"National Grid Transco PLC National Grid PLC (NEW) American Depositary Shares"
-    },
-    {
-    "Symbol":"NGL",
-    "Name":"NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests"
-    },
-    {
-    "Symbol":"NGL^B",
-    "Name":"NGL ENERGY PARTNERS LP 9.00% Class B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units representing limited partnership interests"
-    },
-    {
-    "Symbol":"NGL^C",
-    "Name":"NGL ENERGY PARTNERS LP 9.625% Class C Fixed-to-Floating Rate Cumulative  Redeemable Perpetual Preferred Units representing  limited partner interests"
+    "Name":"National Grid Transco PLC National Grid PLC (NEW) American "
     },
     {
     "Symbol":"NGM",
@@ -21157,7 +20629,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NGMS",
-    "Name":"NeoGames S.A. Ordinary Shares"
+    "Name":"NeoGames S.A."
     },
     {
     "Symbol":"NGS",
@@ -21205,11 +20677,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NI^B",
-    "Name":"NiSource Inc Depositary Shares representing 1/1000th ownership interest in a share of 6.50% Series B Preferred Stock and 1/1000th ownership interest in a share of Series B-1 Preferred Stock"
+    "Name":"NiSource Inc  representing 1/1000th ownership interest in a share of 6.50% Series B Preferred Stock and 1/1000th ownership interest in a share of Series B-1 Preferred Stock"
     },
     {
     "Symbol":"NICE",
-    "Name":"NICE Ltd American Depositary Shares"
+    "Name":"NICE Ltd American "
     },
     {
     "Symbol":"NICK",
@@ -21217,11 +20689,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NID",
-    "Name":"Nuveen Intermediate Duration Municipal Term Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Intermediate Duration Municipal Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NIE",
-    "Name":"Virtus AllianzGI Equity & Convertible Income Fund Common Shares of Beneficial Interest"
+    "Name":"Virtus AllianzGI Equity & Convertible Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NILE",
@@ -21241,19 +20713,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NIO",
-    "Name":"NIO Inc. American depositary shares each  representing one Class A ordinary share"
+    "Name":"NIO Inc. American  each  representing one Class A ordinary share"
     },
     {
     "Symbol":"NIQ",
-    "Name":"Nuveenn Intermediate Duration Quality Municipal Term Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveenn Intermediate Duration Quality Municipal Term Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NISN",
-    "Name":"NiSun International Enterprise Development Group Co. Ltd. Class A Common Shares"
+    "Name":"NiSun International Enterprise Development Group Co. Ltd. Class A "
     },
     {
     "Symbol":"NIU",
-    "Name":"Niu Technologies American Depositary Shares"
+    "Name":"Niu Technologies American "
     },
     {
     "Symbol":"NJR",
@@ -21309,11 +20781,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NLSN",
-    "Name":"Nielsen N.V. Ordinary Shares"
+    "Name":"Nielsen N.V."
     },
     {
     "Symbol":"NLSP",
-    "Name":"NLS Pharmaceutics Ltd. Ordinary Shares"
+    "Name":"NLS Pharmaceutics Ltd."
     },
     {
     "Symbol":"NLSPW",
@@ -21353,11 +20825,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NMAI",
-    "Name":"Nuveen Multi-Asset Income Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Multi-Asset Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NMCO",
-    "Name":"Nuveen Municipal Credit Opportunities Fund Common Shares"
+    "Name":"Nuveen Municipal Credit Opportunities Fund "
     },
     {
     "Symbol":"NMFC",
@@ -21365,7 +20837,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NMG",
-    "Name":"Nouveau Monde Graphite Inc. Common Shares"
+    "Name":"Nouveau Monde Graphite Inc. "
     },
     {
     "Symbol":"NMI",
@@ -21388,10 +20860,6 @@ const stockSymbolByName = [
     "Name":"Neuberger Berman MLP and Energy Income Fund Inc."
     },
     {
-    "Symbol":"NMM",
-    "Name":"Navios Maritime Partners LP Common Units Representing Limited Partner Interests"
-    },
-    {
     "Symbol":"NMMC",
     "Name":"North Mountain Merger Corp. Class A"
     },
@@ -21405,7 +20873,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NMR",
-    "Name":"Nomura Holdings Inc ADR American Depositary Shares"
+    "Name":"Nomura Holdings Inc ADR American "
     },
     {
     "Symbol":"NMRD",
@@ -21449,7 +20917,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NNDM",
-    "Name":"Nano Dimension Ltd. American Depositary Shares"
+    "Name":"Nano Dimension Ltd. American "
     },
     {
     "Symbol":"NNI",
@@ -21461,7 +20929,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NNOX",
-    "Name":"NANO-X IMAGING LTD Ordinary Shares"
+    "Name":"NANO-X IMAGING LTD"
     },
     {
     "Symbol":"NNVC",
@@ -21473,7 +20941,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NOA",
-    "Name":"North American Construction Group Ltd. Common Shares (no par)"
+    "Name":"North American Construction Group Ltd.  (no par)"
     },
     {
     "Symbol":"NOAC",
@@ -21505,7 +20973,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NOK",
-    "Name":"Nokia Corporation Sponsored American Depositary Shares"
+    "Name":"Nokia Corporation Sponsored American "
     },
     {
     "Symbol":"NOM",
@@ -21513,7 +20981,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NOMD",
-    "Name":"Nomad Foods Limited Ordinary Shares"
+    "Name":"Nomad Foods Limited"
     },
     {
     "Symbol":"NOTV",
@@ -21573,11 +21041,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NPCT",
-    "Name":"Nuveen Core Plus Impact Fund Common Shares of Beneficial Interest"
+    "Name":"Nuveen Core Plus Impact Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NPFD",
-    "Name":"Nuveen Variable Rate Preferred & Income Fund Common Shares"
+    "Name":"Nuveen Variable Rate Preferred & Income Fund "
     },
     {
     "Symbol":"NPK",
@@ -21641,7 +21109,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NRGX",
-    "Name":"PIMCO Energy and Tactical Credit Opportunities Fund Common Shares of Beneficial Interest"
+    "Name":"PIMCO Energy and Tactical Credit Opportunities Fund  of Beneficial Interest"
     },
     {
     "Symbol":"NRIM",
@@ -21660,12 +21128,8 @@ const stockSymbolByName = [
     "Name":"Neuberger Berman Real Estate Securities Income Fund Inc. Neuberger Berman Real Estate Securities Income Fund Inc."
     },
     {
-    "Symbol":"NRP",
-    "Name":"Natural Resource Partners LP Limited Partnership"
-    },
-    {
     "Symbol":"NRSN",
-    "Name":"NeuroSense Therapeutics Ltd. Ordinary Shares"
+    "Name":"NeuroSense Therapeutics Ltd."
     },
     {
     "Symbol":"NRSNW",
@@ -21725,7 +21189,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NSA",
-    "Name":"National Storage Affiliates Trust Common Shares of Beneficial Interest"
+    "Name":"National Storage Affiliates Trust  of Beneficial Interest"
     },
     {
     "Symbol":"NSA^A",
@@ -21761,7 +21225,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NSR",
-    "Name":"Nomad Royalty Company Ltd. Common Shares"
+    "Name":"Nomad Royalty Company Ltd. "
     },
     {
     "Symbol":"NSS",
@@ -21801,11 +21265,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NTB",
-    "Name":"Bank of N.T. Butterfield & Son Limited (The) Voting Ordinary Shares"
+    "Name":"Bank of N.T. Butterfield & Son Limited (The) Voting"
     },
     {
     "Symbol":"NTCO",
-    "Name":"Natura &Co Holding S.A. American Depositary Shares"
+    "Name":"Natura &Co Holding S.A. American "
     },
     {
     "Symbol":"NTCT",
@@ -21813,7 +21277,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NTES",
-    "Name":"NetEase Inc. American Depositary Shares"
+    "Name":"NetEase Inc. American "
     },
     {
     "Symbol":"NTG",
@@ -21840,12 +21304,16 @@ const stockSymbolByName = [
     "Name":"Nutanix Inc. Class A"
     },
     {
+    "Symbol":"NTDOY",
+    "Name":"Nintendo Of America"
+    },
+    {
     "Symbol":"NTP",
     "Name":"Nam Tai Property Inc."
     },
     {
     "Symbol":"NTR",
-    "Name":"Nutrien Ltd. Common Shares"
+    "Name":"Nutrien Ltd. "
     },
     {
     "Symbol":"NTRA",
@@ -21865,7 +21333,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NTRSO",
-    "Name":"Northern Trust Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of Series E Non-Cumulative Perpetual Preferred Stock"
+    "Name":"Northern Trust Corporation  Each Representing a 1/1000th Interest in a Share of Series E Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"NTST",
@@ -21885,7 +21353,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NU",
-    "Name":"Nu Holdings Ltd. Class A Ordinary Shares"
+    "Name":"Nu Holdings Ltd. Class A"
     },
     {
     "Symbol":"NUAN",
@@ -21953,11 +21421,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NVCN",
-    "Name":"Neovasc Inc. Common Shares"
+    "Name":"Neovasc Inc. "
     },
     {
     "Symbol":"NVCR",
-    "Name":"NovoCure Limited Ordinary Shares"
+    "Name":"NovoCure Limited"
     },
     {
     "Symbol":"NVDA",
@@ -21985,7 +21453,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NVGS",
-    "Name":"Navigator Holdings Ltd. Ordinary Shares (Marshall Islands)"
+    "Name":"Navigator Holdings Ltd. (Marshall Islands)"
     },
     {
     "Symbol":"NVIV",
@@ -21993,7 +21461,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NVMI",
-    "Name":"Nova Ltd. Ordinary Shares"
+    "Name":"Nova Ltd."
     },
     {
     "Symbol":"NVNO",
@@ -22025,7 +21493,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NVSA",
-    "Name":"New Vista Acquisition Corp Class A Ordinary Shares"
+    "Name":"New Vista Acquisition Corp Class A"
     },
     {
     "Symbol":"NVSAU",
@@ -22041,7 +21509,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NVT",
-    "Name":"nVent Electric plc Ordinary Shares"
+    "Name":"nVent Electric plc"
     },
     {
     "Symbol":"NVTA",
@@ -22077,7 +21545,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NWG",
-    "Name":"NatWest Group plc American Depositary Shares"
+    "Name":"NatWest Group plc American "
     },
     {
     "Symbol":"NWL",
@@ -22117,7 +21585,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NXE",
-    "Name":"Nexgen Energy Ltd. Common Shares"
+    "Name":"Nexgen Energy Ltd. "
     },
     {
     "Symbol":"NXGL",
@@ -22189,7 +21657,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NYCB^A",
-    "Name":"New York Community Bancorp Inc. Depositary shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate Series A Noncumulative Perpetual Preferred Stock"
+    "Name":"New York Community Bancorp Inc.  each representing a 1/40th interest in a share of Fixed-to-Floating Rate Series A Noncumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"NYCB^U",
@@ -22225,7 +21693,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"NYXH",
-    "Name":"Nyxoah SA Ordinary Shares"
+    "Name":"Nyxoah SA"
     },
     {
     "Symbol":"NZF",
@@ -22237,7 +21705,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OACB",
-    "Name":"Oaktree Acquisition Corp. II Class A Ordinary Shares"
+    "Name":"Oaktree Acquisition Corp. II Class A"
     },
     {
     "Symbol":"OAK^A",
@@ -22257,7 +21725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OBAS",
-    "Name":"Optibase Ltd. Ordinary Shares"
+    "Name":"Optibase Ltd."
     },
     {
     "Symbol":"OBCI",
@@ -22273,7 +21741,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OBSV",
-    "Name":"ObsEva SA Ordinary Shares"
+    "Name":"ObsEva SA"
     },
     {
     "Symbol":"OBT",
@@ -22317,7 +21785,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OCDX",
-    "Name":"Ortho Clinical Diagnostics Holdings plc Ordinary Shares"
+    "Name":"Ortho Clinical Diagnostics Holdings plc"
     },
     {
     "Symbol":"OCFC",
@@ -22325,15 +21793,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OCFCP",
-    "Name":"OceanFirst Financial Corp. Depositary Shares"
+    "Name":"OceanFirst Financial Corp. "
     },
     {
     "Symbol":"OCFT",
-    "Name":"OneConnect Financial Technology Co. Ltd. American Depositary Shares each representing three ordinary shares"
+    "Name":"OneConnect Financial Technology Co. Ltd. American  each representing three"
     },
     {
     "Symbol":"OCG",
-    "Name":"Oriental Culture Holding LTD Ordinary Shares"
+    "Name":"Oriental Culture Holding LTD"
     },
     {
     "Symbol":"OCGN",
@@ -22373,23 +21841,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OEC",
-    "Name":"Orion Engineered Carbons S.A Common Shares"
+    "Name":"Orion Engineered Carbons S.A "
     },
     {
     "Symbol":"OEG",
     "Name":"Orbital Energy Group Inc."
-    },
-    {
-    "Symbol":"OEPW",
-    "Name":"One Equity Partners Open Water I Corp. Class A"
-    },
-    {
-    "Symbol":"OEPWU",
-    "Name":"One Equity Partners Open Water I Corp. Unit"
-    },
-    {
-    "Symbol":"OEPWW",
-    "Name":"One Equity Partners Open Water I Corp. Warrant"
     },
     {
     "Symbol":"OESX",
@@ -22425,7 +21881,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OG",
-    "Name":"Onion Global Limited American Depositary Shares (each ten (10) ADSs representing one (1) Class A Ordinary Share)"
+    "Name":"Onion Global Limited American  (each ten (10) ADSs representing one (1) Class A Ordinary Share)"
     },
     {
     "Symbol":"OGE",
@@ -22437,7 +21893,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OGI",
-    "Name":"Organigram Holdings Inc. Common Shares"
+    "Name":"Organigram Holdings Inc. "
     },
     {
     "Symbol":"OGN",
@@ -22489,7 +21945,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OIIM",
-    "Name":"O2Micro International Limited American Depositary Shares"
+    "Name":"O2Micro International Limited American "
     },
     {
     "Symbol":"OIS",
@@ -22517,7 +21973,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OLITU",
-    "Name":"OmniLit Acquisition Corp. Units"
+    "Name":"OmniLit Acquisition "
     },
     {
     "Symbol":"OLITW",
@@ -22525,7 +21981,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OLK",
-    "Name":"Olink Holding AB (publ) American Depositary Shares"
+    "Name":"Olink Holding AB (publ) American "
     },
     {
     "Symbol":"OLLI",
@@ -22569,7 +22025,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OMEG",
-    "Name":"Omega Alpha SPAC Class A Ordinary Shares"
+    "Name":"Omega Alpha SPAC Class A"
     },
     {
     "Symbol":"OMER",
@@ -22594,10 +22050,6 @@ const stockSymbolByName = [
     {
     "Symbol":"OMIC",
     "Name":"Singular Genomics Systems Inc."
-    },
-    {
-    "Symbol":"OMP",
-    "Name":"Oasis Midstream Partners LP Common Units Representing Limited Partner Interests"
     },
     {
     "Symbol":"OMQS",
@@ -22625,7 +22077,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ONCY",
-    "Name":"Oncolytics Biotech Inc. Common Shares"
+    "Name":"Oncolytics Biotech Inc. "
     },
     {
     "Symbol":"ONDS",
@@ -22649,7 +22101,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ONON",
-    "Name":"On Holding AG Class A Ordinary Shares"
+    "Name":"On Holding AG Class A"
     },
     {
     "Symbol":"ONTF",
@@ -22669,7 +22121,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ONYX",
-    "Name":"Onyx Acquisition Co. I Class A Ordinary Shares"
+    "Name":"Onyx Acquisition Co. I Class A"
     },
     {
     "Symbol":"ONYXU",
@@ -22689,7 +22141,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OPA",
-    "Name":"Magnum Opus Acquisition Limited Class A Ordinary Shares"
+    "Name":"Magnum Opus Acquisition Limited Class A"
     },
     {
     "Symbol":"OPAD",
@@ -22721,7 +22173,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OPI",
-    "Name":"Office Properties Income Trust Common Shares of Beneficial Interest"
+    "Name":"Office Properties Income Trust  of Beneficial Interest"
     },
     {
     "Symbol":"OPINL",
@@ -22753,7 +22205,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OPRA",
-    "Name":"Opera Limited American Depositary Shares"
+    "Name":"Opera Limited American "
     },
     {
     "Symbol":"OPRT",
@@ -22765,7 +22217,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OPT",
-    "Name":"Opthea Limited American Depositary Shares"
+    "Name":"Opthea Limited American "
     },
     {
     "Symbol":"OPTN",
@@ -22781,7 +22233,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OR",
-    "Name":"Osisko Gold Royalties Ltd Common Shares"
+    "Name":"Osisko Gold Royalties Ltd "
     },
     {
     "Symbol":"ORA",
@@ -22829,7 +22281,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ORIAU",
-    "Name":"Orion Biotech Opportunities Corp. Units"
+    "Name":"Orion Biotech Opportunities "
     },
     {
     "Symbol":"ORIC",
@@ -22837,7 +22289,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ORLA",
-    "Name":"Orla Mining Ltd. Common Shares"
+    "Name":"Orla Mining Ltd. "
     },
     {
     "Symbol":"ORLY",
@@ -22853,7 +22305,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ORPH",
-    "Name":"Orphazyme A/S American Depositary Shares"
+    "Name":"Orphazyme A/S American "
     },
     {
     "Symbol":"ORRF",
@@ -22861,7 +22313,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ORTX",
-    "Name":"Orchard Therapeutics plc American Depositary Shares"
+    "Name":"Orchard Therapeutics plc American "
     },
     {
     "Symbol":"OSBC",
@@ -22921,7 +22373,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OSW",
-    "Name":"OneSpaWorld Holdings Limited Common Shares"
+    "Name":"OneSpaWorld Holdings Limited "
     },
     {
     "Symbol":"OTEC",
@@ -22929,7 +22381,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OTECU",
-    "Name":"OceanTech Acquisitions I Corp. Units"
+    "Name":"OceanTech Acquisitions I "
     },
     {
     "Symbol":"OTECW",
@@ -22937,7 +22389,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OTEX",
-    "Name":"Open Text Corporation Common Shares"
+    "Name":"Open Text Corporation "
     },
     {
     "Symbol":"OTIC",
@@ -22957,11 +22409,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OTLY",
-    "Name":"Oatly Group AB American Depositary Shares"
+    "Name":"Oatly Group AB American "
     },
     {
     "Symbol":"OTMO",
-    "Name":"Otonomo Technologies Ltd. Ordinary shares"
+    "Name":"Otonomo Technologies Ltd."
     },
     {
     "Symbol":"OTMOW",
@@ -23021,7 +22473,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OXAC",
-    "Name":"Oxbridge Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Oxbridge Acquisition Corp. Class A"
     },
     {
     "Symbol":"OXACU",
@@ -23033,7 +22485,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OXBR",
-    "Name":"Oxbridge Re Holdings Limited Ordinary Shares"
+    "Name":"Oxbridge Re Holdings Limited"
     },
     {
     "Symbol":"OXBRW",
@@ -23085,7 +22537,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OXUS",
-    "Name":"Oxus Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Oxus Acquisition Corp. Class A"
     },
     {
     "Symbol":"OXUSU",
@@ -23117,7 +22569,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"OZON",
-    "Name":"Ozon Holdings PLC American Depositary Shares each ADS representing one ordinary share"
+    "Name":"Ozon Holdings PLC American  each ADS representing one ordinary share"
     },
     {
     "Symbol":"PAA",
@@ -23177,7 +22629,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PAFOU",
-    "Name":"Pacifico Acquisition Corp. Units"
+    "Name":"Pacifico Acquisition "
     },
     {
     "Symbol":"PAG",
@@ -23189,7 +22641,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PAGS",
-    "Name":"PagSeguro Digital Ltd. Class A Common Shares"
+    "Name":"PagSeguro Digital Ltd. Class A "
     },
     {
     "Symbol":"PAHC",
@@ -23213,11 +22665,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PANA",
-    "Name":"Panacea Acquisition Corp. II Class A Ordinary Shares"
+    "Name":"Panacea Acquisition Corp. II Class A"
     },
     {
     "Symbol":"PANL",
-    "Name":"Pangaea Logistics Solutions Ltd. Common Shares"
+    "Name":"Pangaea Logistics Solutions Ltd. "
     },
     {
     "Symbol":"PANW",
@@ -23225,11 +22677,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PAQC",
-    "Name":"Provident Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Provident Acquisition Corp. Class A"
     },
     {
     "Symbol":"PAQCU",
-    "Name":"Provident Acquisition Corp. Units"
+    "Name":"Provident Acquisition "
     },
     {
     "Symbol":"PAQCW",
@@ -23273,7 +22725,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PAX",
-    "Name":"Patria Investments Limited Class A Common Shares"
+    "Name":"Patria Investments Limited Class A "
     },
     {
     "Symbol":"PAY",
@@ -23309,7 +22761,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PBA",
-    "Name":"Pembina Pipeline Corp. Ordinary Shares (Canada)"
+    "Name":"Pembina Pipeline Corp. (Canada)"
     },
     {
     "Symbol":"PBAX",
@@ -23385,7 +22837,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PBTS",
-    "Name":"Powerbridge Technologies Co. Ltd. Ordinary Shares"
+    "Name":"Powerbridge Technologies Co. Ltd."
     },
     {
     "Symbol":"PBYI",
@@ -23401,7 +22853,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PCCT",
-    "Name":"Perception Capital Corp. II Class A Ordinary Shares"
+    "Name":"Perception Capital Corp. II Class A"
     },
     {
     "Symbol":"PCCTU",
@@ -23453,7 +22905,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PCK",
-    "Name":"Pimco California Municipal Income Fund II Common Shares of Beneficial Interest"
+    "Name":"Pimco California Municipal Income Fund II  of Beneficial Interest"
     },
     {
     "Symbol":"PCM",
@@ -23465,7 +22917,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PCOM",
-    "Name":"Points.com Inc. Common Shares"
+    "Name":"Points.com Inc. "
     },
     {
     "Symbol":"PCOR",
@@ -23549,7 +23001,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PDD",
-    "Name":"Pinduoduo Inc. American Depositary Shares"
+    "Name":"Pinduoduo Inc. American "
     },
     {
     "Symbol":"PDEX",
@@ -23573,11 +23025,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PDO",
-    "Name":"PIMCO Dynamic Income Opportunities Fund Common Shares of Beneficial Interest"
+    "Name":"PIMCO Dynamic Income Opportunities Fund  of Beneficial Interest"
     },
     {
     "Symbol":"PDOT",
-    "Name":"Peridot Acquisition Corp. II Class A Ordinary Shares"
+    "Name":"Peridot Acquisition Corp. II Class A"
     },
     {
     "Symbol":"PDS",
@@ -23605,7 +23057,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PEB",
-    "Name":"Pebblebrook Hotel Trust Common Shares of Beneficial Interest"
+    "Name":"Pebblebrook Hotel Trust  of Beneficial Interest"
     },
     {
     "Symbol":"PEB^E",
@@ -23705,7 +23157,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PERI",
-    "Name":"Perion Network Ltd. Ordinary Shares"
+    "Name":"Perion Network Ltd."
     },
     {
     "Symbol":"PESI",
@@ -23729,7 +23181,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PETZ",
-    "Name":"TDH Holdings Inc. Common Shares"
+    "Name":"TDH Holdings Inc. "
     },
     {
     "Symbol":"PFBC",
@@ -23745,7 +23197,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PFDR",
-    "Name":"Pathfinder Acquisition Corporation Class A Ordinary Shares"
+    "Name":"Pathfinder Acquisition Corporation Class A"
     },
     {
     "Symbol":"PFDRW",
@@ -23857,7 +23309,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PGP",
-    "Name":"Pimco Global Stocksplus & Income Fund Pimco Global StocksPlus & Income Fund Common Shares of Beneficial Interest"
+    "Name":"Pimco Global Stocksplus & Income Fund Pimco Global StocksPlus & Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"PGR",
@@ -23873,7 +23325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PGRWU",
-    "Name":"Progress Acquisition Corp. Units"
+    "Name":"Progress Acquisition "
     },
     {
     "Symbol":"PGRWW",
@@ -23881,7 +23333,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PGSS",
-    "Name":"Pegasus Digital Mobility Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Pegasus Digital Mobility Acquisition Corp. Class A"
     },
     {
     "Symbol":"PGTI",
@@ -23889,7 +23341,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PGZ",
-    "Name":"Principal Real Estate Income Fund Common Shares of Beneficial Interest"
+    "Name":"Principal Real Estate Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"PH",
@@ -23897,7 +23349,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PHAR",
-    "Name":"Pharming Group N.V. ADS each representing 10 ordinary shares"
+    "Name":"Pharming Group N.V. ADS each representing 10"
     },
     {
     "Symbol":"PHAS",
@@ -23909,7 +23361,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PHCF",
-    "Name":"Puhui Wealth Investment Management Co. Ltd. Ordinary Shares"
+    "Name":"Puhui Wealth Investment Management Co. Ltd."
     },
     {
     "Symbol":"PHD",
@@ -23969,7 +23421,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PHVS",
-    "Name":"Pharvaris N.V. Ordinary Shares"
+    "Name":"Pharvaris N.V."
     },
     {
     "Symbol":"PHX",
@@ -23977,7 +23429,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PHYT",
-    "Name":"Pyrophyte Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Pyrophyte Acquisition Corp. Class A"
     },
     {
     "Symbol":"PI",
@@ -23985,7 +23437,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PIAI",
-    "Name":"Prime Impact Acquisition I Class A Ordinary Shares"
+    "Name":"Prime Impact Acquisition I Class A"
     },
     {
     "Symbol":"PICC",
@@ -23994,14 +23446,6 @@ const stockSymbolByName = [
     {
     "Symbol":"PII",
     "Name":"Polaris Inc."
-    },
-    {
-    "Symbol":"PIII",
-    "Name":"P3 Health Partners Inc. Class A"
-    },
-    {
-    "Symbol":"PIIIW",
-    "Name":"P3 Health Partners Inc. Warrant"
     },
     {
     "Symbol":"PIK",
@@ -24042,10 +23486,6 @@ const stockSymbolByName = [
     {
     "Symbol":"PIXY",
     "Name":"ShiftPixy Inc."
-    },
-    {
-    "Symbol":"PJT",
-    "Name":"PJT Partners Inc. Class A"
     },
     {
     "Symbol":"PK",
@@ -24113,11 +23553,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PLG",
-    "Name":"Platinum Group Metals Ltd. Ordinary Shares (Canada)"
+    "Name":"Platinum Group Metals Ltd. (Canada)"
     },
     {
     "Symbol":"PLIN",
-    "Name":"China Xiangtai Food Co. Ltd. Ordinary Shares"
+    "Name":"China Xiangtai Food Co. Ltd."
     },
     {
     "Symbol":"PLL",
@@ -24125,7 +23565,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PLM",
-    "Name":"Polymet Mining Corporation Ordinary Shares (Canada)"
+    "Name":"Polymet Mining Corporation (Canada)"
     },
     {
     "Symbol":"PLMI",
@@ -24193,7 +23633,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PLYA",
-    "Name":"Playa Hotels & Resorts N.V. Ordinary Shares"
+    "Name":"Playa Hotels & Resorts N.V."
     },
     {
     "Symbol":"PLYM",
@@ -24229,7 +23669,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PMGMU",
-    "Name":"Priveterra Acquisition Corp. Units"
+    "Name":"Priveterra Acquisition "
     },
     {
     "Symbol":"PMGMW",
@@ -24237,7 +23677,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PML",
-    "Name":"Pimco Municipal Income Fund II Common Shares of Beneficial Interest"
+    "Name":"Pimco Municipal Income Fund II  of Beneficial Interest"
     },
     {
     "Symbol":"PMM",
@@ -24249,7 +23689,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PMT",
-    "Name":"PennyMac Mortgage Investment Trust Common Shares of Beneficial Interest"
+    "Name":"PennyMac Mortgage Investment Trust  of Beneficial Interest"
     },
     {
     "Symbol":"PMT^A",
@@ -24277,7 +23717,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PMX",
-    "Name":"PIMCO Municipal Income Fund III Common Shares of Beneficial Interest"
+    "Name":"PIMCO Municipal Income Fund III  of Beneficial Interest"
     },
     {
     "Symbol":"PNBK",
@@ -24289,23 +23729,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PNC^P",
-    "Name":"PNC Financial Services Group Inc. (The) Depositary Shares Representing 1/4000th Perpetual Preferred Series P"
+    "Name":"PNC Financial Services Group Inc. (The)  Representing 1/4000th Perpetual Preferred Series P"
     },
     {
     "Symbol":"PNF",
     "Name":"PIMCO New York Municipal Income Fund"
     },
     {
-    "Symbol":"PNFP",
-    "Name":"Pinnacle Financial Partners Inc."
-    },
-    {
-    "Symbol":"PNFPP",
-    "Name":"Pinnacle Financial Partners Inc. Depositary shares of Pinnacle Financial Partners Inc. each representing a 1/40th Interest in a share of its 6.75% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series B"
-    },
-    {
     "Symbol":"PNI",
-    "Name":"Pimco New York Municipal Income Fund II Common Shares of Beneficial Interest"
+    "Name":"Pimco New York Municipal Income Fund II  of Beneficial Interest"
     },
     {
     "Symbol":"PNM",
@@ -24333,7 +23765,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PNTM",
-    "Name":"Pontem Corporation Class A Ordinary Shares"
+    "Name":"Pontem Corporation Class A"
     },
     {
     "Symbol":"PNW",
@@ -24357,7 +23789,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"POND",
-    "Name":"Angel Pond Holdings Corporation Class A Ordinary Shares"
+    "Name":"Angel Pond Holdings Corporation Class A"
     },
     {
     "Symbol":"PONO",
@@ -24389,7 +23821,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"POW",
-    "Name":"Powered Brands Class A Ordinary Shares"
+    "Name":"Powered Brands Class A"
     },
     {
     "Symbol":"POWI",
@@ -24421,7 +23853,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PPBT",
-    "Name":"Purple Biotech Ltd. American Depositary Shares"
+    "Name":"Purple Biotech Ltd. American "
     },
     {
     "Symbol":"PPC",
@@ -24465,7 +23897,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PPTA",
-    "Name":"Perpetua Resources Corp. Common Shares"
+    "Name":"Perpetua Resources Corp. "
     },
     {
     "Symbol":"PPYAU",
@@ -24513,7 +23945,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PRFX",
-    "Name":"PainReform Ltd. Ordinary Shares"
+    "Name":"PainReform Ltd."
     },
     {
     "Symbol":"PRG",
@@ -24521,7 +23953,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PRGO",
-    "Name":"Perrigo Company plc Ordinary Shares"
+    "Name":"Perrigo Company plc"
     },
     {
     "Symbol":"PRGS",
@@ -24581,7 +24013,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PRM",
-    "Name":"Perimeter Solutions SA Ordinary Shares"
+    "Name":"Perimeter Solutions SA"
     },
     {
     "Symbol":"PRMW",
@@ -24593,7 +24025,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PROC",
-    "Name":"Procaps Group S.A. Ordinary Shares"
+    "Name":"Procaps Group S.A."
     },
     {
     "Symbol":"PROCW",
@@ -24613,11 +24045,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PRPB",
-    "Name":"CC Neuberger Principal Holdings II Class A Ordinary Shares"
+    "Name":"CC Neuberger Principal Holdings II Class A"
     },
     {
     "Symbol":"PRPC",
-    "Name":"CC Neuberger Principal Holdings III Class A Ordinary Shares"
+    "Name":"CC Neuberger Principal Holdings III Class A"
     },
     {
     "Symbol":"PRPH",
@@ -24633,7 +24065,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PRQR",
-    "Name":"ProQR Therapeutics N.V. Ordinary Shares"
+    "Name":"ProQR Therapeutics N.V."
     },
     {
     "Symbol":"PRS",
@@ -24645,7 +24077,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PRSR",
-    "Name":"Prospector Capital Corp. Class A Ordinary Shares"
+    "Name":"Prospector Capital Corp. Class A"
     },
     {
     "Symbol":"PRSRU",
@@ -24661,11 +24093,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PRTA",
-    "Name":"Prothena Corporation plc Ordinary Shares"
+    "Name":"Prothena Corporation plc"
     },
     {
     "Symbol":"PRTC",
-    "Name":"PureTech Health plc American Depositary Shares"
+    "Name":"PureTech Health plc American "
     },
     {
     "Symbol":"PRTG",
@@ -24705,59 +24137,59 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PSA^F",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 5.15% Cumulative Preferred Share of Beneficial Interest Series F par value $0.01 per share"
+    "Name":"Public Storage  Each Representing 1/1000 of a 5.15% Cumulative Preferred Share of Beneficial Interest Series F par value $0.01 per share"
     },
     {
     "Symbol":"PSA^G",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 5.05% Cumulative Preferred Share of Beneficial Interest Series G"
+    "Name":"Public Storage  Each Representing 1/1000 of a 5.05% Cumulative Preferred Share of Beneficial Interest Series G"
     },
     {
     "Symbol":"PSA^H",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a  5.60% Cumulative Preferred  Share of Beneficial Interest Series H"
+    "Name":"Public Storage  Each Representing 1/1000 of a  5.60% Cumulative Preferred  Share of Beneficial Interest Series H"
     },
     {
     "Symbol":"PSA^I",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.875% Cumulative Preferred Share of Beneficial Interest Series I par value $0.01 per share"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.875% Cumulative Preferred Share of Beneficial Interest Series I par value $0.01 per share"
     },
     {
     "Symbol":"PSA^J",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.700% Cumulative Preferred Share of Beneficial Interest Series J par value $0.01 per share"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.700% Cumulative Preferred Share of Beneficial Interest Series J par value $0.01 per share"
     },
     {
     "Symbol":"PSA^K",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.75% Cumulative Preferred Share of Beneficial Interest Series K"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.75% Cumulative Preferred Share of Beneficial Interest Series K"
     },
     {
     "Symbol":"PSA^L",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.625% Cumulative Preferred Share of Beneficial Interest Series L par value $0.01 per share"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.625% Cumulative Preferred Share of Beneficial Interest Series L par value $0.01 per share"
     },
     {
     "Symbol":"PSA^M",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.125% Cumulative Preferred Share of Beneficial Interest Series M"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.125% Cumulative Preferred Share of Beneficial Interest Series M"
     },
     {
     "Symbol":"PSA^N",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 3.875% Cumulative Preferred Share of Beneficial Interest Series N"
+    "Name":"Public Storage  Each Representing 1/1000 of a 3.875% Cumulative Preferred Share of Beneficial Interest Series N"
     },
     {
     "Symbol":"PSA^O",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 3.900% Cumulative Preferred Share of Beneficial Interest Series O"
+    "Name":"Public Storage  Each Representing 1/1000 of a 3.900% Cumulative Preferred Share of Beneficial Interest Series O"
     },
     {
     "Symbol":"PSA^P",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.000% Cumulative Preferred Share of Bene cial Interest Series P"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.000% Cumulative Preferred Share of Bene cial Interest Series P"
     },
     {
     "Symbol":"PSA^Q",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 3.950% Cumulative Preferred Share of Beneficial Interest Series Q par value $0.01 per share"
+    "Name":"Public Storage  Each Representing 1/1000 of a 3.950% Cumulative Preferred Share of Beneficial Interest Series Q par value $0.01 per share"
     },
     {
     "Symbol":"PSA^R",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.00% Cumulative Preferred Share of Bene cial Interest Series R"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.00% Cumulative Preferred Share of Bene cial Interest Series R"
     },
     {
     "Symbol":"PSA^S",
-    "Name":"Public Storage Depositary Shares Each Representing 1/1000 of a 4.100% Cumulative Preferred Share of Beneficial Interest Series S"
+    "Name":"Public Storage  Each Representing 1/1000 of a 4.100% Cumulative Preferred Share of Beneficial Interest Series S"
     },
     {
     "Symbol":"PSAG",
@@ -24777,7 +24209,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PSB^X",
-    "Name":"PS Business Parks Inc. Depositary Shares Each Representing 1/1000 of a Share of 5.25% Cumulative Preferred Stock Series X"
+    "Name":"PS Business Parks Inc.  Each Representing 1/1000 of a Share of 5.25% Cumulative Preferred Stock Series X"
     },
     {
     "Symbol":"PSB^Y",
@@ -24785,7 +24217,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PSB^Z",
-    "Name":"PS Business Parks Inc. Depositary Shares Each Representing 1/1000 of a Share of 4.875% Cumulative Preferred Stock Series Z  par value $0.01 per share"
+    "Name":"PS Business Parks Inc.  Each Representing 1/1000 of a Share of 4.875% Cumulative Preferred Stock Series Z  par value $0.01 per share"
     },
     {
     "Symbol":"PSEC",
@@ -24801,11 +24233,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PSFE",
-    "Name":"Paysafe Limited Common Shares"
+    "Name":"Paysafe Limited "
     },
     {
     "Symbol":"PSHG",
-    "Name":"Performance Shipping Inc. Common Shares"
+    "Name":"Performance Shipping Inc. "
     },
     {
     "Symbol":"PSMT",
@@ -24856,16 +24288,12 @@ const stockSymbolByName = [
     "Name":"Phillips 66"
     },
     {
-    "Symbol":"PSXP",
-    "Name":"Phillips 66 Partners LP Common Units representing limited partner interest in the Partnership"
-    },
-    {
     "Symbol":"PT",
-    "Name":"Pintec Technology Holdings Limited American Depositary Shares"
+    "Name":"Pintec Technology Holdings Limited American "
     },
     {
     "Symbol":"PTA",
-    "Name":"Cohen & Steers Tax-Advantaged Preferred Securities and Income Fund Common Shares of Beneficial Interest"
+    "Name":"Cohen & Steers Tax-Advantaged Preferred Securities and Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"PTC",
@@ -24921,7 +24349,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PTNR",
-    "Name":"Partner Communications Company Ltd. American Depositary Shares"
+    "Name":"Partner Communications Company Ltd. American "
     },
     {
     "Symbol":"PTOC",
@@ -25001,7 +24429,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PV",
-    "Name":"Primavera Capital Acquisition Corporation Class A Ordinary Shares"
+    "Name":"Primavera Capital Acquisition Corporation Class A"
     },
     {
     "Symbol":"PVBC",
@@ -25009,7 +24437,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PVG",
-    "Name":"Pretium Resources Inc. Ordinary Shares (Canada)"
+    "Name":"Pretium Resources Inc. (Canada)"
     },
     {
     "Symbol":"PVH",
@@ -25034,14 +24462,6 @@ const stockSymbolByName = [
     {
     "Symbol":"PWOD",
     "Name":"Penns Woods Bancorp Inc."
-    },
-    {
-    "Symbol":"PWP",
-    "Name":"Perella Weinberg Partners Class A"
-    },
-    {
-    "Symbol":"PWPPW",
-    "Name":"Perella Weinberg Partners Warrant"
     },
     {
     "Symbol":"PWR",
@@ -25081,11 +24501,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PYN",
-    "Name":"PIMCO New York Municipal Income Fund III Common Shares of Beneficial Interest"
+    "Name":"PIMCO New York Municipal Income Fund III  of Beneficial Interest"
     },
     {
     "Symbol":"PYPD",
-    "Name":"PolyPid Ltd. Ordinary Shares"
+    "Name":"PolyPid Ltd."
     },
     {
     "Symbol":"PYPL",
@@ -25093,7 +24513,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PYR",
-    "Name":"PyroGenesis Canada Inc. Common Shares"
+    "Name":"PyroGenesis Canada Inc. "
     },
     {
     "Symbol":"PYS",
@@ -25109,7 +24529,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"PZC",
-    "Name":"PIMCO California Municipal Income Fund III Common Shares of Beneficial Interest"
+    "Name":"PIMCO California Municipal Income Fund III  of Beneficial Interest"
     },
     {
     "Symbol":"PZG",
@@ -25133,7 +24553,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QD",
-    "Name":"Qudian Inc. American Depositary Shares each representing one Class A Ordinary Share"
+    "Name":"Qudian Inc. American  each representing one Class A Ordinary Share"
     },
     {
     "Symbol":"QDEL",
@@ -25141,7 +24561,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QFIN",
-    "Name":"360 DigiTech Inc. American Depositary Shares"
+    "Name":"360 DigiTech Inc. American "
     },
     {
     "Symbol":"QFTA",
@@ -25149,7 +24569,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QGEN",
-    "Name":"Qiagen N.V. Common Shares"
+    "Name":"Qiagen N.V. "
     },
     {
     "Symbol":"QH",
@@ -25157,15 +24577,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QIPT",
-    "Name":"Quipt Home Medical Corp. Common Shares"
+    "Name":"Quipt Home Medical Corp. "
     },
     {
     "Symbol":"QIWI",
-    "Name":"QIWI plc American Depositary Shares"
+    "Name":"QIWI plc American "
     },
     {
     "Symbol":"QK",
-    "Name":"Q&K International Group Limited American Depositary Shares"
+    "Name":"Q&K International Group Limited American "
     },
     {
     "Symbol":"QLGN",
@@ -25173,7 +24593,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QLI",
-    "Name":"Qilian International Holding Group Ltd. Ordinary Shares"
+    "Name":"Qilian International Holding Group Ltd."
     },
     {
     "Symbol":"QLYS",
@@ -25185,7 +24605,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QNRX",
-    "Name":"Quoin Pharmaceuticals Ltd. American Depositary Shares"
+    "Name":"Quoin Pharmaceuticals Ltd. American "
     },
     {
     "Symbol":"QNST",
@@ -25229,11 +24649,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QSR",
-    "Name":"Restaurant Brands International Inc. Common Shares"
+    "Name":"Restaurant Brands International Inc. "
     },
     {
     "Symbol":"QTNT",
-    "Name":"Quotient Limited Ordinary Shares"
+    "Name":"Quotient Limited"
     },
     {
     "Symbol":"QTRX",
@@ -25241,7 +24661,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QTT",
-    "Name":"Qutoutiao Inc. American Depositary Shares"
+    "Name":"Qutoutiao Inc. American "
     },
     {
     "Symbol":"QTWO",
@@ -25269,7 +24689,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"QURE",
-    "Name":"uniQure N.V. Ordinary Shares"
+    "Name":"uniQure N.V."
     },
     {
     "Symbol":"QVCC",
@@ -25289,11 +24709,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RAAS",
-    "Name":"Cloopen Group Holding Limited American Depositary Shares each representing two Class A Ordinary Shares"
+    "Name":"Cloopen Group Holding Limited American  each representing two Class A"
     },
     {
     "Symbol":"RACE",
-    "Name":"Ferrari N.V. Common Shares"
+    "Name":"Ferrari N.V. "
     },
     {
     "Symbol":"RAD",
@@ -25301,7 +24721,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RADA",
-    "Name":"RADA Electronic Industries Ltd. Ordinary Shares"
+    "Name":"RADA Electronic Industries Ltd."
     },
     {
     "Symbol":"RADI",
@@ -25357,7 +24777,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RBAC",
-    "Name":"RedBall Acquisition Corp. Class A Ordinary Shares"
+    "Name":"RedBall Acquisition Corp. Class A"
     },
     {
     "Symbol":"RBB",
@@ -25425,7 +24845,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RCFA",
-    "Name":"RCF Acquisition Corp. Class A Ordinary Shares"
+    "Name":"RCF Acquisition Corp. Class A"
     },
     {
     "Symbol":"RCG",
@@ -25481,7 +24901,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RCON",
-    "Name":"Recon Technology Ltd. Class A Ordinary Shares"
+    "Name":"Recon Technology Ltd. Class A"
     },
     {
     "Symbol":"RCOR",
@@ -25513,7 +24933,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RDCM",
-    "Name":"Radcom Ltd. Ordinary Shares"
+    "Name":"Radcom Ltd."
     },
     {
     "Symbol":"RDFN",
@@ -25521,7 +24941,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RDHL",
-    "Name":"Redhill Biopharma Ltd. American Depositary Shares"
+    "Name":"Redhill Biopharma Ltd. American "
     },
     {
     "Symbol":"RDI",
@@ -25557,7 +24977,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RDWR",
-    "Name":"Radware Ltd. Ordinary Shares"
+    "Name":"Radware Ltd."
     },
     {
     "Symbol":"RDY",
@@ -25573,15 +24993,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"REAX",
-    "Name":"The Real Brokerage Inc. Common Shares"
+    "Name":"The Real Brokerage Inc. "
     },
     {
     "Symbol":"REDU",
-    "Name":"RISE Education Cayman Ltd American Depositary Shares"
+    "Name":"RISE Education Cayman Ltd American "
     },
     {
     "Symbol":"REE",
-    "Name":"REE Automotive Ltd. Class A Ordinary Shares"
+    "Name":"REE Automotive Ltd. Class A"
     },
     {
     "Symbol":"REEAW",
@@ -25633,7 +25053,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RELX",
-    "Name":"RELX PLC PLC American Depositary Shares (Each representing One Ordinary Share)"
+    "Name":"RELX PLC PLC American  (Each representing One Ordinary Share)"
     },
     {
     "Symbol":"RELY",
@@ -25641,7 +25061,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RENN",
-    "Name":"Renren Inc. American Depositary Shares each representing fifteen Class A ordinary shares"
+    "Name":"Renren Inc. American  each representing fifteen Class A"
     },
     {
     "Symbol":"RENO",
@@ -25665,7 +25085,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RERE",
-    "Name":"ATRenew Inc. American Depositary Shares (every three of which representing two Class A ordinary shares)"
+    "Name":"ATRenew Inc. American  (every three of which representing two Class A)"
     },
     {
     "Symbol":"RES",
@@ -25681,7 +25101,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RETO",
-    "Name":"ReTo Eco-Solutions Inc. Common Shares"
+    "Name":"ReTo Eco-Solutions Inc. "
     },
     {
     "Symbol":"REV",
@@ -25753,15 +25173,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RF^B",
-    "Name":"Regions Financial Corporation Depositary Shares Representing 1/40th Perpetual Preferred Series B"
+    "Name":"Regions Financial Corporation  Representing 1/40th Perpetual Preferred Series B"
     },
     {
     "Symbol":"RF^C",
-    "Name":"Regions Financial Corporation Depositary Shares each Representing a 1/40th Interest in a  Share of 5.700% Fixed-to-Floating Rate Non-Cumulative  Perpetual Preferred Stock Series C"
+    "Name":"Regions Financial Corporation  each Representing a 1/40th Interest in a  Share of 5.700% Fixed-to-Floating Rate Non-Cumulative  Perpetual Preferred Stock Series C"
     },
     {
     "Symbol":"RF^E",
-    "Name":"Regions Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.45% Non-Cumulative Perpetual Preferred Stock Series E"
+    "Name":"Regions Financial Corporation  Each Representing a 1/40th Interest in a Share of 4.45% Non-Cumulative Perpetual Preferred Stock Series E"
     },
     {
     "Symbol":"RFI",
@@ -25793,7 +25213,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RGC",
-    "Name":"Regencell Bioscience Holdings Limited Ordinary Shares"
+    "Name":"Regencell Bioscience Holdings Limited"
     },
     {
     "Symbol":"RGCO",
@@ -25865,7 +25285,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RICO",
-    "Name":"Agrico Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Agrico Acquisition Corp. Class A"
     },
     {
     "Symbol":"RICOW",
@@ -25897,7 +25317,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RILYL",
-    "Name":"B. Riley Financial Inc. Depositary Shares each representing 1/1000th in a share of 7.375% Series B Cumulative Perpetual Preferred Stock par value $0.0001"
+    "Name":"B. Riley Financial Inc.  each representing 1/1000th in a share of 7.375% Series B Cumulative Perpetual Preferred Stock par value $0.0001"
     },
     {
     "Symbol":"RILYM",
@@ -25913,7 +25333,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RILYP",
-    "Name":"B. Riley Financial Inc. Depositary Shares each representing a 1/1000th fractional interest in a share of Series A Cumulative Perpetual Preferred Stock"
+    "Name":"B. Riley Financial Inc.  each representing a 1/1000th fractional interest in a share of Series A Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"RILYT",
@@ -25957,7 +25377,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RKLY",
-    "Name":"Rockley Photonics Holdings Limited Ordinary Shares"
+    "Name":"Rockley Photonics Holdings Limited"
     },
     {
     "Symbol":"RKT",
@@ -25965,7 +25385,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RKTA",
-    "Name":"Rocket Internet Growth Opportunities Corp. Class A Ordinary Shares"
+    "Name":"Rocket Internet Growth Opportunities Corp. Class A"
     },
     {
     "Symbol":"RL",
@@ -25989,7 +25409,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RLJ",
-    "Name":"RLJ Lodging Trust Common Shares of Beneficial Interest $0.01 par value"
+    "Name":"RLJ Lodging Trust  of Beneficial Interest $0.01 par value"
     },
     {
     "Symbol":"RLJ^A",
@@ -26001,7 +25421,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RLX",
-    "Name":"RLX Technology Inc. American Depositary Shares each representing the right to receive one (1) Class A ordinary share"
+    "Name":"RLX Technology Inc. American  each representing the right to receive one (1) Class A ordinary share"
     },
     {
     "Symbol":"RLYB",
@@ -26041,7 +25461,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RMGC",
-    "Name":"RMG Acquisition Corp. III Class A Ordinary Shares"
+    "Name":"RMG Acquisition Corp. III Class A"
     },
     {
     "Symbol":"RMGCU",
@@ -26117,11 +25537,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RNLX",
-    "Name":"Renalytix plc American Depositary Shares"
+    "Name":"Renalytix plc American "
     },
     {
     "Symbol":"RNP",
-    "Name":"Cohen & Steers REIT and Preferred and Income Fund Inc. Common Shares"
+    "Name":"Cohen & Steers REIT and Preferred and Income Fund Inc. "
     },
     {
     "Symbol":"RNR",
@@ -26129,11 +25549,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RNR^F",
-    "Name":"RenaissanceRe Holdings Ltd. Depositary Shares each Representing a 1/1000th Interest in a 5.750% Series F Preference Share"
+    "Name":"RenaissanceRe Holdings Ltd.  each Representing a 1/1000th Interest in a 5.750% Series F Preference Share"
     },
     {
     "Symbol":"RNR^G",
-    "Name":"RenaissanceRe Holdings Ltd. Depositary Shares each representing a 1/1000th interest in a share of 4.20% Series G Preference Shares"
+    "Name":"RenaissanceRe Holdings Ltd.  each representing a 1/1000th interest in a share of 4.20% Series G Preference Shares"
     },
     {
     "Symbol":"RNST",
@@ -26141,7 +25561,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RNW",
-    "Name":"ReNew Energy Global plc Class A Ordinary Shares"
+    "Name":"ReNew Energy Global plc Class A"
     },
     {
     "Symbol":"RNWK",
@@ -26154,10 +25574,6 @@ const stockSymbolByName = [
     {
     "Symbol":"RNXT",
     "Name":"RenovoRx Inc."
-    },
-    {
-    "Symbol":"ROAD",
-    "Name":"Construction Partners Inc. Class A"
     },
     {
     "Symbol":"ROCAR",
@@ -26213,7 +25629,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ROIV",
-    "Name":"Roivant Sciences Ltd. Common Shares"
+    "Name":"Roivant Sciences Ltd. "
     },
     {
     "Symbol":"ROIVW",
@@ -26241,7 +25657,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RONI",
-    "Name":"Rice Acquisition Corp. II Class A Ordinary Shares"
+    "Name":"Rice Acquisition Corp. II Class A"
     },
     {
     "Symbol":"ROOT",
@@ -26253,7 +25669,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ROSE",
-    "Name":"Rose Hill Acquisition Corporation Class A Ordinary Shares"
+    "Name":"Rose Hill Acquisition Corporation Class A"
     },
     {
     "Symbol":"ROSEU",
@@ -26265,7 +25681,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ROSS",
-    "Name":"Ross Acquisition Corp II Class A Ordinary Shares"
+    "Name":"Ross Acquisition Corp II Class A"
     },
     {
     "Symbol":"ROST",
@@ -26297,7 +25713,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RPRX",
-    "Name":"Royalty Pharma plc Class A Ordinary Shares"
+    "Name":"Royalty Pharma plc Class A"
     },
     {
     "Symbol":"RPT",
@@ -26309,15 +25725,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RPTX",
-    "Name":"Repare Therapeutics Inc. Common Shares"
+    "Name":"Repare Therapeutics Inc. "
     },
     {
     "Symbol":"RQI",
-    "Name":"Cohen & Steers Quality Income Realty Fund Inc Common Shares"
+    "Name":"Cohen & Steers Quality Income Realty Fund Inc "
     },
     {
     "Symbol":"RRAC",
-    "Name":"Rigel Resource Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Rigel Resource Acquisition Corp. Class A"
     },
     {
     "Symbol":"RRBI",
@@ -26361,7 +25777,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RSKD",
-    "Name":"Riskified Ltd. Class A Ordinary Shares"
+    "Name":"Riskified Ltd. Class A"
     },
     {
     "Symbol":"RSLS",
@@ -26421,7 +25837,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RVLP",
-    "Name":"RVL Pharmaceuticals plc Ordinary Shares"
+    "Name":"RVL Pharmaceuticals plc"
     },
     {
     "Symbol":"RVLV",
@@ -26461,7 +25877,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RWLK",
-    "Name":"ReWalk Robotics Ltd. Ordinary Shares"
+    "Name":"ReWalk Robotics Ltd."
     },
     {
     "Symbol":"RWT",
@@ -26477,7 +25893,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RXRAU",
-    "Name":"RXR Acquisition Corp. Units"
+    "Name":"RXR Acquisition "
     },
     {
     "Symbol":"RXRAW",
@@ -26505,7 +25921,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RYAAY",
-    "Name":"Ryanair Holdings plc American Depositary Shares"
+    "Name":"Ryanair Holdings plc American "
     },
     {
     "Symbol":"RYAM",
@@ -26517,7 +25933,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"RYB",
-    "Name":"RYB Education Inc. American depositary shares each representing one Class A ordinary share"
+    "Name":"RYB Education Inc. American  each representing one Class A ordinary share"
     },
     {
     "Symbol":"RYI",
@@ -26549,7 +25965,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SA",
-    "Name":"Seabridge Gold Inc. Ordinary Shares (Canada)"
+    "Name":"Seabridge Gold Inc. (Canada)"
     },
     {
     "Symbol":"SABR",
@@ -26573,7 +25989,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SACH",
-    "Name":"Sachem Capital Corp. Common Shares"
+    "Name":"Sachem Capital Corp. "
     },
     {
     "Symbol":"SACH^A",
@@ -26593,7 +26009,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SAGAU",
-    "Name":"Sagaliam Acquisition Corp. Units"
+    "Name":"Sagaliam Acquisition "
     },
     {
     "Symbol":"SAGE",
@@ -26669,11 +26085,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SAND",
-    "Name":"Sandstorm Gold Ltd. Ordinary Shares (Canada)"
+    "Name":"Sandstorm Gold Ltd. (Canada)"
     },
     {
     "Symbol":"SANG",
-    "Name":"Sangoma Technologies Corporation Common Shares"
+    "Name":"Sangoma Technologies Corporation "
     },
     {
     "Symbol":"SANM",
@@ -26697,7 +26113,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SATL",
-    "Name":"Satellogic Inc. Class A Ordinary Shares"
+    "Name":"Satellogic Inc. Class A"
     },
     {
     "Symbol":"SATLW",
@@ -26740,20 +26156,8 @@ const stockSymbolByName = [
     "Name":"Seacoast Banking Corporation of Florida"
     },
     {
-    "Symbol":"SBEA",
-    "Name":"SilverBox Engaged Merger Corp I Class A"
-    },
-    {
-    "Symbol":"SBEAU",
-    "Name":"SilverBox Engaged Merger Corp I Units"
-    },
-    {
-    "Symbol":"SBEAW",
-    "Name":"SilverBox Engaged Merger Corp I Warrant"
-    },
-    {
     "Symbol":"SBET",
-    "Name":"SharpLink Gaming Ltd. Ordinary Shares"
+    "Name":"SharpLink Gaming Ltd."
     },
     {
     "Symbol":"SBEV",
@@ -26781,7 +26185,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SBLK",
-    "Name":"Star Bulk Carriers Corp. Common Shares"
+    "Name":"Star Bulk Carriers Corp. "
     },
     {
     "Symbol":"SBNY",
@@ -26789,7 +26193,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SBNYP",
-    "Name":"Signature Bank Depositary shares each representing a 1/40th ownership interest in a share of 5.000% Noncumulative Perpetual Series A Preferred Stock"
+    "Name":"Signature Bank  each representing a 1/40th ownership interest in a share of 5.000% Noncumulative Perpetual Series A Preferred Stock"
     },
     {
     "Symbol":"SBOW",
@@ -26805,7 +26209,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SBS",
-    "Name":"Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp American Depositary Shares (Each repstg 250 Common Shares)"
+    "Name":"Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp American  (Each repstg 250 )"
     },
     {
     "Symbol":"SBSI",
@@ -26897,11 +26301,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SCHW^D",
-    "Name":"The Charles Schwab Corporation Depositary Shares each representing 1/40th interest in a share of 5.95% Non-Cumulative Perpetual Preferred Stock Series D"
+    "Name":"The Charles Schwab Corporation  each representing 1/40th interest in a share of 5.95% Non-Cumulative Perpetual Preferred Stock Series D"
     },
     {
     "Symbol":"SCHW^J",
-    "Name":"The Charles Schwab Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.450% Non-Cumulative Perpetual Preferred Stock Series J"
+    "Name":"The Charles Schwab Corporation  Each Representing a 1/40th Interest in a Share of 4.450% Non-Cumulative Perpetual Preferred Stock Series J"
     },
     {
     "Symbol":"SCI",
@@ -26921,7 +26325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SCLEU",
-    "Name":"Broadscale Acquisition Corp. Units"
+    "Name":"Broadscale Acquisition "
     },
     {
     "Symbol":"SCLEW",
@@ -26945,7 +26349,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SCOA",
-    "Name":"ScION Tech Growth I Class A Ordinary Shares"
+    "Name":"ScION Tech Growth I Class A"
     },
     {
     "Symbol":"SCOAU",
@@ -26957,7 +26361,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SCOB",
-    "Name":"ScION Tech Growth II Class A Ordinary Shares"
+    "Name":"ScION Tech Growth II Class A"
     },
     {
     "Symbol":"SCOBU",
@@ -27005,7 +26409,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SCVX",
-    "Name":"SCVX Corp. Class A Ordinary Shares"
+    "Name":"SCVX Corp. Class A"
     },
     {
     "Symbol":"SCWX",
@@ -27045,11 +26449,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SDH",
-    "Name":"Global Internet of People Inc. Ordinary Shares"
+    "Name":"Global Internet of People Inc."
     },
     {
     "Symbol":"SDHY",
-    "Name":"PGIM Short Duration High Yield Opportunities Fund Common Shares"
+    "Name":"PGIM Short Duration High Yield Opportunities Fund "
     },
     {
     "Symbol":"SDIG",
@@ -27061,7 +26465,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SE",
-    "Name":"Sea Limited American Depositary Shares each representing one Class A Ordinary Share"
+    "Name":"Sea Limited American  each representing one Class A Ordinary Share"
     },
     {
     "Symbol":"SEAC",
@@ -27093,7 +26497,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SEDA",
-    "Name":"SDCL EDGE Acquisition Corporation Class A Ordinary Shares"
+    "Name":"SDCL EDGE Acquisition Corporation Class A"
     },
     {
     "Symbol":"SEDG",
@@ -27157,7 +26561,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SEV",
-    "Name":"Sono Group N.V. Common Shares"
+    "Name":"Sono Group N.V. "
     },
     {
     "Symbol":"SEVN",
@@ -27169,15 +26573,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SF^B",
-    "Name":"Stifel Financial Corporation Depositary Shares Each Representing 1/1000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock Series B"
+    "Name":"Stifel Financial Corporation  Each Representing 1/1000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock Series B"
     },
     {
     "Symbol":"SF^C",
-    "Name":"Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 6.125% Non Cumulative Preferred Stock Series C"
+    "Name":"Stifel Financial Corporation  Each Representing 1/1000th Interest in a Share of 6.125% Non Cumulative Preferred Stock Series C"
     },
     {
     "Symbol":"SF^D",
-    "Name":"Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 4.50% Non-Cumulative Preferred Stock Series D"
+    "Name":"Stifel Financial Corporation  Each Representing 1/1000th Interest in a Share of 4.50% Non-Cumulative Preferred Stock Series D"
     },
     {
     "Symbol":"SFB",
@@ -27225,7 +26629,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SFUN",
-    "Name":"Fang Holdings Limited American Depositary Shares (Each representing Four Class A Ordinary Shares HK$1.00 par value)"
+    "Name":"Fang Holdings Limited American  (Each representing Four Class A HK$1.00 par value)"
     },
     {
     "Symbol":"SG",
@@ -27253,7 +26657,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SGH",
-    "Name":"SMART Global Holdings Inc. Ordinary Shares"
+    "Name":"SMART Global Holdings Inc."
     },
     {
     "Symbol":"SGHT",
@@ -27285,7 +26689,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SGML",
-    "Name":"Sigma Lithium Corporation Common Shares"
+    "Name":"Sigma Lithium Corporation "
     },
     {
     "Symbol":"SGMO",
@@ -27298,10 +26702,6 @@ const stockSymbolByName = [
     {
     "Symbol":"SGRP",
     "Name":"SPAR Group Inc."
-    },
-    {
-    "Symbol":"SGRY",
-    "Name":"Surgery Partners Inc."
     },
     {
     "Symbol":"SGTX",
@@ -27361,7 +26761,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SHG",
-    "Name":"Shinhan Financial Group Co Ltd American Depositary Shares"
+    "Name":"Shinhan Financial Group Co Ltd American "
     },
     {
     "Symbol":"SHI",
@@ -27380,44 +26780,12 @@ const stockSymbolByName = [
     "Name":"Shoals Technologies Group Inc. Class A"
     },
     {
-    "Symbol":"SHLX",
-    "Name":"Shell Midstream Partners L.P. Common Units representing Limited Partner Interests"
-    },
-    {
-    "Symbol":"SHO",
-    "Name":"Sunstone Hotel Investors Inc. Sunstone Hotel Investors Inc. Common Shares"
-    },
-    {
-    "Symbol":"SHO^H",
-    "Name":"Sunstone Hotel Investors Inc. 6.125% Series H Cumulative Redeemable Preferred Stock"
-    },
-    {
-    "Symbol":"SHO^I",
-    "Name":"Sunstone Hotel Investors Inc. 5.70% Series I Cumulative Redeemable Preferred Stock"
-    },
-    {
     "Symbol":"SHOO",
     "Name":"Steven Madden Ltd."
     },
     {
-    "Symbol":"SHOP",
-    "Name":"Shopify Inc. Class A Subordinate Voting Shares"
-    },
-    {
     "Symbol":"SHPW",
     "Name":"Shapeways Holdings Inc."
-    },
-    {
-    "Symbol":"SHQA",
-    "Name":"Shelter Acquisition Corporation I Class A"
-    },
-    {
-    "Symbol":"SHQAU",
-    "Name":"Shelter Acquisition Corporation I Units"
-    },
-    {
-    "Symbol":"SHQAW",
-    "Name":"Shelter Acquisition Corporation I Warrants"
     },
     {
     "Symbol":"SHW",
@@ -27430,10 +26798,6 @@ const stockSymbolByName = [
     {
     "Symbol":"SI",
     "Name":"Silvergate Capital Corporation Class A"
-    },
-    {
-    "Symbol":"SI^A",
-    "Name":"Silvergate Capital Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 5.375% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"SIBN",
@@ -27473,11 +26837,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SIFY",
-    "Name":"Sify Technologies Limited American Depositary Shares"
+    "Name":"Sify Technologies Limited American "
     },
     {
     "Symbol":"SIG",
-    "Name":"Signet Jewelers Limited Common Shares"
+    "Name":"Signet Jewelers Limited "
     },
     {
     "Symbol":"SIGA",
@@ -27489,15 +26853,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SIGIP",
-    "Name":"Selective Insurance Group Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.60% Non-Cumulative Preferred Stock Series B"
+    "Name":"Selective Insurance Group Inc.  each representing a 1/1000th interest in a share of 4.60% Non-Cumulative Preferred Stock Series B"
     },
     {
     "Symbol":"SII",
-    "Name":"Sprott Inc. Common Shares"
+    "Name":"Sprott Inc. "
     },
     {
     "Symbol":"SILC",
-    "Name":"Silicom Ltd Ordinary Shares"
+    "Name":"Silicom Ltd"
     },
     {
     "Symbol":"SILK",
@@ -27505,15 +26869,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SILV",
-    "Name":"SilverCrest Metals Inc. Common Shares"
+    "Name":"SilverCrest Metals Inc. "
     },
     {
     "Symbol":"SIM",
-    "Name":"Grupo Simec S.A.B. de C.V. American Depositary Shares"
+    "Name":"Grupo Simec S.A.B. de C.V. American "
     },
     {
     "Symbol":"SIMO",
-    "Name":"Silicon Motion Technology Corporation American Depositary Shares"
+    "Name":"Silicon Motion Technology Corporation American "
     },
     {
     "Symbol":"SINT",
@@ -27561,7 +26925,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SJ",
-    "Name":"Scienjoy Holding Corporation Class A Ordinary Shares"
+    "Name":"Scienjoy Holding Corporation Class A"
     },
     {
     "Symbol":"SJI",
@@ -27593,7 +26957,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SKE",
-    "Name":"Skeena Resources Limited Common Shares"
+    "Name":"Skeena Resources Limited "
     },
     {
     "Symbol":"SKIL",
@@ -27625,7 +26989,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SKYAU",
-    "Name":"Skydeck Acquisition Corp. Units"
+    "Name":"Skydeck Acquisition "
     },
     {
     "Symbol":"SKYAW",
@@ -27721,7 +27085,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SLGL",
-    "Name":"Sol-Gel Technologies Ltd. Ordinary Shares"
+    "Name":"Sol-Gel Technologies Ltd."
     },
     {
     "Symbol":"SLGN",
@@ -27729,7 +27093,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SLHG",
-    "Name":"Skylight Health Group Inc. Ordinary Shares"
+    "Name":"Skylight Health Group Inc."
     },
     {
     "Symbol":"SLHGP",
@@ -27737,7 +27101,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SLI",
-    "Name":"Standard Lithium Ltd. Common Shares"
+    "Name":"Standard Lithium Ltd. "
     },
     {
     "Symbol":"SLM",
@@ -27813,7 +27177,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SMAPU",
-    "Name":"SportsMap Tech Acquisition Corp. Units"
+    "Name":"SportsMap Tech Acquisition "
     },
     {
     "Symbol":"SMAPW",
@@ -27841,7 +27205,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SMFG",
-    "Name":"Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)"
+    "Name":"Sumitomo Mitsui Financial Group Inc Unsponsored American  (Japan)"
     },
     {
     "Symbol":"SMFR",
@@ -27869,7 +27233,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SMIHU",
-    "Name":"Summit Healthcare Acquisition Corp. Units"
+    "Name":"Summit Healthcare Acquisition "
     },
     {
     "Symbol":"SMIHW",
@@ -27880,16 +27244,8 @@ const stockSymbolByName = [
     "Name":"Schmitt Industries Inc."
     },
     {
-    "Symbol":"SMLP",
-    "Name":"Summit Midstream Partners LP Common Units Representing Limited Partner Interests"
-    },
-    {
     "Symbol":"SMLR",
     "Name":"Semler Scientific Inc."
-    },
-    {
-    "Symbol":"SMM",
-    "Name":"Salient Midstream Common Shares of Beneficial Interest"
     },
     {
     "Symbol":"SMMF",
@@ -27929,7 +27285,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SMWB",
-    "Name":"Similarweb Ltd. Ordinary Shares"
+    "Name":"Similarweb Ltd."
     },
     {
     "Symbol":"SNA",
@@ -27977,7 +27333,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SNDL",
-    "Name":"Sundial Growers Inc. Common Shares"
+    "Name":"Sundial Growers Inc. "
     },
     {
     "Symbol":"SNDR",
@@ -28002,10 +27358,6 @@ const stockSymbolByName = [
     {
     "Symbol":"SNGX",
     "Name":"Soligenix Inc."
-    },
-    {
-    "Symbol":"SNII",
-    "Name":"Supernova Partners Acquisition Company II Ltd. Class A Ordinary Shares"
     },
     {
     "Symbol":"SNMP",
@@ -28057,11 +27409,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SNT",
-    "Name":"Senstar Technologies Ltd. Ordinary Shares"
+    "Name":"Senstar Technologies Ltd."
     },
     {
     "Symbol":"SNTG",
-    "Name":"Sentage Holdings Inc. Ordinary Shares"
+    "Name":"Sentage Holdings Inc."
     },
     {
     "Symbol":"SNV",
@@ -28113,7 +27465,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SOHU",
-    "Name":"Sohu.com Limited American Depositary Shares"
+    "Name":"Sohu.com Limited American "
     },
     {
     "Symbol":"SOI",
@@ -28177,7 +27529,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SONY",
-    "Name":"Sony Group Corporation American Depositary Shares"
+    "Name":"Sony Group Corporation American "
     },
     {
     "Symbol":"SOPA",
@@ -28185,7 +27537,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SOPH",
-    "Name":"SOPHiA GENETICS SA Ordinary Shares"
+    "Name":"SOPHiA GENETICS SA"
     },
     {
     "Symbol":"SOR",
@@ -28193,7 +27545,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SOS",
-    "Name":"SOS Limited American Depositary Shares"
+    "Name":"SOS Limited American "
     },
     {
     "Symbol":"SOTK",
@@ -28217,7 +27569,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SPCB",
-    "Name":"SuperCom Ltd. Ordinary Shares (Israel)"
+    "Name":"SuperCom Ltd. (Israel)"
     },
     {
     "Symbol":"SPCE",
@@ -28248,12 +27600,8 @@ const stockSymbolByName = [
     "Name":"Simon Property Group Acquisition Holdings Inc. Class A"
     },
     {
-    "Symbol":"SPH",
-    "Name":"Suburban Propane Partners L.P."
-    },
-    {
     "Symbol":"SPI",
-    "Name":"SPI Energy Co. Ltd. Ordinary Shares"
+    "Name":"SPI Energy Co. Ltd."
     },
     {
     "Symbol":"SPIR",
@@ -28269,7 +27617,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SPKB",
-    "Name":"Silver Spike Acquisition Corp II Class A Ordinary Shares"
+    "Name":"Silver Spike Acquisition Corp II Class A"
     },
     {
     "Symbol":"SPKBU",
@@ -28284,24 +27632,16 @@ const stockSymbolByName = [
     "Name":"Splunk Inc."
     },
     {
-    "Symbol":"SPLP",
-    "Name":"Steel Partners Holdings LP LTD PARTNERSHIP UNIT"
-    },
-    {
-    "Symbol":"SPLP^A",
-    "Name":"Steel Partners Holdings LP 6.0% Series A Preferred Units no par value"
-    },
-    {
     "Symbol":"SPNE",
     "Name":"SeaSpine Holdings Corporation"
     },
     {
     "Symbol":"SPNS",
-    "Name":"Sapiens International Corporation N.V. Common Shares (Cayman Islands)"
+    "Name":"Sapiens International Corporation N.V.  (Cayman Islands)"
     },
     {
     "Symbol":"SPNT",
-    "Name":"SiriusPoint Ltd. Common Shares"
+    "Name":"SiriusPoint Ltd. "
     },
     {
     "Symbol":"SPNT^B",
@@ -28313,7 +27653,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SPOT",
-    "Name":"Spotify Technology S.A. Ordinary Shares"
+    "Name":"Spotify Technology S.A."
     },
     {
     "Symbol":"SPPI",
@@ -28329,7 +27669,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SPRC",
-    "Name":"SciSparc Ltd. Ordinary Shares"
+    "Name":"SciSparc Ltd."
     },
     {
     "Symbol":"SPRO",
@@ -28405,7 +27745,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SQNS",
-    "Name":"Sequans Communications S.A. American Depositary Shares"
+    "Name":"Sequans Communications S.A. American "
     },
     {
     "Symbol":"SQSP",
@@ -28421,11 +27761,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SR^A",
-    "Name":"Spire Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock"
+    "Name":"Spire Inc.  each representing a 1/1000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock"
     },
     {
     "Symbol":"SRAD",
-    "Name":"Sportradar Group AG Class A Ordinary Shares"
+    "Name":"Sportradar Group AG Class A"
     },
     {
     "Symbol":"SRAX",
@@ -28505,7 +27845,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SRSA",
-    "Name":"Sarissa Capital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Sarissa Capital Acquisition Corp. Class A"
     },
     {
     "Symbol":"SRSAW",
@@ -28565,7 +27905,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SSL",
-    "Name":"Sasol Ltd. American Depositary Shares"
+    "Name":"Sasol Ltd. American "
     },
     {
     "Symbol":"SSNC",
@@ -28609,11 +27949,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SSYS",
-    "Name":"Stratasys Ltd. Ordinary Shares (Israel)"
+    "Name":"Stratasys Ltd. (Israel)"
     },
     {
     "Symbol":"ST",
-    "Name":"Sensata Technologies Holding plc Ordinary Shares"
+    "Name":"Sensata Technologies Holding plc"
     },
     {
     "Symbol":"STAA",
@@ -28661,7 +28001,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STE",
-    "Name":"STERIS plc (Ireland) Ordinary Shares"
+    "Name":"STERIS plc (Ireland)"
     },
     {
     "Symbol":"STEM",
@@ -28677,7 +28017,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STET",
-    "Name":"ST Energy Transition I Ltd. Class A Ordinary Shares"
+    "Name":"ST Energy Transition I Ltd. Class A"
     },
     {
     "Symbol":"STFC",
@@ -28685,7 +28025,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STG",
-    "Name":"Sunlands Technology Group American Depositary Shares representing Class A ordinary shares"
+    "Name":"Sunlands Technology Group American  representing Class A"
     },
     {
     "Symbol":"STGW",
@@ -28713,11 +28053,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STL^A",
-    "Name":"Sterling Bancorp Depositary Shares each representing ownership of a 1/40th interest in a share of 6.50% Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"Sterling Bancorp  each representing ownership of a 1/40th interest in a share of 6.50% Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"STLA",
-    "Name":"Stellantis N.V. Common Shares"
+    "Name":"Stellantis N.V. "
     },
     {
     "Symbol":"STLD",
@@ -28733,11 +28073,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STNE",
-    "Name":"StoneCo Ltd. Class A Common Shares"
+    "Name":"StoneCo Ltd. Class A "
     },
     {
     "Symbol":"STNG",
-    "Name":"Scorpio Tankers Inc. Common Shares"
+    "Name":"Scorpio Tankers Inc. "
     },
     {
     "Symbol":"STOK",
@@ -28762,10 +28102,6 @@ const stockSymbolByName = [
     {
     "Symbol":"STRCW",
     "Name":"Sarcos Technology and Robotics Corporation Warrants"
-    },
-    {
-    "Symbol":"STRE",
-    "Name":"Supernova Partners Acquisition Company III Ltd. Class A Ordinary Shares"
     },
     {
     "Symbol":"STRL",
@@ -28813,11 +28149,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STT^D",
-    "Name":"State Street Corporation Depositary Shares representing 1/4000th Perpetual Preferred Series D"
+    "Name":"State Street Corporation  representing 1/4000th Perpetual Preferred Series D"
     },
     {
     "Symbol":"STT^G",
-    "Name":"State Street Corporation Depositary shares each representing a 1/4000th ownership interest in a share of Fixed-to-Floating Rate Non-Cumulative"
+    "Name":"State Street Corporation  each representing a 1/4000th ownership interest in a share of Fixed-to-Floating Rate Non-Cumulative"
     },
     {
     "Symbol":"STTK",
@@ -28825,7 +28161,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STVN",
-    "Name":"Stevanato Group S.p.A. Ordinary Shares"
+    "Name":"Stevanato Group S.p.A."
     },
     {
     "Symbol":"STWD",
@@ -28833,7 +28169,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"STX",
-    "Name":"Seagate Technology Holdings PLC Ordinary Shares (Ireland)"
+    "Name":"Seagate Technology Holdings PLC (Ireland)"
     },
     {
     "Symbol":"STXB",
@@ -28901,7 +28237,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SUPV",
-    "Name":"Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares"
+    "Name":"Grupo Supervielle S.A. American  each Representing five Class B shares"
     },
     {
     "Symbol":"SURF",
@@ -28917,7 +28253,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SUZ",
-    "Name":"Suzano S.A. American Depositary Shares (each representing One Ordinary Share)"
+    "Name":"Suzano S.A. American  (each representing One Ordinary Share)"
     },
     {
     "Symbol":"SV",
@@ -28929,7 +28265,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SVFA",
-    "Name":"SVF Investment Corp. Class A Ordinary Shares"
+    "Name":"SVF Investment Corp. Class A"
     },
     {
     "Symbol":"SVFAU",
@@ -28941,11 +28277,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SVFB",
-    "Name":"SVF Investment Corp. 2 Class A Ordinary Shares"
+    "Name":"SVF Investment Corp. 2 Class A"
     },
     {
     "Symbol":"SVFC",
-    "Name":"SVF Investment Corp. 3 Class A Ordinary Shares"
+    "Name":"SVF Investment Corp. 3 Class A"
     },
     {
     "Symbol":"SVFD",
@@ -28953,11 +28289,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SVM",
-    "Name":"Silvercorp Metals Inc. Common Shares"
+    "Name":"Silvercorp Metals Inc. "
     },
     {
     "Symbol":"SVNA",
-    "Name":"7 Acquisition Corporation Class A Ordinary Shares"
+    "Name":"7 Acquisition Corporation Class A"
     },
     {
     "Symbol":"SVNAU",
@@ -29097,7 +28433,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SXTC",
-    "Name":"China SXT Pharmaceuticals Inc. Ordinary Shares"
+    "Name":"China SXT Pharmaceuticals Inc."
     },
     {
     "Symbol":"SY",
@@ -29117,7 +28453,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SYF^A",
-    "Name":"Synchrony Financial Depositary Shares each Representing a 1/40th Interest in a Share of 5.625% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"Synchrony Financial  each Representing a 1/40th Interest in a Share of 5.625% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"SYK",
@@ -29149,7 +28485,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SYTA",
-    "Name":"Siyata Mobile Inc. Common Shares"
+    "Name":"Siyata Mobile Inc. "
     },
     {
     "Symbol":"SYTAW",
@@ -29161,7 +28497,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"SZC",
-    "Name":"Cushing NextGen Infrastructure Income Fund Common Shares of Beneficial Interest"
+    "Name":"Cushing NextGen Infrastructure Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"SZZLU",
@@ -29173,11 +28509,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"T^A",
-    "Name":"AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.000% Perpetual Preferred Stock Series A"
+    "Name":"AT&T Inc.  each representing a 1/1000th interest in a share of 5.000% Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"T^C",
-    "Name":"AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.750% Perpetual Preferred Stock Series C"
+    "Name":"AT&T Inc.  each representing a 1/1000th interest in a share of 4.750% Perpetual Preferred Stock Series C"
     },
     {
     "Symbol":"TA",
@@ -29185,11 +28521,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TAC",
-    "Name":"TransAlta Corporation Ordinary Shares"
+    "Name":"TransAlta Corporation"
     },
     {
     "Symbol":"TACA",
-    "Name":"Trepont Acquisition Corp I Class A Ordinary Shares"
+    "Name":"Trepont Acquisition Corp I Class A"
     },
     {
     "Symbol":"TACO",
@@ -29205,11 +28541,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TAK",
-    "Name":"Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of  )"
+    "Name":"Takeda Pharmaceutical Company Limited American  (each representing 1/2 of a share of  )"
     },
     {
     "Symbol":"TAL",
-    "Name":"TAL Education Group American Depositary Shares"
+    "Name":"TAL Education Group American "
     },
     {
     "Symbol":"TALK",
@@ -29245,7 +28581,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TAOP",
-    "Name":"Taoping Inc. Ordinary Shares"
+    "Name":"Taoping Inc."
     },
     {
     "Symbol":"TAP",
@@ -29257,7 +28593,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TARO",
-    "Name":"Taro Pharmaceutical Industries Ltd. Ordinary Shares"
+    "Name":"Taro Pharmaceutical Industries Ltd."
     },
     {
     "Symbol":"TARS",
@@ -29273,7 +28609,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TATT",
-    "Name":"TAT Technologies Ltd. Ordinary Shares"
+    "Name":"TAT Technologies Ltd."
     },
     {
     "Symbol":"TAYD",
@@ -29292,18 +28628,6 @@ const stockSymbolByName = [
     "Name":"AT&T Inc. 5.625% Global Notes due 2067"
     },
     {
-    "Symbol":"TBCP",
-    "Name":"Thunder Bridge Capital Partners III Inc. Class A"
-    },
-    {
-    "Symbol":"TBCPU",
-    "Name":"Thunder Bridge Capital Partners III Inc. Units"
-    },
-    {
-    "Symbol":"TBCPW",
-    "Name":"Thunder Bridge Capital Partners III Inc. Warrant"
-    },
-    {
     "Symbol":"TBI",
     "Name":"TrueBlue Inc."
     },
@@ -29313,11 +28637,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TBKCP",
-    "Name":"Triumph Bancorp Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 7.125% Series C Fixed-Rate Non-Cumulative Perpetual Preferred Stock"
+    "Name":"Triumph Bancorp Inc.  Each Representing a 1/40th Interest in a Share of 7.125% Series C Fixed-Rate Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"TBLA",
-    "Name":"Taboola.com Ltd. Ordinary Shares"
+    "Name":"Taboola.com Ltd."
     },
     {
     "Symbol":"TBLAW",
@@ -29341,7 +28665,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TBPH",
-    "Name":"Theravance Biopharma Inc. Ordinary Shares"
+    "Name":"Theravance Biopharma Inc."
     },
     {
     "Symbol":"TBSA",
@@ -29357,11 +28681,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TC",
-    "Name":"TuanChe Limited American Depositary Shares"
+    "Name":"TuanChe Limited American "
     },
     {
     "Symbol":"TCAC",
-    "Name":"Tuatara Capital Acquisition Corporation Class A Ordinary Shares"
+    "Name":"Tuatara Capital Acquisition Corporation Class A"
     },
     {
     "Symbol":"TCACU",
@@ -29381,7 +28705,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TCBIO",
-    "Name":"Texas Capital Bancshares Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B"
+    "Name":"Texas Capital Bancshares Inc.  5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B"
     },
     {
     "Symbol":"TCBK",
@@ -29413,19 +28737,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TCN",
-    "Name":"Tricon Residential Inc. Common Shares"
+    "Name":"Tricon Residential Inc. "
     },
     {
     "Symbol":"TCOM",
-    "Name":"Trip.com Group Limited American Depositary Shares"
+    "Name":"Trip.com Group Limited American "
     },
     {
     "Symbol":"TCON",
     "Name":"TRACON Pharmaceuticals Inc."
-    },
-    {
-    "Symbol":"TCPC",
-    "Name":"BlackRock TCP Capital Corp."
     },
     {
     "Symbol":"TCRR",
@@ -29441,7 +28761,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TCVA",
-    "Name":"TCV Acquisition Corp. Class A Ordinary Shares"
+    "Name":"TCV Acquisition Corp. Class A"
     },
     {
     "Symbol":"TCX",
@@ -29457,7 +28777,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TDCX",
-    "Name":"TDCX Inc. American Depositary Shares each representing one Class A ordinary share"
+    "Name":"TDCX Inc. American  each representing one Class A ordinary share"
     },
     {
     "Symbol":"TDF",
@@ -29473,15 +28793,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TDS",
-    "Name":"Telephone and Data Systems Inc. Common Shares"
+    "Name":"Telephone and Data Systems Inc."
     },
     {
     "Symbol":"TDS^U",
-    "Name":"Telephone and Data Systems Inc. Depositary Shares Each Representing a 1/1000th Interest in a 6.625% Series UU Cumulative Redeemable Perpetual Preferred Stock"
+    "Name":"Telephone and Data Systems Inc.  Each Representing a 1/1000th Interest in a 6.625% Series UU Cumulative Redeemable Perpetual Preferred Stock"
     },
     {
     "Symbol":"TDS^V",
-    "Name":"Telephone and Data Systems Inc. Depositary Shares Each Representing a 1/1000th Interest in a 6.000% Series VV Cumulative Redeemable Perpetual Preferred Stock"
+    "Name":"Telephone and Data Systems Inc.  Each Representing a 1/1000th Interest in a 6.000% Series VV Cumulative Redeemable Perpetual Preferred Stock"
     },
     {
     "Symbol":"TDUP",
@@ -29501,7 +28821,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TEAM",
-    "Name":"Atlassian Corporation Plc Class A Ordinary Shares"
+    "Name":"Atlassian Corporation Plc Class A"
     },
     {
     "Symbol":"TECH",
@@ -29509,7 +28829,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TECK",
-    "Name":"Teck Resources Ltd Ordinary Shares"
+    "Name":"Teck Resources Ltd"
     },
     {
     "Symbol":"TECTP",
@@ -29517,7 +28837,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TEDU",
-    "Name":"Tarena International Inc. American Depositary Shares"
+    "Name":"Tarena International Inc. American "
     },
     {
     "Symbol":"TEF",
@@ -29529,7 +28849,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TEKK",
-    "Name":"Tekkorp Digital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Tekkorp Digital Acquisition Corp. Class A"
     },
     {
     "Symbol":"TEKKU",
@@ -29601,7 +28921,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TEVA",
-    "Name":"Teva Pharmaceutical Industries Limited American Depositary Shares"
+    "Name":"Teva Pharmaceutical Industries Limited American "
     },
     {
     "Symbol":"TEX",
@@ -29613,15 +28933,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TFC^I",
-    "Name":"Truist Financial Corporation Depositary Shares"
+    "Name":"Truist Financial Corporation "
     },
     {
     "Symbol":"TFC^O",
-    "Name":"Truist Financial Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of Series O Non-Cumulative Perpetual Preferred Stock"
+    "Name":"Truist Financial Corporation  Each Representing a 1/1000th Interest in a Share of Series O Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"TFC^R",
-    "Name":"Truist Financial Corporation Depositary Shares each representing 1/1000th interest in a share of Series R Non-Cumulative Perpetual Preferred Stock"
+    "Name":"Truist Financial Corporation  each representing 1/1000th interest in a share of Series R Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"TFFP",
@@ -29629,7 +28949,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TFII",
-    "Name":"TFI International Inc. Common Shares"
+    "Name":"TFI International Inc. "
     },
     {
     "Symbol":"TFSA",
@@ -29649,7 +28969,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TGA",
-    "Name":"TransGlobe Energy Corporation Ordinary Shares (Canada)"
+    "Name":"TransGlobe Energy Corporation (Canada)"
     },
     {
     "Symbol":"TGAAU",
@@ -29661,15 +28981,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TGH",
-    "Name":"Textainer Group Holdings Limited Common Shares"
+    "Name":"Textainer Group Holdings Limited "
     },
     {
     "Symbol":"TGH^A",
-    "Name":"Textainer Group Holdings Limited Depositary Shares each representing a 1/1000th interest in a share of 7.000% Series A Cumulative Redeemable Perpetual Preference Shares"
+    "Name":"Textainer Group Holdings Limited  each representing a 1/1000th interest in a share of 7.000% Series A Cumulative Redeemable Perpetual Preference Shares"
     },
     {
     "Symbol":"TGH^B",
-    "Name":"Textainer Group Holdings Limited Depositary Shares each representing a 1/1000th interest in a share of 6.250% Series B Cumulative Redeemable Perpetual Preference Shares"
+    "Name":"Textainer Group Holdings Limited  each representing a 1/1000th interest in a share of 6.250% Series B Cumulative Redeemable Perpetual Preference Shares"
     },
     {
     "Symbol":"TGI",
@@ -29677,19 +28997,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TGLS",
-    "Name":"Tecnoglass Inc. Ordinary Shares"
+    "Name":"Tecnoglass Inc."
     },
     {
     "Symbol":"TGNA",
     "Name":"TEGNA Inc"
-    },
-    {
-    "Symbol":"TGP^A",
-    "Name":"Teekay LNG Partners L.P. 9.00% Series A Cumulative Redeemable Perpetual Preferred Units representing limited partner interests"
-    },
-    {
-    "Symbol":"TGP^B",
-    "Name":"Teekay LNG Partners L.P. 8.50% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests"
     },
     {
     "Symbol":"TGS",
@@ -29709,7 +29021,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TGVCU",
-    "Name":"TG Venture Acquisition Corp. Units"
+    "Name":"TG Venture Acquisition "
     },
     {
     "Symbol":"TGVCW",
@@ -29721,7 +29033,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"THAC",
-    "Name":"Thrive Acquisition Corporation Class A ordinary shares"
+    "Name":"Thrive Acquisition Corporation Class A"
     },
     {
     "Symbol":"THACU",
@@ -29744,14 +29056,6 @@ const stockSymbolByName = [
     "Name":"Tuscan Holdings Corp. II Warrant"
     },
     {
-    "Symbol":"THCP",
-    "Name":"Thunder Bridge Capital Partners IV Inc. Class A"
-    },
-    {
-    "Symbol":"THCPU",
-    "Name":"Thunder Bridge Capital Partners IV Inc. Unit"
-    },
-    {
     "Symbol":"THFF",
     "Name":"First Financial Corporation Indiana"
     },
@@ -29761,7 +29065,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"THM",
-    "Name":"International Tower Hill Mines Ltd. Ordinary Shares (Canada)"
+    "Name":"International Tower Hill Mines Ltd. (Canada)"
     },
     {
     "Symbol":"THMO",
@@ -29801,7 +29105,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"THTX",
-    "Name":"Theratechnologies Inc. Common Shares"
+    "Name":"Theratechnologies Inc. "
     },
     {
     "Symbol":"THW",
@@ -29820,10 +29124,6 @@ const stockSymbolByName = [
     "Name":"Millicom International Cellular S.A."
     },
     {
-    "Symbol":"TIGR",
-    "Name":"UP Fintech Holding Ltd American Depositary Share representing fifteen Class A Ordinary Shares"
-    },
-    {
     "Symbol":"TIL",
     "Name":"Instil Bio Inc."
     },
@@ -29832,12 +29132,8 @@ const stockSymbolByName = [
     "Name":"Interface Inc."
     },
     {
-    "Symbol":"TIMB",
-    "Name":"TIM S.A. American Depositary Shares (Each representing 5 Common Shares)"
-    },
-    {
     "Symbol":"TINV",
-    "Name":"Tiga Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Tiga Acquisition Corp. Class A"
     },
     {
     "Symbol":"TIOA",
@@ -29857,7 +29153,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TIRX",
-    "Name":"TIAN RUIXIANG Holdings Ltd Class A Ordinary Shares"
+    "Name":"TIAN RUIXIANG Holdings Ltd Class A"
     },
     {
     "Symbol":"TISI",
@@ -29893,7 +29189,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TKLF",
-    "Name":"Yoshitsu Co. Ltd American Depositary Shares"
+    "Name":"Yoshitsu Co. Ltd American "
     },
     {
     "Symbol":"TKNO",
@@ -29945,7 +29241,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TLSA",
-    "Name":"Tiziana Life Sciences Ltd. Common Shares"
+    "Name":"Tiziana Life Sciences Ltd. "
     },
     {
     "Symbol":"TLYS",
@@ -29977,7 +29273,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TMDI",
-    "Name":"Titan Medical Inc. Ordinary Shares"
+    "Name":"Titan Medical Inc."
     },
     {
     "Symbol":"TMDX",
@@ -29985,7 +29281,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TME",
-    "Name":"Tencent Music Entertainment Group American Depositary Shares each representing two Class A Ordinary Shares"
+    "Name":"Tencent Music Entertainment Group American  each representing two Class A"
     },
     {
     "Symbol":"TMHC",
@@ -30013,7 +29309,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TMPM",
-    "Name":"Turmeric Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Turmeric Acquisition Corp. Class A"
     },
     {
     "Symbol":"TMPMU",
@@ -30029,7 +29325,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TMST",
-    "Name":"TimkenSteel Corporation Common Shares"
+    "Name":"TimkenSteel Corporation "
     },
     {
     "Symbol":"TMUS",
@@ -30065,7 +29361,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TNP",
-    "Name":"Tsakos Energy Navigation Ltd Common Shares"
+    "Name":"Tsakos Energy Navigation Ltd "
     },
     {
     "Symbol":"TNP^D",
@@ -30089,7 +29385,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TOAC",
-    "Name":"Talon 1 Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Talon 1 Acquisition Corp. Class A"
     },
     {
     "Symbol":"TOACU",
@@ -30125,7 +29421,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TOUR",
-    "Name":"Tuniu Corporation American Depositary Shares"
+    "Name":"Tuniu Corporation American "
     },
     {
     "Symbol":"TOWN",
@@ -30153,7 +29449,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TPGY",
-    "Name":"TPG Pace Beneficial Finance Corp. Class A Ordinary Shares"
+    "Name":"TPG Pace Beneficial Finance Corp. Class A"
     },
     {
     "Symbol":"TPH",
@@ -30205,7 +29501,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TRAQ",
-    "Name":"Trine II Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Trine II Acquisition Corp. Class A"
     },
     {
     "Symbol":"TRC",
@@ -30213,7 +29509,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TRCA",
-    "Name":"Twin Ridge Capital Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Twin Ridge Capital Acquisition Corp. Class A"
     },
     {
     "Symbol":"TRDA",
@@ -30221,7 +29517,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TREB",
-    "Name":"Trebia Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Trebia Acquisition Corp. Class A"
     },
     {
     "Symbol":"TREC",
@@ -30245,11 +29541,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TRI",
-    "Name":"Thomson Reuters Corp Ordinary Shares"
+    "Name":"Thomson Reuters Corp"
     },
     {
     "Symbol":"TRIB",
-    "Name":"Trinity Biotech plc American Depositary Shares"
+    "Name":"Trinity Biotech plc American "
     },
     {
     "Symbol":"TRIN",
@@ -30261,11 +29557,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TRIS",
-    "Name":"Tristar Acquisition I Corp. Class A Ordinary Shares"
+    "Name":"Tristar Acquisition I Corp. Class A"
     },
     {
     "Symbol":"TRIT",
-    "Name":"Triterras Inc. Class A Ordinary Shares"
+    "Name":"Triterras Inc. Class A"
     },
     {
     "Symbol":"TRITW",
@@ -30317,7 +29613,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TROO",
-    "Name":"TROOPS Inc. Ordinary Shares"
+    "Name":"TROOPS Inc."
     },
     {
     "Symbol":"TROW",
@@ -30325,7 +29621,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TROX",
-    "Name":"Tronox Holdings plc Ordinary Shares (UK)"
+    "Name":"Tronox Holdings plc (UK)"
     },
     {
     "Symbol":"TRP",
@@ -30333,7 +29629,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TRQ",
-    "Name":"Turquoise Hill Resources Ltd. Ordinary Shares"
+    "Name":"Turquoise Hill Resources Ltd."
     },
     {
     "Symbol":"TRS",
@@ -30349,11 +29645,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TRTL",
-    "Name":"TortoiseEcofin Acquisition Corp. III Class A Ordinary Shares"
+    "Name":"TortoiseEcofin Acquisition Corp. III Class A"
     },
     {
     "Symbol":"TRTN",
-    "Name":"Triton International Limited Common Shares"
+    "Name":"Triton International Limited "
     },
     {
     "Symbol":"TRTN^A",
@@ -30401,7 +29697,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TRVG",
-    "Name":"trivago N.V. American Depositary Shares"
+    "Name":"trivago N.V. American "
     },
     {
     "Symbol":"TRVI",
@@ -30417,11 +29713,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TS",
-    "Name":"Tenaris S.A. American Depositary Shares"
+    "Name":"Tenaris S.A. American "
     },
     {
     "Symbol":"TSAT",
-    "Name":"Telesat Corporation Class A Common Shares and Class B Variable Voting Shares"
+    "Name":"Telesat Corporation Class A  and Class B Variable Voting Shares"
     },
     {
     "Symbol":"TSBK",
@@ -30445,11 +29741,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TSE",
-    "Name":"Trinseo PLC Ordinary Shares"
+    "Name":"Trinseo PLC"
     },
     {
     "Symbol":"TSEM",
-    "Name":"Tower Semiconductor Ltd. Ordinary Shares"
+    "Name":"Tower Semiconductor Ltd."
     },
     {
     "Symbol":"TSHA",
@@ -30573,7 +29869,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TU",
-    "Name":"Telus Corporation Ordinary Shares"
+    "Name":"Telus Corporation"
     },
     {
     "Symbol":"TUEM",
@@ -30581,11 +29877,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TUFN",
-    "Name":"Tufin Software Technologies Ltd. Ordinary Shares"
+    "Name":"Tufin Software Technologies Ltd."
     },
     {
     "Symbol":"TUGC",
-    "Name":"TradeUP Global Corporation Class A Ordinary Shares"
+    "Name":"TradeUP Global Corporation Class A"
     },
     {
     "Symbol":"TUGCU",
@@ -30609,7 +29905,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TUYA",
-    "Name":"Tuya Inc. American Depositary Shares each representing one Class A Ordinary Share"
+    "Name":"Tuya Inc. American  each representing one Class A Ordinary Share"
     },
     {
     "Symbol":"TV",
@@ -30697,7 +29993,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TWNI",
-    "Name":"Tailwind International Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Tailwind International Acquisition Corp. Class A"
     },
     {
     "Symbol":"TWNK",
@@ -30705,7 +30001,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TWNT",
-    "Name":"Tailwind Two Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Tailwind Two Acquisition Corp. Class A"
     },
     {
     "Symbol":"TWO",
@@ -30725,7 +30021,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TWOA",
-    "Name":"two Class A Ordinary Shares"
+    "Name":"two Class A"
     },
     {
     "Symbol":"TWOU",
@@ -30741,7 +30037,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"TX",
-    "Name":"Ternium S.A. Ternium S.A. American Depositary Shares (each representing ten shares USD1.00 par value)"
+    "Name":"Ternium S.A. Ternium S.A. American  (each representing ten shares USD1.00 par value)"
     },
     {
     "Symbol":"TXG",
@@ -30824,10 +30120,6 @@ const stockSymbolByName = [
     "Name":"United States Antimony Corporation"
     },
     {
-    "Symbol":"UAN",
-    "Name":"CVR Partners LP Common Units representing Limited Partner Interests"
-    },
-    {
     "Symbol":"UAVS",
     "Name":"AgEagle Aerial Systems Inc."
     },
@@ -30865,7 +30157,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UBS",
-    "Name":"UBS Group AG Registered Ordinary Shares"
+    "Name":"UBS Group AG Registered"
     },
     {
     "Symbol":"UBSI",
@@ -30881,11 +30173,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UCBIO",
-    "Name":"United Community Banks Inc. Depositary Shares each representing 1/1000th interest in a share of Series I Non-CumulativePreferred Stock"
+    "Name":"United Community Banks Inc.  each representing 1/1000th interest in a share of Series I Non-CumulativePreferred Stock"
     },
     {
     "Symbol":"UCL",
-    "Name":"uCloudlink Group Inc. American Depositary Shares"
+    "Name":"uCloudlink Group Inc. American "
     },
     {
     "Symbol":"UCTT",
@@ -30901,7 +30193,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UE",
-    "Name":"Urban Edge Properties Common Shares of Beneficial Interest"
+    "Name":"Urban Edge Properties  of Beneficial Interest"
     },
     {
     "Symbol":"UEC",
@@ -30949,7 +30241,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UGP",
-    "Name":"Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)"
+    "Name":"Ultrapar Participacoes S.A. (New) American  (Each representing one Common Share)"
     },
     {
     "Symbol":"UGRO",
@@ -30981,7 +30273,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UK",
-    "Name":"Ucommune International Ltd Ordinary Shares"
+    "Name":"Ucommune International Ltd"
     },
     {
     "Symbol":"UKOMW",
@@ -31093,7 +30385,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UPC",
-    "Name":"Universe Pharmaceuticals Inc. Ordinary Shares"
+    "Name":"Universe Pharmaceuticals Inc."
     },
     {
     "Symbol":"UPH",
@@ -31133,11 +30425,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"URG",
-    "Name":"Ur Energy Inc Common Shares (Canada)"
+    "Name":"Ur Energy Inc  (Canada)"
     },
     {
     "Symbol":"URGN",
-    "Name":"UroGen Pharma Ltd. Ordinary Shares"
+    "Name":"UroGen Pharma Ltd."
     },
     {
     "Symbol":"URI",
@@ -31152,10 +30444,6 @@ const stockSymbolByName = [
     "Name":"Liberty All-Star Equity Fund"
     },
     {
-    "Symbol":"USAC",
-    "Name":"USA Compression Partners LP Common Units Representing Limited Partner Interests"
-    },
-    {
     "Symbol":"USAK",
     "Name":"USA Truck Inc."
     },
@@ -31165,7 +30453,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"USAS",
-    "Name":"Americas Gold and Silver Corporation Common Shares no par value"
+    "Name":"Americas Gold and Silver Corporation  no par value"
     },
     {
     "Symbol":"USAU",
@@ -31177,23 +30465,23 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"USB^A",
-    "Name":"U.S. Bancorp Depositary Shares Each representing a 1/100th interest in a share of Series A Non-CumulativePerpetual Pfd Stock"
+    "Name":"U.S. Bancorp  Each representing a 1/100th interest in a share of Series A Non-CumulativePerpetual Pfd Stock"
     },
     {
     "Symbol":"USB^H",
-    "Name":"U.S. Bancorp Depositary Shares repstg 1/1000th Pfd Ser B"
+    "Name":"U.S. Bancorp  repstg 1/1000th Pfd Ser B"
     },
     {
     "Symbol":"USB^P",
-    "Name":"U.S. Bancorp Depositary Shares each representing a 1/1000th interest in a share of Series K Non-Cumulative Perpetual Preferred Stock"
+    "Name":"U.S. Bancorp  each representing a 1/1000th interest in a share of Series K Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"USB^Q",
-    "Name":"U.S. Bancorp Depositary Shares Each Representing a 1/1000th Interest in a Share of Series L Non-Cumulative Perpetual Preferred Stock"
+    "Name":"U.S. Bancorp  Each Representing a 1/1000th Interest in a Share of Series L Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"USB^R",
-    "Name":"U.S. Bancorp Depositary Shares Each Representing a 1/1000th Interest in a Share of Series M Non-Cumulative Perpetual Preferred Stock"
+    "Name":"U.S. Bancorp  Each Representing a 1/1000th Interest in a Share of Series M Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"USCB",
@@ -31201,7 +30489,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"USCT",
-    "Name":"TKB Critical Technologies 1 Class A Ordinary Shares"
+    "Name":"TKB Critical Technologies 1 Class A"
     },
     {
     "Symbol":"USCTU",
@@ -31210,10 +30498,6 @@ const stockSymbolByName = [
     {
     "Symbol":"USCTW",
     "Name":"TKB Critical Technologies 1 Warrant"
-    },
-    {
-    "Symbol":"USDP",
-    "Name":"USD Partners LP Common Units representing limited partner interest"
     },
     {
     "Symbol":"USEG",
@@ -31261,7 +30545,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UTAA",
-    "Name":"UTA Acquisition Corporation Class A Ordinary Shares"
+    "Name":"UTA Acquisition Corporation Class A"
     },
     {
     "Symbol":"UTAAU",
@@ -31277,7 +30561,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UTG",
-    "Name":"Reaves Utility Income Fund Common Shares of Beneficial Interest"
+    "Name":"Reaves Utility Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"UTHR",
@@ -31297,7 +30581,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UTME",
-    "Name":"UTime Limited Ordinary Shares"
+    "Name":"UTime Limited"
     },
     {
     "Symbol":"UTRS",
@@ -31317,7 +30601,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"UUUU",
-    "Name":"Energy Fuels Inc Ordinary Shares (Canada)"
+    "Name":"Energy Fuels Inc (Canada)"
     },
     {
     "Symbol":"UVE",
@@ -31365,19 +30649,19 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VACC",
-    "Name":"Vaccitech plc American Depositary Shares"
+    "Name":"Vaccitech plc American "
     },
     {
     "Symbol":"VAL",
-    "Name":"Valaris Limited Common Shares"
+    "Name":"Valaris Limited "
     },
     {
     "Symbol":"VALE",
-    "Name":"VALE S.A.  American Depositary Shares Each Representing one common share"
+    "Name":"VALE S.A.  American  Each Representing one common share"
     },
     {
     "Symbol":"VALN",
-    "Name":"Valneva SE American Depositary Shares"
+    "Name":"Valneva SE American "
     },
     {
     "Symbol":"VALU",
@@ -31389,7 +30673,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VAQC",
-    "Name":"Vector Acquisition Corporation II Class A Ordinary Shares"
+    "Name":"Vector Acquisition Corporation II Class A"
     },
     {
     "Symbol":"VATE",
@@ -31413,11 +30697,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VBLT",
-    "Name":"Vascular Biogenics Ltd. Ordinary Shares"
+    "Name":"Vascular Biogenics Ltd."
     },
     {
     "Symbol":"VBNK",
-    "Name":"VersaBank Common Shares"
+    "Name":"VersaBank "
     },
     {
     "Symbol":"VBOCU",
@@ -31441,11 +30725,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VCIF",
-    "Name":"Vertical Capital Income Fund Common Shares of Beneficial Interest"
+    "Name":"Vertical Capital Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"VCKA",
-    "Name":"Vickers Vantage Corp. I Ordinary Shares"
+    "Name":"Vickers Vantage Corp. I"
     },
     {
     "Symbol":"VCKAU",
@@ -31501,7 +30785,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VECT",
-    "Name":"VectivBio Holding AG Ordinary Shares"
+    "Name":"VectivBio Holding AG"
     },
     {
     "Symbol":"VEEE",
@@ -31525,7 +30809,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VENA",
-    "Name":"Venus Acquisition Corporation Ordinary Shares"
+    "Name":"Venus Acquisition Corporation"
     },
     {
     "Symbol":"VENAR",
@@ -31593,7 +30877,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VFF",
-    "Name":"Village Farms International Inc. Common Shares"
+    "Name":"Village Farms International Inc. "
     },
     {
     "Symbol":"VFL",
@@ -31605,15 +30889,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VGFC",
-    "Name":"The Very Good Food Company Inc. Common Shares"
+    "Name":"The Very Good Food Company Inc. "
     },
     {
     "Symbol":"VGI",
-    "Name":"Virtus Global Multi-Sector Income Fund Common Shares of Beneficial Interest"
+    "Name":"Virtus Global Multi-Sector Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"VGII",
-    "Name":"Virgin Group Acquisition Corp. II Class A Ordinary Shares"
+    "Name":"Virgin Group Acquisition Corp. II Class A"
     },
     {
     "Symbol":"VGM",
@@ -31641,11 +30925,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VHNA",
-    "Name":"Vahanna Tech Edge Acquisition I Corp. Class A Ordinary Shares"
+    "Name":"Vahanna Tech Edge Acquisition I Corp. Class A"
     },
     {
     "Symbol":"VHNAU",
-    "Name":"Vahanna Tech Edge Acquisition I Corp. Units"
+    "Name":"Vahanna Tech Edge Acquisition I "
     },
     {
     "Symbol":"VHNAW",
@@ -31669,7 +30953,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VIAO",
-    "Name":"VIA optronics AG American Depositary Shares each representing one-fifth of an Ordinary Share"
+    "Name":"VIA optronics AG American  each representing one-fifth of an Ordinary Share"
     },
     {
     "Symbol":"VIASP",
@@ -31724,16 +31008,12 @@ const stockSymbolByName = [
     "Name":"Gaucho Group Holdings Inc."
     },
     {
-    "Symbol":"VINP",
-    "Name":"Vinci Partners Investments Ltd. Class A Common Shares"
-    },
-    {
     "Symbol":"VIOT",
-    "Name":"Viomi Technology Co. Ltd American Depositary Shares"
+    "Name":"Viomi Technology Co. Ltd American "
     },
     {
     "Symbol":"VIPS",
-    "Name":"Vipshop Holdings Limited American Depositary Shares each representing two ordinary shares"
+    "Name":"Vipshop Holdings Limited American  each representing two"
     },
     {
     "Symbol":"VIR",
@@ -31761,7 +31041,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VIST",
-    "Name":"Vista Oil & Gas S.A.B. de C.V. American Depositary Shares each representing one series A share with no par value"
+    "Name":"Vista Oil & Gas S.A.B. de C.V. American  each representing one series A share with no par value"
     },
     {
     "Symbol":"VITL",
@@ -31769,7 +31049,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VIV",
-    "Name":"Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)"
+    "Name":"Telefonica Brasil S.A. American  (Each representing One Common Share)"
     },
     {
     "Symbol":"VIVE",
@@ -31781,11 +31061,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VJET",
-    "Name":"voxeljet AG American Depositary Shares"
+    "Name":"voxeljet AG American "
     },
     {
     "Symbol":"VKI",
-    "Name":"Invesco Advantage Municipal Income Trust II Common Shares of Beneficial Interest (DE)"
+    "Name":"Invesco Advantage Municipal Income Trust II  of Beneficial Interest (DE)"
     },
     {
     "Symbol":"VKQ",
@@ -31797,7 +31077,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VLAT",
-    "Name":"Valor Latitude Acquisition Corp. Class A Ordinary Shares"
+    "Name":"Valor Latitude Acquisition Corp. Class A"
     },
     {
     "Symbol":"VLATW",
@@ -31825,11 +31105,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VLN",
-    "Name":"Valens Semiconductor Ltd. Ordinary Shares"
+    "Name":"Valens Semiconductor Ltd."
     },
     {
     "Symbol":"VLNS",
-    "Name":"The Valens Company Inc. Common Shares"
+    "Name":"The Valens Company Inc. "
     },
     {
     "Symbol":"VLO",
@@ -31841,7 +31121,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VLRS",
-    "Name":"Controladora Vuela Compania de Aviacion S.A.B. de C.V. American Depositary Shares each representing ten (10) Ordinary Participation Certificates"
+    "Name":"Controladora Vuela Compania de Aviacion S.A.B. de C.V. American  each representing ten (10) Ordinary Participation Certificates"
     },
     {
     "Symbol":"VLT",
@@ -31877,7 +31157,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VMAR",
-    "Name":"Vision Marine Technologies Inc. Common Shares"
+    "Name":"Vision Marine Technologies Inc. "
     },
     {
     "Symbol":"VMC",
@@ -31885,7 +31165,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VMD",
-    "Name":"Viemed Healthcare Inc. Common Shares"
+    "Name":"Viemed Healthcare Inc. "
     },
     {
     "Symbol":"VMEO",
@@ -31933,7 +31213,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VNET",
-    "Name":"VNET Group Inc. American Depositary Shares"
+    "Name":"VNET Group Inc. American "
     },
     {
     "Symbol":"VNO",
@@ -31956,10 +31236,6 @@ const stockSymbolByName = [
     "Name":"Vornado Realty Trust 4.45% Series O Cumulative Redeemable Preferred Shares Liquidation Preference $25.00 Per Share"
     },
     {
-    "Symbol":"VNOM",
-    "Name":"Viper Energy Partners LP Common Unit"
-    },
-    {
     "Symbol":"VNRX",
     "Name":"VolitionRX Limited"
     },
@@ -31969,7 +31245,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VNTR",
-    "Name":"Venator Materials PLC Ordinary Shares"
+    "Name":"Venator Materials PLC"
     },
     {
     "Symbol":"VOC",
@@ -31977,7 +31253,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VOD",
-    "Name":"Vodafone Group Plc American Depositary Shares"
+    "Name":"Vodafone Group Plc American "
     },
     {
     "Symbol":"VOLT",
@@ -32005,7 +31281,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VOYA^B",
-    "Name":"Voya Financial Inc. Depositary Shares each representing a 1/40th interest in a share of 5.35% Fixed-Rate Reset Non-Cumulative Preferred Stock Series B"
+    "Name":"Voya Financial Inc.  each representing a 1/40th interest in a share of 5.35% Fixed-Rate Reset Non-Cumulative Preferred Stock Series B"
     },
     {
     "Symbol":"VPCB",
@@ -32029,7 +31305,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VQS",
-    "Name":"VIQ Solutions Inc. Common Shares"
+    "Name":"VIQ Solutions Inc. "
     },
     {
     "Symbol":"VRA",
@@ -32108,10 +31384,6 @@ const stockSymbolByName = [
     "Name":"Vertiv Holdings LLC Class A"
     },
     {
-    "Symbol":"VRTS",
-    "Name":"Virtus Investment Partners Inc."
-    },
-    {
     "Symbol":"VRTV",
     "Name":"Veritiv Corporation"
     },
@@ -32121,7 +31393,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VS",
-    "Name":"Versus Systems Inc. Common Shares"
+    "Name":"Versus Systems Inc. "
     },
     {
     "Symbol":"VSAC",
@@ -32157,7 +31429,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VSTA",
-    "Name":"Vasta Platform Limited Class A Ordinary Shares"
+    "Name":"Vasta Platform Limited Class A"
     },
     {
     "Symbol":"VSTM",
@@ -32185,7 +31457,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VTEX",
-    "Name":"VTEX Class A Common Shares"
+    "Name":"VTEX Class A "
     },
     {
     "Symbol":"VTGN",
@@ -32225,7 +31497,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VTRU",
-    "Name":"Vitru Limited Common Shares"
+    "Name":"Vitru Limited "
     },
     {
     "Symbol":"VTSI",
@@ -32257,7 +31529,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VVPR",
-    "Name":"VivoPower International PLC Ordinary Shares"
+    "Name":"VivoPower International PLC"
     },
     {
     "Symbol":"VVR",
@@ -32285,7 +31557,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VYGG",
-    "Name":"Vy Global Growth Class A Ordinary Shares"
+    "Name":"Vy Global Growth Class A"
     },
     {
     "Symbol":"VYGR",
@@ -32309,7 +31581,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"VZLA",
-    "Name":"Vizsla Silver Corp. Common Shares"
+    "Name":"Vizsla Silver Corp. "
     },
     {
     "Symbol":"W",
@@ -32329,11 +31601,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WAFDP",
-    "Name":"Washington Federal Inc. Depositary Shares"
+    "Name":"Washington Federal Inc. "
     },
     {
     "Symbol":"WAFU",
-    "Name":"Wah Fu Education Group Limited Ordinary Shares"
+    "Name":"Wah Fu Education Group Limited"
     },
     {
     "Symbol":"WAL",
@@ -32341,7 +31613,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WAL^A",
-    "Name":"Western Alliance Bancorporation Depositary Shares Each Representing a 1/400th Interest in a Share of 4.250% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"Western Alliance Bancorporation  Each Representing a 1/400th Interest in a Share of 4.250% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"WALD",
@@ -32349,7 +31621,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WALDU",
-    "Name":"Waldencast Acquisition Corp. Units"
+    "Name":"Waldencast Acquisition "
     },
     {
     "Symbol":"WALDW",
@@ -32377,7 +31649,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WAVE",
-    "Name":"Eco Wave Power Global AB (publ) American Depositary Shares"
+    "Name":"Eco Wave Power Global AB (publ) American "
     },
     {
     "Symbol":"WAVSU",
@@ -32405,7 +31677,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WBS^F",
-    "Name":"Webster Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 5.25% Series F Non-Cumulative Perpetual Preferred Stock"
+    "Name":"Webster Financial Corporation  Each Representing 1/1000th Interest in a Share of 5.25% Series F Non-Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"WBT",
@@ -32413,7 +31685,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WBX",
-    "Name":"Wallbox N.V. Class A Ordinary Shares"
+    "Name":"Wallbox N.V. Class A"
     },
     {
     "Symbol":"WCC",
@@ -32421,11 +31693,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WCC^A",
-    "Name":"WESCO International Inc. Depositary Shares each representing 1/1000th interest in a share of Series A Fixed-Rate Reset Cumulative Perpetual Preferred Stock"
+    "Name":"WESCO International Inc.  each representing 1/1000th interest in a share of Series A Fixed-Rate Reset Cumulative Perpetual Preferred Stock"
     },
     {
     "Symbol":"WCN",
-    "Name":"Waste Connections Inc. Common Shares"
+    "Name":"Waste Connections Inc. "
     },
     {
     "Symbol":"WD",
@@ -32445,11 +31717,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WDH",
-    "Name":"Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)"
+    "Name":"Waterdrop Inc. American  (each representing the right to receive 10 Class A)"
     },
     {
     "Symbol":"WDI",
-    "Name":"Western Asset Diversified Income Fund Common Shares of Beneficial Interest"
+    "Name":"Western Asset Diversified Income Fund  of Beneficial Interest"
     },
     {
     "Symbol":"WE",
@@ -32473,11 +31745,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WEI",
-    "Name":"Weidai Ltd. American depositary shares each  representing one (1) Class A ordinary share"
+    "Name":"Weidai Ltd. American  each  representing one (1) Class A ordinary share"
     },
     {
     "Symbol":"WEJO",
-    "Name":"Wejo Group Limited Common Shares"
+    "Name":"Wejo Group Limited "
     },
     {
     "Symbol":"WEJOW",
@@ -32485,7 +31757,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WEL",
-    "Name":"Integrated Wellness Acquisition Corp Class A Ordinary Shares"
+    "Name":"Integrated Wellness Acquisition Corp Class A"
     },
     {
     "Symbol":"WELL",
@@ -32498,10 +31770,6 @@ const stockSymbolByName = [
     {
     "Symbol":"WERN",
     "Name":"Werner Enterprises Inc."
-    },
-    {
-    "Symbol":"WES",
-    "Name":"Western Midstream Partners LP Common Units Representing Limited Partner Interests"
     },
     {
     "Symbol":"WETF",
@@ -32517,7 +31785,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WF",
-    "Name":"Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of  )"
+    "Name":"Woori Financial Group Inc. American  (each representing three (3) shares of  )"
     },
     {
     "Symbol":"WFC",
@@ -32525,15 +31793,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WFC^A",
-    "Name":"Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series AA"
+    "Name":"Wells Fargo & Company  each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series AA"
     },
     {
     "Symbol":"WFC^C",
-    "Name":"Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series CC"
+    "Name":"Wells Fargo & Company  each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series CC"
     },
     {
     "Symbol":"WFC^D",
-    "Name":"Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in  a share of Non-Cumulative Perpetual Class A Preferred Stock Series DD"
+    "Name":"Wells Fargo & Company  each representing a 1/1000th interest in  a share of Non-Cumulative Perpetual Class A Preferred Stock Series DD"
     },
     {
     "Symbol":"WFC^L",
@@ -32541,7 +31809,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WFC^Q",
-    "Name":"Wells Fargo & Company Depositary Shares Representing 1/1000th Interest Perpetual Preferred Class A Series Q Fixed to Floating"
+    "Name":"Wells Fargo & Company  Representing 1/1000th Interest Perpetual Preferred Class A Series Q Fixed to Floating"
     },
     {
     "Symbol":"WFC^R",
@@ -32549,11 +31817,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WFC^Y",
-    "Name":"Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series Y"
+    "Name":"Wells Fargo & Company  each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series Y"
     },
     {
     "Symbol":"WFC^Z",
-    "Name":"Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series Z"
+    "Name":"Wells Fargo & Company  each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series Z"
     },
     {
     "Symbol":"WFCF",
@@ -32565,7 +31833,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WFRD",
-    "Name":"Weatherford International plc Ordinary Shares"
+    "Name":"Weatherford International plc"
     },
     {
     "Symbol":"WGO",
@@ -32617,7 +31885,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WILC",
-    "Name":"G. Willi-Food International  Ltd. Ordinary Shares"
+    "Name":"G. Willi-Food International  Ltd."
     },
     {
     "Symbol":"WIMI",
@@ -32673,7 +31941,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WIX",
-    "Name":"Wix.com Ltd. Ordinary Shares"
+    "Name":"Wix.com Ltd."
     },
     {
     "Symbol":"WK",
@@ -32681,7 +31949,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WKEY",
-    "Name":"WISeKey International Holding AG American Depositary Shares"
+    "Name":"WISeKey International Holding AG American "
     },
     {
     "Symbol":"WKHS",
@@ -32689,7 +31957,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WKME",
-    "Name":"WalkMe Ltd. Ordinary Shares"
+    "Name":"WalkMe Ltd."
     },
     {
     "Symbol":"WKSP",
@@ -32710,10 +31978,6 @@ const stockSymbolByName = [
     {
     "Symbol":"WLK",
     "Name":"Westlake Chemical Corporation"
-    },
-    {
-    "Symbol":"WLKP",
-    "Name":"Westlake Chemical Partners LP Common Units representing limited partner interests"
     },
     {
     "Symbol":"WLL",
@@ -32769,7 +32033,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WNW",
-    "Name":"Meiwu Technology Company Limited Ordinary Shares"
+    "Name":"Meiwu Technology Company Limited"
     },
     {
     "Symbol":"WOLF",
@@ -32797,27 +32061,27 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WPCA",
-    "Name":"Warburg Pincus Capital Corporation IA Class A Ordinary Shares"
+    "Name":"Warburg Pincus Capital Corporation IA Class A"
     },
     {
     "Symbol":"WPCB",
-    "Name":"Warburg Pincus Capital Corporation IB Class A Ordinary Shares"
+    "Name":"Warburg Pincus Capital Corporation IB Class A"
     },
     {
     "Symbol":"WPM",
-    "Name":"Wheaton Precious Metals Corp Common Shares (Canada)"
+    "Name":"Wheaton Precious Metals Corp  (Canada)"
     },
     {
     "Symbol":"WPP",
-    "Name":"WPP plc American Depositary Shares"
+    "Name":"WPP plc American "
     },
     {
     "Symbol":"WPRT",
-    "Name":"Westport Fuel Systems Inc Common Shares"
+    "Name":"Westport Fuel Systems Inc "
     },
     {
     "Symbol":"WQGA",
-    "Name":"World Quantum Growth Acquisition Corp. Class A Ordinary Shares"
+    "Name":"World Quantum Growth Acquisition Corp. Class A"
     },
     {
     "Symbol":"WRAC",
@@ -32873,7 +32137,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WSBCP",
-    "Name":"WesBanco Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 6.75% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series A"
+    "Name":"WesBanco Inc.  Each Representing a 1/40th Interest in a Share of 6.75% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series A"
     },
     {
     "Symbol":"WSBF",
@@ -32901,7 +32165,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WSR",
-    "Name":"Whitestone REIT Common Shares"
+    "Name":"Whitestone REIT "
     },
     {
     "Symbol":"WST",
@@ -32929,7 +32193,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WTFCP",
-    "Name":"Wintrust Financial Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series E"
+    "Name":"Wintrust Financial Corporation  Each Representing a 1/1000th Interest in a Share of 6.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series E"
     },
     {
     "Symbol":"WTI",
@@ -32977,7 +32241,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WTW",
-    "Name":"Willis Towers Watson Public Limited Company Ordinary Shares"
+    "Name":"Willis Towers Watson Public Limited Company"
     },
     {
     "Symbol":"WU",
@@ -32989,7 +32253,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"WVE",
-    "Name":"Wave Life Sciences Ltd. Ordinary Shares"
+    "Name":"Wave Life Sciences Ltd."
     },
     {
     "Symbol":"WVFC",
@@ -33081,7 +32345,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XENE",
-    "Name":"Xenon Pharmaceuticals Inc. Common Shares"
+    "Name":"Xenon Pharmaceuticals Inc. "
     },
     {
     "Symbol":"XENT",
@@ -33105,7 +32369,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XFLT",
-    "Name":"XAI Octagon Floating Rate & Alternative Income Term Trust Common Shares of Beneficial Interest"
+    "Name":"XAI Octagon Floating Rate & Alternative Income Term Trust  of Beneficial Interest"
     },
     {
     "Symbol":"XFLT^A",
@@ -33125,7 +32389,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XIN",
-    "Name":"Xinyuan Real Estate Co Ltd American Depositary Shares"
+    "Name":"Xinyuan Real Estate Co Ltd American "
     },
     {
     "Symbol":"XL",
@@ -33153,7 +32417,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XNET",
-    "Name":"Xunlei Limited American Depositary Shares"
+    "Name":"Xunlei Limited American "
     },
     {
     "Symbol":"XOM",
@@ -33165,7 +32429,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XOMAO",
-    "Name":"XOMA Corporation Depositary Shares Rep Series B 8.375% Cumulative Preferred Stock"
+    "Name":"XOMA Corporation  Rep Series B 8.375% Cumulative Preferred Stock"
     },
     {
     "Symbol":"XOMAP",
@@ -33185,7 +32449,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XPAX",
-    "Name":"XPAC Acquisition Corp. Class A Ordinary Shares"
+    "Name":"XPAC Acquisition Corp. Class A"
     },
     {
     "Symbol":"XPAXU",
@@ -33209,7 +32473,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XPEV",
-    "Name":"XPeng Inc. American depositary shares each representing two Class A ordinary shares"
+    "Name":"XPeng Inc. American  each representing two Class A"
     },
     {
     "Symbol":"XPL",
@@ -33249,7 +32513,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XTLB",
-    "Name":"XTL Biopharmaceuticals Ltd. American Depositary Shares"
+    "Name":"XTL Biopharmaceuticals Ltd. American "
     },
     {
     "Symbol":"XTNT",
@@ -33261,7 +32525,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"XYF",
-    "Name":"X Financial American Depositary Shares each representing six Class A Ordinary Shares"
+    "Name":"X Financial American  each representing six Class A"
     },
     {
     "Symbol":"XYL",
@@ -33273,7 +32537,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"YALA",
-    "Name":"Yalla Group Limited American Depositary Shares each representing one Class A Ordinary Share"
+    "Name":"Yalla Group Limited American  each representing one Class A Ordinary Share"
     },
     {
     "Symbol":"YCBD",
@@ -33301,11 +32565,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"YGMZ",
-    "Name":"MingZhu Logistics Holdings Limited Ordinary Shares"
+    "Name":"MingZhu Logistics Holdings Limited"
     },
     {
     "Symbol":"YI",
-    "Name":"111 Inc. American Depositary Shares"
+    "Name":"111 Inc. American "
     },
     {
     "Symbol":"YJ",
@@ -33317,7 +32581,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"YMM",
-    "Name":"Full Truck Alliance Co. Ltd. American Depositary Shares (each representing 20 Class A Ordinary Shares)"
+    "Name":"Full Truck Alliance Co. Ltd. American  (each representing 20 Class A)"
     },
     {
     "Symbol":"YMTX",
@@ -33325,7 +32589,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"YNDX",
-    "Name":"Yandex N.V. Class A Ordinary Shares"
+    "Name":"Yandex N.V. Class A"
     },
     {
     "Symbol":"YORW",
@@ -33341,15 +32605,15 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"YQ",
-    "Name":"17 Education & Technology Group Inc. American Depositary Shares"
+    "Name":"17 Education & Technology Group Inc. American "
     },
     {
     "Symbol":"YRD",
-    "Name":"Yiren Digital Ltd. American Depositary Shares each representing two ordinary shares"
+    "Name":"Yiren Digital Ltd. American  each representing two"
     },
     {
     "Symbol":"YSG",
-    "Name":"Yatsen Holding Limited American Depositary Shares each representing four Class A ordinary shares"
+    "Name":"Yatsen Holding Limited American  each representing four Class A"
     },
     {
     "Symbol":"YTEN",
@@ -33357,11 +32621,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"YTPG",
-    "Name":"TPG Pace Beneficial II Corp. Class A Ordinary Shares"
+    "Name":"TPG Pace Beneficial II Corp. Class A"
     },
     {
     "Symbol":"YTRA",
-    "Name":"Yatra Online Inc. Ordinary Shares"
+    "Name":"Yatra Online Inc."
     },
     {
     "Symbol":"YUM",
@@ -33373,11 +32637,11 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"YVR",
-    "Name":"Liquid Media Group Ltd. Common Shares"
+    "Name":"Liquid Media Group Ltd. "
     },
     {
     "Symbol":"YY",
-    "Name":"JOYY Inc. American Depositary Shares"
+    "Name":"JOYY Inc. American "
     },
     {
     "Symbol":"Z",
@@ -33393,7 +32657,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZCMD",
-    "Name":"Zhongchao Inc. Class A Ordinary Shares"
+    "Name":"Zhongchao Inc. Class A"
     },
     {
     "Symbol":"ZD",
@@ -33405,7 +32669,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZEAL",
-    "Name":"Zealand Pharma A/S American Depositary Shares"
+    "Name":"Zealand Pharma A/S American "
     },
     {
     "Symbol":"ZEN",
@@ -33417,7 +32681,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZEPP",
-    "Name":"Zepp Health Corporation American Depositary Shares"
+    "Name":"Zepp Health Corporation American "
     },
     {
     "Symbol":"ZEST",
@@ -33441,7 +32705,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZGN",
-    "Name":"Ermenegildo Zegna N.V. Ordinary Shares"
+    "Name":"Ermenegildo Zegna N.V."
     },
     {
     "Symbol":"ZGNX",
@@ -33449,7 +32713,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZH",
-    "Name":"Zhihu Inc. American Depositary Shares (every two of each representing one Class A ordinary share)"
+    "Name":"Zhihu Inc. American  (every two of each representing one Class A ordinary share)"
     },
     {
     "Symbol":"ZI",
@@ -33457,7 +32721,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZIM",
-    "Name":"ZIM Integrated Shipping Services Ltd. Ordinary Shares"
+    "Name":"ZIM Integrated Shipping Services Ltd."
     },
     {
     "Symbol":"ZING",
@@ -33485,7 +32749,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZIONP",
-    "Name":"Zions Bancorporation N.A. Depositary Shares (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)"
+    "Name":"Zions Bancorporation N.A.  (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)"
     },
     {
     "Symbol":"ZIOP",
@@ -33509,7 +32773,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZLAB",
-    "Name":"Zai Lab Limited American Depositary Shares"
+    "Name":"Zai Lab Limited American "
     },
     {
     "Symbol":"ZM",
@@ -33517,7 +32781,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZME",
-    "Name":"Zhangmen Education Inc. American Depositary Shares"
+    "Name":"Zhangmen Education Inc. American "
     },
     {
     "Symbol":"ZNGA",
@@ -33545,7 +32809,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZOM",
-    "Name":"Zomedica Corp. Common Shares"
+    "Name":"Zomedica Corp. "
     },
     {
     "Symbol":"ZS",
@@ -33561,7 +32825,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZTAQU",
-    "Name":"Zimmer Energy Transition Acquisition Corp. Units"
+    "Name":"Zimmer Energy Transition Acquisition "
     },
     {
     "Symbol":"ZTAQW",
@@ -33569,7 +32833,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZTO",
-    "Name":"ZTO Express (Cayman) Inc. American Depositary Shares each representing one Class A ordinary share."
+    "Name":"ZTO Express (Cayman) Inc. American  each representing one Class A ordinary share."
     },
     {
     "Symbol":"ZTR",
@@ -33601,7 +32865,7 @@ const stockSymbolByName = [
     },
     {
     "Symbol":"ZWRKU",
-    "Name":"Z-Work Acquisition Corp. Units"
+    "Name":"Z-Work Acquisition "
     },
     {
     "Symbol":"ZWRKW",
@@ -33628,13 +32892,43 @@ const stockSymbolByName = [
     "Name":"Zynex Inc."
     }
   ];
-  function searchSymbol(stockSymbol){
+
+function search(stockSymbol){
+    let searchResult=[];
+    const regex=new RegExp('^'+stockSymbol);
+    for (var key of Object.keys(stockSymbolByName)) {
+        if(stockSymbolByName[key].Symbol.includes(stockSymbol) && regex.test(stockSymbolByName[key].Symbol)){
+            // if(regex.test(stockSymbolByName[key].Symbol)){}
+            searchSymbolName=stockSymbolByName[key].Name;
+            searchSymbolSymbol=stockSymbolByName[key].Symbol;
+            // document.getElementById('demo').innerHTML+=', '+searchSymbolName+searchSymbolSymbol;
+
+            searchResult.push({
+                symbol:searchSymbolSymbol,
+                name:searchSymbolName
+            });            
+        }
+        else if(stockSymbolByName[key].Name.includes(stockSymbol)){
+            searchSymbolName=stockSymbolByName[key].Name;
+            searchSymbolSymbol=stockSymbolByName[key].Symbol;
+
+            searchResult.push({
+                symbol:searchSymbolSymbol,
+                name:searchSymbolName
+            });
+        }
+    }
+    return searchResult;
+}
+//search('AA');
+function searchSymbol(stockSymbol){
     let searchSymbolName=null;
     for (var key of Object.keys(stockSymbolByName)) {
-      if(stockSymbol==stockSymbolByName[key].Symbol){
+        if(stockSymbol==stockSymbolByName[key].Symbol){
         searchSymbolName=stockSymbolByName[key].Name;
-      }
+        }
     }
     return searchSymbolName;
-  }
-  module.exports = searchSymbol;
+}
+
+module.exports = {searchSymbol, search};

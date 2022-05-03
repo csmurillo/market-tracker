@@ -31,6 +31,7 @@ const Signup = () =>{
     const handleSubmit = event => {
         event.preventDefault();
         setValues({...values});
+
         // signup
         signup({firstName,lastName,email,phone,password}).then(res=>{
             if(res.error){
@@ -40,7 +41,7 @@ const Signup = () =>{
                 else{
                     let prevErrorType;
                     res.error.forEach(error=>{
-                        if(error.field!=prevErrorType){
+                        if(error.field!==prevErrorType){
                             setErrors(errors=>{
                                 return {...errors,[error.field+'Error']:error.error}
                             });

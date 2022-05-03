@@ -50,7 +50,7 @@ const SearchBox = () =>{
                             {searchResults.map((relatedSearch, i) => (
                                     <div id={`item-${i}`} className={`search-result ${key==i?'active':''}`} key={i}>
                                         <div onClick={e=>{ onStockSearch(relatedSearch.symbol);}}>
-                                            {'('+relatedSearch.symbol+')' +' '+relatedSearch.instrument_name+'i'+i}
+                                            {'('+relatedSearch.symbol+')' +' '+relatedSearch.name+'i'+i}
                                         </div>
                                     </div>
                             ))}

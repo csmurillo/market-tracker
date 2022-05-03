@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 
 const {defaultDayMovementArray}= require('../helpers/userHelper');
 
-const searchSymbol = require('../helpers/searchStockSymbol');
+const {searchSymbol,search} = require('../helpers/searchStockSymbol');
 
 exports.userId = (req,res,next,id)=>{
     User.findById(id)
@@ -191,20 +191,22 @@ exports.dowjones = async (req,res)=>{
 
 // url: /stock?symbol={stockSymbbol}
 exports.stockSearch = async (req,res)=>{
-    const stockSymbol = req.query.symbol;
-    const twelveSearchStock = `https://api.twelvedata.com/symbol_search?symbol=${stockSymbol}&source=docs`;
-    const twelveSearchRes = await fetch(twelveSearchStock);
-    const twelveStockSearchData = await twelveSearchRes.json();
-    const newTwelveStockSearchData = twelveStockSearchData.data.filter((stocks)=>{
-        if(stocks.exchange=="NYSE"){
-            return stocks;
-        }
-        else if(stocks.exchange=="NASDAQ"){
-            return stocks;
-        }
-    });
+    const searchArr=search(req.query.symbol);
+    res.json({searchResult:searchArr});
+    // const stockSymbol = req.query.symbol;
+    // const twelveSearchStock = `https://api.twelvedata.com/symbol_search?symbol=${stockSymbol}&source=docs`;
+    // const twelveSearchRes = await fetch(twelveSearchStock);
+    // const twelveStockSearchData = await twelveSearchRes.json();
+    // const newTwelveStockSearchData = twelveStockSearchData.data.filter((stocks)=>{
+    //     if(stocks.exchange=="NYSE"){
+    //         return stocks;
+    //     }
+    //     else if(stocks.exchange=="NASDAQ"){
+    //         return stocks;
+    //     }
+    // });
 
-    res.json({searchResult:newTwelveStockSearchData});
+    // res.json({searchResult:newTwelveStockSearchData});
 };
 
 // url: /stock/stockSymbol
@@ -251,7 +253,7 @@ exports.stockNews = async (req,res)=>{
     const stockSymbol = req.symbol;
     console.log(stockSymbol+'stockSymbol');
     // const {stockSymbol} = req.stockSymbol;
-    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2022-02-15&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
+    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2022-04-20&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
     const newsRes = await fetch(newapi);
     const newsData = await newsRes.json();
     // console.log('newsdata'+newsRes);

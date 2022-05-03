@@ -20,21 +20,21 @@ const Stock = ({history}) =>{
         }=StockContext(history.location.pathname);
     const { stockPriceLive,stockPriceDateFormatLive }=StockPriceContext();
 
-    useEffect(()=>{
-        if(stockSymbol!=''){
-            socket.connect();
-            socket.emit('startStreamServerStockPrice',{stockSymbol:stockSymbol});
+    // useEffect(()=>{
+    //     if(stockSymbol!=''){
+    //         socket.connect();
+    //         socket.emit('startStreamServerStockPrice',{stockSymbol:stockSymbol});
 
-            socket.on('streamStockPriceTime',({price,time})=>{
-                console.log('stream::'+price+'time:'+time);
-            });
-        }
-        // socket.emit('startServerStockPrice',{});
-        return ()=>{
-            console.log('stock page no longer here');
-            socket.disconnect();
-        };
-    },[stockSymbol]);
+    //         socket.on('streamStockPriceTime',({price,time})=>{
+    //             console.log('stream::'+price+'time:'+time);
+    //         });
+    //     }
+    //     // socket.emit('startServerStockPrice',{});
+    //     return ()=>{
+    //         console.log('stock page no longer here');
+    //         socket.disconnect();
+    //     };
+    // },[stockSymbol]);
 
 
     return (

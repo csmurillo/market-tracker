@@ -86,6 +86,7 @@ const SearchBoxContext = ()=>{
 
     useEffect(()=>{
         getRelatedStocks(searchQuery).then((res)=>{
+            console.log('searching for related stocks');
             const searchResult=res.searchResult;
             setSearchResults(searchResult);
         });

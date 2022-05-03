@@ -1,5 +1,6 @@
 const { Stock, WatchList } = require('../models/watchList');
 const fetch = require('node-fetch');
+const { getStockCurrentPrice } = require('../helpers/userHelper');
 require("dotenv").config();
 
 exports.watchList=(req,res)=>{
@@ -16,9 +17,9 @@ exports.watchList=(req,res)=>{
         });
     });
 };
-exports.addToWatchList=(req,res)=>{
+exports.addToWatchList= (req,res)=>{
     const {userId}=req.userTokenData;
-    WatchList.findOne({ owner: userId}, (err, watchList) => {
+    WatchList.findOne({ owner: userId}, async(err, watchList) => {
         if(err){
             return res.status(401).json({
                 error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
@@ -31,11 +32,26 @@ exports.addToWatchList=(req,res)=>{
                 return res.status(401).json({error:'Error: Stock already exist'});
             }
         }
+        let stockSymbol=req.body.stockSymbol;
+        const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+        const finnhubRes=await fetch(finnhub);
+        const pricePromise=await finnhubRes.json();
+        const stockPrice=pricePromise.c;
+        const alertPrice=req.body.priceAlert;
+
+        let alertDirection;
+        if(parseInt(alertPrice)>parseInt(stockPrice)){
+            alertDirection='above';
+        }
+        else{
+            alertDirection='below';
+        }
 
         const stock=new Stock({
             tickerName:req.body.stockName,
             tickerSymbol:req.body.stockSymbol,
-            alertPrice:req.body.priceAlert
+            alertDirection,
+            alertPrice,
         });
         
         watchList.stocks.push(stock);

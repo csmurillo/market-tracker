@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 // used in stockMovement
 const isSingleDigit=(digit)=>{
     const regex = new RegExp('^[0-9]$');
@@ -54,4 +55,11 @@ exports.defaultDayMovementArray=()=>{
     }
     return {timeArray:timeArray.reverse(),priceArray:priceArray.reverse()}
 
+};
+
+exports.getStockCurrentPrice = async(stockSymbol)=>{
+    const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+    const finnhubRes=await fetch(finnhub);
+    const pricePromise=await finnhubRes.json();
+    return pricePromise;
 };
