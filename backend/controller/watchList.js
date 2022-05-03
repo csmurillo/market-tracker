@@ -1,6 +1,5 @@
 const { Stock, WatchList } = require('../models/watchList');
 const fetch = require('node-fetch');
-const { getStockCurrentPrice } = require('../helpers/userHelper');
 require("dotenv").config();
 
 exports.watchList=(req,res)=>{
@@ -28,7 +27,7 @@ exports.addToWatchList= (req,res)=>{
         // check for duplicates
         let watchListArr=watchList.stocks;
         for(let i=0; i<watchListArr.length;i++){
-            if(watchListArr[i].tickerSymbol==req.body.symbol){
+            if(watchListArr[i].tickerSymbol===req.body.symbol){
                 return res.status(401).json({error:'Error: Stock already exist'});
             }
         }
@@ -69,7 +68,7 @@ exports.addToWatchList= (req,res)=>{
 exports.updateWatchList=(req,res)=>{
     const {userId}=req.userTokenData;
     
-    WatchList.findOne({ owner: userId}, (err, watchList) => {
+    WatchList.findOne({ owner: userId}, async (err, watchList) => {  
         if(err){
             return res.status(401).json({
                 error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
@@ -79,14 +78,26 @@ exports.updateWatchList=(req,res)=>{
         // boolean variable to check if symbol to be updated exist
         let stockSymbolExist=false;
 
-        // update watchlist priceAlert
-        watchList.stocks.map(stock=>{
-            if(stock.tickerSymbol==req.body.symbol){
-                stock.alertPrice=req.body.priceAlert;
+        let stockSymbol=req.body.symbol;
+
+        const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+        const finnhubRes=await fetch(finnhub);
+        const pricePromise=await finnhubRes.json();
+        const stockPrice=pricePromise.c;
+
+        let alertPrice=req.body.priceAlert;
+        for(let i=0; i<watchList.stocks.length;i++){
+            if(watchList.stocks[i].tickerSymbol===req.body.symbol){
                 stockSymbolExist=true;
+                watchList.stocks[i].alertPrice=req.body.priceAlert;
+                if(parseInt(alertPrice)>parseInt(stockPrice)){
+                    watchList.stocks[i].alertDirection='above';
+                }
+                else{
+                    watchList.stocks[i].alertDirection='below';
+                }
             }
-            return stock;
-        });
+        }
 
         if(!stockSymbolExist){
             return res.status(400).json({error:"Stock does not exist"});
