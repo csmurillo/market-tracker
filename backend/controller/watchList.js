@@ -122,7 +122,7 @@ exports.removeFromWatchList=(req,res)=>{
             });
         }
         // check if symbol exist
-        if(req.body.symbol==undefined){
+        if(req.body.symbol===undefined){
             return res.status(400).json({
                 error: "Error: Could not remove stock from watchlist"
             });

@@ -1,16 +1,18 @@
+import {useEffect} from 'react';
 import Plot from 'react-plotly.js';
 import {HomeContext} from '../../../../context/HomeContext';
 
 const DowJones = () =>{
-    const {dowJones}=HomeContext();
+    const {dowJonesPrice,dowJonesDate}=HomeContext();
+
     return (
         <div id="dow-jones">
             <div id="dow-jones-graph">
                 <Plot
                 data={[
                     {
-                    x: [1, 2, 3],
-                    y: [2, 6, 3],
+                    x: dowJonesDate,
+                    y: dowJonesPrice,
                     type: 'scatter',
                     mode: 'lines+markers',
                     marker: {color: 'lightgreen'},

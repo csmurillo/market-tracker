@@ -6,7 +6,8 @@ import { MdKeyboardArrowLeft,MdKeyboardArrowRight } from 'react-icons/md';
 const HomeContext = ()=>{
     // dow jones and current top gainer/loser
     // used respectively: component: DowJones, TopGainerStocks, TopLoserStocks
-    const [ dowJones,setDowJones] = useState();
+    const [ dowJonesPrice,setDowJonesPrice] = useState([]);
+    const [ dowJonesDate, setDowJonesDate] = useState([]);
     const [ gainerStocks, setGainerStocks ]=useState();
     const [ loserStocks, setLoserStocks ]=useState();
     // slider settings
@@ -49,7 +50,7 @@ const HomeContext = ()=>{
     useEffect(()=>{
         getDowJones().then(dowjones=>{
             const dowJonesValue=dowjones.dowjones.dowjones.values;
-            setDowJones(dowJonesValue);
+            setDowJonesValues(dowJonesValue);
         });
         getGainerStocks().then(gainers=>{
             console.log('right here1');
@@ -70,7 +71,16 @@ const HomeContext = ()=>{
             setSliderArrows();
         }
     },[]);
-
+    const setDowJonesValues = (dowJones)=>{
+        let DowJonesPrice=[];
+        let DowJonesDate=[];
+        for(let i=0; i<dowJones.length;i++){
+            DowJonesPrice.push(dowJones[i].close);
+            DowJonesDate.push(dowJones[i].datetime);
+        }
+        setDowJonesPrice(DowJonesPrice.reverse());
+        setDowJonesDate(DowJonesDate.reverse());
+    };
     const setSliderArrows = ()=>{
         setSliderSettings({...sliderSettings,nextArrow:<SliderRightArrow to="next"/>,prevArrow:<SliderLeftArrow to="prev"/>});
     };
@@ -81,7 +91,7 @@ const HomeContext = ()=>{
         <div className="right-arrow" onClick={onClick} style={style}><MdKeyboardArrowRight></MdKeyboardArrowRight></div>
     );
 
-    return {sliderSettings,dowJones,gainerStocks,loserStocks};
+    return {sliderSettings,dowJonesPrice,dowJonesDate,gainerStocks,loserStocks};
 };
 
 export {HomeContext};
