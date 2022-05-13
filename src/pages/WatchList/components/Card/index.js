@@ -2,9 +2,10 @@ import React, {useEffect, useState} from 'react';
 import './styles.css';
 import Button from '../../../../components/Button';
 import { AiOutlineCheckCircle } from "react-icons/ai";
+
 import { Link } from 'react-router-dom';
 // import socket from '../../../../context/Socketio';
-const Card = ({ stockName, stockSymbol, stockPrice, priceTarget, priceTargetReached, InProgress,cardUpdate, cardDelete }) =>{
+const Card = ({ stock, stockName, stockSymbol, stockPrice, stockPriceTargetReached, stockPriceTargetReachedDate, priceTarget, InProgress,cardUpdate, cardDelete }) =>{
 
     const [cardPriceTarget,setCardPriceTarget]=useState();
 
@@ -33,17 +34,30 @@ const Card = ({ stockName, stockSymbol, stockPrice, priceTarget, priceTargetReac
                                 ${stockPrice}
                             </div>
                         </div>
-                        <div className='wl-stock-status'>
-                            <div className='wl-stock-status-in-progress'>In Progress</div>
-                            {/* <div className='wl-price-target'>Price Target <AiOutlineCheckCircle></AiOutlineCheckCircle></div> */}
+                        <div className='wl-stock-status' style={stockPriceTargetReached?{border:'2px solid lightgreen',color:'green', backgroundColor:'rgb(192, 255, 208)'}:{}}>
+                            {/* <div className='wl-stock-status'> */}
+                                {
+                                    stockPriceTargetReached ?
+                                    <div className='wl-stock-status-reached'>
+                                        <p>Reached</p>
+                                        <span><AiOutlineCheckCircle/></span>
+                                    </div>:
+                                    <p  className='wl-stock-status-in-progress'>In Progress</p>
+                                }
+                            {/* // </div> */}
                         </div>
                     </div>
-                    <div className='wl-card-top-right'>
-                        <div className='dropdown'>
-                            <div className='wl-card-settings' data-toggle='dropdown'>...</div>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
-                                <div className='wl-card-delete-listing' onClick={()=>{cardDelete(stockSymbol)}}>Delete Listing</div>
+                    <div className='wl-card-top-right' style={stockPriceTargetReached?{justifyContent:'flex-end'}:{}}>
+                        {!stockPriceTargetReached&&
+                            <div className='dropdown'>
+                                <div className='wl-card-settings' data-toggle='dropdown'>...</div>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
+                                    <div className='wl-card-delete-listing' onClick={()=>{cardDelete(stockSymbol)}}>Delete Listing</div>
+                                </div>
                             </div>
+                        }
+                        <div className="wl-card-date-price-reached">
+                            {stockPriceTargetReached?<p>Date: {stockPriceTargetReachedDate}</p>:<></>}
                         </div>
                     </div>
                 </div>
@@ -54,7 +68,8 @@ const Card = ({ stockName, stockSymbol, stockPrice, priceTarget, priceTargetReac
                         <div className='wl-card-bottom-price-target-title'>Price Target:</div>
                     </div>
                     <div className='wl-card-bottom-right dropup'>
-                        <div class='wl-card-bottom-price-target' data-toggle="dropdown">${priceTarget}</div>
+                        <div class='wl-card-bottom-price-target' style={stockPriceTargetReached?{cursor:'default'}:{}} data-toggle="dropdown">${priceTarget}</div>
+                        {!stockPriceTargetReached&&
                         <div class="dropdown-menu dropdown-menu-right">
                             <form onSubmit={cardUpdatePriceTarget} className=''>
                                 <div className=''>
@@ -65,6 +80,7 @@ const Card = ({ stockName, stockSymbol, stockPrice, priceTarget, priceTargetReac
                                 </div>
                             </form>
                         </div>
+                        }   
                     </div>
                 </div>
             </div>

@@ -253,7 +253,7 @@ exports.stockNews = async (req,res)=>{
     const stockSymbol = req.symbol;
     console.log(stockSymbol+'stockSymbol');
     // const {stockSymbol} = req.stockSymbol;
-    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2022-04-20&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
+    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2022-04-25&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
     const newsRes = await fetch(newapi);
     const newsData = await newsRes.json();
     // console.log('newsdata'+newsRes);
@@ -275,8 +275,8 @@ exports.stockMovement = async (req,res)=>{
         let dateFromStockData =stockData.datetime;
         let dateDataFormat = dateFromStockData.split(' ')[0];
         const time = stockData.datetime;
-        // console.log(time);
-        // console.log('------------------------------------');
+
+        
         for(var i=0; i<timeArray.length;i++){
             if(recentDateFormat==dateDataFormat){
                 if(timeArray[i]==time){
