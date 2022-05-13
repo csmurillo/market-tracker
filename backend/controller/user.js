@@ -375,7 +375,7 @@ exports.stockYearMovement=async(req,res)=>{
     const yearPriceArray = [];
 
     for(let data in yearMovementData){
-        date=data;
+        let date=data;
         if(yearDate>date){
             return res.json({
                 time:yearDateArray.reverse(),
@@ -413,7 +413,7 @@ exports.stockFiveYearMovement=async(req,res)=>{
     const fiveYearPriceArray = [];
 
     for(let data in fiveYearMovementData){
-        date=data;
+        let date=data;
         if(fiveYearDate>date){
             return res.json({
                 time:fiveYearDateArray.reverse(),
@@ -468,7 +468,8 @@ exports.stockGainers = async(req,res)=>{
     // const sfmkRes = await fetch(sfmkapi);
     // const sfmkData = await sfmkRes.json();
     const sfmkData={"gainers":{"mostGainerStock":[{"ticker":"JCS","changes":2.66,"price":"9.41","changesPercentage":"39.407406","companyName":"Communications Systems, Inc."},{"ticker":"GXGX","changes":2.18,"price":"10.2","changesPercentage":"27.182037","companyName":"Celularity Inc."},{"ticker":"DFNS","changes":2.72,"price":"12.85","changesPercentage":"26.8509","companyName":"LGL Systems Acquisition Corp."},{"ticker":"IRNT","changes":3.93,"price":"23.32","changesPercentage":"20.2682","companyName":"IronNet Cybersecurity, Inc."},{"ticker":"NNVC","changes":0.76,"price":"4.83","changesPercentage":"18.673212","companyName":"NanoViricides, Inc."},{"ticker":"CLMT","changes":1.07,"price":"7.21","changesPercentage":"17.426712","companyName":"Calumet Specialty Products Partners, L.P."},{"ticker":"KZR","changes":1.33,"price":"8.97","changesPercentage":"17.408382","companyName":"Kezar Life Sciences, Inc."},{"ticker":"BLU","changes":0.79,"price":"5.57","changesPercentage":"16.527195","companyName":"BELLUS Health Inc."},{"ticker":"NRXP","changes":1.66,"price":"12.64","changesPercentage":"15.118405","companyName":"NRx Pharmaceuticals, Inc."},{"ticker":"FCEL","changes":0.82,"price":"6.44","changesPercentage":"14.590751","companyName":"FuelCell Energy, Inc."},{"ticker":"CEI","changes":0.19,"price":"1.58","changesPercentage":"13.669069","companyName":"Camber Energy, Inc."},{"ticker":"DATS","changes":0.86,"price":"7.4","changesPercentage":"13.149849","companyName":"DatChat, Inc."},{"ticker":"PYR","changes":0.51,"price":"4.55","changesPercentage":"12.623768","companyName":"PyroGenesis Canada Inc."},{"ticker":"MTNB","changes":0.13,"price":"1.18","changesPercentage":"12.380953","companyName":"Matinas BioPharma Holdings, Inc."},{"ticker":"JNCE","changes":0.77,"price":"7.24","changesPercentage":"11.901082","companyName":"Jounce Therapeutics, Inc."},{"ticker":"NCSM","changes":3.1,"price":"29.67","changesPercentage":"11.667295","companyName":"NCS Multistage Holdings, Inc."},{"ticker":"IMRX","changes":2.48,"price":"25.87","changesPercentage":"10.602828","companyName":"Immuneering Corporation"},{"ticker":"AXAS","changes":0.18,"price":"1.91","changesPercentage":"10.404621","companyName":"Abraxas Petroleum Corporation"},{"ticker":"LSXMB","changes":4.878,"price":"52.098","changesPercentage":"10.3304","companyName":"The Liberty SiriusXM Group"},{"ticker":"ICCC","changes":0.92,"price":"9.97","changesPercentage":"10.165747","companyName":"ImmuCell Corporation"},{"ticker":"SFTW","changes":1.01,"price":"11.41","changesPercentage":"9.71154","companyName":"Osprey Technology Acquisition Corp."},{"ticker":"SBTX","changes":1.38,"price":"16.28","changesPercentage":"9.261753","companyName":"Silverback Therapeutics, Inc."},{"ticker":"ANGI","changes":0.98,"price":"11.68","changesPercentage":"9.158883","companyName":"Angi Inc."},{"ticker":"SMHI","changes":0.39,"price":"4.84","changesPercentage":"8.764053","companyName":"SEACOR Marine Holdings Inc."},{"ticker":"AGTI","changes":1.74,"price":"22.22","changesPercentage":"8.496093","companyName":"Agiliti, Inc."},{"ticker":"CROX","changes":11.66,"price":"149.38","changesPercentage":"8.466456","companyName":"Crocs, Inc."},{"ticker":"SRACU","changes":0.94,"price":"12.2","changesPercentage":"8.348131","companyName":"Stable Road Acquisition Corp."},{"ticker":"TMCI","changes":2.29,"price":"29.99","changesPercentage":"8.267144","companyName":"Treace Medical Concepts, Inc."},{"ticker":"MLAB","changes":22.92,"price":"302.92","changesPercentage":"8.185719","companyName":"Mesa Laboratories, Inc."},{"ticker":"AFHBL","changes":0.9,"price":"11.95","changesPercentage":"8.144793","companyName":"Atlas Financial Holdings, Inc."}]}};
-    console.log(sfmkData);
+    // console.log(sfmkData);
+    // console.log('00000000000000000000000000000000');
     res.json({gainers:sfmkData});
 };
 

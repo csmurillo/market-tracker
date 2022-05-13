@@ -12,23 +12,32 @@ export const stockSearch = () =>{
         method:"GET",
         headers: {
             Accept:'application/json',
-            'Content-Type':'application/json',
-            // Authorization: `Bearer ${token}`
+            'Content-Type':'application/json'
         }
     })
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
 export const getGainerStocks = () =>{ 
-    return fetch(`${API}/stock/gainers`, {
-        method:"GET"
+    return fetch(`${API}/stockgainers`, {
+        method:"GET",
+        headers: {
+            Accept:'application/json',
+            'Content-Type':'application/json',
+        }
     })
-    .then(res=>{return res.json()})
+    .then(res=>{
+        return res.json();
+    })
     .catch(err=>{console.log(err);})
 };
 export const getLoserStocks = () =>{ 
-    return fetch(`${API}/stock/losers`, {
-        method:"GET"
+    return fetch(`${API}/stocklosers`, {
+        method:"GET",
+        headers: {
+            Accept:'application/json',
+            'Content-Type':'application/json',
+        }
     })
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})

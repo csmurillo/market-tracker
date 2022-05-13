@@ -45,9 +45,9 @@ router.get('/stock/fiveYear/movement/:stockSymbol', stockFiveYearMovement);
 
 router.get('/stock/on/watchlist/:stockSymbol/:userId',verifyToken,isAuth, stockOnWatchList);
 
-router.get('/stock/gainers',stockGainers);
+router.get('/stockgainers',stockGainers);
 
-router.get('/stock/losers',stockLosers);
+router.get('/stocklosers',stockLosers);
 
 router.param("userId", userId);
 router.param("stockSymbol", stockSymbol);

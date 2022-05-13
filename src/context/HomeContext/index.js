@@ -53,7 +53,6 @@ const HomeContext = ()=>{
             setDowJonesValues(dowJonesValue);
         });
         getGainerStocks().then(gainers=>{
-            console.log('right here1');
             const mostGainStocks=gainers.gainers.gainers.mostGainerStock;
             setGainerStocks(mostGainStocks);
         });
