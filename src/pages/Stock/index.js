@@ -18,23 +18,7 @@ const Stock = ({history}) =>{
             clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
             onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
         }=StockContext(history.location.pathname);
-    const { stockPriceLive,stockPriceDateFormatLive }=StockPriceContext();
-
-    // useEffect(()=>{
-    //     if(stockSymbol!=''){
-    //         socket.connect();
-    //         socket.emit('startStreamServerStockPrice',{stockSymbol:stockSymbol});
-
-    //         socket.on('streamStockPriceTime',({price,time})=>{
-    //             console.log('stream::'+price+'time:'+time);
-    //         });
-    //     }
-    //     // socket.emit('startServerStockPrice',{});
-    //     return ()=>{
-    //         console.log('stock page no longer here');
-    //         socket.disconnect();
-    //     };
-    // },[stockSymbol]);
+    const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockPriceDateFormatLive }=StockPriceContext(history.location.pathname.split('/')[2],socket);
 
 
     return (
@@ -45,8 +29,9 @@ const Stock = ({history}) =>{
                         <div id="stock-symbol">
                             <div id="stock-name">{stockName} ({stock}) </div>
                             <div className='d-flex'>
-                                <div id="stock-price">${currentPrice}</div>
-                                <div id="stock-change">{dollarPriceChange} ({percentPriceChange})</div>
+                                <div id="stock-price">${stockPriceLive}</div>
+                                {/* <div id="stock-change">{dollarPriceChange} ({percentPriceChange})</div> */}
+                                <div id="stock-change">{stockChangePrice} ({stockChangePricePercentage})</div>
                             </div>
                         </div>
                         <div class="dropdown">

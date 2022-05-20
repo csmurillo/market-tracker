@@ -20,11 +20,11 @@ const app = express();
 const server = http.createServer(app);
 
 // const io = socketio(server);
-const io = require('socket.io')(server, {
-    cors: {
-      origin: "http://localhost:3000",
-    },
-  });
+// const io = require('socket.io')(server, {
+//     cors: {
+//       origin: "http://localhost:3000",
+//     },
+//   });
 
 app.use(expressValidator());
 app.use(express.json());
@@ -45,135 +45,4 @@ const port = process.env.PORT || 3000;
 server.listen(port, ()=>{
     console.log(`port is ${port}`);
 });
-
-// set socketio stream
-io.on('connection', async(socket) => {
-    const getStockPricePromise = async(stockSymbol)=>{
-        const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-        const finnhubRes=await fetch(finnhub);
-        const pricePromise=await finnhubRes.json();
-        return pricePromise;
-    };
-    const setTimer= (stockSymbol)=>{
-        return setTimeout(async() => {
-            if(!stopTimer){
-                const newYorkDate = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
-                const newYorkTime = new Date(newYorkDate);
-                // for debugging purposes
-                // const newYorkTime = new Date();
-                const hour = newYorkTime.getHours();
-                const minutes = newYorkTime.getMinutes();
-                console.log(hour+':'+minutes);
-                const time = hour+':'+minutes;
-                const pricePromise = await getStockPricePromise(stockSymbol);
-                const stockPrice = pricePromise.c;
-                if(minutes%5==0){
-                    socket.emit('streamStockPriceTime',{price:stockPrice,time});
-                }
-                setTimer(stockSymbol);
-            }
-          },2000);
-    };
-
-    ///////////////////////////////////////////////////////////////////////
-    let timer=null;
-    let stopTimer=false;
-    console.log('a user connected userID'+socket.userID);
-    socket.on('serverWatchlistPriceSteam',async ({stocks})=>{
-        console.log('sssssssssssssssssssssssssssssssssssss');
-        // console.log(stocks);
-        for(let i=0; i<stocks.length;i++){
-            let stockSymbol=stocks[i].stockSymbol;
-            const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-            const finnhubRes=await fetch(finnhub);
-            const finnStockPriceData=await finnhubRes.json();
-            let stockLivePrice=finnStockPriceData.c;
-            console.log(stockLivePrice+'@@@@');
-            stocks[i].livePrice=stockLivePrice;
-            console.log(JSON.stringify(stocks[i]));
-        }
-        console.log(stocks);
-        socket.emit('serverWatchlistLivePriceStream',{stocks,hello:'hello'});
-    });
-    socket.on('serverStockPrice',async ({stockSymbol})=>{
-        const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-        const finnhubRes=await fetch(finnhub);
-        const finnStockPriceData=await finnhubRes.json();
-        console.log('price'+finnStockPriceData.c);
-        socket.emit('clientStockPrice',{stockSymbol, stockPrice:finnStockPriceData.c});
-    });
-    socket.on('startStreamServerStockPrice',({stockSymbol})=>{
-        // for debuggin purposes
-        // console.log('stock symbol'+stockSymbol);
-        // check date
-        const date = new Date();
-        // New York Time
-        const newYorkDate = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
-        const newYorkTime = new Date(newYorkDate);
-        let hour = newYorkTime.getHours();
-        let minutes = newYorkTime.getMinutes();
-
-        if(date.getDate()!=0||date.getDate()!=6){
-            // for debuggin purposes
-            // timer = setTimer(stockSymbol);
-            if(hour >= 9 && hour <= 16 ){
-                // special case under 9:30 o'clock & everything over 4pm
-                if((hour==9&&minutes<30)||(hour==16&&minutes>=0)){
-                    console.log('not valid');
-                }
-                else{
-                    timer = setTimer(stockSymbol);
-                }
-            }
-            else{
-                console.log('too late');
-            }
-        }
-    });
-    socket.on("disconnect", () => {
-        stopTimer=true;
-        clearTimeout(timer);
-    });
-});
-const getStockPrice= async(stockSymbol)=>{
-    return stockPrice;
-};
-
-// check users
-// setInterval(function() {
-//     console.log('server code that runs every 10 sec');
-
-
-    // User.find({} , (err, oo) => {
-    //     console.log('users'+oo);
-    //     if(err) //do something...
-
-    //     oo.map(stocks => {
-    //         //Do somethign with the user
-    //         console.log(stocks);
-    //     })
-    // })
-
-
-//     WatchList.find({},(err, watchLists) => {
-//         if(err){}
-//         else{
-//             watchLists.map((userWatchList) => {
-//                 console.log(userWatchList.owner);
-//                 userWatchList.stocks.map(async(stock)=>{
-//                     const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stock.tickerSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-//                     const finnhubRes=await fetch(finnhub);
-//                     const finnStockPriceData=await finnhubRes.json();
-//                     let stockPrice=finnStockPriceData.c;
-//                     console.log(stock);
-//                     console.log('live stock price'+stockPrice+'compared to price target'+stock.alertPrice);
-//                     if(stockPrice==stock.alertPrice){
-//                         // price reached
-//                     }
-//                 });
-//                 console.log('--------------');
-//             })
-//         }
-//     })
-// }, 9000)
 

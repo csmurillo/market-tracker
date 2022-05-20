@@ -93,7 +93,9 @@ const StockContext = (path)=>{
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
         });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
+    
     const updateGraphValues =(stockPriceLive,stockPriceDateFormatLive)=>{
         console.log('stock context '+JSON.stringify(stockPriceLive)+' stock price date format '+stockPriceDateFormatLive);
     };

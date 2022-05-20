@@ -214,21 +214,38 @@ exports.stock = async (req,res)=>{
     const stockSymbol = req.symbol;
     const stockSymbolName=searchSymbol(stockSymbol);
 
-    const finnhub=`https://finnhub.io/api/v1/stock/profile2?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-    const finnhubRes=await fetch(finnhub);
-    const finnData=await finnhubRes.json();
+    // using real api
+    // const finnhub=`https://finnhub.io/api/v1/stock/profile2?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+    // const finnhubRes=await fetch(finnhub);
+    // const finnData=await finnhubRes.json();
 
-    const twelvedata=`https://api.twelvedata.com/quote?symbol=${stockSymbol}&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
-    const twelveRes = await fetch(twelvedata);
-    const twelveData = await twelveRes.json();
+    // const twelvedata=`https://api.twelvedata.com/quote?symbol=${stockSymbol}&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
+    // const twelveRes = await fetch(twelvedata);
+    // const twelveData = await twelveRes.json();
+
+    // const stockData = {
+    //     stockName:stockSymbolName,
+    //     marketCap:finnData.marketCapitalization,
+    //     volume:twelveData.volume,
+    //     averageVolume:twelveData.average_volume,
+    //     fiftytwoWeekHigh:twelveData.high,
+    //     fiftytwoWeekLow:twelveData.low,
+    //     openPrice:twelveData.open
+    // };
+
+    // using mock api
+    const stockInfo = `https://mockstockapi.herokuapp.com/api/stockInformation?stock=${stockSymbol}`;
+    const stockInfoRes = await fetch(stockInfo);
+    const stockInfoData = await stockInfoRes.json();
+
     const stockData = {
         stockName:stockSymbolName,
-        marketCap:finnData.marketCapitalization,
-        volume:twelveData.volume,
-        averageVolume:twelveData.average_volume,
-        fiftytwoWeekHigh:twelveData.high,
-        fiftytwoWeekLow:twelveData.low,
-        openPrice:twelveData.open
+        marketCap:stockInfoData.marketCap,
+        volume:stockInfoData.volume,
+        averageVolume:stockInfoData.avgVolume,
+        fiftytwoWeekHigh:stockInfoData.weekHigh52,
+        fiftytwoWeekLow:stockInfoData.weekLow52,
+        openPrice:stockInfoData.openPrice
     };
     res.json(stockData);
 };
@@ -236,15 +253,28 @@ exports.stock = async (req,res)=>{
 // url: /stock/price/stockSymbol
 exports.stockPrice=async (req,res)=>{
     const stockSymbol = req.symbol;
-    const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-    const finnhubRes=await fetch(finnhub);
-    const finnStockPriceData=await finnhubRes.json();
+    const livePrice = `https://mockstockapi.herokuapp.com/api/stockLivePrice?stock=${stockSymbol}`
+    // const livePrice=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+    const livePriceRes=await fetch(livePrice);
+    const liveStockPriceData=await livePriceRes.json();
+    console.log('***********************************');
+    console.log(liveStockPriceData.price);
+    console.log('***********************************');
+    // mock data
     res.json({
         stock:stockSymbol,
-        currentPrice:finnStockPriceData.c,
-        dollarPriceChange:finnStockPriceData.d,
-        percentPriceChange:finnStockPriceData.dp
+        currentPrice:liveStockPriceData.price,
+        dollarPriceChange:liveStockPriceData.changePrice,
+        percentPriceChange:liveStockPriceData.changePricePercentage
     });
+
+    // live data
+    // res.json({
+    //     stock:stockSymbol,
+    //     currentPrice:liveStockPriceData.c,
+    //     dollarPriceChange:liveStockPriceData.d,
+    //     percentPriceChange:liveStockPriceData.dp
+    // });
 };
 
 // url: /stock/news/stockSymbol
@@ -262,42 +292,52 @@ exports.stockNews = async (req,res)=>{
 
 exports.stockMovement = async (req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=84&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
+    const stockTimeSeries = `http://localhost:3005/api/stockDayHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockDayHistory?stock=${stockSymbol}`;
+    // live data
+    // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=84&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
 
-    let recentDate = timeSeriesData.values[0].datetime;
-    let recentDateFormat = recentDate.split(' ')[0];
+    // live data
+    // let recentDate = timeSeriesData.values[0].datetime;
+    // let recentDateFormat = recentDate.split(' ')[0];
 
     let {timeArray,priceArray}=defaultDayMovementArray();
     
-    timeSeriesData.values.forEach((stockData)=>{
-        let dateFromStockData =stockData.datetime;
-        let dateDataFormat = dateFromStockData.split(' ')[0];
-        const time = stockData.datetime;
+    // when changing back to live data remove reverse()
+    timeSeriesData.values.reverse().forEach((stockData,index)=>{
+        priceArray[index]=stockData.open;
+
+        // live data
+        // let dateFromStockData =stockData.datetime;
+        // let dateDataFormat = dateFromStockData.split(' ')[0];
+        // const time = stockData.datetime;
 
         
-        for(var i=0; i<timeArray.length;i++){
-            if(recentDateFormat==dateDataFormat){
-                if(timeArray[i]==time){
-                    priceArray[i]=stockData.close;
-                }
-            }
-        }
+        // for(var i=0; i<timeArray.length;i++){
+        //     if(recentDateFormat===dateDataFormat){
+        //         if(timeArray[i]===time){
+        //             priceArray[i]=stockData.open;
+        //         }
+        //     }
+        // }
     });
     res.json({
-        time:timeArray.reverse(), 
+        time:timeArray,
         price:priceArray.reverse()
+        // time:timeArray.reverse(), 
+        // price:priceArray.reverse()
     });
 };
 
 exports.stockWeekMovement = async (req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=1000&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
+    const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockWeekHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=1000&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
-
-    console.log(timeSeriesData+'!!!!');
+    // console.log(timeSeriesData+'!!!!');
 
     const timeArray = [];
     const priceArray = [];
@@ -324,7 +364,8 @@ exports.stockWeekMovement = async (req,res)=>{
 
 exports.stockMonthMovement=async(req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=2500&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
+    const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockMonthHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=2500&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
 
@@ -440,7 +481,7 @@ exports.stockOnWatchList = (req,res)=>{
         const userWatchListStocks = watchList.stocks;
         for(let stockList of userWatchListStocks){
             const watchListSymbol=stockList.tickerSymbol;
-            if(tickerSymbol==watchListSymbol){
+            if(tickerSymbol===watchListSymbol){
                 return res.json({
                     inWatchList:true,
                     price:stockList.alertPrice

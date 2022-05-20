@@ -14,22 +14,30 @@ const WatchListContext = (socket)=>{
     useEffect(()=>{
         socket.connect();
         console.log('socket connected');
-        socket.on('serverWatchlistLivePriceStream',({stocks,hello})=>{
+        socket.on('serverWatchlistLivePriceStream',({stocks})=>{
             let newLivePrices=[];
             stocks.map((stocks)=>{
                 newLivePrices.push({
                     stockSymbol:stocks.stockSymbol,
                     livePrice:stocks.livePrice
                 });
+                return stocks;
             });
             setLivePrices(newLivePrices);
-            console.log("!"+hello+'!'+JSON.stringify(stocks));
+            console.log('!'+JSON.stringify(stocks));
             // console.log('stocks recieved symbol:'+stocks.stockSymbol+' liveprices:'+stocks.livePrice);
         });
         return ()=>{
             console.log('cards no longer listening');
             socket.disconnect();
         };
+    },[]);
+
+    useEffect(()=>{
+        getWatchList(authInfo._id,token).then(watchList=>{
+            console.log(watchList.watchList);
+            setWatchList(watchList.watchList);
+        });
     },[]);
     
     useEffect(()=>{
@@ -38,14 +46,8 @@ const WatchListContext = (socket)=>{
             console.log('emittted!!');
             socket.emit('serverWatchlistPriceSteam',{stocks:livePrices});
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[livesPricesLoaded]);
-
-    useEffect(()=>{
-        getWatchList(authInfo._id,token).then(watchList=>{
-            console.log(watchList.watchList);
-            setWatchList(watchList.watchList);
-        });
-    },[]);
 
     useEffect(()=>{
         if(watchList!=null){
@@ -63,14 +65,14 @@ const WatchListContext = (socket)=>{
             console.log(livePrices);
             setLivesPricesLoaded(true);
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[watchList]);
-
 
     const cardUpdate=(stockTicker,cardPriceTarget)=>{
         updateWatchList(authInfo._id,token,{symbol:stockTicker,priceAlert:cardPriceTarget}).then(listUpdated=>{
             console.log(listUpdated);
             setWatchList(watchList.map((stocks,i)=>{
-                if(stockTicker==stocks.tickerSymbol){
+                if(stockTicker===stocks.tickerSymbol){
                     // console.log(stocks.tickerSymbol+'to be changed to '+cardPriceTarget);
                     stocks.alertPrice=cardPriceTarget;
                     return stocks;
@@ -92,6 +94,11 @@ const WatchListContext = (socket)=>{
 };
 
 export { WatchListContext };
+
+
+
+
+
 
 
 
