@@ -20,10 +20,12 @@ const StockContext = (path)=>{
     const [stockInfo,setStockInfo]=useState({});
     const [stockPrice,setStockPrice]=useState('');
     const [stockNews, setStockNews]=useState([]);
+    // graph x=stockTimeMovement,y=stockPriceMovement values
     const [stockTimeMovement, setStockTimeMovement]=useState();
     const [stockPriceMovement, setStockPriceMovement]=useState();
 
     const [graphSize,setGraphSize]=useState();
+
     // use effect for graph resize
     useEffect(()=>{
         window.addEventListener('resize',resizeGraph);
@@ -32,6 +34,7 @@ const StockContext = (path)=>{
             window.removeEventListener('resize',resizeGraph)
         };
     },[]);
+    
     const resizeGraph = ()=>{
         if(window.innerWidth>=1200){
             setGraphSize(550);
@@ -89,25 +92,55 @@ const StockContext = (path)=>{
             setStockNews(news.news.articles);
         });
         getStockMovement(stockSymbol).then(stockData=>{
+            console.log(stockData.time.length);
+            console.log('~!!~!!~!~!!~!999999999999999999999999999999999999999~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
             console.log(JSON.stringify(stockData)+'!!!!!!!!!!!!!!!!!!!!!!!!!!');
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
         });
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
-    
-    const updateGraphValues =(stockPriceLive,stockPriceDateFormatLive)=>{
-        console.log('stock context '+JSON.stringify(stockPriceLive)+' stock price date format '+stockPriceDateFormatLive);
+
+    const updateGraphValues = (stockPriceLive)=>{
+        if(currentTimeStamp==='day'){
+            const stockPriceMovementClone=[...stockPriceMovement];
+            for(let i=0; i<stockPriceMovementClone.length;i++){
+                if(stockPriceMovementClone[i]===null){
+                    stockPriceMovementClone[i-1]=stockPriceLive;
+                    setStockPriceMovement(stockPriceMovementClone);
+                    break;
+                }
+            }
+        }
     };
-    const updateStockTimeMovement = (time)=>{
-        // stockTimeMovement.push(time);
-        console.log(stockTimeMovement);
-        // setStockTimeMovement(stockTimeMovement);
-    };
-    const updateStockPriceMovement = (price)=>{
-        // stockPriceMovement.push(price);
-        console.log(stockPriceMovement);
-        // setStockPriceMovement(stockPriceMovement);
+
+    const updateGraphValuesPeriodic =(stockPriceLive,stockPriceTime)=>{
+        if(currentTimeStamp==='day'){
+            // console.log('stock context '+JSON.stringify(stockPriceLive)+' stock price date format '+stockPriceTime);
+            const stockPriceHour=parseInt(stockPriceTime.split(':')[0]);
+            const stockPriceMinute=parseInt(stockPriceTime.split(':')[1]);
+            if(stockTimeMovement){
+                for(let i=0;i<stockTimeMovement.length;i++){
+                    let time=stockTimeMovement[i].split(' ')[1];
+                    let hour=parseInt(time.split(':')[0]);
+                    let minute=parseInt(time.split(':')[1]);
+
+                    if(stockPriceHour===hour&&stockPriceMinute>minute){
+                        if(minute===55){
+                            const stockPriceMovementClone=[...stockPriceMovement];
+                            stockPriceMovementClone[i-2]=stockPriceLive;
+                            setStockPriceMovement(stockPriceMovementClone);
+                            break;
+                        }else{
+                            const stockPriceMovementClone=[...stockPriceMovement];
+                            stockPriceMovementClone[i-2]=stockPriceLive;
+                            setStockPriceMovement(stockPriceMovementClone);
+                            break;
+                        }
+                    }
+                }
+            }
+        }
     };
 
     const deleteStockFromWatchList = ()=>{
@@ -115,6 +148,7 @@ const StockContext = (path)=>{
             setInWatchList(false);
         });
     };
+
     const updatePriceTarget = (e)=>{
         e.target.parentNode.parentNode.class='dropdown-menu dropdown-menu-right';
         console.log(e.target.parentNode.parentNode.class);
@@ -125,10 +159,12 @@ const StockContext = (path)=>{
             setPriceTarget(inputPriceTarget);
         });
     };
+
     const onChangeUpdatePriceTarget = (e)=>{
         console.log('onchange '+e.target.value);
         setInputPriceTarget(e.target.value);
     };
+
     const onSubmitAddToWatchList=(e)=>{
         e.preventDefault();
         addToWatchList({stockName:stockInfo.stockName,stockSymbol:stockSymbol,priceAlert:priceTarget},authInfo._id,token).then(data=>{
@@ -137,6 +173,7 @@ const StockContext = (path)=>{
             setInWatchList(true);
         });
     };
+
     const onChangeAddToWatchList = (e)=>{
         setPriceTarget(e.target.value);
     };
@@ -150,10 +187,12 @@ const StockContext = (path)=>{
             setLoading(false);
         });
     };
+
     const clickWeekHistoricData =()=>{
         setLoading(true);
         setCurrentTimeStamp('week');
         console.log('week');
+        console.log('stock symbol'+stockSymbol);
         getStockWeekMovement(stockSymbol).then((stockData)=>{
             console.log(stockData);
             setStockTimeMovement(stockData.time);
@@ -161,6 +200,7 @@ const StockContext = (path)=>{
             setLoading(false);
         });
     };
+
     const clickMonthHistoricData = ()=>{
         setLoading(true);
         setCurrentTimeStamp('month');
@@ -198,7 +238,7 @@ const StockContext = (path)=>{
     };
 
    return { stockSymbol,inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp,graphSize,
-    updateGraphValues,
+    updateGraphValues,updateGraphValuesPeriodic,
     onSubmitAddToWatchList, onChangeAddToWatchList,
     clickDayHistoricData,clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData, onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList};
 };

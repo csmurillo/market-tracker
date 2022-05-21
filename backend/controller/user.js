@@ -305,6 +305,9 @@ exports.stockMovement = async (req,res)=>{
 
     let {timeArray,priceArray}=defaultDayMovementArray();
     
+    console.log('inside user stock movement checking if array this is timearray:'+typeof timeArray+'this is priceArray'+ typeof priceArray);
+    console.log('------------------------------------------------------------------------------------------------------------------------');
+
     // when changing back to live data remove reverse()
     timeSeriesData.values.reverse().forEach((stockData,index)=>{
         priceArray[index]=stockData.open;
@@ -333,14 +336,17 @@ exports.stockMovement = async (req,res)=>{
 
 exports.stockWeekMovement = async (req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockWeekHistory?stock=${stockSymbol}`;
+    const stockTimeSeries = `http://localhost:3005/api/stockWeekHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockWeekHistory?stock=${stockSymbol}`;
     // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=1000&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
-    // console.log(timeSeriesData+'!!!!');
+    // console.log(timeSeriesData);
+    console.log('stock week movement');
 
     const timeArray = [];
     const priceArray = [];
+    
     timeSeriesData.values.forEach((stockData)=>{
         const todayDate = new Date(Date.now());
         const todayDateArray = todayDate.toString().split(' ');
@@ -350,8 +356,13 @@ exports.stockWeekMovement = async (req,res)=>{
         
         const dateFromStockData=new Date(stockData.datetime.toString());
         const dateData = new Date(dateFromStockData);
-
+        // console.log(todayDateFormatted);
+        // console.log('~~~~~~~~~~~~~~~~');
+        // console.log(dateData);
+        // console.log('~~~~~~~~~~~~~~~~');
         if(todayDateFormatted<dateData){
+            console.log('valid');
+            console.log(dateData);
             timeArray.push(dateData.toLocaleString());
             priceArray.push(stockData.close);
         }
@@ -364,7 +375,8 @@ exports.stockWeekMovement = async (req,res)=>{
 
 exports.stockMonthMovement=async(req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockMonthHistory?stock=${stockSymbol}`;
+    const stockTimeSeries = `http://localhost:3005/api/stockMonthHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockMonthHistory?stock=${stockSymbol}`;
     // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=2500&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();

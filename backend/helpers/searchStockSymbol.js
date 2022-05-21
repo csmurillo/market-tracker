@@ -9,7 +9,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AAC",
-    "Name": "Ares Acquisition Corporation Class A"
+    "Name": "Ares Acquisition Corporation "
   },
   {
     "Symbol": "AACI",
@@ -21,7 +21,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AAIC",
-    "Name": "Arlington Asset Investment Corp Class A (new)"
+    "Name": "Arlington Asset Investment Corp  (new)"
   },
   {
     "Symbol": "AAL",
@@ -57,7 +57,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AAQC",
-    "Name": "Accelerate Acquisition Class A"
+    "Name": "Accelerate Acquisition "
   },
   {
     "Symbol": "AAT",
@@ -109,7 +109,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ABGI",
-    "Name": "ABG Acquisition I Class A"
+    "Name": "ABG Acquisition I "
   },
   {
     "Symbol": "ABIO",
@@ -125,7 +125,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ABNB",
-    "Name": "Airbnb Inc. Class A"
+    "Name": "Airbnb Inc. "
   },
   {
     "Symbol": "ABOS",
@@ -173,7 +173,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACAH",
-    "Name": "Atlantic Coastal Acquisition Class A"
+    "Name": "Atlantic Coastal Acquisition "
   },
   {
     "Symbol": "ACAHU",
@@ -181,7 +181,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACAX",
-    "Name": "Alset Capital Acquisition Class A"
+    "Name": "Alset Capital Acquisition "
   },
   {
     "Symbol": "ACAXR",
@@ -217,7 +217,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACEV",
-    "Name": "ACE Convergence Acquisition Class A"
+    "Name": "ACE Convergence Acquisition "
   },
   {
     "Symbol": "ACGL",
@@ -229,7 +229,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACHR",
-    "Name": "Archer Aviation Inc. Class A"
+    "Name": "Archer Aviation Inc. "
   },
   {
     "Symbol": "ACHV",
@@ -237,7 +237,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACI",
-    "Name": "Albertsons Companies Inc. Class A"
+    "Name": "Albertsons Companies Inc. "
   },
   {
     "Symbol": "ACIU",
@@ -269,11 +269,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACMR",
-    "Name": "ACM Research Inc. Class A"
+    "Name": "ACM Research Inc. "
   },
   {
     "Symbol": "ACN",
-    "Name": "Accenture plc Class A  (Ireland)"
+    "Name": "Accenture plc   (Ireland)"
   },
   {
     "Symbol": "ACNB",
@@ -289,7 +289,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACQR",
-    "Name": "Independence Holdings Class A Ordinary Share"
+    "Name": "Independence Holdings  Ordinary Share"
   },
   {
     "Symbol": "ACQRU",
@@ -305,7 +305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACRO",
-    "Name": "Acropolis Infrastructure Acquisition Class A"
+    "Name": "Acropolis Infrastructure Acquisition "
   },
   {
     "Symbol": "ACRS",
@@ -317,7 +317,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACST",
-    "Name": "Acasti Pharma Inc. Class A"
+    "Name": "Acasti Pharma Inc. "
   },
   {
     "Symbol": "ACT",
@@ -333,7 +333,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ACVA",
-    "Name": "ACV Auctions Inc. Class A"
+    "Name": "ACV Auctions Inc. "
   },
   {
     "Symbol": "ACXP",
@@ -341,7 +341,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ADAL",
-    "Name": "Anthemis Digital Acquisitions I Corp Class A"
+    "Name": "Anthemis Digital Acquisitions I Corp "
   },
   {
     "Symbol": "ADALU",
@@ -361,7 +361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ADER",
-    "Name": "26 Capital Acquisition Class A"
+    "Name": "26 Capital Acquisition "
   },
   {
     "Symbol": "ADERU",
@@ -401,7 +401,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ADN",
-    "Name": "Advent Technologies Holdings Inc. Class A"
+    "Name": "Advent Technologies Holdings Inc. "
   },
   {
     "Symbol": "ADNT",
@@ -409,7 +409,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ADOC",
-    "Name": "Edoc Acquisition Class A Ordinary Share"
+    "Name": "Edoc Acquisition  Ordinary Share"
   },
   {
     "Symbol": "ADP",
@@ -421,7 +421,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ADRA",
-    "Name": "Adara Acquisition Class A"
+    "Name": "Adara Acquisition "
   },
   {
     "Symbol": "ADRT",
@@ -457,7 +457,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ADV",
-    "Name": "Advantage Solutions Inc. Class A"
+    "Name": "Advantage Solutions Inc. "
   },
   {
     "Symbol": "ADVM",
@@ -473,7 +473,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AEAC",
-    "Name": "Authentic Equity Acquisition Class A ordinary share"
+    "Name": "Authentic Equity Acquisition  ordinary share"
   },
   {
     "Symbol": "AEACU",
@@ -481,7 +481,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AEAE",
-    "Name": "AltEnergy Acquisition Class A"
+    "Name": "AltEnergy Acquisition "
   },
   {
     "Symbol": "AEAEU",
@@ -501,7 +501,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AEHA",
-    "Name": "Aesther Healthcare Acquisition Corp Class A"
+    "Name": "Aesther Healthcare Acquisition Corp "
   },
   {
     "Symbol": "AEHL",
@@ -589,7 +589,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AFAQ",
-    "Name": "AF Acquisition Class A"
+    "Name": "AF Acquisition "
   },
   {
     "Symbol": "AFAQU",
@@ -633,7 +633,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AFRM",
-    "Name": "Affirm Holdings Inc. Class A"
+    "Name": "Affirm Holdings Inc. "
   },
   {
     "Symbol": "AFT",
@@ -641,11 +641,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AFTR",
-    "Name": "AfterNext HealthTech Acquisition Class A"
+    "Name": "AfterNext HealthTech Acquisition "
   },
   {
     "Symbol": "AFYA",
-    "Name": "Afya Limited Class A"
+    "Name": "Afya Limited "
   },
   {
     "Symbol": "AG",
@@ -653,7 +653,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AGAC",
-    "Name": "African Gold Acquisition Corporation Class A"
+    "Name": "African Gold Acquisition Corporation "
   },
   {
     "Symbol": "AGBA",
@@ -665,7 +665,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AGCB",
-    "Name": "Altimeter Growth 2 Class A"
+    "Name": "Altimeter Growth 2 "
   },
   {
     "Symbol": "AGCO",
@@ -693,7 +693,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AGGR",
-    "Name": "Agile Growth Class A Ordinary Share"
+    "Name": "Agile Growth  Ordinary Share"
   },
   {
     "Symbol": "AGGRU",
@@ -701,11 +701,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AGI",
-    "Name": "Alamos Gold Inc. Class A"
+    "Name": "Alamos Gold Inc. "
   },
   {
     "Symbol": "AGIL",
-    "Name": "AgileThought Inc. Class A"
+    "Name": "AgileThought Inc. "
   },
   {
     "Symbol": "AGIO",
@@ -725,7 +725,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AGMH",
-    "Name": "AGM Group Holdings Inc. Class A"
+    "Name": "AGM Group Holdings Inc. "
   },
   {
     "Symbol": "AGNC",
@@ -789,7 +789,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AHRN",
-    "Name": "Ahren Acquisition Class A"
+    "Name": "Ahren Acquisition "
   },
   {
     "Symbol": "AHRNU",
@@ -801,11 +801,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AI",
-    "Name": "C3.ai Inc. Class A"
+    "Name": "C3.ai Inc. "
   },
   {
     "Symbol": "AIB",
-    "Name": "AIB Acquisition Corporation Class A"
+    "Name": "AIB Acquisition Corporation "
   },
   {
     "Symbol": "AIBBR",
@@ -929,7 +929,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AKIC",
-    "Name": "Sports Ventures Acquisition Class A"
+    "Name": "Sports Ventures Acquisition "
   },
   {
     "Symbol": "AKICU",
@@ -965,7 +965,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AL",
-    "Name": "Air Lease Corporation Class A"
+    "Name": "Air Lease Corporation "
   },
   {
     "Symbol": "ALB",
@@ -981,7 +981,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ALCC",
-    "Name": "AltC Acquisition Class A"
+    "Name": "AltC Acquisition "
   },
   {
     "Symbol": "ALCO",
@@ -1037,7 +1037,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ALIT",
-    "Name": "Alight Inc. Class A"
+    "Name": "Alight Inc. "
   },
   {
     "Symbol": "ALJJ",
@@ -1097,7 +1097,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ALOR",
-    "Name": "ALSP Orchid Acquisition Corporation I Class A Ordinary Share"
+    "Name": "ALSP Orchid Acquisition Corporation I  Ordinary Share"
   },
   {
     "Symbol": "ALORU",
@@ -1113,7 +1113,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ALPP",
-    "Name": "Alpine 4 Holdings Inc. Class A"
+    "Name": "Alpine 4 Holdings Inc. "
   },
   {
     "Symbol": "ALR",
@@ -1153,7 +1153,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ALTG",
-    "Name": "Alta Equipment Group Inc. Class A"
+    "Name": "Alta Equipment Group Inc. "
   },
   {
     "Symbol": "ALTO",
@@ -1161,11 +1161,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ALTR",
-    "Name": "Altair Engineering Inc. Class A"
+    "Name": "Altair Engineering Inc. "
   },
   {
     "Symbol": "ALTU",
-    "Name": "Altitude Acquisition Class A"
+    "Name": "Altitude Acquisition "
   },
   {
     "Symbol": "ALTUU",
@@ -1189,7 +1189,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ALYA",
-    "Name": "Alithya Group inc. Class A Subordinate Voting Shares"
+    "Name": "Alithya Group inc.  Subordinate Voting Shares"
   },
   {
     "Symbol": "ALZN",
@@ -1205,7 +1205,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMAO",
-    "Name": "American Acquisition Opportunity Inc. Class A"
+    "Name": "American Acquisition Opportunity Inc. "
   },
   {
     "Symbol": "AMAOU",
@@ -1229,7 +1229,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMC",
-    "Name": "AMC Entertainment Holdings Inc. Class A"
+    "Name": "AMC Entertainment Holdings Inc. "
   },
   {
     "Symbol": "AMCR",
@@ -1237,7 +1237,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMCX",
-    "Name": "AMC Networks Inc. Class A"
+    "Name": "AMC Networks Inc. "
   },
   {
     "Symbol": "AMD",
@@ -1305,15 +1305,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMPI",
-    "Name": "Advanced Merger Partners Inc. Class A"
+    "Name": "Advanced Merger Partners Inc. "
   },
   {
     "Symbol": "AMPL",
-    "Name": "Amplitude Inc. Class A"
+    "Name": "Amplitude Inc. "
   },
   {
     "Symbol": "AMPS",
-    "Name": "Altus Power Inc. Class A"
+    "Name": "Altus Power Inc. "
   },
   {
     "Symbol": "AMPY",
@@ -1325,7 +1325,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMRC",
-    "Name": "Ameresco Inc. Class A"
+    "Name": "Ameresco Inc. "
   },
   {
     "Symbol": "AMRK",
@@ -1341,7 +1341,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMRX",
-    "Name": "Amneal Pharmaceuticals Inc. Class A"
+    "Name": "Amneal Pharmaceuticals Inc. "
   },
   {
     "Symbol": "AMS",
@@ -1361,7 +1361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMSWA",
-    "Name": "American Software Inc. Class A"
+    "Name": "American Software Inc. "
   },
   {
     "Symbol": "AMT",
@@ -1369,7 +1369,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMTB",
-    "Name": "Amerant Bancorp Inc. Class A"
+    "Name": "Amerant Bancorp Inc. "
   },
   {
     "Symbol": "AMTI",
@@ -1385,7 +1385,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AMWL",
-    "Name": "American Well Corporation Class A"
+    "Name": "American Well Corporation "
   },
   {
     "Symbol": "AMZN",
@@ -1401,7 +1401,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ANAC",
-    "Name": "Arctos NorthStar Acquisition Class A"
+    "Name": "Arctos NorthStar Acquisition "
   },
   {
     "Symbol": "ANAT",
@@ -1429,7 +1429,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ANGI",
-    "Name": "Angi Inc. Class A"
+    "Name": "Angi Inc. "
   },
   {
     "Symbol": "ANGN",
@@ -1477,7 +1477,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ANZU",
-    "Name": "Anzu Special Acquisition Corp I Class A"
+    "Name": "Anzu Special Acquisition Corp I "
   },
   {
     "Symbol": "ANZUU",
@@ -1485,7 +1485,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AOGO",
-    "Name": "Arogo Capital Acquisition Class A"
+    "Name": "Arogo Capital Acquisition "
   },
   {
     "Symbol": "AOGOU",
@@ -1521,7 +1521,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APAC",
-    "Name": "StoneBridge Acquisition Corporation Class A"
+    "Name": "StoneBridge Acquisition Corporation "
   },
   {
     "Symbol": "APACU",
@@ -1529,11 +1529,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APAM",
-    "Name": "Artisan Partners Asset Management Inc. Class A"
+    "Name": "Artisan Partners Asset Management Inc. "
   },
   {
     "Symbol": "APCA",
-    "Name": "AP Acquisition Corp Class A"
+    "Name": "AP Acquisition Corp "
   },
   {
     "Symbol": "APCX",
@@ -1581,11 +1581,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APM",
-    "Name": "Aptorum Group Limited Class A"
+    "Name": "Aptorum Group Limited "
   },
   {
     "Symbol": "APMI",
-    "Name": "AxonPrime Infrastructure Acquisition Corporation Class A"
+    "Name": "AxonPrime Infrastructure Acquisition Corporation "
   },
   {
     "Symbol": "APMIU",
@@ -1593,7 +1593,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APN",
-    "Name": "Apeiron Capital Investment Class A"
+    "Name": "Apeiron Capital Investment "
   },
   {
     "Symbol": "APO",
@@ -1605,11 +1605,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APP",
-    "Name": "Applovin Corporation Class A"
+    "Name": "Applovin Corporation "
   },
   {
     "Symbol": "APPF",
-    "Name": "AppFolio Inc. Class A"
+    "Name": "AppFolio Inc. "
   },
   {
     "Symbol": "APPH",
@@ -1617,7 +1617,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APPN",
-    "Name": "Appian Corporation Class A"
+    "Name": "Appian Corporation "
   },
   {
     "Symbol": "APPS",
@@ -1629,11 +1629,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APRN",
-    "Name": "Blue Apron Holdings Inc. Class A"
+    "Name": "Blue Apron Holdings Inc. "
   },
   {
     "Symbol": "APSG",
-    "Name": "Apollo Strategic Growth Capital Class A"
+    "Name": "Apollo Strategic Growth Capital "
   },
   {
     "Symbol": "APT",
@@ -1641,7 +1641,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APTM",
-    "Name": "Alpha Partners Technology Merger Class A"
+    "Name": "Alpha Partners Technology Merger "
   },
   {
     "Symbol": "APTMU",
@@ -1669,7 +1669,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "APXI",
-    "Name": "APx Acquisition I Class A Ordinary Share"
+    "Name": "APx Acquisition I  Ordinary Share"
   },
   {
     "Symbol": "APXIU",
@@ -1721,7 +1721,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARBG",
-    "Name": "Aequi Acquisition Class A"
+    "Name": "Aequi Acquisition "
   },
   {
     "Symbol": "ARBGU",
@@ -1745,19 +1745,19 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARCE",
-    "Name": "Arco Platform Limited Class A"
+    "Name": "Arco Platform Limited "
   },
   {
     "Symbol": "ARCH",
-    "Name": "Arch Resources Inc. Class A"
+    "Name": "Arch Resources Inc. "
   },
   {
     "Symbol": "ARCK",
-    "Name": "Arbor Rapha Capital Bioholdings I Class A"
+    "Name": "Arbor Rapha Capital Bioholdings I "
   },
   {
     "Symbol": "ARCO",
-    "Name": "Arcos Dorados Holdings Inc. Class A Shares"
+    "Name": "Arcos Dorados Holdings Inc.  Shares"
   },
   {
     "Symbol": "ARCT",
@@ -1785,7 +1785,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AREC",
-    "Name": "American Resources Corporation Class A"
+    "Name": "American Resources Corporation "
   },
   {
     "Symbol": "AREN",
@@ -1793,7 +1793,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARES",
-    "Name": "Ares Management Corporation Class A"
+    "Name": "Ares Management Corporation "
   },
   {
     "Symbol": "ARGO",
@@ -1801,7 +1801,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARGU",
-    "Name": "Argus Capital Class A"
+    "Name": "Argus Capital "
   },
   {
     "Symbol": "ARGUU",
@@ -1809,7 +1809,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARHS",
-    "Name": "Arhaus Inc. Class A"
+    "Name": "Arhaus Inc. "
   },
   {
     "Symbol": "ARI",
@@ -1817,7 +1817,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARIS",
-    "Name": "Aris Water Solutions Inc. Class A"
+    "Name": "Aris Water Solutions Inc. "
   },
   {
     "Symbol": "ARIZ",
@@ -1885,7 +1885,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARRW",
-    "Name": "Arrowroot Acquisition Class A"
+    "Name": "Arrowroot Acquisition "
   },
   {
     "Symbol": "ARRWU",
@@ -1897,7 +1897,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARTA",
-    "Name": "Artisan Acquisition Class A"
+    "Name": "Artisan Acquisition "
   },
   {
     "Symbol": "ARTAU",
@@ -1905,7 +1905,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARTE",
-    "Name": "Artemis Strategic Investment Corporation Class A"
+    "Name": "Artemis Strategic Investment Corporation "
   },
   {
     "Symbol": "ARTL",
@@ -1913,7 +1913,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARTNA",
-    "Name": "Artesian Resources Corporation Class A"
+    "Name": "Artesian Resources Corporation "
   },
   {
     "Symbol": "ARTW",
@@ -1937,11 +1937,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ARYD",
-    "Name": "ARYA Sciences Acquisition Corp IV Class A Odinary Shares"
+    "Name": "ARYA Sciences Acquisition Corp IV  Odinary Shares"
   },
   {
     "Symbol": "ARYE",
-    "Name": "ARYA Sciences Acquisition Corp V Class A"
+    "Name": "ARYA Sciences Acquisition Corp V "
   },
   {
     "Symbol": "ASA",
@@ -1953,15 +1953,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ASAN",
-    "Name": "Asana Inc. Class A"
+    "Name": "Asana Inc. "
   },
   {
     "Symbol": "ASAQ",
-    "Name": "Atlantic Street Acquisition Corp Class A"
+    "Name": "Atlantic Street Acquisition Corp "
   },
   {
     "Symbol": "ASAX",
-    "Name": "Astrea Acquisition Class A"
+    "Name": "Astrea Acquisition "
   },
   {
     "Symbol": "ASAXU",
@@ -1977,7 +1977,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ASCA",
-    "Name": "A SPAC I Acquisition Class A Ordinary Share"
+    "Name": "A SPAC I Acquisition  Ordinary Share"
   },
   {
     "Symbol": "ASCAR",
@@ -2029,7 +2029,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ASPC",
-    "Name": "Alpha Capital Acquisition Company One Class A Ordinary Share"
+    "Name": "Alpha Capital Acquisition Company One  Ordinary Share"
   },
   {
     "Symbol": "ASPN",
@@ -2069,11 +2069,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ASTR",
-    "Name": "Astra Space Inc. Class A"
+    "Name": "Astra Space Inc. "
   },
   {
     "Symbol": "ASTS",
-    "Name": "AST SpaceMobile Inc. Class A"
+    "Name": "AST SpaceMobile Inc. "
   },
   {
     "Symbol": "ASUR",
@@ -2097,7 +2097,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ATAK",
-    "Name": "Aurora Technology Acquisition Class A"
+    "Name": "Aurora Technology Acquisition "
   },
   {
     "Symbol": "ATAKR",
@@ -2121,7 +2121,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ATCX",
-    "Name": "Atlas Technical Consultants Inc. Class A"
+    "Name": "Atlas Technical Consultants Inc. "
   },
   {
     "Symbol": "ATEC",
@@ -2161,7 +2161,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ATIP",
-    "Name": "ATI Physical Therapy Inc. Class A"
+    "Name": "ATI Physical Therapy Inc. "
   },
   {
     "Symbol": "ATKR",
@@ -2245,11 +2245,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ATUS",
-    "Name": "Altice USA Inc. Class A"
+    "Name": "Altice USA Inc. "
   },
   {
     "Symbol": "ATVC",
-    "Name": "Tribe Capital Growth Corp I Class A"
+    "Name": "Tribe Capital Growth Corp I "
   },
   {
     "Symbol": "ATVCU",
@@ -2309,7 +2309,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AUR",
-    "Name": "Aurora Innovation Inc. Class A"
+    "Name": "Aurora Innovation Inc. "
   },
   {
     "Symbol": "AURA",
@@ -2317,11 +2317,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AURC",
-    "Name": "Aurora Acquisition Class A"
+    "Name": "Aurora Acquisition "
   },
   {
     "Symbol": "AUS",
-    "Name": "Austerlitz Acquisition Corporation I Class A"
+    "Name": "Austerlitz Acquisition Corporation I "
   },
   {
     "Symbol": "AUTO",
@@ -2345,7 +2345,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AVAC",
-    "Name": "Avalon Acquisition Inc. Class A"
+    "Name": "Avalon Acquisition Inc. "
   },
   {
     "Symbol": "AVAH",
@@ -2357,7 +2357,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AVAN",
-    "Name": "Avanti Acquisition Class A"
+    "Name": "Avanti Acquisition "
   },
   {
     "Symbol": "AVAV",
@@ -2433,7 +2433,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AVPT",
-    "Name": "AvePoint Inc. Class A"
+    "Name": "AvePoint Inc. "
   },
   {
     "Symbol": "AVRO",
@@ -2501,7 +2501,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AXAC",
-    "Name": "AXIOS Sustainable Growth Acquisition Corporation Class A"
+    "Name": "AXIOS Sustainable Growth Acquisition Corporation "
   },
   {
     "Symbol": "AXDX",
@@ -2581,7 +2581,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AYX",
-    "Name": "Alteryx Inc. Class A"
+    "Name": "Alteryx Inc. "
   },
   {
     "Symbol": "AZ",
@@ -2589,7 +2589,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AZEK",
-    "Name": "The AZEK Company Inc. Class A"
+    "Name": "The AZEK Company Inc. "
   },
   {
     "Symbol": "AZO",
@@ -2609,7 +2609,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "AZYO",
-    "Name": "Aziyo Biologics Inc. Class A"
+    "Name": "Aziyo Biologics Inc. "
   },
   {
     "Symbol": "AZZ",
@@ -2629,7 +2629,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BACA",
-    "Name": "Berenson Acquisition I Class A"
+    "Name": "Berenson Acquisition I "
   },
   {
     "Symbol": "BAFN",
@@ -2653,7 +2653,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BAMR",
-    "Name": "Brookfield Asset Management Reinsurance Partners Ltd. Class A Exchangeable Limited Voting Shares"
+    "Name": "Brookfield Asset Management Reinsurance Partners Ltd.  Exchangeable Limited Voting Shares"
   },
   {
     "Symbol": "BANC",
@@ -2661,7 +2661,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BAND",
-    "Name": "Bandwidth Inc. Class A"
+    "Name": "Bandwidth Inc. "
   },
   {
     "Symbol": "BANF",
@@ -2685,7 +2685,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BARK",
-    "Name": "BARK Inc. Class A"
+    "Name": "BARK Inc. "
   },
   {
     "Symbol": "BASE",
@@ -2733,7 +2733,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BBGI",
-    "Name": "Beasley Broadcast Group Inc. Class A"
+    "Name": "Beasley Broadcast Group Inc. "
   },
   {
     "Symbol": "BBI",
@@ -2753,7 +2753,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BBLN",
-    "Name": "Babylon Holdings Limited Class A"
+    "Name": "Babylon Holdings Limited "
   },
   {
     "Symbol": "BBQ",
@@ -2769,7 +2769,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BBUC",
-    "Name": "Brookfield Business Corporation Class A Exchangeable Subordinate Voting Shares"
+    "Name": "Brookfield Business Corporation  Exchangeable Subordinate Voting Shares"
   },
   {
     "Symbol": "BBVA",
@@ -2821,7 +2821,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BCEL",
-    "Name": "Atreca Inc. Class A"
+    "Name": "Atreca Inc. "
   },
   {
     "Symbol": "BCH",
@@ -2865,7 +2865,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BCSA",
-    "Name": "Blockchain Coinvestors Acquisition I Class A"
+    "Name": "Blockchain Coinvestors Acquisition I "
   },
   {
     "Symbol": "BCSAU",
@@ -2917,7 +2917,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BE",
-    "Name": "Bloom Energy Corporation Class A"
+    "Name": "Bloom Energy Corporation "
   },
   {
     "Symbol": "BEAM",
@@ -2937,7 +2937,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BELFA",
-    "Name": "Bel Fuse Inc. Class A"
+    "Name": "Bel Fuse Inc. "
   },
   {
     "Symbol": "BELFB",
@@ -2949,7 +2949,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BENE",
-    "Name": "Benessere Capital Acquisition Class A"
+    "Name": "Benessere Capital Acquisition "
   },
   {
     "Symbol": "BENER",
@@ -2965,7 +2965,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BEPC",
-    "Name": "Brookfield Renewable Corporation Class A Subordinate Voting Shares"
+    "Name": "Brookfield Renewable Corporation  Subordinate Voting Shares"
   },
   {
     "Symbol": "BERY",
@@ -2981,7 +2981,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BFAC",
-    "Name": "Battery Future Acquisition Class A"
+    "Name": "Battery Future Acquisition "
   },
   {
     "Symbol": "BFAM",
@@ -3009,7 +3009,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BFLY",
-    "Name": "Butterfly Network Inc. Class A"
+    "Name": "Butterfly Network Inc. "
   },
   {
     "Symbol": "BFRI",
@@ -3037,7 +3037,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BGCP",
-    "Name": "BGC Partners Inc Class A"
+    "Name": "BGC Partners Inc "
   },
   {
     "Symbol": "BGFV",
@@ -3053,7 +3053,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BGRY",
-    "Name": "Berkshire Grey Inc. Class A"
+    "Name": "Berkshire Grey Inc. "
   },
   {
     "Symbol": "BGS",
@@ -3065,7 +3065,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BGSX",
-    "Name": "Build Acquisition Class A"
+    "Name": "Build Acquisition "
   },
   {
     "Symbol": "BGT",
@@ -3085,7 +3085,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BHAC",
-    "Name": "Crixus BH3 Acquisition Company Class A"
+    "Name": "Crixus BH3 Acquisition Company "
   },
   {
     "Symbol": "BHACU",
@@ -3169,7 +3169,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BIO",
-    "Name": "Bio-Rad Laboratories Inc. Class A"
+    "Name": "Bio-Rad Laboratories Inc. "
   },
   {
     "Symbol": "BIO/B",
@@ -3185,7 +3185,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BIOS",
-    "Name": "BioPlus Acquisition Class A"
+    "Name": "BioPlus Acquisition "
   },
   {
     "Symbol": "BIOSU",
@@ -3193,7 +3193,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BIOT",
-    "Name": "Biotech Acquisition Company Class A"
+    "Name": "Biotech Acquisition Company "
   },
   {
     "Symbol": "BIOTU",
@@ -3209,11 +3209,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BIPC",
-    "Name": "Brookfield Infrastructure Partners LP Class A Subordinate Voting Shares"
+    "Name": "Brookfield Infrastructure Partners LP  Subordinate Voting Shares"
   },
   {
     "Symbol": "BIRD",
-    "Name": "Allbirds Inc. Class A"
+    "Name": "Allbirds Inc. "
   },
   {
     "Symbol": "BITE",
@@ -3225,7 +3225,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BIVI",
-    "Name": "BioVie Inc. Class A"
+    "Name": "BioVie Inc. "
   },
   {
     "Symbol": "BJ",
@@ -3273,7 +3273,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BKKT",
-    "Name": "Bakkt Holdings Inc. Class A"
+    "Name": "Bakkt Holdings Inc. "
   },
   {
     "Symbol": "BKN",
@@ -3285,7 +3285,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BKR",
-    "Name": "Baker Hughes Company Class A"
+    "Name": "Baker Hughes Company "
   },
   {
     "Symbol": "BKSC",
@@ -3293,7 +3293,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BKSY",
-    "Name": "BlackSky Technology Inc. Class A"
+    "Name": "BlackSky Technology Inc. "
   },
   {
     "Symbol": "BKT",
@@ -3333,7 +3333,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BLDE",
-    "Name": "Blade Air Mobility Inc. Class A"
+    "Name": "Blade Air Mobility Inc. "
   },
   {
     "Symbol": "BLDP",
@@ -3345,7 +3345,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BLEU",
-    "Name": "bleuacacia ltd Class A"
+    "Name": "bleuacacia ltd "
   },
   {
     "Symbol": "BLEUR",
@@ -3389,11 +3389,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BLND",
-    "Name": "Blend Labs Inc. Class A"
+    "Name": "Blend Labs Inc. "
   },
   {
     "Symbol": "BLNG",
-    "Name": "Belong Acquisition Class A"
+    "Name": "Belong Acquisition "
   },
   {
     "Symbol": "BLNK",
@@ -3405,11 +3405,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BLSA",
-    "Name": "BCLS Acquisition Class A"
+    "Name": "BCLS Acquisition "
   },
   {
     "Symbol": "BLTS",
-    "Name": "Bright Lights Acquisition Class A"
+    "Name": "Bright Lights Acquisition "
   },
   {
     "Symbol": "BLTSU",
@@ -3421,7 +3421,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BLUA",
-    "Name": "BlueRiver Acquisition Class A"
+    "Name": "BlueRiver Acquisition "
   },
   {
     "Symbol": "BLUE",
@@ -3437,7 +3437,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BLZE",
-    "Name": "Backblaze Inc. Class A"
+    "Name": "Backblaze Inc. "
   },
   {
     "Symbol": "BMA",
@@ -3445,7 +3445,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BMAC",
-    "Name": "Black Mountain Acquisition Class A"
+    "Name": "Black Mountain Acquisition "
   },
   {
     "Symbol": "BMAQ",
@@ -3461,7 +3461,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BMBL",
-    "Name": "Bumble Inc. Class A"
+    "Name": "Bumble Inc. "
   },
   {
     "Symbol": "BME",
@@ -3521,7 +3521,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BNNR",
-    "Name": "Banner Acquisition Class A"
+    "Name": "Banner Acquisition "
   },
   {
     "Symbol": "BNNRU",
@@ -3549,23 +3549,23 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BOAC",
-    "Name": "Bluescape Opportunities Acquisition Class A"
+    "Name": "Bluescape Opportunities Acquisition "
   },
   {
     "Symbol": "BOAS",
-    "Name": "BOA Acquisition Class A"
+    "Name": "BOA Acquisition "
   },
   {
     "Symbol": "BOC",
-    "Name": "Boston Omaha Corporation Class A"
+    "Name": "Boston Omaha Corporation "
   },
   {
     "Symbol": "BOCN",
-    "Name": "Blue Ocean Acquisition Corp Class A"
+    "Name": "Blue Ocean Acquisition Corp "
   },
   {
     "Symbol": "BODY",
-    "Name": "The Beachbody Company Inc. Class A"
+    "Name": "The Beachbody Company Inc. "
   },
   {
     "Symbol": "BOH",
@@ -3605,11 +3605,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BOWL",
-    "Name": "Bowlero Class A"
+    "Name": "Bowlero "
   },
   {
     "Symbol": "BOX",
-    "Name": "Box Inc. Class A"
+    "Name": "Box Inc. "
   },
   {
     "Symbol": "BOXD",
@@ -3617,7 +3617,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BOXL",
-    "Name": "Boxlight Corporation Class A"
+    "Name": "Boxlight Corporation "
   },
   {
     "Symbol": "BP",
@@ -3681,7 +3681,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRCC",
-    "Name": "BRC Inc. Class A"
+    "Name": "BRC Inc. "
   },
   {
     "Symbol": "BRCN",
@@ -3689,11 +3689,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRDG",
-    "Name": "Bridge Investment Group Holdings Inc. Class A"
+    "Name": "Bridge Investment Group Holdings Inc. "
   },
   {
     "Symbol": "BRDS",
-    "Name": "Bird Global Inc. Class A"
+    "Name": "Bird Global Inc. "
   },
   {
     "Symbol": "BREZ",
@@ -3713,7 +3713,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRG",
-    "Name": "Bluerock Residential Growth REIT Inc. Class A"
+    "Name": "Bluerock Residential Growth REIT Inc. "
   },
   {
     "Symbol": "BRID",
@@ -3721,7 +3721,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRIV",
-    "Name": "B. Riley Principal 250 Merger Class A"
+    "Name": "B. Riley Principal 250 Merger "
   },
   {
     "Symbol": "BRIVU",
@@ -3733,7 +3733,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRKH",
-    "Name": "BurTech Acquisition Class A"
+    "Name": "BurTech Acquisition "
   },
   {
     "Symbol": "BRKL",
@@ -3749,7 +3749,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRLT",
-    "Name": "Brilliant Earth Group Inc. Class A"
+    "Name": "Brilliant Earth Group Inc. "
   },
   {
     "Symbol": "BRMK",
@@ -3769,15 +3769,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BROS",
-    "Name": "Dutch Bros Inc. Class A"
+    "Name": "Dutch Bros Inc. "
   },
   {
     "Symbol": "BRP",
-    "Name": "BRP Group Inc. (Insurance Company) Class A"
+    "Name": "BRP Group Inc. (Insurance Company) "
   },
   {
     "Symbol": "BRPM",
-    "Name": "B. Riley Principal 150 Merger Class A"
+    "Name": "B. Riley Principal 150 Merger "
   },
   {
     "Symbol": "BRQS",
@@ -3785,7 +3785,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRSP",
-    "Name": "BrightSpire Capital Inc. Class A"
+    "Name": "BrightSpire Capital Inc. "
   },
   {
     "Symbol": "BRT",
@@ -3809,7 +3809,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BRZE",
-    "Name": "Braze Inc. Class A"
+    "Name": "Braze Inc. "
   },
   {
     "Symbol": "BSAC",
@@ -3817,7 +3817,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BSAQ",
-    "Name": "Black Spade Acquisition Co Class A"
+    "Name": "Black Spade Acquisition Co "
   },
   {
     "Symbol": "BSBK",
@@ -3833,7 +3833,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BSGA",
-    "Name": "Blue Safari Group Acquisition Class A Ordinary Share"
+    "Name": "Blue Safari Group Acquisition  Ordinary Share"
   },
   {
     "Symbol": "BSGAR",
@@ -3849,7 +3849,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BSKY",
-    "Name": "Big Sky Growth Partners Inc. Class A"
+    "Name": "Big Sky Growth Partners Inc. "
   },
   {
     "Symbol": "BSKYU",
@@ -3889,7 +3889,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BTB",
-    "Name": "Bit Brother Limited Class A"
+    "Name": "Bit Brother Limited "
   },
   {
     "Symbol": "BTBD",
@@ -3953,7 +3953,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BTWN",
-    "Name": "Bridgetown Holdings Limited Class A"
+    "Name": "Bridgetown Holdings Limited "
   },
   {
     "Symbol": "BTWNU",
@@ -3985,7 +3985,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BUSE",
-    "Name": "First Busey Corporation Class A"
+    "Name": "First Busey Corporation "
   },
   {
     "Symbol": "BV",
@@ -3993,7 +3993,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BVH",
-    "Name": "Bluegreen Vacations Holding Corporation Class A"
+    "Name": "Bluegreen Vacations Holding Corporation "
   },
   {
     "Symbol": "BVN",
@@ -4001,7 +4001,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BVS",
-    "Name": "Bioventus Inc. Class A"
+    "Name": "Bioventus Inc. "
   },
   {
     "Symbol": "BW",
@@ -4017,7 +4017,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BWAQ",
-    "Name": "Blue World Acquisition Corporation Class A"
+    "Name": "Blue World Acquisition Corporation "
   },
   {
     "Symbol": "BWAQR",
@@ -4033,7 +4033,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BWC",
-    "Name": "Blue Whale Acquisition Corp I Class A"
+    "Name": "Blue Whale Acquisition Corp I "
   },
   {
     "Symbol": "BWCAU",
@@ -4101,7 +4101,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BYN",
-    "Name": "Banyan Acquisition Corporation Class A"
+    "Name": "Banyan Acquisition Corporation "
   },
   {
     "Symbol": "BYND",
@@ -4109,7 +4109,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BYNO",
-    "Name": "byNordic Acquisition Corporation Class A"
+    "Name": "byNordic Acquisition Corporation "
   },
   {
     "Symbol": "BYNOU",
@@ -4125,7 +4125,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BYTS",
-    "Name": "BYTE Acquisition Class A"
+    "Name": "BYTE Acquisition "
   },
   {
     "Symbol": "BZ",
@@ -4133,7 +4133,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "BZFD",
-    "Name": "BuzzFeed Inc. Class A"
+    "Name": "BuzzFeed Inc. "
   },
   {
     "Symbol": "BZH",
@@ -4169,7 +4169,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CACI",
-    "Name": "CACI International Inc. Class A"
+    "Name": "CACI International Inc. "
   },
   {
     "Symbol": "CADE",
@@ -4233,7 +4233,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CANO",
-    "Name": "Cano Health Inc. Class A"
+    "Name": "Cano Health Inc. "
   },
   {
     "Symbol": "CAPL",
@@ -4257,7 +4257,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CARG",
-    "Name": "CarGurus Inc. Class A"
+    "Name": "CarGurus Inc. "
   },
   {
     "Symbol": "CARR",
@@ -4273,7 +4273,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CAS",
-    "Name": "Cascade Acquisition Class A"
+    "Name": "Cascade Acquisition "
   },
   {
     "Symbol": "CASA",
@@ -4305,7 +4305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CATO",
-    "Name": "Cato Corporation (The) Class A"
+    "Name": "Cato Corporation (The) "
   },
   {
     "Symbol": "CATY",
@@ -4353,11 +4353,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CBRE",
-    "Name": "CBRE Group Inc  Class A"
+    "Name": "CBRE Group Inc  "
   },
   {
     "Symbol": "CBRG",
-    "Name": "Chain Bridge I Class A"
+    "Name": "Chain Bridge I "
   },
   {
     "Symbol": "CBRGU",
@@ -4393,7 +4393,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CCAI",
-    "Name": "Cascadia Acquisition Class A"
+    "Name": "Cascadia Acquisition "
   },
   {
     "Symbol": "CCAP",
@@ -4489,7 +4489,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CCTS",
-    "Name": "Cactus Acquisition 1 Limited Class A Ordinary Share"
+    "Name": "Cactus Acquisition 1 Limited  Ordinary Share"
   },
   {
     "Symbol": "CCTSU",
@@ -4501,11 +4501,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CCV",
-    "Name": "Churchill Capital Corp V Class A"
+    "Name": "Churchill Capital Corp V "
   },
   {
     "Symbol": "CCVI",
-    "Name": "Churchill Capital Corp VI Class A"
+    "Name": "Churchill Capital Corp VI "
   },
   {
     "Symbol": "CCXI",
@@ -4521,7 +4521,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CDAQ",
-    "Name": "Compass Digital Acquisition Class A"
+    "Name": "Compass Digital Acquisition "
   },
   {
     "Symbol": "CDAQU",
@@ -4537,7 +4537,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CDEV",
-    "Name": "Centennial Resource Development Inc. Class A"
+    "Name": "Centennial Resource Development Inc. "
   },
   {
     "Symbol": "CDK",
@@ -4637,7 +4637,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CELU",
-    "Name": "Celularity Inc. Class A"
+    "Name": "Celularity Inc. "
   },
   {
     "Symbol": "CELZ",
@@ -4661,7 +4661,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CENQ",
-    "Name": "CENAQ Energy Class A"
+    "Name": "CENAQ Energy "
   },
   {
     "Symbol": "CENQU",
@@ -4673,7 +4673,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CENTA",
-    "Name": "Central Garden & Pet Company Class A  Nonvoting"
+    "Name": "Central Garden & Pet Company   Nonvoting"
   },
   {
     "Symbol": "CENX",
@@ -4741,7 +4741,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CFIV",
-    "Name": "CF Acquisition IV Class A"
+    "Name": "CF Acquisition IV "
   },
   {
     "Symbol": "CFIVU",
@@ -4749,7 +4749,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CFLT",
-    "Name": "Confluent Inc. Class A"
+    "Name": "Confluent Inc. "
   },
   {
     "Symbol": "CFMS",
@@ -4769,7 +4769,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CFVI",
-    "Name": "CF Acquisition VI Class A"
+    "Name": "CF Acquisition VI "
   },
   {
     "Symbol": "CFVIU",
@@ -4825,11 +4825,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CHAA",
-    "Name": "Catcha Investment Class A"
+    "Name": "Catcha Investment "
   },
   {
     "Symbol": "CHCI",
-    "Name": "Comstock Holding Companies Inc. Class A"
+    "Name": "Comstock Holding Companies Inc. "
   },
   {
     "Symbol": "CHCO",
@@ -4905,7 +4905,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CHPM",
-    "Name": "CHP Merger Class A"
+    "Name": "CHP Merger "
   },
   {
     "Symbol": "CHPMU",
@@ -4953,7 +4953,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CHTR",
-    "Name": "Charter Communications Inc. Class A  New"
+    "Name": "Charter Communications Inc.   New"
   },
   {
     "Symbol": "CHUY",
@@ -4973,7 +4973,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CHWY",
-    "Name": "Chewy Inc. Class A"
+    "Name": "Chewy Inc. "
   },
   {
     "Symbol": "CHX",
@@ -4993,7 +4993,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CIDM",
-    "Name": "Cinedigm Class A"
+    "Name": "Cinedigm "
   },
   {
     "Symbol": "CIEN",
@@ -5037,7 +5037,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CINT",
-    "Name": "CI&T Inc Class A"
+    "Name": "CI&T Inc "
   },
   {
     "Symbol": "CIO",
@@ -5113,7 +5113,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CLAS",
-    "Name": "Class Acceleration Class A"
+    "Name": "cceleration "
   },
   {
     "Symbol": "CLAY",
@@ -5129,7 +5129,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CLBR",
-    "Name": "Colombier Acquisition Class A"
+    "Name": "Colombier Acquisition "
   },
   {
     "Symbol": "CLBS",
@@ -5165,7 +5165,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CLIN",
-    "Name": "Clean Earth Acquisitions Class A"
+    "Name": "Clean Earth Acquisitions "
   },
   {
     "Symbol": "CLINR",
@@ -5197,7 +5197,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CLOE",
-    "Name": "Clover Leaf Capital Class A"
+    "Name": "Clover Leaf Capital "
   },
   {
     "Symbol": "CLOER",
@@ -5209,7 +5209,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CLOV",
-    "Name": "Clover Health Investments Class A"
+    "Name": "Clover Health Investments "
   },
   {
     "Symbol": "CLPR",
@@ -5233,7 +5233,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CLRM",
-    "Name": "Clarim Acquisition Class A"
+    "Name": "Clarim Acquisition "
   },
   {
     "Symbol": "CLRMU",
@@ -5301,7 +5301,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CMAX",
-    "Name": "CareMax Inc. Class A"
+    "Name": "CareMax Inc. "
   },
   {
     "Symbol": "CMBM",
@@ -5313,7 +5313,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CMCA",
-    "Name": "Capitalworks Emerging Markets Acquisition Corp Class A"
+    "Name": "Capitalworks Emerging Markets Acquisition Corp "
   },
   {
     "Symbol": "CMCL",
@@ -5325,7 +5325,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CMCSA",
-    "Name": "Comcast Corporation Class A"
+    "Name": "Comcast Corporation "
   },
   {
     "Symbol": "CMCT",
@@ -5337,7 +5337,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CME",
-    "Name": "CME Group Inc. Class A"
+    "Name": "CME Group Inc. "
   },
   {
     "Symbol": "CMG",
@@ -5349,7 +5349,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CMLS",
-    "Name": "Cumulus Media Inc. Class A"
+    "Name": "Cumulus Media Inc. "
   },
   {
     "Symbol": "CMP",
@@ -5361,7 +5361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CMPO",
-    "Name": "CompoSecure Inc. Class A"
+    "Name": "CompoSecure Inc. "
   },
   {
     "Symbol": "CMPR",
@@ -5413,7 +5413,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CND",
-    "Name": "Concord Acquisition Class A"
+    "Name": "Concord Acquisition "
   },
   {
     "Symbol": "CNDT",
@@ -5433,7 +5433,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CNGL",
-    "Name": "Canna-Global Acquisition Class A"
+    "Name": "Canna-Global Acquisition "
   },
   {
     "Symbol": "CNGLU",
@@ -5453,7 +5453,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CNM",
-    "Name": "Core & Main Inc. Class A"
+    "Name": "Core & Main Inc. "
   },
   {
     "Symbol": "CNMD",
@@ -5505,7 +5505,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CNTQ",
-    "Name": "Chardan NexTech Acquisition 2 Class A"
+    "Name": "Chardan NexTech Acquisition 2 "
   },
   {
     "Symbol": "CNTQU",
@@ -5581,7 +5581,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "COIN",
-    "Name": "Coinbase Global Inc. Class A"
+    "Name": "Coinbase Global Inc. "
   },
   {
     "Symbol": "COKE",
@@ -5597,7 +5597,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "COLI",
-    "Name": "Colicity Inc. Class A"
+    "Name": "Colicity Inc. "
   },
   {
     "Symbol": "COLIU",
@@ -5617,7 +5617,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "COMP",
-    "Name": "Compass Inc. Class A"
+    "Name": "Compass Inc. "
   },
   {
     "Symbol": "COMS",
@@ -5629,7 +5629,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CONX",
-    "Name": "CONX Class A"
+    "Name": "CONX "
   },
   {
     "Symbol": "CONXU",
@@ -5645,7 +5645,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "COOL",
-    "Name": "Corner Growth Acquisition Class A"
+    "Name": "Corner Growth Acquisition "
   },
   {
     "Symbol": "COOLU",
@@ -5665,7 +5665,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CORS",
-    "Name": "Corsair Partnering Corporation Class A"
+    "Name": "Corsair Partnering Corporation "
   },
   {
     "Symbol": "CORT",
@@ -5685,7 +5685,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "COTY",
-    "Name": "Coty Inc. Class A"
+    "Name": "Coty Inc. "
   },
   {
     "Symbol": "COUP",
@@ -5697,7 +5697,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "COVA",
-    "Name": "COVA Acquisition Class A Ordinary Share"
+    "Name": "COVA Acquisition  Ordinary Share"
   },
   {
     "Symbol": "COVAU",
@@ -5705,7 +5705,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "COWN",
-    "Name": "Cowen Inc. Class A"
+    "Name": "Cowen Inc. "
   },
   {
     "Symbol": "CP",
@@ -5713,11 +5713,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CPA",
-    "Name": "Copa Holdings S.A. Copa Holdings S.A. Class A"
+    "Name": "Copa Holdings S.A. Copa Holdings S.A. "
   },
   {
     "Symbol": "CPAQ",
-    "Name": "Counter Press Acquisition Corporation Class A Ordinary Share"
+    "Name": "Counter Press Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "CPAQU",
@@ -5725,7 +5725,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CPAR",
-    "Name": "Catalyst Partners Acquisition Class A Ordinary Share"
+    "Name": "Catalyst Partners Acquisition  Ordinary Share"
   },
   {
     "Symbol": "CPARU",
@@ -5769,11 +5769,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CPNG",
-    "Name": "Coupang Inc. Class A"
+    "Name": "Coupang Inc. "
   },
   {
     "Symbol": "CPOP",
-    "Name": "Pop Culture Group Co. Ltd Class A"
+    "Name": "Pop Culture Group Co. Ltd "
   },
   {
     "Symbol": "CPRI",
@@ -5809,7 +5809,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CPTK",
-    "Name": "Crown PropTech Acquisitions Class A"
+    "Name": "Crown PropTech Acquisitions "
   },
   {
     "Symbol": "CPTN",
@@ -5817,7 +5817,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CPUH",
-    "Name": "Compute Health Acquisition Class A"
+    "Name": "Compute Health Acquisition "
   },
   {
     "Symbol": "CPZ",
@@ -5849,7 +5849,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CRCT",
-    "Name": "Cricut Inc. Class A"
+    "Name": "Cricut Inc. "
   },
   {
     "Symbol": "CRD/A",
@@ -5865,7 +5865,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CRDL",
-    "Name": "Cardiol Therapeutics Inc. Class A"
+    "Name": "Cardiol Therapeutics Inc. "
   },
   {
     "Symbol": "CRDO",
@@ -5873,7 +5873,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CREC",
-    "Name": "Crescera Capital Acquisition Corp Class A"
+    "Name": "Crescera Capital Acquisition Corp "
   },
   {
     "Symbol": "CRECU",
@@ -5897,11 +5897,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CRGY",
-    "Name": "Crescent Energy Company Class A"
+    "Name": "Crescent Energy Company "
   },
   {
     "Symbol": "CRHC",
-    "Name": "Cohn Robbins Holdings Class A"
+    "Name": "Cohn Robbins Holdings "
   },
   {
     "Symbol": "CRI",
@@ -5981,7 +5981,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CRU",
-    "Name": "Crucible Acquisition Corporation Class A"
+    "Name": "Crucible Acquisition Corporation "
   },
   {
     "Symbol": "CRUS",
@@ -5997,7 +5997,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CRWD",
-    "Name": "CrowdStrike Holdings Inc. Class A"
+    "Name": "CrowdStrike Holdings Inc. "
   },
   {
     "Symbol": "CRWS",
@@ -6009,7 +6009,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CRZN",
-    "Name": "Corazon Capital V838 Monoceros Corp Class A"
+    "Name": "Corazon Capital V838 Monoceros Corp "
   },
   {
     "Symbol": "CRZNU",
@@ -6049,7 +6049,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CSLM",
-    "Name": "Consilium Acquisition Corp I Ltd. Class A Ordinary Share"
+    "Name": "Consilium Acquisition Corp I Ltd.  Ordinary Share"
   },
   {
     "Symbol": "CSPI",
@@ -6065,11 +6065,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CSSE",
-    "Name": "Chicken Soup for the Soul Entertainment Inc. Class A"
+    "Name": "Chicken Soup for the Soul Entertainment Inc. "
   },
   {
     "Symbol": "CSTA",
-    "Name": "Constellation Acquisition Corp I Class A"
+    "Name": "Constellation Acquisition Corp I "
   },
   {
     "Symbol": "CSTE",
@@ -6185,7 +6185,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CTSH",
-    "Name": "Cognizant Technology Solutions Corporation Class A"
+    "Name": "Cognizant Technology Solutions Corporation "
   },
   {
     "Symbol": "CTSO",
@@ -6193,7 +6193,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CTT",
-    "Name": "CatchMark Timber Trust Inc. Class A"
+    "Name": "CatchMark Timber Trust Inc. "
   },
   {
     "Symbol": "CTV",
@@ -6245,7 +6245,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CURI",
-    "Name": "CuriosityStream Inc. Class A"
+    "Name": "CuriosityStream Inc. "
   },
   {
     "Symbol": "CURO",
@@ -6305,7 +6305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CVLG",
-    "Name": "Covenant Logistics Group Inc. Class A"
+    "Name": "Covenant Logistics Group Inc. "
   },
   {
     "Symbol": "CVLT",
@@ -6321,7 +6321,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CVNA",
-    "Name": "Carvana Co. Class A"
+    "Name": "Carvana Co. "
   },
   {
     "Symbol": "CVR",
@@ -6357,7 +6357,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CWAN",
-    "Name": "Clearwater Analytics Holdings Inc. Class A"
+    "Name": "Clearwater Analytics Holdings Inc. "
   },
   {
     "Symbol": "CWBC",
@@ -6377,7 +6377,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CWH",
-    "Name": "Camping World Holdings Inc. Class A Commom Stock"
+    "Name": "Camping World Holdings Inc.  Commom Stock"
   },
   {
     "Symbol": "CWK",
@@ -6385,7 +6385,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CWST",
-    "Name": "Casella Waste Systems Inc. Class A"
+    "Name": "Casella Waste Systems Inc. "
   },
   {
     "Symbol": "CWT",
@@ -6397,7 +6397,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CXAC",
-    "Name": "C5 Acquisition Corporation Class A"
+    "Name": "C5 Acquisition Corporation "
   },
   {
     "Symbol": "CXDO",
@@ -6413,7 +6413,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CXM",
-    "Name": "Sprinklr Inc. Class A"
+    "Name": "Sprinklr Inc. "
   },
   {
     "Symbol": "CXW",
@@ -6481,7 +6481,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CYXT",
-    "Name": "Cyxtera Technologies Inc. Class A"
+    "Name": "Cyxtera Technologies Inc. "
   },
   {
     "Symbol": "CZNC",
@@ -6489,7 +6489,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "CZOO",
-    "Name": "Cazoo Group Ltd Class A"
+    "Name": "Cazoo Group Ltd "
   },
   {
     "Symbol": "CZR",
@@ -6525,7 +6525,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DALS",
-    "Name": "DA32 Life Science Tech Acquisition Class A"
+    "Name": "DA32 Life Science Tech Acquisition "
   },
   {
     "Symbol": "DAN",
@@ -6533,7 +6533,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DAOO",
-    "Name": "Crypto 1 Acquisition Corp Class A"
+    "Name": "Crypto 1 Acquisition Corp "
   },
   {
     "Symbol": "DAOOU",
@@ -6549,7 +6549,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DASH",
-    "Name": "DoorDash Inc. Class A"
+    "Name": "DoorDash Inc. "
   },
   {
     "Symbol": "DATS",
@@ -6557,7 +6557,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DAVE",
-    "Name": "Dave Inc. Class A"
+    "Name": "Dave Inc. "
   },
   {
     "Symbol": "DAWN",
@@ -6577,7 +6577,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DBI",
-    "Name": "Designer Brands Inc. Class A"
+    "Name": "Designer Brands Inc. "
   },
   {
     "Symbol": "DBRG",
@@ -6589,7 +6589,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DBX",
-    "Name": "Dropbox Inc. Class A"
+    "Name": "Dropbox Inc. "
   },
   {
     "Symbol": "DC",
@@ -6637,7 +6637,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DCRD",
-    "Name": "Decarbonization Plus Acquisition Corporation IV Class A Ordinary Share"
+    "Name": "Decarbonization Plus Acquisition Corporation IV  Ordinary Share"
   },
   {
     "Symbol": "DCRDU",
@@ -6673,7 +6673,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DDOG",
-    "Name": "Datadog Inc. Class A"
+    "Name": "Datadog Inc. "
   },
   {
     "Symbol": "DDS",
@@ -6733,7 +6733,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DFH",
-    "Name": "Dream Finders Homes Inc. Class A"
+    "Name": "Dream Finders Homes Inc. "
   },
   {
     "Symbol": "DFIN",
@@ -6757,7 +6757,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DGICA",
-    "Name": "Donegal Group Inc. Class A"
+    "Name": "Donegal Group Inc. "
   },
   {
     "Symbol": "DGICB",
@@ -6773,7 +6773,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DH",
-    "Name": "Definitive Healthcare Class A"
+    "Name": "Definitive Healthcare "
   },
   {
     "Symbol": "DHAC",
@@ -6785,7 +6785,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DHBC",
-    "Name": "DHB Capital Class A"
+    "Name": "DHB Capital "
   },
   {
     "Symbol": "DHBCU",
@@ -6793,7 +6793,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DHCA",
-    "Name": "DHC Acquisition Class A ordinary share"
+    "Name": "DHC Acquisition  ordinary share"
   },
   {
     "Symbol": "DHCAU",
@@ -6805,7 +6805,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DHHC",
-    "Name": "DiamondHead Holdings Class A"
+    "Name": "DiamondHead Holdings "
   },
   {
     "Symbol": "DHHCU",
@@ -6817,7 +6817,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DHIL",
-    "Name": "Diamond Hill Investment Group Inc. Class A"
+    "Name": "Diamond Hill Investment Group Inc. "
   },
   {
     "Symbol": "DHR",
@@ -6861,11 +6861,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DISA",
-    "Name": "Disruptive Acquisition Corporation I Class A"
+    "Name": "Disruptive Acquisition Corporation I "
   },
   {
     "Symbol": "DISH",
-    "Name": "DISH Network Corporation Class A"
+    "Name": "DISH Network Corporation "
   },
   {
     "Symbol": "DIT",
@@ -6881,7 +6881,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DKDCA",
-    "Name": "Data Knights Acquisition Class A"
+    "Name": "Data Knights Acquisition "
   },
   {
     "Symbol": "DKL",
@@ -6889,7 +6889,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DKNG",
-    "Name": "DraftKings Inc. Class A"
+    "Name": "DraftKings Inc. "
   },
   {
     "Symbol": "DKS",
@@ -6905,7 +6905,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DLCA",
-    "Name": "Deep Lake Capital Acquisition Class A"
+    "Name": "Deep Lake Capital Acquisition "
   },
   {
     "Symbol": "DLCAU",
@@ -6921,7 +6921,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DLO",
-    "Name": "DLocal Limited Class A"
+    "Name": "DLocal Limited "
   },
   {
     "Symbol": "DLPN",
@@ -6945,7 +6945,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DM",
-    "Name": "Desktop Metal Inc. Class A"
+    "Name": "Desktop Metal Inc. "
   },
   {
     "Symbol": "DMA",
@@ -6957,7 +6957,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DMAQ",
-    "Name": "Deep Medicine Acquisition Class A"
+    "Name": "Deep Medicine Acquisition "
   },
   {
     "Symbol": "DMAQR",
@@ -6985,7 +6985,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DMS",
-    "Name": "Digital Media Solutions Inc. Class A"
+    "Name": "Digital Media Solutions Inc. "
   },
   {
     "Symbol": "DMTK",
@@ -6993,19 +6993,19 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DMYS",
-    "Name": "dMY Technology Group Inc. VI Class A"
+    "Name": "dMY Technology Group Inc. VI "
   },
   {
     "Symbol": "DNA",
-    "Name": "Ginkgo Bioworks Holdings Inc. Class A"
+    "Name": "Ginkgo Bioworks Holdings Inc. "
   },
   {
     "Symbol": "DNAA",
-    "Name": "Social Capital Suvretta Holdings I Class A Ordinary Share"
+    "Name": "Social Capital Suvretta Holdings I  Ordinary Share"
   },
   {
     "Symbol": "DNAD",
-    "Name": "Social Capital Suvretta Holdings IV Class A"
+    "Name": "Social Capital Suvretta Holdings IV "
   },
   {
     "Symbol": "DNAY",
@@ -7041,7 +7041,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DNZ",
-    "Name": "D and Z Media Acquisition Class A"
+    "Name": "D and Z Media Acquisition "
   },
   {
     "Symbol": "DO",
@@ -7053,7 +7053,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DOCS",
-    "Name": "Doximity Inc. Class A"
+    "Name": "Doximity Inc. "
   },
   {
     "Symbol": "DOCU",
@@ -7061,7 +7061,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DOGZ",
-    "Name": "Dogness (International) Corporation Class A"
+    "Name": "Dogness (International) Corporation "
   },
   {
     "Symbol": "DOLE",
@@ -7109,7 +7109,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DPCS",
-    "Name": "DP Cap Acquisition Corp I Class A"
+    "Name": "DP Cap Acquisition Corp I "
   },
   {
     "Symbol": "DPCSU",
@@ -7129,11 +7129,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DRAY",
-    "Name": "Macondray Capital Acquisition I Class A"
+    "Name": "Macondray Capital Acquisition I "
   },
   {
     "Symbol": "DRCT",
-    "Name": "Direct Digital Holdings Inc. Class A"
+    "Name": "Direct Digital Holdings Inc. "
   },
   {
     "Symbol": "DRE",
@@ -7185,11 +7185,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DSAC",
-    "Name": "Duddell Street Acquisition Class A"
+    "Name": "Duddell Street Acquisition "
   },
   {
     "Symbol": "DSAQ",
-    "Name": "Direct Selling Acquisition Class A"
+    "Name": "Direct Selling Acquisition "
   },
   {
     "Symbol": "DSEY",
@@ -7213,7 +7213,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DSP",
-    "Name": "Viant Technology Inc. Class A"
+    "Name": "Viant Technology Inc. "
   },
   {
     "Symbol": "DSS",
@@ -7237,7 +7237,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DTC",
-    "Name": "Solo Brands Inc. Class A"
+    "Name": "Solo Brands Inc. "
   },
   {
     "Symbol": "DTE",
@@ -7261,11 +7261,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DTOC",
-    "Name": "Digital Transformation Opportunities Class A"
+    "Name": "Digital Transformation Opportunities "
   },
   {
     "Symbol": "DTRT",
-    "Name": "DTRT Health Acquisition Class A"
+    "Name": "DTRT Health Acquisition "
   },
   {
     "Symbol": "DTSS",
@@ -7277,7 +7277,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DUET",
-    "Name": "DUET Acquisition Class A"
+    "Name": "DUET Acquisition "
   },
   {
     "Symbol": "DUETU",
@@ -7289,7 +7289,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DUNE",
-    "Name": "Dune Acquisition Corporation Class A"
+    "Name": "Dune Acquisition Corporation "
   },
   {
     "Symbol": "DUNEU",
@@ -7297,7 +7297,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DUOL",
-    "Name": "Duolingo Inc. Class A"
+    "Name": "Duolingo Inc. "
   },
   {
     "Symbol": "DUOT",
@@ -7321,7 +7321,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DWAC",
-    "Name": "Digital World Acquisition Class A"
+    "Name": "Digital World Acquisition "
   },
   {
     "Symbol": "DWACU",
@@ -7329,7 +7329,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DWIN",
-    "Name": "Delwinds Insurance Acquisition Class A"
+    "Name": "Delwinds Insurance Acquisition "
   },
   {
     "Symbol": "DWSN",
@@ -7377,7 +7377,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "DYNS",
-    "Name": "Dynamics Special Purpose Class A"
+    "Name": "Dynamics Special Purpose "
   },
   {
     "Symbol": "DYNT",
@@ -7397,7 +7397,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EAC",
-    "Name": "Edify Acquisition Class A"
+    "Name": "Edify Acquisition "
   },
   {
     "Symbol": "EACPU",
@@ -7425,11 +7425,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EB",
-    "Name": "Eventbrite Inc. Class A"
+    "Name": "Eventbrite Inc. "
   },
   {
     "Symbol": "EBAC",
-    "Name": "European Biotech Acquisition Class A"
+    "Name": "European Biotech Acquisition "
   },
   {
     "Symbol": "EBAY",
@@ -7457,7 +7457,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EBON",
-    "Name": "Ebang International Holdings Inc. Class A"
+    "Name": "Ebang International Holdings Inc. "
   },
   {
     "Symbol": "EBS",
@@ -7513,7 +7513,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EDNC",
-    "Name": "Endurance Acquisition Class A"
+    "Name": "Endurance Acquisition "
   },
   {
     "Symbol": "EDNCU",
@@ -7521,7 +7521,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EDR",
-    "Name": "Endeavor Group Holdings Inc. Class A"
+    "Name": "Endeavor Group Holdings Inc. "
   },
   {
     "Symbol": "EDRY",
@@ -7545,7 +7545,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EE",
-    "Name": "Excelerate Energy Inc. Class A"
+    "Name": "Excelerate Energy Inc. "
   },
   {
     "Symbol": "EEA",
@@ -7597,7 +7597,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EGGF",
-    "Name": "EG Acquisition Class A"
+    "Name": "EG Acquisition "
   },
   {
     "Symbol": "EGHT",
@@ -7661,7 +7661,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EJFA",
-    "Name": "EJF Acquisition Class A Ordinary Share"
+    "Name": "EJF Acquisition  Ordinary Share"
   },
   {
     "Symbol": "EJFAU",
@@ -7709,7 +7709,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ELMS",
-    "Name": "Electric Last Mile Solutions Inc. Class A"
+    "Name": "Electric Last Mile Solutions Inc. "
   },
   {
     "Symbol": "ELOX",
@@ -7781,7 +7781,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EMLD",
-    "Name": "FTAC Emerald Acquisition Class A"
+    "Name": "FTAC Emerald Acquisition "
   },
   {
     "Symbol": "EMLDU",
@@ -7809,7 +7809,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ENCP",
-    "Name": "Energem Corp Class A"
+    "Name": "Energem Corp "
   },
   {
     "Symbol": "ENCPU",
@@ -7833,7 +7833,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ENFN",
-    "Name": "Enfusion Inc. Class A"
+    "Name": "Enfusion Inc. "
   },
   {
     "Symbol": "ENG",
@@ -7861,7 +7861,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ENPC",
-    "Name": "Executive Network Partnering Corporation Class A"
+    "Name": "Executive Network Partnering Corporation "
   },
   {
     "Symbol": "ENPH",
@@ -7893,7 +7893,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ENTF",
-    "Name": "Enterprise 4.0 Technology Acquisition Class A"
+    "Name": "Enterprise 4.0 Technology Acquisition "
   },
   {
     "Symbol": "ENTFU",
@@ -7933,7 +7933,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EOSE",
-    "Name": "Eos Energy Enterprises Inc. Class A"
+    "Name": "Eos Energy Enterprises Inc. "
   },
   {
     "Symbol": "EOT",
@@ -7965,7 +7965,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EPHY",
-    "Name": "Epiphany Technology Acquisition Class A"
+    "Name": "Epiphany Technology Acquisition "
   },
   {
     "Symbol": "EPHYU",
@@ -7993,7 +7993,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EPWR",
-    "Name": "Empowerment & Inclusion Capital I Class A"
+    "Name": "Empowerment & Inclusion Capital I "
   },
   {
     "Symbol": "EPZM",
@@ -8005,11 +8005,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EQBK",
-    "Name": "Equity Bancshares Inc. Class A"
+    "Name": "Equity Bancshares Inc. "
   },
   {
     "Symbol": "EQD",
-    "Name": "Equity Distribution Acquisition Class A"
+    "Name": "Equity Distribution Acquisition "
   },
   {
     "Symbol": "EQH",
@@ -8017,7 +8017,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EQHA",
-    "Name": "EQ Health Acquisition Class A"
+    "Name": "EQ Health Acquisition "
   },
   {
     "Symbol": "EQIX",
@@ -8057,7 +8057,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ERES",
-    "Name": "East Resources Acquisition Company Class A"
+    "Name": "East Resources Acquisition Company "
   },
   {
     "Symbol": "ERESU",
@@ -8073,7 +8073,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ERIE",
-    "Name": "Erie Indemnity Company Class A"
+    "Name": "Erie Indemnity Company "
   },
   {
     "Symbol": "ERJ",
@@ -8093,7 +8093,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ESAC",
-    "Name": "ESGEN Acquisition Corporation Class A"
+    "Name": "ESGEN Acquisition Corporation "
   },
   {
     "Symbol": "ESACU",
@@ -8133,7 +8133,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ESM",
-    "Name": "ESM Acquisition Corporation Class A"
+    "Name": "ESM Acquisition Corporation "
   },
   {
     "Symbol": "ESMT",
@@ -8161,7 +8161,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ESRT",
-    "Name": "Empire State Realty Trust Inc. Class A"
+    "Name": "Empire State Realty Trust Inc. "
   },
   {
     "Symbol": "ESS",
@@ -8189,7 +8189,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ESTE",
-    "Name": "Earthstone Energy Inc. Class A"
+    "Name": "Earthstone Energy Inc. "
   },
   {
     "Symbol": "ET",
@@ -8197,7 +8197,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ETAC",
-    "Name": "E.Merge Technology Acquisition Class A"
+    "Name": "E.Merge Technology Acquisition "
   },
   {
     "Symbol": "ETACU",
@@ -8241,7 +8241,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ETWO",
-    "Name": "E2open Parent Holdings Inc.Class A"
+    "Name": "E2open Parent Holdings Inc."
   },
   {
     "Symbol": "EUCR",
@@ -8277,7 +8277,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EVER",
-    "Name": "EverQuote Inc. Class A"
+    "Name": "EverQuote Inc. "
   },
   {
     "Symbol": "EVF",
@@ -8293,11 +8293,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EVGO",
-    "Name": "EVgo Inc. Class A"
+    "Name": "EVgo Inc. "
   },
   {
     "Symbol": "EVGR",
-    "Name": "Evergreen Corporation Class A Ordinary Share"
+    "Name": "Evergreen Corporation  Ordinary Share"
   },
   {
     "Symbol": "EVGRU",
@@ -8305,7 +8305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EVH",
-    "Name": "Evolent Health Inc Class A"
+    "Name": "Evolent Health Inc "
   },
   {
     "Symbol": "EVI",
@@ -8321,7 +8321,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EVLV",
-    "Name": "Evolv Technologies Holdings Inc. Class A"
+    "Name": "Evolv Technologies Holdings Inc. "
   },
   {
     "Symbol": "EVN",
@@ -8329,7 +8329,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EVOJ",
-    "Name": "Evo Acquisition Class A"
+    "Name": "Evo Acquisition "
   },
   {
     "Symbol": "EVOK",
@@ -8341,11 +8341,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EVOP",
-    "Name": "EVO Payments Inc. Class A"
+    "Name": "EVO Payments Inc. "
   },
   {
     "Symbol": "EVR",
-    "Name": "Evercore Inc. Class A"
+    "Name": "Evercore Inc. "
   },
   {
     "Symbol": "EVRG",
@@ -8373,7 +8373,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EWCZ",
-    "Name": "European Wax Center Inc. Class A"
+    "Name": "European Wax Center Inc. "
   },
   {
     "Symbol": "EWTX",
@@ -8393,7 +8393,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EXFY",
-    "Name": "Expensify Inc. Class A"
+    "Name": "Expensify Inc. "
   },
   {
     "Symbol": "EXK",
@@ -8469,7 +8469,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "EZPW",
-    "Name": "EZCORP Inc. Class A Non Voting"
+    "Name": "EZCORP Inc.  Non Voting"
   },
   {
     "Symbol": "F",
@@ -8481,11 +8481,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FACA",
-    "Name": "Figure Acquisition I Class A"
+    "Name": "Figure Acquisition I "
   },
   {
     "Symbol": "FACT",
-    "Name": "Freedom Acquisition I Class A"
+    "Name": "Freedom Acquisition I "
   },
   {
     "Symbol": "FAF",
@@ -8513,7 +8513,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FAT",
-    "Name": "FAT Brands Inc. Class A"
+    "Name": "FAT Brands Inc. "
   },
   {
     "Symbol": "FATBB",
@@ -8525,11 +8525,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FATH",
-    "Name": "Fathom Digital Manufacturing Corporation Class A"
+    "Name": "Fathom Digital Manufacturing Corporation "
   },
   {
     "Symbol": "FATP",
-    "Name": "Fat Projects Acquisition Corp Class A Ordinary Share"
+    "Name": "Fat Projects Acquisition Corp  Ordinary Share"
   },
   {
     "Symbol": "FAX",
@@ -8537,7 +8537,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FB",
-    "Name": "Meta Platforms Inc. Class A"
+    "Name": "Meta Platforms Inc. "
   },
   {
     "Symbol": "FBC",
@@ -8589,7 +8589,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FCAX",
-    "Name": "Fortress Capital Acquisition Class A"
+    "Name": "Fortress Capital Acquisition "
   },
   {
     "Symbol": "FCBC",
@@ -8617,7 +8617,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FCNCA",
-    "Name": "First Citizens BancShares Inc. Class A"
+    "Name": "First Citizens BancShares Inc. "
   },
   {
     "Symbol": "FCO",
@@ -8701,7 +8701,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FEXD",
-    "Name": "Fintech Ecosystem Development Class A"
+    "Name": "Fintech Ecosystem Development "
   },
   {
     "Symbol": "FEXDR",
@@ -8813,7 +8813,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FIAC",
-    "Name": "Focus Impact Acquisition Class A"
+    "Name": "Focus Impact Acquisition "
   },
   {
     "Symbol": "FIACU",
@@ -8821,7 +8821,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FIBK",
-    "Name": "First Interstate BancSystem Inc. Class A"
+    "Name": "First Interstate BancSystem Inc. "
   },
   {
     "Symbol": "FICO",
@@ -8829,15 +8829,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FICV",
-    "Name": "Frontier Investment Corp Class A"
+    "Name": "Frontier Investment Corp "
   },
   {
     "Symbol": "FIGS",
-    "Name": "FIGS Inc. Class A"
+    "Name": "FIGS Inc. "
   },
   {
     "Symbol": "FINM",
-    "Name": "Marlin Technology Corporation Class A Ordinary Share"
+    "Name": "Marlin Technology Corporation  Ordinary Share"
   },
   {
     "Symbol": "FINMU",
@@ -8893,7 +8893,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FLAC",
-    "Name": "Frazier Lifesciences Acquisition Corporation Class A"
+    "Name": "Frazier Lifesciences Acquisition Corporation "
   },
   {
     "Symbol": "FLACU",
@@ -8901,7 +8901,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FLAG",
-    "Name": "First Light Acquisition Group Inc. Class A"
+    "Name": "First Light Acquisition Group Inc. "
   },
   {
     "Symbol": "FLC",
@@ -8929,15 +8929,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FLME",
-    "Name": "Flame Acquisition Class A"
+    "Name": "Flame Acquisition "
   },
   {
     "Symbol": "FLMN",
-    "Name": "Falcon Minerals Corporation Class A"
+    "Name": "Falcon Minerals Corporation "
   },
   {
     "Symbol": "FLNC",
-    "Name": "Fluence Energy Inc. Class A"
+    "Name": "Fluence Energy Inc. "
   },
   {
     "Symbol": "FLNG",
@@ -8977,7 +8977,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FLYA",
-    "Name": "SOAR Technology Acquisition Class A"
+    "Name": "SOAR Technology Acquisition "
   },
   {
     "Symbol": "FLYW",
@@ -8997,7 +8997,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FMIV",
-    "Name": "Forum Merger IV Corporation Class A"
+    "Name": "Forum Merger IV Corporation "
   },
   {
     "Symbol": "FMIVU",
@@ -9061,7 +9061,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FNKO",
-    "Name": "Funko Inc. Class A"
+    "Name": "Funko Inc. "
   },
   {
     "Symbol": "FNLC",
@@ -9073,7 +9073,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FNVT",
-    "Name": "Finnovate Acquisition Class A"
+    "Name": "Finnovate Acquisition "
   },
   {
     "Symbol": "FNVTU",
@@ -9089,11 +9089,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FOA",
-    "Name": "Finance of America Companies Inc. Class A"
+    "Name": "Finance of America Companies Inc. "
   },
   {
     "Symbol": "FOCS",
-    "Name": "Focus Financial Partners Inc. Class A"
+    "Name": "Focus Financial Partners Inc. "
   },
   {
     "Symbol": "FOE",
@@ -9125,7 +9125,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FORG",
-    "Name": "ForgeRock Inc. Class A"
+    "Name": "ForgeRock Inc. "
   },
   {
     "Symbol": "FORM",
@@ -9141,7 +9141,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FOUN",
-    "Name": "Founder SPAC Class A"
+    "Name": "Founder SPAC "
   },
   {
     "Symbol": "FOUNU",
@@ -9149,7 +9149,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FOUR",
-    "Name": "Shift4 Payments Inc. Class A"
+    "Name": "Shift4 Payments Inc. "
   },
   {
     "Symbol": "FOX",
@@ -9157,7 +9157,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FOXA",
-    "Name": "Fox Corporation Class A"
+    "Name": "Fox Corporation "
   },
   {
     "Symbol": "FOXF",
@@ -9165,7 +9165,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FOXW",
-    "Name": "FoxWayne Enterprises Acquisition Class A"
+    "Name": "FoxWayne Enterprises Acquisition "
   },
   {
     "Symbol": "FOXWU",
@@ -9173,7 +9173,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FPAC",
-    "Name": "Far Peak Acquisition Corporation Class A"
+    "Name": "Far Peak Acquisition Corporation "
   },
   {
     "Symbol": "FPAY",
@@ -9181,7 +9181,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FPH",
-    "Name": "Five Point Holdings LLC Class A"
+    "Name": "Five Point Holdings LLC "
   },
   {
     "Symbol": "FPI",
@@ -9221,7 +9221,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FREE",
-    "Name": "Whole Earth Brands Inc. Class A"
+    "Name": "Whole Earth Brands Inc. "
   },
   {
     "Symbol": "FREQ",
@@ -9249,7 +9249,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FRLA",
-    "Name": "Fortune Rise Acquisition Corporation Class A"
+    "Name": "Fortune Rise Acquisition Corporation "
   },
   {
     "Symbol": "FRLAU",
@@ -9273,7 +9273,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FRON",
-    "Name": "Frontier Acquisition Class A"
+    "Name": "Frontier Acquisition "
   },
   {
     "Symbol": "FRONU",
@@ -9289,11 +9289,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FRSG",
-    "Name": "First Reserve Sustainable Growth Class A"
+    "Name": "First Reserve Sustainable Growth "
   },
   {
     "Symbol": "FRSH",
-    "Name": "Freshworks Inc. Class A"
+    "Name": "Freshworks Inc. "
   },
   {
     "Symbol": "FRST",
@@ -9305,7 +9305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FRW",
-    "Name": "PWP Forward Acquisition I Class A"
+    "Name": "PWP Forward Acquisition I "
   },
   {
     "Symbol": "FRWAU",
@@ -9341,7 +9341,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FSLY",
-    "Name": "Fastly Inc. Class A"
+    "Name": "Fastly Inc. "
   },
   {
     "Symbol": "FSM",
@@ -9353,11 +9353,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FSR",
-    "Name": "Fisker Inc. Class A"
+    "Name": "Fisker Inc. "
   },
   {
     "Symbol": "FSRD",
-    "Name": "Fast Radius Inc. Class A"
+    "Name": "Fast Radius Inc. "
   },
   {
     "Symbol": "FSS",
@@ -9365,7 +9365,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FSSI",
-    "Name": "Fortistar Sustainable Solutions Class A"
+    "Name": "Fortistar Sustainable Solutions "
   },
   {
     "Symbol": "FSSIU",
@@ -9373,7 +9373,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FST",
-    "Name": "FAST Acquisition Class A"
+    "Name": "FAST Acquisition "
   },
   {
     "Symbol": "FSTR",
@@ -9393,7 +9393,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FTAA",
-    "Name": "FTAC Athena Acquisition Class A Ordinary Share"
+    "Name": "FTAC Athena Acquisition  Ordinary Share"
   },
   {
     "Symbol": "FTAAU",
@@ -9405,7 +9405,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FTCH",
-    "Name": "Farfetch Limited Class A"
+    "Name": "Farfetch Limited "
   },
   {
     "Symbol": "FTCI",
@@ -9413,7 +9413,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FTCV",
-    "Name": "FinTech Acquisition V Class A"
+    "Name": "FinTech Acquisition V "
   },
   {
     "Symbol": "FTCVU",
@@ -9429,7 +9429,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FTEV",
-    "Name": "FinTech Evolution Acquisition Group Class A"
+    "Name": "FinTech Evolution Acquisition Group "
   },
   {
     "Symbol": "FTFT",
@@ -9457,7 +9457,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FTPA",
-    "Name": "FTAC Parnassus Acquisition Class A"
+    "Name": "FTAC Parnassus Acquisition "
   },
   {
     "Symbol": "FTRP",
@@ -9473,7 +9473,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FTVI",
-    "Name": "FinTech Acquisition VI Class A"
+    "Name": "FinTech Acquisition VI "
   },
   {
     "Symbol": "FTVIU",
@@ -9525,7 +9525,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FVAM",
-    "Name": "5:01 Acquisition Class A"
+    "Name": "5:01 Acquisition "
   },
   {
     "Symbol": "FVCB",
@@ -9533,7 +9533,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FVIV",
-    "Name": "Fortress Value Acquisition IV Class A"
+    "Name": "Fortress Value Acquisition IV "
   },
   {
     "Symbol": "FVRR",
@@ -9561,7 +9561,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "FXCO",
-    "Name": "Financial Strategies Acquisition Class A"
+    "Name": "Financial Strategies Acquisition "
   },
   {
     "Symbol": "FXCOR",
@@ -9601,7 +9601,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GAIA",
-    "Name": "Gaia Inc. Class A"
+    "Name": "Gaia Inc. "
   },
   {
     "Symbol": "GAIN",
@@ -9621,7 +9621,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GAMC",
-    "Name": "Golden Arrow Merger Class A"
+    "Name": "Golden Arrow Merger "
   },
   {
     "Symbol": "GAMCU",
@@ -9641,11 +9641,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GAPA",
-    "Name": "G&P Acquisition Class A"
+    "Name": "G&P Acquisition "
   },
   {
     "Symbol": "GAQ",
-    "Name": "Generation Asia I Acquisition Limited Class A"
+    "Name": "Generation Asia I Acquisition Limited "
   },
   {
     "Symbol": "GASS",
@@ -9689,7 +9689,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GBLI",
-    "Name": "Global Indemnity Group LLC Class A  (DE)"
+    "Name": "Global Indemnity Group LLC   (DE)"
   },
   {
     "Symbol": "GBNH",
@@ -9737,7 +9737,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GCMG",
-    "Name": "GCM Grosvenor Inc. Class A"
+    "Name": "GCM Grosvenor Inc. "
   },
   {
     "Symbol": "GCO",
@@ -9761,7 +9761,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GDDY",
-    "Name": "GoDaddy Inc. Class A"
+    "Name": "GoDaddy Inc. "
   },
   {
     "Symbol": "GDEN",
@@ -9781,7 +9781,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GDRX",
-    "Name": "GoodRx Holdings Inc. Class A"
+    "Name": "GoodRx Holdings Inc. "
   },
   {
     "Symbol": "GDS",
@@ -9801,7 +9801,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GDYN",
-    "Name": "Grid Dynamics Holdings Inc. Class A"
+    "Name": "Grid Dynamics Holdings Inc. "
   },
   {
     "Symbol": "GE",
@@ -9813,7 +9813,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GEEX",
-    "Name": "Games & Esports Experience Acquisition Class A"
+    "Name": "Games & Esports Experience Acquisition "
   },
   {
     "Symbol": "GEEXU",
@@ -9821,7 +9821,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GEF",
-    "Name": "Greif Inc. Class A"
+    "Name": "Greif Inc. "
   },
   {
     "Symbol": "GEG",
@@ -9845,7 +9845,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GENQ",
-    "Name": "Genesis Unicorn Capital Class A"
+    "Name": "Genesis Unicorn Capital "
   },
   {
     "Symbol": "GENQU",
@@ -9889,7 +9889,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GFGD",
-    "Name": "The Growth for Good Acquisition Corporation Class A"
+    "Name": "The Growth for Good Acquisition Corporation "
   },
   {
     "Symbol": "GFGDU",
@@ -9913,11 +9913,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GFX",
-    "Name": "Golden Falcon Acquisition Class A"
+    "Name": "Golden Falcon Acquisition "
   },
   {
     "Symbol": "GGAA",
-    "Name": "Genesis Growth Tech Acquisition Class A"
+    "Name": "Genesis Growth Tech Acquisition "
   },
   {
     "Symbol": "GGAAU",
@@ -9937,7 +9937,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GGGV",
-    "Name": "G3 VRM Acquisition Class A"
+    "Name": "G3 VRM Acquisition "
   },
   {
     "Symbol": "GGGVR",
@@ -9945,7 +9945,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GGMC",
-    "Name": "Glenfarne Merger Class A"
+    "Name": "Glenfarne Merger "
   },
   {
     "Symbol": "GGN",
@@ -9953,7 +9953,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GGPI",
-    "Name": "Gores Guggenheim Inc. Class A"
+    "Name": "Gores Guggenheim Inc. "
   },
   {
     "Symbol": "GGPIU",
@@ -9973,7 +9973,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GHAC",
-    "Name": "Gaming & Hospitality Acquisition Class A"
+    "Name": "Gaming & Hospitality Acquisition "
   },
   {
     "Symbol": "GHACU",
@@ -9985,7 +9985,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GHIX",
-    "Name": "Gores Holdings IX Inc. Class A"
+    "Name": "Gores Holdings IX Inc. "
   },
   {
     "Symbol": "GHIXU",
@@ -9997,7 +9997,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GHLD",
-    "Name": "Guild Holdings Company Class A"
+    "Name": "Guild Holdings Company "
   },
   {
     "Symbol": "GHM",
@@ -10021,7 +10021,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GIAC",
-    "Name": "Gesher I Acquisition Class A"
+    "Name": "Gesher I Acquisition "
   },
   {
     "Symbol": "GIACU",
@@ -10045,7 +10045,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GIL",
-    "Name": "Gildan Activewear Inc. Class A Sub. Vot."
+    "Name": "Gildan Activewear Inc.  Sub. Vot."
   },
   {
     "Symbol": "GILD",
@@ -10105,7 +10105,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GLBL",
-    "Name": "Cartesian Growth Corporation Class A Ordinary Share"
+    "Name": "Cartesian Growth Corporation  Ordinary Share"
   },
   {
     "Symbol": "GLBLU",
@@ -10129,7 +10129,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GLEE",
-    "Name": "Gladstone Acquisition Class A"
+    "Name": "Gladstone Acquisition "
   },
   {
     "Symbol": "GLEEU",
@@ -10141,7 +10141,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GLHA",
-    "Name": "Glass Houses Acquisition Class A"
+    "Name": "Glass Houses Acquisition "
   },
   {
     "Symbol": "GLHAU",
@@ -10189,7 +10189,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GLRE",
-    "Name": "Greenlight Capital Re Ltd. Class A"
+    "Name": "Greenlight Capital Re Ltd. "
   },
   {
     "Symbol": "GLS",
@@ -10213,7 +10213,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GLTA",
-    "Name": "Galata Acquisition Class A"
+    "Name": "Galata Acquisition "
   },
   {
     "Symbol": "GLTO",
@@ -10261,11 +10261,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GMED",
-    "Name": "Globus Medical Inc. Class A"
+    "Name": "Globus Medical Inc. "
   },
   {
     "Symbol": "GMFI",
-    "Name": "Aetherium Acquisition Class A"
+    "Name": "Aetherium Acquisition "
   },
   {
     "Symbol": "GMFIU",
@@ -10293,7 +10293,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GNAC",
-    "Name": "Group Nine Acquisition Class A"
+    "Name": "Group Nine Acquisition "
   },
   {
     "Symbol": "GNACU",
@@ -10317,11 +10317,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GNLN",
-    "Name": "Greenlane Holdings Inc. Class A"
+    "Name": "Greenlane Holdings Inc. "
   },
   {
     "Symbol": "GNOG",
-    "Name": "Golden Nugget Online Gaming Inc. Class A"
+    "Name": "Golden Nugget Online Gaming Inc. "
   },
   {
     "Symbol": "GNPX",
@@ -10365,15 +10365,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GOAC",
-    "Name": "GO Acquisition Class A"
+    "Name": "GO Acquisition "
   },
   {
     "Symbol": "GOBI",
-    "Name": "Gobi Acquisition Class A"
+    "Name": "Gobi Acquisition "
   },
   {
     "Symbol": "GOCO",
-    "Name": "GoHealth Inc. Class A"
+    "Name": "GoHealth Inc. "
   },
   {
     "Symbol": "GOED",
@@ -10381,7 +10381,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GOEV",
-    "Name": "Canoo Inc. Class A"
+    "Name": "Canoo Inc. "
   },
   {
     "Symbol": "GOGL",
@@ -10389,7 +10389,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GOGN",
-    "Name": "GoGreen Investments Corporation Class A"
+    "Name": "GoGreen Investments Corporation "
   },
   {
     "Symbol": "GOGO",
@@ -10417,7 +10417,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GOOGL",
-    "Name": "Alphabet Inc. Class A"
+    "Name": "Alphabet Inc. "
   },
   {
     "Symbol": "GOOS",
@@ -10489,7 +10489,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GPRO",
-    "Name": "GoPro Inc. Class A"
+    "Name": "GoPro Inc. "
   },
   {
     "Symbol": "GPS",
@@ -10497,7 +10497,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GRAB",
-    "Name": "Grab Holdings Limited Class A"
+    "Name": "Grab Holdings Limited "
   },
   {
     "Symbol": "GRAY",
@@ -10521,7 +10521,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GREE",
-    "Name": "Greenidge Generation Holdings Inc. Class A"
+    "Name": "Greenidge Generation Holdings Inc. "
   },
   {
     "Symbol": "GRF",
@@ -10553,7 +10553,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GROW",
-    "Name": "U.S. Global Investors Inc. Class A"
+    "Name": "U.S. Global Investors Inc. "
   },
   {
     "Symbol": "GROY",
@@ -10593,7 +10593,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GSAQ",
-    "Name": "Global Synergy Acquisition Class A"
+    "Name": "Global Synergy Acquisition "
   },
   {
     "Symbol": "GSAQU",
@@ -10613,7 +10613,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GSHD",
-    "Name": "Goosehead Insurance Inc. Class A"
+    "Name": "Goosehead Insurance Inc. "
   },
   {
     "Symbol": "GSIT",
@@ -10625,7 +10625,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GSL",
-    "Name": "Global Ship Lease Inc New Class A"
+    "Name": "Global Ship Lease Inc New "
   },
   {
     "Symbol": "GSM",
@@ -10637,7 +10637,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GSQD",
-    "Name": "G Squared Ascend I Inc. Class A"
+    "Name": "G Squared Ascend I Inc. "
   },
   {
     "Symbol": "GSV",
@@ -10681,7 +10681,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GTLB",
-    "Name": "GitLab Inc. Class A"
+    "Name": "GitLab Inc. "
   },
   {
     "Symbol": "GTLS",
@@ -10693,7 +10693,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GTPA",
-    "Name": "Gores Technology Partners Inc. Class A"
+    "Name": "Gores Technology Partners Inc. "
   },
   {
     "Symbol": "GTPAU",
@@ -10729,7 +10729,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "GVCI",
-    "Name": "Green Visor Financial Technology Acquisition I Class A"
+    "Name": "Green Visor Financial Technology Acquisition I "
   },
   {
     "Symbol": "GVCIU",
@@ -10769,7 +10769,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "H",
-    "Name": "Hyatt Hotels Corporation Class A"
+    "Name": "Hyatt Hotels Corporation "
   },
   {
     "Symbol": "HA",
@@ -10777,7 +10777,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HAAC",
-    "Name": "Health Assurance Acquisition Class A"
+    "Name": "Health Assurance Acquisition "
   },
   {
     "Symbol": "HAACU",
@@ -10793,7 +10793,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HAIA",
-    "Name": "Healthcare AI Acquisition Class A"
+    "Name": "Healthcare AI Acquisition "
   },
   {
     "Symbol": "HAIN",
@@ -10813,7 +10813,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HAPP",
-    "Name": "Happiness Development Group Limited Class A"
+    "Name": "Happiness Development Group Limited "
   },
   {
     "Symbol": "HARP",
@@ -10841,7 +10841,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HBB",
-    "Name": "Hamilton Beach Brands Holding Company Class A"
+    "Name": "Hamilton Beach Brands Holding Company "
   },
   {
     "Symbol": "HBCP",
@@ -10877,7 +10877,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HCAR",
-    "Name": "Healthcare Services Acquisition Corporation Class A"
+    "Name": "Healthcare Services Acquisition Corporation "
   },
   {
     "Symbol": "HCAT",
@@ -10901,7 +10901,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HCIC",
-    "Name": "Hennessy Capital Investment V Class A"
+    "Name": "Hennessy Capital Investment V "
   },
   {
     "Symbol": "HCICU",
@@ -10913,7 +10913,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HCMA",
-    "Name": "HCM Acquisition Corp Class A"
+    "Name": "HCM Acquisition Corp "
   },
   {
     "Symbol": "HCMAU",
@@ -10921,7 +10921,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HCNE",
-    "Name": "Jaws Hurricane Acquisition Class A"
+    "Name": "Jaws Hurricane Acquisition "
   },
   {
     "Symbol": "HCNEU",
@@ -10929,7 +10929,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HCP",
-    "Name": "HashiCorp Inc. Class A"
+    "Name": "HashiCorp Inc. "
   },
   {
     "Symbol": "HCSG",
@@ -10941,7 +10941,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HCVI",
-    "Name": "Hennessy Capital Investment VI Class A"
+    "Name": "Hennessy Capital Investment VI "
   },
   {
     "Symbol": "HCVIU",
@@ -10997,7 +10997,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HERA",
-    "Name": "FTAC Hera Acquisition Class A"
+    "Name": "FTAC Hera Acquisition "
   },
   {
     "Symbol": "HERAU",
@@ -11009,7 +11009,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HESM",
-    "Name": "Hess Midstream LP Class A Share"
+    "Name": "Hess Midstream LP  Share"
   },
   {
     "Symbol": "HEXO",
@@ -11045,7 +11045,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HGTY",
-    "Name": "Hagerty Inc. Class A"
+    "Name": "Hagerty Inc. "
   },
   {
     "Symbol": "HGV",
@@ -11061,7 +11061,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HHLA",
-    "Name": "HH&L Acquisition Co. Class A"
+    "Name": "HH&L Acquisition Co. "
   },
   {
     "Symbol": "HHS",
@@ -11085,7 +11085,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HIGA",
-    "Name": "H.I.G. Acquisition Class A"
+    "Name": "H.I.G. Acquisition "
   },
   {
     "Symbol": "HIHO",
@@ -11101,7 +11101,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HIMS",
-    "Name": "Hims & Hers Health Inc. Class A"
+    "Name": "Hims & Hers Health Inc. "
   },
   {
     "Symbol": "HIO",
@@ -11129,7 +11129,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HLAH",
-    "Name": "Hamilton Lane Alliance Holdings I Inc. Class A"
+    "Name": "Hamilton Lane Alliance Holdings I Inc. "
   },
   {
     "Symbol": "HLAHU",
@@ -11137,7 +11137,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HLBZ",
-    "Name": "Helbiz Inc. Class A"
+    "Name": "Helbiz Inc. "
   },
   {
     "Symbol": "HLF",
@@ -11149,7 +11149,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HLI",
-    "Name": "Houlihan Lokey Inc. Class A"
+    "Name": "Houlihan Lokey Inc. "
   },
   {
     "Symbol": "HLIO",
@@ -11169,7 +11169,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HLNE",
-    "Name": "Hamilton Lane Incorporated Class A"
+    "Name": "Hamilton Lane Incorporated "
   },
   {
     "Symbol": "HLT",
@@ -11185,7 +11185,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HMA",
-    "Name": "Heartland Media Acquisition Class A"
+    "Name": "Heartland Media Acquisition "
   },
   {
     "Symbol": "HMC",
@@ -11193,7 +11193,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HMCO",
-    "Name": "HumanCo Acquisition Class A"
+    "Name": "HumanCo Acquisition "
   },
   {
     "Symbol": "HMCOU",
@@ -11221,7 +11221,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HMTV",
-    "Name": "Hemisphere Media Group Inc. Class A"
+    "Name": "Hemisphere Media Group Inc. "
   },
   {
     "Symbol": "HMY",
@@ -11293,7 +11293,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HOOD",
-    "Name": "Robinhood Markets Inc. Class A"
+    "Name": "Robinhood Markets Inc. "
   },
   {
     "Symbol": "HOOK",
@@ -11305,7 +11305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HORI",
-    "Name": "Emerging Markets Horizon Class A"
+    "Name": "Emerging Markets Horizon "
   },
   {
     "Symbol": "HORIU",
@@ -11321,7 +11321,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HOV",
-    "Name": "Hovnanian Enterprises Inc. Class A"
+    "Name": "Hovnanian Enterprises Inc. "
   },
   {
     "Symbol": "HOVNP",
@@ -11345,7 +11345,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HPLT",
-    "Name": "Home Plate Acquisition Corporation Class A"
+    "Name": "Home Plate Acquisition Corporation "
   },
   {
     "Symbol": "HPP",
@@ -11357,7 +11357,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HPX",
-    "Name": "HPX Class A"
+    "Name": "HPX "
   },
   {
     "Symbol": "HQH",
@@ -11429,7 +11429,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HSDT",
-    "Name": "Helius Medical Technologies Inc. Class A  (DE)"
+    "Name": "Helius Medical Technologies Inc.   (DE)"
   },
   {
     "Symbol": "HSIC",
@@ -11461,11 +11461,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HTA",
-    "Name": "Healthcare Trust of America Inc. Class A"
+    "Name": "Healthcare Trust of America Inc. "
   },
   {
     "Symbol": "HTAQ",
-    "Name": "Hunt Companies Acquisition I Class A"
+    "Name": "Hunt Companies Acquisition I "
   },
   {
     "Symbol": "HTBI",
@@ -11505,11 +11505,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HTOO",
-    "Name": "Fusion Fuel Green PLC Class A"
+    "Name": "Fusion Fuel Green PLC "
   },
   {
     "Symbol": "HTPA",
-    "Name": "Highland Transcend Partners I Class A"
+    "Name": "Highland Transcend Partners I "
   },
   {
     "Symbol": "HTZ",
@@ -11521,7 +11521,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HUBG",
-    "Name": "Hub Group Inc. Class A"
+    "Name": "Hub Group Inc. "
   },
   {
     "Symbol": "HUBS",
@@ -11537,7 +11537,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HUGS",
-    "Name": "USHG Acquisition Class A"
+    "Name": "USHG Acquisition "
   },
   {
     "Symbol": "HUM",
@@ -11593,7 +11593,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HWEL",
-    "Name": "Healthwell Acquisition I Class A"
+    "Name": "Healthwell Acquisition I "
   },
   {
     "Symbol": "HWELU",
@@ -11605,7 +11605,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HWKZ",
-    "Name": "Hawks Acquisition Corp Class A"
+    "Name": "Hawks Acquisition Corp "
   },
   {
     "Symbol": "HWM",
@@ -11617,7 +11617,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HY",
-    "Name": "Hyster-Yale Materials Handling Inc. Class A"
+    "Name": "Hyster-Yale Materials Handling Inc. "
   },
   {
     "Symbol": "HYB",
@@ -11633,15 +11633,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HYLN",
-    "Name": "Hyliion Holdings Class A"
+    "Name": "Hyliion Holdings "
   },
   {
     "Symbol": "HYMC",
-    "Name": "Hycroft Mining Holding Corporation Class A"
+    "Name": "Hycroft Mining Holding Corporation "
   },
   {
     "Symbol": "HYPR",
-    "Name": "Hyperfine Inc. Class A"
+    "Name": "Hyperfine Inc. "
   },
   {
     "Symbol": "HYRE",
@@ -11653,7 +11653,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "HYZN",
-    "Name": "Hyzon Motors Inc. Class A"
+    "Name": "Hyzon Motors Inc. "
   },
   {
     "Symbol": "HZN",
@@ -11677,7 +11677,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IACC",
-    "Name": "ION Acquisition Corp 3 Ltd. Class A"
+    "Name": "ION Acquisition Corp 3 Ltd. "
   },
   {
     "Symbol": "IAF",
@@ -11705,7 +11705,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IBER",
-    "Name": "Ibere Pharmaceuticals Class A"
+    "Name": "Ibere Pharmaceuticals "
   },
   {
     "Symbol": "IBEX",
@@ -11717,7 +11717,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IBKR",
-    "Name": "Interactive Brokers Group Inc. Class A"
+    "Name": "Interactive Brokers Group Inc. "
   },
   {
     "Symbol": "IBM",
@@ -11789,7 +11789,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ICNC",
-    "Name": "Iconic Sports Acquisition Class A"
+    "Name": "Iconic Sports Acquisition "
   },
   {
     "Symbol": "ICPT",
@@ -11805,7 +11805,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ID",
-    "Name": "PARTS iD Inc. Class A"
+    "Name": "PARTS iD Inc. "
   },
   {
     "Symbol": "IDA",
@@ -11813,7 +11813,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IDAI",
-    "Name": "T Stamp Inc. Class A"
+    "Name": "T Stamp Inc. "
   },
   {
     "Symbol": "IDCC",
@@ -11877,7 +11877,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IFIN",
-    "Name": "InFinT Acquisition Corporation Class A"
+    "Name": "InFinT Acquisition Corporation "
   },
   {
     "Symbol": "IFN",
@@ -11893,7 +11893,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IGAC",
-    "Name": "IG Acquisition Class A"
+    "Name": "IG Acquisition "
   },
   {
     "Symbol": "IGACU",
@@ -11949,7 +11949,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IHRT",
-    "Name": "iHeartMedia Inc. Class A"
+    "Name": "iHeartMedia Inc. "
   },
   {
     "Symbol": "IHS",
@@ -11973,7 +11973,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IMAQ",
-    "Name": "International Media Acquisition Class A"
+    "Name": "International Media Acquisition "
   },
   {
     "Symbol": "IMAQR",
@@ -11989,7 +11989,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IMBI",
-    "Name": "iMedia Brands Inc. Class A"
+    "Name": "iMedia Brands Inc. "
   },
   {
     "Symbol": "IMCC",
@@ -12009,7 +12009,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IMKTA",
-    "Name": "Ingles Markets Incorporated Class A"
+    "Name": "Ingles Markets Incorporated "
   },
   {
     "Symbol": "IMMR",
@@ -12037,7 +12037,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IMPX",
-    "Name": "AEA-Bridges Impact Class A"
+    "Name": "AEA-Bridges Impact "
   },
   {
     "Symbol": "IMRA",
@@ -12045,7 +12045,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IMRX",
-    "Name": "Immuneering Corporation Class A"
+    "Name": "Immuneering Corporation "
   },
   {
     "Symbol": "IMTE",
@@ -12077,7 +12077,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "INAQ",
-    "Name": "Insight Acquisition Class A"
+    "Name": "Insight Acquisition "
   },
   {
     "Symbol": "INBK",
@@ -12101,7 +12101,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "INDI",
-    "Name": "indie Semiconductor Inc. Class A"
+    "Name": "indie Semiconductor Inc. "
   },
   {
     "Symbol": "INDO",
@@ -12117,7 +12117,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "INFA",
-    "Name": "Informatica Inc. Class A"
+    "Name": "Informatica Inc. "
   },
   {
     "Symbol": "INFI",
@@ -12145,7 +12145,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "INKA",
-    "Name": "KludeIn I Acquisition Class A"
+    "Name": "KludeIn I Acquisition "
   },
   {
     "Symbol": "INKAU",
@@ -12229,7 +12229,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "INTE",
-    "Name": "Integral Acquisition Corporation 1 Class A"
+    "Name": "Integral Acquisition Corporation 1 "
   },
   {
     "Symbol": "INTEU",
@@ -12285,7 +12285,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IOAC",
-    "Name": "Innovative International Acquisition Class A"
+    "Name": "Innovative International Acquisition "
   },
   {
     "Symbol": "IOACU",
@@ -12317,7 +12317,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IOT",
-    "Name": "Samsara Inc. Class A"
+    "Name": "Samsara Inc. "
   },
   {
     "Symbol": "IOVA",
@@ -12337,7 +12337,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IPAX",
-    "Name": "Inflection Point Acquisition Class A Ordinary Share"
+    "Name": "Inflection Point Acquisition  Ordinary Share"
   },
   {
     "Symbol": "IPAXU",
@@ -12365,11 +12365,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IPOD",
-    "Name": "Social Capital Hedosophia Holdings IV Class A"
+    "Name": "Social Capital Hedosophia Holdings IV "
   },
   {
     "Symbol": "IPOF",
-    "Name": "Social Capital Hedosophia Holdings VI Class A"
+    "Name": "Social Capital Hedosophia Holdings VI "
   },
   {
     "Symbol": "IPSC",
@@ -12377,7 +12377,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IPVI",
-    "Name": "InterPrivate IV InfraTech Partners Inc. Class A"
+    "Name": "InterPrivate IV InfraTech Partners Inc. "
   },
   {
     "Symbol": "IPVIU",
@@ -12397,7 +12397,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IQMD",
-    "Name": "Intelligent Medicine Acquisition Class A"
+    "Name": "Intelligent Medicine Acquisition "
   },
   {
     "Symbol": "IQMDU",
@@ -12449,7 +12449,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IRRX",
-    "Name": "Integrated Rail and Resources Acquisition Class A"
+    "Name": "Integrated Rail and Resources Acquisition "
   },
   {
     "Symbol": "IRS",
@@ -12465,15 +12465,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IRWD",
-    "Name": "Ironwood Pharmaceuticals Inc. Class A"
+    "Name": "Ironwood Pharmaceuticals Inc. "
   },
   {
     "Symbol": "IS",
-    "Name": "ironSource Ltd. Class A"
+    "Name": "ironSource Ltd. "
   },
   {
     "Symbol": "ISAA",
-    "Name": "Iron Spark I Inc. Class A"
+    "Name": "Iron Spark I Inc. "
   },
   {
     "Symbol": "ISD",
@@ -12505,7 +12505,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ISPO",
-    "Name": "Inspirato Incorporated Class A"
+    "Name": "Inspirato Incorporated "
   },
   {
     "Symbol": "ISR",
@@ -12541,7 +12541,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ITHX",
-    "Name": "ITHAX Acquisition Class A"
+    "Name": "ITHAX Acquisition "
   },
   {
     "Symbol": "ITHXU",
@@ -12565,7 +12565,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ITQ",
-    "Name": "Itiquira Acquisition Class A"
+    "Name": "Itiquira Acquisition "
   },
   {
     "Symbol": "ITQRU",
@@ -12609,7 +12609,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IVCB",
-    "Name": "Investcorp Europe Acquisition Corp I Class A"
+    "Name": "Investcorp Europe Acquisition Corp I "
   },
   {
     "Symbol": "IVCBU",
@@ -12617,7 +12617,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IVCP",
-    "Name": "Swiftmerge Acquisition Class A Ordinary Share"
+    "Name": "Swiftmerge Acquisition  Ordinary Share"
   },
   {
     "Symbol": "IVCPU",
@@ -12649,7 +12649,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "IXAQ",
-    "Name": "IX Acquisition Class A Ordinary Share"
+    "Name": "IX Acquisition  Ordinary Share"
   },
   {
     "Symbol": "IXAQU",
@@ -12693,7 +12693,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JATT",
-    "Name": "JATT Acquisition Corp Class A"
+    "Name": "JATT Acquisition Corp "
   },
   {
     "Symbol": "JAZZ",
@@ -12733,7 +12733,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JCIC",
-    "Name": "Jack Creek Investment Class A"
+    "Name": "Jack Creek Investment "
   },
   {
     "Symbol": "JCICU",
@@ -12801,7 +12801,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JMAC",
-    "Name": "Maxpro Capital Acquisition Class A"
+    "Name": "Maxpro Capital Acquisition "
   },
   {
     "Symbol": "JMACU",
@@ -12845,7 +12845,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JOFF",
-    "Name": "JOFF Fintech Acquisition Class A"
+    "Name": "JOFF Fintech Acquisition "
   },
   {
     "Symbol": "JOFFU",
@@ -12853,7 +12853,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JOUT",
-    "Name": "Johnson Outdoors Inc. Class A"
+    "Name": "Johnson Outdoors Inc. "
   },
   {
     "Symbol": "JPC",
@@ -12881,7 +12881,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JUGG",
-    "Name": "Jaws Juggernaut Acquisition Corporation Class A Ordinary Share"
+    "Name": "Jaws Juggernaut Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "JUPW",
@@ -12893,7 +12893,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JWAC",
-    "Name": "Jupiter Wellness Acquisition Class A"
+    "Name": "Jupiter Wellness Acquisition "
   },
   {
     "Symbol": "JWEL",
@@ -12905,15 +12905,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "JWSM",
-    "Name": "Jaws Mustang Acquisition Class A"
+    "Name": "Jaws Mustang Acquisition "
   },
   {
     "Symbol": "JXN",
-    "Name": "Jackson Financial Inc. Class A"
+    "Name": "Jackson Financial Inc. "
   },
   {
     "Symbol": "JYAC",
-    "Name": "Jiya Acquisition Class A"
+    "Name": "Jiya Acquisition "
   },
   {
     "Symbol": "JYNT",
@@ -12937,7 +12937,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KAHC",
-    "Name": "KKR Acquisition Holdings I Class A"
+    "Name": "KKR Acquisition Holdings I "
   },
   {
     "Symbol": "KAI",
@@ -12945,7 +12945,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KAIR",
-    "Name": "Kairos Acquisition Class A"
+    "Name": "Kairos Acquisition "
   },
   {
     "Symbol": "KAIRU",
@@ -13001,7 +13001,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KCGI",
-    "Name": "Kensington Capital Acquisition V Class A"
+    "Name": "Kensington Capital Acquisition V "
   },
   {
     "Symbol": "KD",
@@ -13021,7 +13021,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KELYA",
-    "Name": "Kelly Services Inc. Class A"
+    "Name": "Kelly Services Inc. "
   },
   {
     "Symbol": "KELYB",
@@ -13093,7 +13093,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KIND",
-    "Name": "Nextdoor Holdings Inc. Class A"
+    "Name": "Nextdoor Holdings Inc. "
   },
   {
     "Symbol": "KINS",
@@ -13101,7 +13101,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KINZ",
-    "Name": "KINS Technology Group Inc. Class A"
+    "Name": "KINS Technology Group Inc. "
   },
   {
     "Symbol": "KINZU",
@@ -13129,7 +13129,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KLAQ",
-    "Name": "KL Acquisition Corp Class A"
+    "Name": "KL Acquisition Corp "
   },
   {
     "Symbol": "KLIC",
@@ -13185,7 +13185,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KNBE",
-    "Name": "KnowBe4 Inc. Class A"
+    "Name": "KnowBe4 Inc. "
   },
   {
     "Symbol": "KNDI",
@@ -13197,7 +13197,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KNSA",
-    "Name": "Kiniksa Pharmaceuticals Ltd. Class A"
+    "Name": "Kiniksa Pharmaceuticals Ltd. "
   },
   {
     "Symbol": "KNSL",
@@ -13205,7 +13205,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KNSW",
-    "Name": "KnightSwan Acquisition Corporation Class A"
+    "Name": "KnightSwan Acquisition Corporation "
   },
   {
     "Symbol": "KNTE",
@@ -13213,7 +13213,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KNTK",
-    "Name": "Kinetik Holdings Inc. Class A"
+    "Name": "Kinetik Holdings Inc. "
   },
   {
     "Symbol": "KNX",
@@ -13289,7 +13289,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KRNL",
-    "Name": "Kernel Group Holdings Inc. Class A"
+    "Name": "Kernel Group Holdings Inc. "
   },
   {
     "Symbol": "KRNLU",
@@ -13329,7 +13329,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KRUS",
-    "Name": "Kura Sushi USA Inc. Class A"
+    "Name": "Kura Sushi USA Inc. "
   },
   {
     "Symbol": "KRYS",
@@ -13337,11 +13337,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KSCP",
-    "Name": "Knightscope Inc. Class A"
+    "Name": "Knightscope Inc. "
   },
   {
     "Symbol": "KSI",
-    "Name": "Kadem Sustainable Impact Corporation Class A"
+    "Name": "Kadem Sustainable Impact Corporation "
   },
   {
     "Symbol": "KSICU",
@@ -13401,7 +13401,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KVSA",
-    "Name": "Khosla Ventures Acquisition Co. Class A"
+    "Name": "Khosla Ventures Acquisition Co. "
   },
   {
     "Symbol": "KW",
@@ -13409,7 +13409,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "KWAC",
-    "Name": "Kingswood Acquisition Class A"
+    "Name": "Kingswood Acquisition "
   },
   {
     "Symbol": "KWR",
@@ -13469,7 +13469,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LADR",
-    "Name": "Ladder Capital Corp Class A"
+    "Name": "Ladder Capital Corp "
   },
   {
     "Symbol": "LAKE",
@@ -13477,7 +13477,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LAMR",
-    "Name": "Lamar Advertising Company Class A"
+    "Name": "Lamar Advertising Company "
   },
   {
     "Symbol": "LANC",
@@ -13525,11 +13525,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LAZ",
-    "Name": "Lazard LTD. Lazard LTD. Class A"
+    "Name": "Lazard LTD. Lazard LTD. "
   },
   {
     "Symbol": "LAZR",
-    "Name": "Luminar Technologies Inc.  Class A"
+    "Name": "Luminar Technologies Inc.  "
   },
   {
     "Symbol": "LAZY",
@@ -13549,7 +13549,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LBRDA",
-    "Name": "Liberty Broadband Corporation Class A"
+    "Name": "Liberty Broadband Corporation "
   },
   {
     "Symbol": "LBRDK",
@@ -13561,11 +13561,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LBRT",
-    "Name": "Liberty Oilfield Services Inc. Class A"
+    "Name": "Liberty Oilfield Services Inc. "
   },
   {
     "Symbol": "LBTYA",
-    "Name": "Liberty Global plc Class A"
+    "Name": "Liberty Global plc "
   },
   {
     "Symbol": "LBTYB",
@@ -13581,11 +13581,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LCA",
-    "Name": "Landcadia Holdings IV Inc. Class A"
+    "Name": "Landcadia Holdings IV Inc. "
   },
   {
     "Symbol": "LCAA",
-    "Name": "L Catterton Asia Acquisition Corp Class A"
+    "Name": "L Catterton Asia Acquisition Corp "
   },
   {
     "Symbol": "LCAAU",
@@ -13621,11 +13621,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LCW",
-    "Name": "Learn CW Investment Corporation Class A"
+    "Name": "Learn CW Investment Corporation "
   },
   {
     "Symbol": "LDHA",
-    "Name": "LDH Growth Corp I Class A"
+    "Name": "LDH Growth Corp I "
   },
   {
     "Symbol": "LDHAU",
@@ -13633,7 +13633,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LDI",
-    "Name": "loanDepot Inc. Class A"
+    "Name": "loanDepot Inc. "
   },
   {
     "Symbol": "LDOS",
@@ -13653,7 +13653,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LEAP",
-    "Name": "Ribbit LEAP Ltd. Class A"
+    "Name": "Ribbit LEAP Ltd. "
   },
   {
     "Symbol": "LECO",
@@ -13673,7 +13673,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LEGA",
-    "Name": "Lead Edge Growth Opportunities Ltd Class A"
+    "Name": "Lead Edge Growth Opportunities Ltd "
   },
   {
     "Symbol": "LEGAU",
@@ -13685,7 +13685,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LEN",
-    "Name": "Lennar Corporation Class A"
+    "Name": "Lennar Corporation "
   },
   {
     "Symbol": "LEO",
@@ -13697,7 +13697,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LEU",
-    "Name": "Centrus Energy Class A"
+    "Name": "Centrus Energy "
   },
   {
     "Symbol": "LEV",
@@ -13705,7 +13705,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LEVI",
-    "Name": "Levi Strauss & Co Class A"
+    "Name": "Levi Strauss & Co "
   },
   {
     "Symbol": "LEXX",
@@ -13713,7 +13713,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LFG",
-    "Name": "Archaea Energy Inc. Class A"
+    "Name": "Archaea Energy Inc. "
   },
   {
     "Symbol": "LFLY",
@@ -13733,7 +13733,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LFTR",
-    "Name": "Lefteris Acquisition Class A"
+    "Name": "Lefteris Acquisition "
   },
   {
     "Symbol": "LFUS",
@@ -13777,7 +13777,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LGST",
-    "Name": "Semper Paratus Acquisition Corporation Class A"
+    "Name": "Semper Paratus Acquisition Corporation "
   },
   {
     "Symbol": "LGSTU",
@@ -13789,7 +13789,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LGVN",
-    "Name": "Longeveron Inc. Class A"
+    "Name": "Longeveron Inc. "
   },
   {
     "Symbol": "LH",
@@ -13797,7 +13797,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LHAA",
-    "Name": "Lerer Hippeau Acquisition Class A"
+    "Name": "Lerer Hippeau Acquisition "
   },
   {
     "Symbol": "LHCG",
@@ -13813,7 +13813,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LIBY",
-    "Name": "Liberty Resources Acquisition Class A"
+    "Name": "Liberty Resources Acquisition "
   },
   {
     "Symbol": "LICY",
@@ -13821,7 +13821,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LIDR",
-    "Name": "AEye Inc. Class A"
+    "Name": "AEye Inc. "
   },
   {
     "Symbol": "LIFE",
@@ -13829,7 +13829,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LILA",
-    "Name": "Liberty Latin America Ltd. Class A"
+    "Name": "Liberty Latin America Ltd. "
   },
   {
     "Symbol": "LILAK",
@@ -13837,7 +13837,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LILM",
-    "Name": "Lilium N.V. Class A"
+    "Name": "Lilium N.V. "
   },
   {
     "Symbol": "LIN",
@@ -13869,7 +13869,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LITT",
-    "Name": "Logistics Innovation Technologies Class A"
+    "Name": "Logistics Innovation Technologies "
   },
   {
     "Symbol": "LITTU",
@@ -13941,7 +13941,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LMAO",
-    "Name": "LMF Acquisition Opportunities Inc. Class A"
+    "Name": "LMF Acquisition Opportunities Inc. "
   },
   {
     "Symbol": "LMAOU",
@@ -14001,7 +14001,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LNFA",
-    "Name": "L&amp;F Acquisition Class A"
+    "Name": "L&amp;F Acquisition "
   },
   {
     "Symbol": "LNG",
@@ -14033,7 +14033,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LOCC",
-    "Name": "Live Oak Crestview Climate Acquisition Class A"
+    "Name": "Live Oak Crestview Climate Acquisition "
   },
   {
     "Symbol": "LOCL",
@@ -14057,7 +14057,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LOKM",
-    "Name": "Live Oak Mobility Acquisition Class A"
+    "Name": "Live Oak Mobility Acquisition "
   },
   {
     "Symbol": "LOMA",
@@ -14073,7 +14073,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LOTZ",
-    "Name": "CarLotz Inc. Class A"
+    "Name": "CarLotz Inc. "
   },
   {
     "Symbol": "LOVE",
@@ -14105,7 +14105,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LPRO",
-    "Name": "Open Lending Corporation Class A"
+    "Name": "Open Lending Corporation "
   },
   {
     "Symbol": "LPSN",
@@ -14113,7 +14113,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LPTH",
-    "Name": "LightPath Technologies Inc. Class A"
+    "Name": "LightPath Technologies Inc. "
   },
   {
     "Symbol": "LPTX",
@@ -14257,7 +14257,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LUXA",
-    "Name": "Lux Health Tech Acquisition Class A"
+    "Name": "Lux Health Tech Acquisition "
   },
   {
     "Symbol": "LUXAU",
@@ -14277,11 +14277,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LVOX",
-    "Name": "LiveVox Holdings Inc. Class A"
+    "Name": "LiveVox Holdings Inc. "
   },
   {
     "Symbol": "LVRA",
-    "Name": "Levere Holdings Class A"
+    "Name": "Levere Holdings "
   },
   {
     "Symbol": "LVS",
@@ -14321,7 +14321,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LYB",
-    "Name": "LyondellBasell Industries NV  Class A (Netherlands)"
+    "Name": "LyondellBasell Industries NV   (Netherlands)"
   },
   {
     "Symbol": "LYEL",
@@ -14329,7 +14329,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "LYFT",
-    "Name": "Lyft Inc. Class A"
+    "Name": "Lyft Inc. "
   },
   {
     "Symbol": "LYL",
@@ -14389,7 +14389,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MACA",
-    "Name": "Moringa Acquisition Corp Class A"
+    "Name": "Moringa Acquisition Corp "
   },
   {
     "Symbol": "MACAU",
@@ -14397,7 +14397,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MACC",
-    "Name": "Mission Advancement Class A"
+    "Name": "Mission Advancement "
   },
   {
     "Symbol": "MACK",
@@ -14429,19 +14429,19 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MANU",
-    "Name": "Manchester United Ltd. Class A"
+    "Name": "Manchester United Ltd. "
   },
   {
     "Symbol": "MAPS",
-    "Name": "WM Technology Inc. Class A"
+    "Name": "WM Technology Inc. "
   },
   {
     "Symbol": "MAQC",
-    "Name": "Maquia Capital Acquisition Corporation Class A"
+    "Name": "Maquia Capital Acquisition Corporation "
   },
   {
     "Symbol": "MAR",
-    "Name": "Marriott International Class A"
+    "Name": "Marriott International "
   },
   {
     "Symbol": "MARA",
@@ -14469,7 +14469,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MATW",
-    "Name": "Matthews International Corporation Class A"
+    "Name": "Matthews International Corporation "
   },
   {
     "Symbol": "MATX",
@@ -14481,7 +14481,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MAX",
-    "Name": "MediaAlpha Inc. Class A"
+    "Name": "MediaAlpha Inc. "
   },
   {
     "Symbol": "MAXN",
@@ -14533,7 +14533,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MBUU",
-    "Name": "Malibu Boats Inc. Class A"
+    "Name": "Malibu Boats Inc. "
   },
   {
     "Symbol": "MBWM",
@@ -14541,11 +14541,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MC",
-    "Name": "Moelis & Company Class A"
+    "Name": "Moelis & Company "
   },
   {
     "Symbol": "MCAA",
-    "Name": "Mountain & Co. I Acquisition Class A"
+    "Name": "Mountain & Co. I Acquisition "
   },
   {
     "Symbol": "MCB",
@@ -14569,7 +14569,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MCG",
-    "Name": "Membership Collective Group Inc. Class A"
+    "Name": "Membership Collective Group Inc. "
   },
   {
     "Symbol": "MCHP",
@@ -14629,7 +14629,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MDB",
-    "Name": "MongoDB Inc. Class A"
+    "Name": "MongoDB Inc. "
   },
   {
     "Symbol": "MDC",
@@ -14641,11 +14641,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MDH",
-    "Name": "MDH Acquisition Class A"
+    "Name": "MDH Acquisition "
   },
   {
     "Symbol": "MDIA",
-    "Name": "Mediaco Holding Inc. Class A"
+    "Name": "Mediaco Holding Inc. "
   },
   {
     "Symbol": "MDJH",
@@ -14653,7 +14653,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MDLZ",
-    "Name": "Mondelez International Inc. Class A"
+    "Name": "Mondelez International Inc. "
   },
   {
     "Symbol": "MDNA",
@@ -14701,11 +14701,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ME",
-    "Name": "23andMe Holding Co. Class A"
+    "Name": "23andMe Holding Co. "
   },
   {
     "Symbol": "MEAC",
-    "Name": "Mercury Ecommerce Acquisition Corp Class A"
+    "Name": "Mercury Ecommerce Acquisition Corp "
   },
   {
     "Symbol": "MEC",
@@ -14741,7 +14741,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MEKA",
-    "Name": "MELI Kaszek Pioneer Corp Class A"
+    "Name": "MELI Kaszek Pioneer Corp "
   },
   {
     "Symbol": "MELI",
@@ -14749,7 +14749,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MEOA",
-    "Name": "Minority Equality Opportunities Acquisition Inc. Class A"
+    "Name": "Minority Equality Opportunities Acquisition Inc. "
   },
   {
     "Symbol": "MEOAU",
@@ -14857,7 +14857,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MGP",
-    "Name": "MGM Growth Properties LLC Class A  representing limited liability company interests"
+    "Name": "MGM Growth Properties LLC   representing limited liability company interests"
   },
   {
     "Symbol": "MGPI",
@@ -14881,7 +14881,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MGY",
-    "Name": "Magnolia Oil & Gas Corporation Class A"
+    "Name": "Magnolia Oil & Gas Corporation "
   },
   {
     "Symbol": "MGYR",
@@ -14969,7 +14969,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MIR",
-    "Name": "Mirion Technologies Inc. Class A"
+    "Name": "Mirion Technologies Inc. "
   },
   {
     "Symbol": "MIRM",
@@ -14985,11 +14985,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MIT",
-    "Name": "Mason Industrial Technology Inc. Class A"
+    "Name": "Mason Industrial Technology Inc. "
   },
   {
     "Symbol": "MITA",
-    "Name": "Coliseum Acquisition Class A Ordinary Share"
+    "Name": "Coliseum Acquisition  Ordinary Share"
   },
   {
     "Symbol": "MITAU",
@@ -15033,7 +15033,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MKTW",
-    "Name": "MarketWise Inc. Class A"
+    "Name": "MarketWise Inc. "
   },
   {
     "Symbol": "MKTX",
@@ -15041,7 +15041,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ML",
-    "Name": "MoneyLion Inc. Class A"
+    "Name": "MoneyLion Inc. "
   },
   {
     "Symbol": "MLAB",
@@ -15049,7 +15049,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MLAC",
-    "Name": "Malacca Straits Acquisition Company Limited Class A"
+    "Name": "Malacca Straits Acquisition Company Limited "
   },
   {
     "Symbol": "MLACU",
@@ -15089,7 +15089,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MLTX",
-    "Name": "MoonLake Immunotherapeutics Class A"
+    "Name": "MoonLake Immunotherapeutics "
   },
   {
     "Symbol": "MLVF",
@@ -15153,7 +15153,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MN",
-    "Name": "Manning & Napier Inc. Class A"
+    "Name": "Manning & Napier Inc. "
   },
   {
     "Symbol": "MNDO",
@@ -15189,7 +15189,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MNRL",
-    "Name": "Brigham Minerals Inc. Class A"
+    "Name": "Brigham Minerals Inc. "
   },
   {
     "Symbol": "MNRO",
@@ -15209,11 +15209,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MNTN",
-    "Name": "Everest Consolidator Acquisition Corporation Class A"
+    "Name": "Everest Consolidator Acquisition Corporation "
   },
   {
     "Symbol": "MNTS",
-    "Name": "Momentus Inc. Class A"
+    "Name": "Momentus Inc. "
   },
   {
     "Symbol": "MNTV",
@@ -15261,7 +15261,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MON",
-    "Name": "Monument Circle Acquisition Class A"
+    "Name": "Monument Circle Acquisition "
   },
   {
     "Symbol": "MORF",
@@ -15305,7 +15305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MPAC",
-    "Name": "Model Performance Acquisition Class A Ordinary Share"
+    "Name": "Model Performance Acquisition  Ordinary Share"
   },
   {
     "Symbol": "MPACR",
@@ -15321,7 +15321,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MPLN",
-    "Name": "MultiPlan Corporation Class A"
+    "Name": "MultiPlan Corporation "
   },
   {
     "Symbol": "MPLX",
@@ -15329,7 +15329,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MPRA",
-    "Name": "Mercato Partners Acquisition Corporation Class A"
+    "Name": "Mercato Partners Acquisition Corporation "
   },
   {
     "Symbol": "MPRAU",
@@ -15353,7 +15353,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MQ",
-    "Name": "Marqeta Inc. Class A"
+    "Name": "Marqeta Inc. "
   },
   {
     "Symbol": "MQY",
@@ -15361,7 +15361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MRAI",
-    "Name": "Marpai Inc. Class A"
+    "Name": "Marpai Inc. "
   },
   {
     "Symbol": "MRAM",
@@ -15425,7 +15425,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MRVI",
-    "Name": "Maravai LifeSciences Holdings Inc. Class A"
+    "Name": "Maravai LifeSciences Holdings Inc. "
   },
   {
     "Symbol": "MRVL",
@@ -15441,7 +15441,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MSAC",
-    "Name": "Medicus Sciences Acquisition Class A Ordinary Share"
+    "Name": "Medicus Sciences Acquisition  Ordinary Share"
   },
   {
     "Symbol": "MSB",
@@ -15461,7 +15461,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MSDA",
-    "Name": "MSD Acquisition Class A"
+    "Name": "MSD Acquisition "
   },
   {
     "Symbol": "MSDAU",
@@ -15477,15 +15477,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MSGE",
-    "Name": "Madison Square Garden Entertainment Class A"
+    "Name": "Madison Square Garden Entertainment "
   },
   {
     "Symbol": "MSGM",
-    "Name": "Motorsport Games Inc. Class A"
+    "Name": "Motorsport Games Inc. "
   },
   {
     "Symbol": "MSGS",
-    "Name": "Madison Square Garden Sports Class A  (New)"
+    "Name": "Madison Square Garden Sports   (New)"
   },
   {
     "Symbol": "MSI",
@@ -15509,7 +15509,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MSTR",
-    "Name": "MicroStrategy Incorporated  Class A"
+    "Name": "MicroStrategy Incorporated  "
   },
   {
     "Symbol": "MSVB",
@@ -15525,7 +15525,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MTAC",
-    "Name": "MedTech Acquisition Corporation Class A"
+    "Name": "MedTech Acquisition Corporation "
   },
   {
     "Symbol": "MTACU",
@@ -15533,7 +15533,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MTAL",
-    "Name": "Metals Acquisition Corp Class A"
+    "Name": "Metals Acquisition Corp "
   },
   {
     "Symbol": "MTB",
@@ -15629,7 +15629,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MTTR",
-    "Name": "Matterport Inc. Class A"
+    "Name": "Matterport Inc. "
   },
   {
     "Symbol": "MTW",
@@ -15677,7 +15677,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MURF",
-    "Name": "Murphy Canyon Acquisition Class A"
+    "Name": "Murphy Canyon Acquisition "
   },
   {
     "Symbol": "MUSA",
@@ -15773,7 +15773,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "MYPS",
-    "Name": "PLAYSTUDIOS Inc.  Class A"
+    "Name": "PLAYSTUDIOS Inc.  "
   },
   {
     "Symbol": "MYRG",
@@ -15785,7 +15785,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NAAC",
-    "Name": "North Atlantic Acquisition Corporation Class A Ordinary Share"
+    "Name": "North Atlantic Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "NAACU",
@@ -15925,7 +15925,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NCAC",
-    "Name": "Newcourt Acquisition Corp Class A Ordinary Share"
+    "Name": "Newcourt Acquisition Corp  Ordinary Share"
   },
   {
     "Symbol": "NCACU",
@@ -15961,7 +15961,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NDAC",
-    "Name": "NightDragon Acquisition Class A"
+    "Name": "NightDragon Acquisition "
   },
   {
     "Symbol": "NDACU",
@@ -15973,7 +15973,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NDLS",
-    "Name": "Noodles & Company Class A"
+    "Name": "Noodles & Company "
   },
   {
     "Symbol": "NDP",
@@ -16009,7 +16009,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NEN",
-    "Name": "New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership"
+    "Name": "New England Realty Associates Limited Partnership  Depositary Receipts Evidencing Units of Limited Partnership"
   },
   {
     "Symbol": "NEO",
@@ -16045,11 +16045,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NET",
-    "Name": "Cloudflare Inc. Class A"
+    "Name": "Cloudflare Inc. "
   },
   {
     "Symbol": "NETC",
-    "Name": "Nabors Energy Transition Class A"
+    "Name": "Nabors Energy Transition "
   },
   {
     "Symbol": "NETI",
@@ -16093,7 +16093,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NFE",
-    "Name": "New Fortress Energy Inc. Class A"
+    "Name": "New Fortress Energy Inc. "
   },
   {
     "Symbol": "NFG",
@@ -16109,11 +16109,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NFNT",
-    "Name": "Infinite Acquisition Class A"
+    "Name": "Infinite Acquisition "
   },
   {
     "Symbol": "NFYS",
-    "Name": "Enphys Acquisition Class A"
+    "Name": "Enphys Acquisition "
   },
   {
     "Symbol": "NG",
@@ -16193,7 +16193,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NISN",
-    "Name": "NiSun International Enterprise Development Group Co. Ltd. Class A"
+    "Name": "NiSun International Enterprise Development Group Co. Ltd. "
   },
   {
     "Symbol": "NJR",
@@ -16233,7 +16233,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NLIT",
-    "Name": "Northern Lights Acquisition Class A"
+    "Name": "Northern Lights Acquisition "
   },
   {
     "Symbol": "NLOK",
@@ -16281,7 +16281,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NMIH",
-    "Name": "NMI Holdings Inc. Class A"
+    "Name": "NMI Holdings Inc. "
   },
   {
     "Symbol": "NML",
@@ -16293,7 +16293,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NMMC",
-    "Name": "North Mountain Merger Class A"
+    "Name": "North Mountain Merger "
   },
   {
     "Symbol": "NMMCU",
@@ -16305,7 +16305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NMRK",
-    "Name": "Newmark Group Inc. Class A"
+    "Name": "Newmark Group Inc. "
   },
   {
     "Symbol": "NMS",
@@ -16453,7 +16453,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NRAC",
-    "Name": "Noble Rock Acquisition Corporation Class A Ordinary Share"
+    "Name": "Noble Rock Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "NRACU",
@@ -16469,11 +16469,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NRDS",
-    "Name": "NerdWallet Inc. Class A"
+    "Name": "NerdWallet Inc. "
   },
   {
     "Symbol": "NRDY",
-    "Name": "Nerdy Inc. Class A"
+    "Name": "Nerdy Inc. "
   },
   {
     "Symbol": "NREF",
@@ -16561,7 +16561,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NSTD",
-    "Name": "Northern Star Investment IV Class A"
+    "Name": "Northern Star Investment IV "
   },
   {
     "Symbol": "NSTG",
@@ -16609,7 +16609,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NTNX",
-    "Name": "Nutanix Inc. Class A"
+    "Name": "Nutanix Inc. "
   },
   {
     "Symbol": "NTP",
@@ -16649,7 +16649,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NU",
-    "Name": "Nu Holdings Ltd. Class A"
+    "Name": "Nu Holdings Ltd. "
   },
   {
     "Symbol": "NUBIU",
@@ -16685,11 +16685,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NUVB",
-    "Name": "Nuvation Bio Inc. Class A"
+    "Name": "Nuvation Bio Inc. "
   },
   {
     "Symbol": "NUVL",
-    "Name": "Nuvalent Inc. Class A"
+    "Name": "Nuvalent Inc. "
   },
   {
     "Symbol": "NUW",
@@ -16789,7 +16789,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NVSA",
-    "Name": "New Vista Acquisition Corp Class A"
+    "Name": "New Vista Acquisition Corp "
   },
   {
     "Symbol": "NVSAU",
@@ -16837,7 +16837,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NWLI",
-    "Name": "National Western Life Group Inc. Class A"
+    "Name": "National Western Life Group Inc. "
   },
   {
     "Symbol": "NWN",
@@ -16853,7 +16853,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NWSA",
-    "Name": "News Corporation Class A"
+    "Name": "News Corporation "
   },
   {
     "Symbol": "NX",
@@ -16893,7 +16893,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NXST",
-    "Name": "Nexstar Media Group Inc. Class A"
+    "Name": "Nexstar Media Group Inc. "
   },
   {
     "Symbol": "NXTC",
@@ -16905,7 +16905,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "NYC",
-    "Name": "New York City REIT Inc. Class A"
+    "Name": "New York City REIT Inc. "
   },
   {
     "Symbol": "NYCB",
@@ -16973,11 +16973,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OCA",
-    "Name": "Omnichannel Acquisition Class A"
+    "Name": "Omnichannel Acquisition "
   },
   {
     "Symbol": "OCAX",
-    "Name": "OCA Acquisition Class A"
+    "Name": "OCA Acquisition "
   },
   {
     "Symbol": "OCC",
@@ -17045,7 +17045,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OEPW",
-    "Name": "One Equity Partners Open Water I Class A"
+    "Name": "One Equity Partners Open Water I "
   },
   {
     "Symbol": "OEPWU",
@@ -17105,7 +17105,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OHPA",
-    "Name": "Orion Acquisition Class A"
+    "Name": "Orion Acquisition "
   },
   {
     "Symbol": "OHPAU",
@@ -17129,7 +17129,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OKTA",
-    "Name": "Okta Inc. Class A"
+    "Name": "Okta Inc. "
   },
   {
     "Symbol": "OLB",
@@ -17141,7 +17141,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OLIT",
-    "Name": "OmniLit Acquisition Class A"
+    "Name": "OmniLit Acquisition "
   },
   {
     "Symbol": "OLITU",
@@ -17161,7 +17161,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OLO",
-    "Name": "Olo Inc. Class A"
+    "Name": "Olo Inc. "
   },
   {
     "Symbol": "OLP",
@@ -17185,7 +17185,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OMEG",
-    "Name": "Omega Alpha SPAC Class A"
+    "Name": "Omega Alpha SPAC "
   },
   {
     "Symbol": "OMER",
@@ -17253,7 +17253,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ONEW",
-    "Name": "OneWater Marine Inc. Class A"
+    "Name": "OneWater Marine Inc. "
   },
   {
     "Symbol": "ONL",
@@ -17261,7 +17261,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ONON",
-    "Name": "On Holding AG Class A"
+    "Name": "On Holding AG "
   },
   {
     "Symbol": "ONTF",
@@ -17281,7 +17281,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ONYX",
-    "Name": "Onyx Acquisition Co. I Class A"
+    "Name": "Onyx Acquisition Co. I "
   },
   {
     "Symbol": "ONYXU",
@@ -17297,11 +17297,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OPA",
-    "Name": "Magnum Opus Acquisition Limited Class A"
+    "Name": "Magnum Opus Acquisition Limited "
   },
   {
     "Symbol": "OPAD",
-    "Name": "Offerpad Solutions Inc. Class A"
+    "Name": "Offerpad Solutions Inc. "
   },
   {
     "Symbol": "OPBK",
@@ -17317,7 +17317,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OPFI",
-    "Name": "OppFi Inc. Class A"
+    "Name": "OppFi Inc. "
   },
   {
     "Symbol": "OPGN",
@@ -17361,7 +17361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OPY",
-    "Name": "Oppenheimer Holdings Inc. Class A  (DE)"
+    "Name": "Oppenheimer Holdings Inc.   (DE)"
   },
   {
     "Symbol": "OR",
@@ -17393,7 +17393,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ORGO",
-    "Name": "Organogenesis Holdings Inc. Class A"
+    "Name": "Organogenesis Holdings Inc. "
   },
   {
     "Symbol": "ORGS",
@@ -17405,7 +17405,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ORIA",
-    "Name": "Orion Biotech Opportunities Class A Ordinary Share"
+    "Name": "Orion Biotech Opportunities  Ordinary Share"
   },
   {
     "Symbol": "ORIAU",
@@ -17441,11 +17441,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OSCR",
-    "Name": "Oscar Health Inc. Class A"
+    "Name": "Oscar Health Inc. "
   },
   {
     "Symbol": "OSG",
-    "Name": "Overseas Shipholding Group Inc. Class A"
+    "Name": "Overseas Shipholding Group Inc. "
   },
   {
     "Symbol": "OSH",
@@ -17453,7 +17453,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OSI",
-    "Name": "Osiris Acquisition Class A"
+    "Name": "Osiris Acquisition "
   },
   {
     "Symbol": "OSIS",
@@ -17477,7 +17477,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OSTR",
-    "Name": "Oyster Enterprises Acquisition Class A"
+    "Name": "Oyster Enterprises Acquisition "
   },
   {
     "Symbol": "OSTRU",
@@ -17493,7 +17493,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OTEC",
-    "Name": "OceanTech Acquisitions I Class A"
+    "Name": "OceanTech Acquisitions I "
   },
   {
     "Symbol": "OTEX",
@@ -17517,7 +17517,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OTRA",
-    "Name": "OTR Acquisition Class A"
+    "Name": "OTR Acquisition "
   },
   {
     "Symbol": "OTRAU",
@@ -17557,15 +17557,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OWL",
-    "Name": "Blue Owl Capital Inc. Class A"
+    "Name": "Blue Owl Capital Inc. "
   },
   {
     "Symbol": "OWLT",
-    "Name": "Owlet Inc. Class A"
+    "Name": "Owlet Inc. "
   },
   {
     "Symbol": "OXAC",
-    "Name": "Oxbridge Acquisition Class A"
+    "Name": "Oxbridge Acquisition "
   },
   {
     "Symbol": "OXBR",
@@ -17585,7 +17585,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OXUS",
-    "Name": "Oxus Acquisition Class A"
+    "Name": "Oxus Acquisition "
   },
   {
     "Symbol": "OXUSU",
@@ -17601,7 +17601,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "OZ",
-    "Name": "Belpointe PREP LLC Class A Units"
+    "Name": "Belpointe PREP LLC  Units"
   },
   {
     "Symbol": "OZK",
@@ -17621,11 +17621,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PACI",
-    "Name": "PROOF Acquisition Corp I Class A"
+    "Name": "PROOF Acquisition Corp I "
   },
   {
     "Symbol": "PACK",
-    "Name": "Ranpak Holdings Corp Class A"
+    "Name": "Ranpak Holdings Corp "
   },
   {
     "Symbol": "PACW",
@@ -17633,7 +17633,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PACX",
-    "Name": "Pioneer Merger Class A Ordinary Share"
+    "Name": "Pioneer Merger  Ordinary Share"
   },
   {
     "Symbol": "PACXU",
@@ -17653,15 +17653,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PAGP",
-    "Name": "Plains GP Holdings L.P. Class A Units representing Limited Partner Interests"
+    "Name": "Plains GP Holdings L.P.  Units representing Limited Partner Interests"
   },
   {
     "Symbol": "PAGS",
-    "Name": "PagSeguro Digital Ltd. Class A"
+    "Name": "PagSeguro Digital Ltd. "
   },
   {
     "Symbol": "PAHC",
-    "Name": "Phibro Animal Health Corporation Class A"
+    "Name": "Phibro Animal Health Corporation "
   },
   {
     "Symbol": "PAI",
@@ -17689,7 +17689,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PAQC",
-    "Name": "Provident Acquisition Class A"
+    "Name": "Provident Acquisition "
   },
   {
     "Symbol": "PAQCU",
@@ -17705,7 +17705,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PARAA",
-    "Name": "Paramount Global Class A"
+    "Name": "Paramount Global "
   },
   {
     "Symbol": "PARR",
@@ -17717,7 +17717,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PATH",
-    "Name": "UiPath Inc. Class A"
+    "Name": "UiPath Inc. "
   },
   {
     "Symbol": "PATI",
@@ -17733,15 +17733,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PAX",
-    "Name": "Patria Investments Limited Class A"
+    "Name": "Patria Investments Limited "
   },
   {
     "Symbol": "PAY",
-    "Name": "Paymentus Holdings Inc. Class A"
+    "Name": "Paymentus Holdings Inc. "
   },
   {
     "Symbol": "PAYA",
-    "Name": "Paya Holdings Inc. Class A"
+    "Name": "Paya Holdings Inc. "
   },
   {
     "Symbol": "PAYC",
@@ -17769,7 +17769,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PBAX",
-    "Name": "Phoenix Biotech Acquisition Class A"
+    "Name": "Phoenix Biotech Acquisition "
   },
   {
     "Symbol": "PBAXU",
@@ -17781,7 +17781,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PBF",
-    "Name": "PBF Energy Inc. Class A"
+    "Name": "PBF Energy Inc. "
   },
   {
     "Symbol": "PBFS",
@@ -17873,7 +17873,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PCPC",
-    "Name": "Periphas Capital Partnering Corporation Class A"
+    "Name": "Periphas Capital Partnering Corporation "
   },
   {
     "Symbol": "PCQ",
@@ -17953,7 +17953,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PDM",
-    "Name": "Piedmont Office Realty Trust Inc. Class A"
+    "Name": "Piedmont Office Realty Trust Inc. "
   },
   {
     "Symbol": "PDS",
@@ -17973,7 +17973,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PEAR",
-    "Name": "Pear Therapeutics Inc. Class A"
+    "Name": "Pear Therapeutics Inc. "
   },
   {
     "Symbol": "PEBK",
@@ -18001,7 +18001,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PEGR",
-    "Name": "Project Energy Reimagined Acquisition Class A Ordinary Share"
+    "Name": "Project Energy Reimagined Acquisition  Ordinary Share"
   },
   {
     "Symbol": "PEGRU",
@@ -18033,7 +18033,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PEPL",
-    "Name": "PepperLime Health Acquisition Corporation Class A Ordinary Share"
+    "Name": "PepperLime Health Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "PEPLU",
@@ -18053,7 +18053,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PETQ",
-    "Name": "PetIQ Inc. Class A"
+    "Name": "PetIQ Inc. "
   },
   {
     "Symbol": "PETS",
@@ -18081,7 +18081,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PFDR",
-    "Name": "Pathfinder Acquisition Corporation Class A"
+    "Name": "Pathfinder Acquisition Corporation "
   },
   {
     "Symbol": "PFDRU",
@@ -18101,7 +18101,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PFHD",
-    "Name": "Professional Holding Class A"
+    "Name": "Professional Holding "
   },
   {
     "Symbol": "PFIE",
@@ -18109,7 +18109,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PFIN",
-    "Name": "P & F Industries Inc. Class A"
+    "Name": "P & F Industries Inc. "
   },
   {
     "Symbol": "PFIS",
@@ -18141,7 +18141,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PFTA",
-    "Name": "Portage Fintech Acquisition Corporation Class A Ordinary Share"
+    "Name": "Portage Fintech Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "PFTAU",
@@ -18181,7 +18181,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PGRW",
-    "Name": "Progress Acquisition Class A"
+    "Name": "Progress Acquisition "
   },
   {
     "Symbol": "PGRWU",
@@ -18189,7 +18189,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PGSS",
-    "Name": "Pegasus Digital Mobility Acquisition Class A"
+    "Name": "Pegasus Digital Mobility Acquisition "
   },
   {
     "Symbol": "PGTI",
@@ -18265,7 +18265,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PHYT",
-    "Name": "Pyrophyte Acquisition Class A"
+    "Name": "Pyrophyte Acquisition "
   },
   {
     "Symbol": "PI",
@@ -18273,7 +18273,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PIAI",
-    "Name": "Prime Impact Acquisition I Class A"
+    "Name": "Prime Impact Acquisition I "
   },
   {
     "Symbol": "PIK",
@@ -18285,7 +18285,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PINC",
-    "Name": "Premier Inc. Class A"
+    "Name": "Premier Inc. "
   },
   {
     "Symbol": "PINE",
@@ -18297,11 +18297,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PINS",
-    "Name": "Pinterest Inc. Class A"
+    "Name": "Pinterest Inc. "
   },
   {
     "Symbol": "PIPP",
-    "Name": "Pine Island Acquisition Class A"
+    "Name": "Pine Island Acquisition "
   },
   {
     "Symbol": "PIPR",
@@ -18317,7 +18317,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PJT",
-    "Name": "PJT Partners Inc. Class A"
+    "Name": "PJT Partners Inc. "
   },
   {
     "Symbol": "PK",
@@ -18345,7 +18345,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PL",
-    "Name": "Planet Labs PBC Class A"
+    "Name": "Planet Labs PBC "
   },
   {
     "Symbol": "PLAB",
@@ -18397,7 +18397,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PLMI",
-    "Name": "Plum Acquisition I Class A Ordinary Share"
+    "Name": "Plum Acquisition I  Ordinary Share"
   },
   {
     "Symbol": "PLMIU",
@@ -18433,7 +18433,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PLTR",
-    "Name": "Palantir Technologies Inc. Class A"
+    "Name": "Palantir Technologies Inc. "
   },
   {
     "Symbol": "PLUG",
@@ -18485,7 +18485,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PMGM",
-    "Name": "Priveterra Acquisition Class A"
+    "Name": "Priveterra Acquisition "
   },
   {
     "Symbol": "PMGMU",
@@ -18505,7 +18505,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PMVC",
-    "Name": "PMV Consumer Acquisition Class A"
+    "Name": "PMV Consumer Acquisition "
   },
   {
     "Symbol": "PMVP",
@@ -18553,7 +18553,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PNTM",
-    "Name": "Pontem Corporation Class A"
+    "Name": "Pontem Corporation "
   },
   {
     "Symbol": "PNW",
@@ -18581,11 +18581,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "POND",
-    "Name": "Angel Pond Holdings Corporation Class A"
+    "Name": "Angel Pond Holdings Corporation "
   },
   {
     "Symbol": "PONO",
-    "Name": "Pono Capital Corp Class A"
+    "Name": "Pono Capital Corp "
   },
   {
     "Symbol": "POOL",
@@ -18597,11 +18597,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PORT",
-    "Name": "Southport Acquisition Corporation Class A"
+    "Name": "Southport Acquisition Corporation "
   },
   {
     "Symbol": "POSH",
-    "Name": "Poshmark Inc. Class A"
+    "Name": "Poshmark Inc. "
   },
   {
     "Symbol": "POST",
@@ -18609,7 +18609,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "POW",
-    "Name": "Powered Brands Class A"
+    "Name": "Powered Brands "
   },
   {
     "Symbol": "POWI",
@@ -18641,7 +18641,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PPHP",
-    "Name": "PHP Ventures Acquisition Class A"
+    "Name": "PHP Ventures Acquisition "
   },
   {
     "Symbol": "PPHPR",
@@ -18669,7 +18669,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PPYA",
-    "Name": "Papaya Growth Opportunity I Class A"
+    "Name": "Papaya Growth Opportunity I "
   },
   {
     "Symbol": "PPYAU",
@@ -18689,7 +18689,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PRBM",
-    "Name": "Parabellum Acquisition Class A"
+    "Name": "Parabellum Acquisition "
   },
   {
     "Symbol": "PRCH",
@@ -18749,7 +18749,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PRLH",
-    "Name": "Pearl Holdings Acquisition Corp Class A"
+    "Name": "Pearl Holdings Acquisition Corp "
   },
   {
     "Symbol": "PRLHU",
@@ -18805,7 +18805,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PRSR",
-    "Name": "Prospector Capital Class A"
+    "Name": "Prospector Capital "
   },
   {
     "Symbol": "PRSRU",
@@ -18897,11 +18897,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PSTG",
-    "Name": "Pure Storage Inc. Class A"
+    "Name": "Pure Storage Inc. "
   },
   {
     "Symbol": "PSTH",
-    "Name": "Pershing Square Tontine Holdings Ltd. Class A"
+    "Name": "Pershing Square Tontine Holdings Ltd. "
   },
   {
     "Symbol": "PSTI",
@@ -18909,7 +18909,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PSTL",
-    "Name": "Postal Realty Trust Inc. Class A"
+    "Name": "Postal Realty Trust Inc. "
   },
   {
     "Symbol": "PSTV",
@@ -18949,7 +18949,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PTLO",
-    "Name": "Portillo's Inc. Class A"
+    "Name": "Portillo's Inc. "
   },
   {
     "Symbol": "PTMN",
@@ -18961,7 +18961,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PTOC",
-    "Name": "Pine Technology Acquisition Class A"
+    "Name": "Pine Technology Acquisition "
   },
   {
     "Symbol": "PTOCU",
@@ -18969,7 +18969,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PTON",
-    "Name": "Peloton Interactive Inc. Class A"
+    "Name": "Peloton Interactive Inc. "
   },
   {
     "Symbol": "PTPI",
@@ -19001,7 +19001,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PUBM",
-    "Name": "PubMatic Inc. Class A"
+    "Name": "PubMatic Inc. "
   },
   {
     "Symbol": "PUCK",
@@ -19025,7 +19025,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PV",
-    "Name": "Primavera Capital Acquisition Corporation Class A"
+    "Name": "Primavera Capital Acquisition Corporation "
   },
   {
     "Symbol": "PVBC",
@@ -19053,7 +19053,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PWP",
-    "Name": "Perella Weinberg Partners Class A"
+    "Name": "Perella Weinberg Partners "
   },
   {
     "Symbol": "PWR",
@@ -19061,11 +19061,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PWSC",
-    "Name": "PowerSchool Holdings Inc. Class A"
+    "Name": "PowerSchool Holdings Inc. "
   },
   {
     "Symbol": "PWUP",
-    "Name": "PowerUp Acquisition Class A"
+    "Name": "PowerUp Acquisition "
   },
   {
     "Symbol": "PWUPU",
@@ -19073,7 +19073,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PX",
-    "Name": "P10 Inc. Class A"
+    "Name": "P10 Inc. "
   },
   {
     "Symbol": "PXD",
@@ -19121,7 +19121,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "PZN",
-    "Name": "Pzena Investment Management Inc Class A"
+    "Name": "Pzena Investment Management Inc "
   },
   {
     "Symbol": "PZZA",
@@ -19193,7 +19193,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "QS",
-    "Name": "QuantumScape Corporation Class A"
+    "Name": "QuantumScape Corporation "
   },
   {
     "Symbol": "QSAM",
@@ -19201,7 +19201,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "QSI",
-    "Name": "Quantum-Si Incorporated Class A"
+    "Name": "Quantum-Si Incorporated "
   },
   {
     "Symbol": "QSR",
@@ -19209,7 +19209,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "QTEK",
-    "Name": "QualTek Services Inc. Class A"
+    "Name": "QualTek Services Inc. "
   },
   {
     "Symbol": "QTNT",
@@ -19225,7 +19225,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "QUAD",
-    "Name": "Quad Graphics Inc Class A"
+    "Name": "Quad Graphics Inc "
   },
   {
     "Symbol": "QUBT",
@@ -19261,7 +19261,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RACY",
-    "Name": "Relativity Acquisition Class A"
+    "Name": "Relativity Acquisition "
   },
   {
     "Symbol": "RACYU",
@@ -19277,7 +19277,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RADI",
-    "Name": "Radius Global Infrastructure Inc. Class A"
+    "Name": "Radius Global Infrastructure Inc. "
   },
   {
     "Symbol": "RAIL",
@@ -19289,7 +19289,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RAM",
-    "Name": "Aries I Acquisition Corporation Class A Ordinary Share"
+    "Name": "Aries I Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "RAMMU",
@@ -19305,7 +19305,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RANI",
-    "Name": "Rani Therapeutics Holdings Inc. Class A"
+    "Name": "Rani Therapeutics Holdings Inc. "
   },
   {
     "Symbol": "RAPT",
@@ -19325,7 +19325,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RBAC",
-    "Name": "RedBall Acquisition Class A"
+    "Name": "RedBall Acquisition "
   },
   {
     "Symbol": "RBB",
@@ -19337,7 +19337,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RBCAA",
-    "Name": "Republic Bancorp Inc. Class A"
+    "Name": "Republic Bancorp Inc. "
   },
   {
     "Symbol": "RBCN",
@@ -19349,11 +19349,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RBLX",
-    "Name": "Roblox Corporation Class A"
+    "Name": "Roblox Corporation "
   },
   {
     "Symbol": "RBOT",
-    "Name": "Vicarious Surgical Inc. Class A"
+    "Name": "Vicarious Surgical Inc. "
   },
   {
     "Symbol": "RC",
@@ -19361,7 +19361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RCAC",
-    "Name": "Revelstone Capital Acquisition Class A"
+    "Name": "Revelstone Capital Acquisition "
   },
   {
     "Symbol": "RCACU",
@@ -19381,7 +19381,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RCHG",
-    "Name": "Recharge Acquisition Class A"
+    "Name": "Recharge Acquisition "
   },
   {
     "Symbol": "RCHGU",
@@ -19405,7 +19405,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RCLF",
-    "Name": "Rosecliff Acquisition Corp I Class A"
+    "Name": "Rosecliff Acquisition Corp I "
   },
   {
     "Symbol": "RCM",
@@ -19417,7 +19417,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RCON",
-    "Name": "Recon Technology Ltd. Class A"
+    "Name": "Recon Technology Ltd. "
   },
   {
     "Symbol": "RCOR",
@@ -19437,7 +19437,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RDBX",
-    "Name": "Redbox Entertainment Inc. Class A"
+    "Name": "Redbox Entertainment Inc. "
   },
   {
     "Symbol": "RDCM",
@@ -19449,7 +19449,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RDI",
-    "Name": "Reading International Inc Class A"
+    "Name": "Reading International Inc "
   },
   {
     "Symbol": "RDIB",
@@ -19497,7 +19497,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "REE",
-    "Name": "REE Automotive Ltd. Class A"
+    "Name": "REE Automotive Ltd. "
   },
   {
     "Symbol": "REED",
@@ -19549,7 +19549,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RENT",
-    "Name": "Rent the Runway Inc. Class A"
+    "Name": "Rent the Runway Inc. "
   },
   {
     "Symbol": "REPL",
@@ -19565,7 +19565,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RETA",
-    "Name": "Reata Pharmaceuticals Inc. Class A"
+    "Name": "Reata Pharmaceuticals Inc. "
   },
   {
     "Symbol": "RETO",
@@ -19589,7 +19589,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "REVH",
-    "Name": "Revolution Healthcare Acquisition SAIL Class A"
+    "Name": "Revolution Healthcare Acquisition SAIL "
   },
   {
     "Symbol": "REVHU",
@@ -19661,7 +19661,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RGF",
-    "Name": "The Real Good Food Company Inc. Class A"
+    "Name": "The Real Good Food Company Inc. "
   },
   {
     "Symbol": "RGLD",
@@ -19721,11 +19721,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RICO",
-    "Name": "Agrico Acquisition Class A"
+    "Name": "Agrico Acquisition "
   },
   {
     "Symbol": "RIDE",
-    "Name": "Lordstown Motors Class A"
+    "Name": "Lordstown Motors "
   },
   {
     "Symbol": "RIG",
@@ -19753,11 +19753,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RIVN",
-    "Name": "Rivian Automotive Inc. Class A"
+    "Name": "Rivian Automotive Inc. "
   },
   {
     "Symbol": "RJAC",
-    "Name": "Jackson Acquisition Company Class A"
+    "Name": "Jackson Acquisition Company "
   },
   {
     "Symbol": "RJF",
@@ -19777,11 +19777,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RKT",
-    "Name": "Rocket Companies Inc. Class A"
+    "Name": "Rocket Companies Inc. "
   },
   {
     "Symbol": "RKTA",
-    "Name": "Rocket Internet Growth Opportunities Class A"
+    "Name": "Rocket Internet Growth Opportunities "
   },
   {
     "Symbol": "RL",
@@ -19817,7 +19817,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RMAX",
-    "Name": "RE/MAX Holdings Inc. Class A"
+    "Name": "RE/MAX Holdings Inc. "
   },
   {
     "Symbol": "RMBI",
@@ -19857,11 +19857,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RMO",
-    "Name": "Romeo Power Inc. Class A"
+    "Name": "Romeo Power Inc. "
   },
   {
     "Symbol": "RMR",
-    "Name": "The RMR Group Inc. Class A"
+    "Name": "The RMR Group Inc. "
   },
   {
     "Symbol": "RMT",
@@ -19889,11 +19889,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RNG",
-    "Name": "RingCentral Inc. Class A"
+    "Name": "RingCentral Inc. "
   },
   {
     "Symbol": "RNGR",
-    "Name": "Ranger Energy Services Inc. Class A"
+    "Name": "Ranger Energy Services Inc. "
   },
   {
     "Symbol": "RNP",
@@ -19909,7 +19909,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RNW",
-    "Name": "ReNew Energy Global plc Class A"
+    "Name": "ReNew Energy Global plc "
   },
   {
     "Symbol": "RNWK",
@@ -19921,7 +19921,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ROAD",
-    "Name": "Construction Partners Inc. Class A"
+    "Name": "Construction Partners Inc. "
   },
   {
     "Symbol": "ROC",
@@ -19937,7 +19937,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ROCC",
-    "Name": "Ranger Oil Corporation Class A"
+    "Name": "Ranger Oil Corporation "
   },
   {
     "Symbol": "ROCG",
@@ -19977,7 +19977,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ROKU",
-    "Name": "Roku Inc. Class A"
+    "Name": "Roku Inc. "
   },
   {
     "Symbol": "ROL",
@@ -19989,7 +19989,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ROOT",
-    "Name": "Root Inc. Class A"
+    "Name": "Root Inc. "
   },
   {
     "Symbol": "ROP",
@@ -19997,7 +19997,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ROSE",
-    "Name": "Rose Hill Acquisition Corporation Class A"
+    "Name": "Rose Hill Acquisition Corporation "
   },
   {
     "Symbol": "ROSEU",
@@ -20009,11 +20009,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ROVR",
-    "Name": "Rover Group Inc. Class A"
+    "Name": "Rover Group Inc. "
   },
   {
     "Symbol": "RPAY",
-    "Name": "Repay Holdings Corporation Class A"
+    "Name": "Repay Holdings Corporation "
   },
   {
     "Symbol": "RPD",
@@ -20025,7 +20025,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RPID",
-    "Name": "Rapid Micro Biosystems Inc. Class A"
+    "Name": "Rapid Micro Biosystems Inc. "
   },
   {
     "Symbol": "RPM",
@@ -20033,7 +20033,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RPRX",
-    "Name": "Royalty Pharma plc Class A"
+    "Name": "Royalty Pharma plc "
   },
   {
     "Symbol": "RPT",
@@ -20049,7 +20049,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RRAC",
-    "Name": "Rigel Resource Acquisition Class A"
+    "Name": "Rigel Resource Acquisition "
   },
   {
     "Symbol": "RRBI",
@@ -20065,7 +20065,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RRR",
-    "Name": "Red Rock Resorts Inc. Class A"
+    "Name": "Red Rock Resorts Inc. "
   },
   {
     "Symbol": "RRX",
@@ -20085,11 +20085,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RSI",
-    "Name": "Rush Street Interactive Inc. Class A"
+    "Name": "Rush Street Interactive Inc. "
   },
   {
     "Symbol": "RSKD",
-    "Name": "Riskified Ltd. Class A"
+    "Name": "Riskified Ltd. "
   },
   {
     "Symbol": "RSLS",
@@ -20105,7 +20105,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RTL",
-    "Name": "The Necessity Retail REIT Inc. Class A"
+    "Name": "The Necessity Retail REIT Inc. "
   },
   {
     "Symbol": "RTLR",
@@ -20137,7 +20137,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RVAC",
-    "Name": "Riverview Acquisition Class A"
+    "Name": "Riverview Acquisition "
   },
   {
     "Symbol": "RVACU",
@@ -20149,7 +20149,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RVLV",
-    "Name": "Revolve Group Inc. Class A"
+    "Name": "Revolve Group Inc. "
   },
   {
     "Symbol": "RVMD",
@@ -20201,11 +20201,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RXRA",
-    "Name": "RXR Acquisition Class A"
+    "Name": "RXR Acquisition "
   },
   {
     "Symbol": "RXRX",
-    "Name": "Recursion Pharmaceuticals Inc. Class A"
+    "Name": "Recursion Pharmaceuticals Inc. "
   },
   {
     "Symbol": "RXST",
@@ -20225,7 +20225,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "RYAN",
-    "Name": "Ryan Specialty Group Holdings Inc. Class A"
+    "Name": "Ryan Specialty Group Holdings Inc. "
   },
   {
     "Symbol": "RYI",
@@ -20245,7 +20245,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "S",
-    "Name": "SentinelOne Inc. Class A"
+    "Name": "SentinelOne Inc. "
   },
   {
     "Symbol": "SA",
@@ -20277,7 +20277,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SAGA",
-    "Name": "Sagaliam Acquisition Class A"
+    "Name": "Sagaliam Acquisition "
   },
   {
     "Symbol": "SAGAR",
@@ -20313,7 +20313,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SALM",
-    "Name": "Salem Media Group Inc. Class A"
+    "Name": "Salem Media Group Inc. "
   },
   {
     "Symbol": "SAM",
@@ -20321,7 +20321,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SAMG",
-    "Name": "Silvercrest Asset Management Group Inc. Class A"
+    "Name": "Silvercrest Asset Management Group Inc. "
   },
   {
     "Symbol": "SAN",
@@ -20361,7 +20361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SATL",
-    "Name": "Satellogic Inc. Class A"
+    "Name": "Satellogic Inc. "
   },
   {
     "Symbol": "SATS",
@@ -20377,7 +20377,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SBAC",
-    "Name": "SBA Communications Corporation Class A"
+    "Name": "SBA Communications Corporation "
   },
   {
     "Symbol": "SBCF",
@@ -20401,7 +20401,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SBGI",
-    "Name": "Sinclair Broadcast Group Inc. Class A"
+    "Name": "Sinclair Broadcast Group Inc. "
   },
   {
     "Symbol": "SBH",
@@ -20469,7 +20469,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCHN",
-    "Name": "Schnitzer Steel Industries Inc. Class A"
+    "Name": "Schnitzer Steel Industries Inc. "
   },
   {
     "Symbol": "SCHW",
@@ -20489,7 +20489,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCLE",
-    "Name": "Broadscale Acquisition Class A"
+    "Name": "Broadscale Acquisition "
   },
   {
     "Symbol": "SCLEU",
@@ -20501,7 +20501,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCMA",
-    "Name": "Seaport Calibre Materials Acquisition Class A"
+    "Name": "Seaport Calibre Materials Acquisition "
   },
   {
     "Symbol": "SCMAU",
@@ -20509,7 +20509,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCOA",
-    "Name": "ScION Tech Growth I Class A"
+    "Name": "ScION Tech Growth I "
   },
   {
     "Symbol": "SCOAU",
@@ -20525,7 +20525,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCPL",
-    "Name": "SciPlay Corporation Class A"
+    "Name": "SciPlay Corporation "
   },
   {
     "Symbol": "SCPS",
@@ -20533,7 +20533,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCRM",
-    "Name": "Screaming Eagle Acquisition Class A"
+    "Name": "Screaming Eagle Acquisition "
   },
   {
     "Symbol": "SCRMU",
@@ -20553,11 +20553,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCU",
-    "Name": "Sculptor Capital Management Inc. Class A"
+    "Name": "Sculptor Capital Management Inc. "
   },
   {
     "Symbol": "SCUA",
-    "Name": "Sculptor Acquisition Corp I Class A"
+    "Name": "Sculptor Acquisition Corp I "
   },
   {
     "Symbol": "SCVL",
@@ -20565,7 +20565,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SCWX",
-    "Name": "SecureWorks Class A"
+    "Name": "SecureWorks "
   },
   {
     "Symbol": "SCX",
@@ -20581,7 +20581,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SDAC",
-    "Name": "Sustainable Development Acquisition I Class A"
+    "Name": "Sustainable Development Acquisition I "
   },
   {
     "Symbol": "SDACU",
@@ -20589,7 +20589,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SDC",
-    "Name": "SmileDirectClub Inc. Class A"
+    "Name": "SmileDirectClub Inc. "
   },
   {
     "Symbol": "SDGR",
@@ -20605,7 +20605,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SDIG",
-    "Name": "Stronghold Digital Mining Inc. Class A"
+    "Name": "Stronghold Digital Mining Inc. "
   },
   {
     "Symbol": "SDPI",
@@ -20621,7 +20621,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SEAT",
-    "Name": "Vivid Seats Inc. Class A"
+    "Name": "Vivid Seats Inc. "
   },
   {
     "Symbol": "SEB",
@@ -20649,7 +20649,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SEER",
-    "Name": "Seer Inc. Class A"
+    "Name": "Seer Inc. "
   },
   {
     "Symbol": "SEIC",
@@ -20669,11 +20669,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SEMR",
-    "Name": "SEMrush Holdings Inc. Class A"
+    "Name": "SEMrush Holdings Inc. "
   },
   {
     "Symbol": "SENEA",
-    "Name": "Seneca Foods Class A"
+    "Name": "Seneca Foods "
   },
   {
     "Symbol": "SENEB",
@@ -20685,11 +20685,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SERA",
-    "Name": "Sera Prognostics Inc. Class A"
+    "Name": "Sera Prognostics Inc. "
   },
   {
     "Symbol": "SES",
-    "Name": "SES AI Corporation Class A"
+    "Name": "SES AI Corporation "
   },
   {
     "Symbol": "SESN",
@@ -20721,7 +20721,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SFIX",
-    "Name": "Stitch Fix Inc. Class A"
+    "Name": "Stitch Fix Inc. "
   },
   {
     "Symbol": "SFL",
@@ -20733,7 +20733,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SFNC",
-    "Name": "Simmons First National Corporation Class A"
+    "Name": "Simmons First National Corporation "
   },
   {
     "Symbol": "SFST",
@@ -20741,15 +20741,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SFT",
-    "Name": "Shift Technologies Inc. Class A"
+    "Name": "Shift Technologies Inc. "
   },
   {
     "Symbol": "SG",
-    "Name": "Sweetgreen Inc. Class A"
+    "Name": "Sweetgreen Inc. "
   },
   {
     "Symbol": "SGA",
-    "Name": "Saga Communications Inc. Class A  (FL)"
+    "Name": "Saga Communications Inc.   (FL)"
   },
   {
     "Symbol": "SGBX",
@@ -20765,7 +20765,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SGFY",
-    "Name": "Signify Health Inc. Class A"
+    "Name": "Signify Health Inc. "
   },
   {
     "Symbol": "SGH",
@@ -20777,7 +20777,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SGHL",
-    "Name": "Signal Hill Acquisition Class A"
+    "Name": "Signal Hill Acquisition "
   },
   {
     "Symbol": "SGHLU",
@@ -20829,7 +20829,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SHAC",
-    "Name": "SCP & CO Healthcare Acquisition Company Class A"
+    "Name": "SCP & CO Healthcare Acquisition Company "
   },
   {
     "Symbol": "SHACU",
@@ -20837,11 +20837,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SHAK",
-    "Name": "Shake Shack Inc. Class A"
+    "Name": "Shake Shack Inc. "
   },
   {
     "Symbol": "SHAP",
-    "Name": "Spree Acquisition 1 Limited Class A"
+    "Name": "Spree Acquisition 1 Limited "
   },
   {
     "Symbol": "SHBI",
@@ -20853,7 +20853,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SHCA",
-    "Name": "Spindletop Health Acquisition Class A"
+    "Name": "Spindletop Health Acquisition "
   },
   {
     "Symbol": "SHCAU",
@@ -20861,7 +20861,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SHCR",
-    "Name": "Sharecare Inc. Class A"
+    "Name": "Sharecare Inc. "
   },
   {
     "Symbol": "SHEN",
@@ -20877,7 +20877,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SHLS",
-    "Name": "Shoals Technologies Group Inc. Class A"
+    "Name": "Shoals Technologies Group Inc. "
   },
   {
     "Symbol": "SHLX",
@@ -20893,7 +20893,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SHOP",
-    "Name": "Shopify Inc. Class A Subordinate Voting Shares"
+    "Name": "Shopify Inc.  Subordinate Voting Shares"
   },
   {
     "Symbol": "SHPW",
@@ -20901,7 +20901,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SHQA",
-    "Name": "Shelter Acquisition Corporation I Class A"
+    "Name": "Shelter Acquisition Corporation I "
   },
   {
     "Symbol": "SHQAU",
@@ -20921,7 +20921,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SI",
-    "Name": "Silvergate Capital Corporation Class A"
+    "Name": "Silvergate Capital Corporation "
   },
   {
     "Symbol": "SIBN",
@@ -20933,7 +20933,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SIDU",
-    "Name": "Sidus Space Inc. Class A"
+    "Name": "Sidus Space Inc. "
   },
   {
     "Symbol": "SIEB",
@@ -20945,7 +20945,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SIER",
-    "Name": "Sierra Lake Acquisition Class A"
+    "Name": "Sierra Lake Acquisition "
   },
   {
     "Symbol": "SIF",
@@ -21017,7 +21017,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SJ",
-    "Name": "Scienjoy Holding Corporation Class A"
+    "Name": "Scienjoy Holding Corporation "
   },
   {
     "Symbol": "SJI",
@@ -21049,15 +21049,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SKIL",
-    "Name": "Skillsoft Class A"
+    "Name": "Skillsoft "
   },
   {
     "Symbol": "SKIN",
-    "Name": "The Beauty Health Company Class A"
+    "Name": "The Beauty Health Company "
   },
   {
     "Symbol": "SKLZ",
-    "Name": "Skillz Inc. Class A"
+    "Name": "Skillz Inc. "
   },
   {
     "Symbol": "SKM",
@@ -21077,7 +21077,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SKYA",
-    "Name": "Skydeck Acquisition Class A"
+    "Name": "Skydeck Acquisition "
   },
   {
     "Symbol": "SKYAU",
@@ -21085,7 +21085,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SKYH",
-    "Name": "Sky Harbour Group Corporation Class A"
+    "Name": "Sky Harbour Group Corporation "
   },
   {
     "Symbol": "SKYT",
@@ -21105,11 +21105,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SLAC",
-    "Name": "Social Leverage Acquisition Corp I Class A"
+    "Name": "Social Leverage Acquisition Corp I "
   },
   {
     "Symbol": "SLAM",
-    "Name": "Slam Class A Ordinary Share"
+    "Name": "Slam  Ordinary Share"
   },
   {
     "Symbol": "SLAMU",
@@ -21129,7 +21129,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SLCR",
-    "Name": "Silver Crest Acquisition Corporation Class A Ordinary Share"
+    "Name": "Silver Crest Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "SLDB",
@@ -21137,7 +21137,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SLDP",
-    "Name": "Solid Power Inc. Class A"
+    "Name": "Solid Power Inc. "
   },
   {
     "Symbol": "SLF",
@@ -21149,7 +21149,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SLGC",
-    "Name": "SomaLogic Inc. Class A"
+    "Name": "SomaLogic Inc. "
   },
   {
     "Symbol": "SLGG",
@@ -21217,7 +21217,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SLVR",
-    "Name": "SilverSPAC Inc. Class A Ordinary Share"
+    "Name": "SilverSPAC Inc.  Ordinary Share"
   },
   {
     "Symbol": "SLVRU",
@@ -21233,7 +21233,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SMAR",
-    "Name": "Smartsheet Inc. Class A"
+    "Name": "Smartsheet Inc. "
   },
   {
     "Symbol": "SMBC",
@@ -21257,7 +21257,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SMFR",
-    "Name": "Sema4 Holdings Class A"
+    "Name": "Sema4 Holdings "
   },
   {
     "Symbol": "SMG",
@@ -21273,7 +21273,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SMIH",
-    "Name": "Summit Healthcare Acquisition Class A Ordinary Share"
+    "Name": "Summit Healthcare Acquisition  Ordinary Share"
   },
   {
     "Symbol": "SMIHU",
@@ -21309,7 +21309,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SMRT",
-    "Name": "SmartRent Inc. Class A"
+    "Name": "SmartRent Inc. "
   },
   {
     "Symbol": "SMSI",
@@ -21337,11 +21337,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SNAP",
-    "Name": "Snap Inc. Class A"
+    "Name": "Snap Inc. "
   },
   {
     "Symbol": "SNAX",
-    "Name": "Stryve Foods Inc. Class A"
+    "Name": "Stryve Foods Inc. "
   },
   {
     "Symbol": "SNBR",
@@ -21389,7 +21389,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SNFCA",
-    "Name": "Security National Financial Corporation Class A"
+    "Name": "Security National Financial Corporation "
   },
   {
     "Symbol": "SNGX",
@@ -21409,7 +21409,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SNOW",
-    "Name": "Snowflake Inc. Class A"
+    "Name": "Snowflake Inc. "
   },
   {
     "Symbol": "SNP",
@@ -21429,7 +21429,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SNRH",
-    "Name": "Senior Connect Acquisition I Class A"
+    "Name": "Senior Connect Acquisition I "
   },
   {
     "Symbol": "SNRHU",
@@ -21477,7 +21477,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SOI",
-    "Name": "Solaris Oilfield Infrastructure Inc. Class A"
+    "Name": "Solaris Oilfield Infrastructure Inc. "
   },
   {
     "Symbol": "SOL",
@@ -21497,7 +21497,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SOND",
-    "Name": "Sonder Holdings Inc. Class A"
+    "Name": "Sonder Holdings Inc. "
   },
   {
     "Symbol": "SONM",
@@ -21573,7 +21573,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SPGS",
-    "Name": "Simon Property Group Acquisition Holdings Inc. Class A"
+    "Name": "Simon Property Group Acquisition Holdings Inc. "
   },
   {
     "Symbol": "SPH",
@@ -21585,7 +21585,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SPIR",
-    "Name": "Spire Global Inc. Class A"
+    "Name": "Spire Global Inc. "
   },
   {
     "Symbol": "SPK",
@@ -21653,11 +21653,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SPT",
-    "Name": "Sprout Social Inc Class A"
+    "Name": "Sprout Social Inc "
   },
   {
     "Symbol": "SPTK",
-    "Name": "SportsTek Acquisition Class A"
+    "Name": "SportsTek Acquisition "
   },
   {
     "Symbol": "SPTN",
@@ -21681,11 +21681,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SQ",
-    "Name": "Block Inc. Class A"
+    "Name": "Block Inc. "
   },
   {
     "Symbol": "SQFT",
-    "Name": "Presidio Property Trust Inc. Class A"
+    "Name": "Presidio Property Trust Inc. "
   },
   {
     "Symbol": "SQL",
@@ -21697,7 +21697,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SQSP",
-    "Name": "Squarespace Inc. Class A"
+    "Name": "Squarespace Inc. "
   },
   {
     "Symbol": "SQZ",
@@ -21709,11 +21709,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SRAD",
-    "Name": "Sportradar Group AG Class A"
+    "Name": "Sportradar Group AG "
   },
   {
     "Symbol": "SRAX",
-    "Name": "SRAX Inc. Class A"
+    "Name": "SRAX Inc. "
   },
   {
     "Symbol": "SRC",
@@ -21741,7 +21741,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SRG",
-    "Name": "Seritage Growth Properties Class A"
+    "Name": "Seritage Growth Properties "
   },
   {
     "Symbol": "SRGA",
@@ -21797,7 +21797,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SSAA",
-    "Name": "Science Strategic Acquisition Alpha Class A"
+    "Name": "Science Strategic Acquisition Alpha "
   },
   {
     "Symbol": "SSAAU",
@@ -21837,7 +21837,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SSP",
-    "Name": "E.W. Scripps Company (The) Class A"
+    "Name": "E.W. Scripps Company (The) "
   },
   {
     "Symbol": "SSRM",
@@ -21849,7 +21849,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SST",
-    "Name": "System1 Inc. Class A"
+    "Name": "System1 Inc. "
   },
   {
     "Symbol": "SSTI",
@@ -21913,11 +21913,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "STEM",
-    "Name": "Stem Inc. Class A"
+    "Name": "Stem Inc. "
   },
   {
     "Symbol": "STEP",
-    "Name": "StepStone Group Inc. Class A"
+    "Name": "StepStone Group Inc. "
   },
   {
     "Symbol": "STER",
@@ -21929,7 +21929,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "STGW",
-    "Name": "Stagwell Inc. Class A"
+    "Name": "Stagwell Inc. "
   },
   {
     "Symbol": "STIM",
@@ -21965,7 +21965,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "STNE",
-    "Name": "StoneCo Ltd. Class A"
+    "Name": "StoneCo Ltd. "
   },
   {
     "Symbol": "STNG",
@@ -22025,7 +22025,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "STRY",
-    "Name": "Starry Group Holdings Inc. Class A"
+    "Name": "Starry Group Holdings Inc. "
   },
   {
     "Symbol": "STSA",
@@ -22077,7 +22077,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SUM",
-    "Name": "Summit Materials Inc. Class A"
+    "Name": "Summit Materials Inc. "
   },
   {
     "Symbol": "SUMO",
@@ -22093,7 +22093,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SUNL",
-    "Name": "Sunlight Financial Holdings Inc. Class A"
+    "Name": "Sunlight Financial Holdings Inc. "
   },
   {
     "Symbol": "SUNW",
@@ -22117,7 +22117,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SV",
-    "Name": "Spring Valley Acquisition Class A Ordinary Share"
+    "Name": "Spring Valley Acquisition  Ordinary Share"
   },
   {
     "Symbol": "SVC",
@@ -22125,7 +22125,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SVFA",
-    "Name": "SVF Investment Class A"
+    "Name": "SVF Investment "
   },
   {
     "Symbol": "SVFAU",
@@ -22133,11 +22133,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SVFB",
-    "Name": "SVF Investment 2 Class A"
+    "Name": "SVF Investment 2 "
   },
   {
     "Symbol": "SVFC",
-    "Name": "SVF Investment 3 Class A"
+    "Name": "SVF Investment 3 "
   },
   {
     "Symbol": "SVFD",
@@ -22149,7 +22149,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SVNA",
-    "Name": "7 Acquisition Corporation Class A"
+    "Name": "7 Acquisition Corporation "
   },
   {
     "Symbol": "SVRA",
@@ -22177,11 +22177,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SWCH",
-    "Name": "Switch Inc. Class A"
+    "Name": "Switch Inc. "
   },
   {
     "Symbol": "SWET",
-    "Name": "Athlon Acquisition Class A"
+    "Name": "Athlon Acquisition "
   },
   {
     "Symbol": "SWETU",
@@ -22237,7 +22237,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SWVL",
-    "Name": "Swvl Holdings Corp Class A"
+    "Name": "Swvl Holdings Corp "
   },
   {
     "Symbol": "SWX",
@@ -22289,7 +22289,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "SYNH",
-    "Name": "Syneos Health Inc. Class A"
+    "Name": "Syneos Health Inc. "
   },
   {
     "Symbol": "SYNL",
@@ -22333,7 +22333,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TACA",
-    "Name": "Trepont Acquisition Corp I Class A"
+    "Name": "Trepont Acquisition Corp I "
   },
   {
     "Symbol": "TACT",
@@ -22341,7 +22341,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TAIT",
-    "Name": "Taitron Components Incorporated Class A"
+    "Name": "Taitron Components Incorporated "
   },
   {
     "Symbol": "TALK",
@@ -22381,7 +22381,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TASK",
-    "Name": "TaskUs Inc. Class A"
+    "Name": "TaskUs Inc. "
   },
   {
     "Symbol": "TAST",
@@ -22429,11 +22429,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TBSA",
-    "Name": "TB SA Acquisition Corp Class A Ordinary Share"
+    "Name": "TB SA Acquisition Corp  Ordinary Share"
   },
   {
     "Symbol": "TCAC",
-    "Name": "Tuatara Capital Acquisition Corporation Class A"
+    "Name": "Tuatara Capital Acquisition Corporation "
   },
   {
     "Symbol": "TCACU",
@@ -22481,7 +22481,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TCOA",
-    "Name": "Trajectory Alpha Acquisition Class A"
+    "Name": "Trajectory Alpha Acquisition "
   },
   {
     "Symbol": "TCON",
@@ -22509,11 +22509,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TCVA",
-    "Name": "TCV Acquisition Class A"
+    "Name": "TCV Acquisition "
   },
   {
     "Symbol": "TCX",
-    "Name": "Tucows Inc. Class A"
+    "Name": "Tucows Inc. "
   },
   {
     "Symbol": "TD",
@@ -22541,7 +22541,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TDUP",
-    "Name": "ThredUp Inc. Class A"
+    "Name": "ThredUp Inc. "
   },
   {
     "Symbol": "TDW",
@@ -22557,7 +22557,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TEAM",
-    "Name": "Atlassian Corporation Plc Class A"
+    "Name": "Atlassian Corporation Plc "
   },
   {
     "Symbol": "TECH",
@@ -22577,7 +22577,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TEKK",
-    "Name": "Tekkorp Digital Acquisition Class A"
+    "Name": "Tekkorp Digital Acquisition "
   },
   {
     "Symbol": "TEKKU",
@@ -22597,7 +22597,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TEN",
-    "Name": "Tenneco Inc. Class A Voting"
+    "Name": "Tenneco Inc.  Voting"
   },
   {
     "Symbol": "TENB",
@@ -22625,7 +22625,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TETC",
-    "Name": "Tech and Energy Transition Corporation Class A"
+    "Name": "Tech and Energy Transition Corporation "
   },
   {
     "Symbol": "TETCU",
@@ -22633,7 +22633,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TETE",
-    "Name": "Technology & Telecommunication Acquisition Corporation Class A"
+    "Name": "Technology & Telecommunication Acquisition Corporation "
   },
   {
     "Symbol": "TETEU",
@@ -22669,7 +22669,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TGAA",
-    "Name": "Target Global Acquisition I Class A Ordinary Share"
+    "Name": "Target Global Acquisition I  Ordinary Share"
   },
   {
     "Symbol": "TGAAU",
@@ -22701,7 +22701,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TGR",
-    "Name": "Kimbell Tiger Acquisition Corporation Class A"
+    "Name": "Kimbell Tiger Acquisition Corporation "
   },
   {
     "Symbol": "TGS",
@@ -22717,7 +22717,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TGVC",
-    "Name": "TG Venture Acquisition Class A"
+    "Name": "TG Venture Acquisition "
   },
   {
     "Symbol": "TGVCU",
@@ -22729,7 +22729,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "THAC",
-    "Name": "Thrive Acquisition Corporation Class A"
+    "Name": "Thrive Acquisition Corporation "
   },
   {
     "Symbol": "THACU",
@@ -22741,7 +22741,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "THCP",
-    "Name": "Thunder Bridge Capital Partners IV Inc. Class A"
+    "Name": "Thunder Bridge Capital Partners IV Inc. "
   },
   {
     "Symbol": "THCPU",
@@ -22813,11 +22813,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TINV",
-    "Name": "Tiga Acquisition Class A"
+    "Name": "Tiga Acquisition "
   },
   {
     "Symbol": "TIOA",
-    "Name": "Tio Tech A Class A Ordinary Share"
+    "Name": "Tio Tech A  Ordinary Share"
   },
   {
     "Symbol": "TIOAU",
@@ -22829,7 +22829,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TIRX",
-    "Name": "TIAN RUIXIANG Holdings Ltd Class A"
+    "Name": "TIAN RUIXIANG Holdings Ltd "
   },
   {
     "Symbol": "TISI",
@@ -22873,11 +22873,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TLGA",
-    "Name": "TLG Acquisition One Class A"
+    "Name": "TLG Acquisition One "
   },
   {
     "Symbol": "TLGY",
-    "Name": "TLGY Acquisition Corporation Class A Ordinary Share"
+    "Name": "TLGY Acquisition Corporation  Ordinary Share"
   },
   {
     "Symbol": "TLGYU",
@@ -22913,7 +22913,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TMAC",
-    "Name": "The Music Acquisition Corporation Class A"
+    "Name": "The Music Acquisition Corporation "
   },
   {
     "Symbol": "TMBR",
@@ -22941,7 +22941,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TMKR",
-    "Name": "Tastemaker Acquisition Class A"
+    "Name": "Tastemaker Acquisition "
   },
   {
     "Symbol": "TMKRU",
@@ -22957,7 +22957,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TMPM",
-    "Name": "Turmeric Acquisition Class A"
+    "Name": "Turmeric Acquisition "
   },
   {
     "Symbol": "TMQ",
@@ -23013,7 +23013,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TOAC",
-    "Name": "Talon 1 Acquisition Class A"
+    "Name": "Talon 1 Acquisition "
   },
   {
     "Symbol": "TOACU",
@@ -23037,7 +23037,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TOST",
-    "Name": "Toast Inc. Class A"
+    "Name": "Toast Inc. "
   },
   {
     "Symbol": "TOWN",
@@ -23057,11 +23057,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TPG",
-    "Name": "TPG Inc. Class A"
+    "Name": "TPG Inc. "
   },
   {
     "Symbol": "TPGY",
-    "Name": "TPG Pace Beneficial Finance Class A"
+    "Name": "TPG Pace Beneficial Finance "
   },
   {
     "Symbol": "TPH",
@@ -23149,7 +23149,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TRIS",
-    "Name": "Tristar Acquisition I Class A"
+    "Name": "Tristar Acquisition I "
   },
   {
     "Symbol": "TRKA",
@@ -23161,7 +23161,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TRMD",
-    "Name": "TORM plc Class A"
+    "Name": "TORM plc "
   },
   {
     "Symbol": "TRMK",
@@ -23185,7 +23185,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TRON",
-    "Name": "Corner Growth Acquisition 2 Class A Ordinary Share"
+    "Name": "Corner Growth Acquisition 2  Ordinary Share"
   },
   {
     "Symbol": "TROO",
@@ -23257,7 +23257,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TSAT",
-    "Name": "Telesat Corporation Class A  and Class B Variable Voting Shares"
+    "Name": "Telesat Corporation   and Class B Variable Voting Shares"
   },
   {
     "Symbol": "TSBK",
@@ -23305,15 +23305,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TSP",
-    "Name": "TuSimple Holdings Inc. Class A"
+    "Name": "TuSimple Holdings Inc. "
   },
   {
     "Symbol": "TSPQ",
-    "Name": "TCW Special Purpose Acquisition Class A"
+    "Name": "TCW Special Purpose Acquisition "
   },
   {
     "Symbol": "TSQ",
-    "Name": "Townsquare Media Inc. Class A"
+    "Name": "Townsquare Media Inc. "
   },
   {
     "Symbol": "TSRI",
@@ -23333,11 +23333,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TTCF",
-    "Name": "Tattooed Chef Inc Class A"
+    "Name": "Tattooed Chef Inc "
   },
   {
     "Symbol": "TTD",
-    "Name": "The Trade Desk Inc. Class A"
+    "Name": "The Trade Desk Inc. "
   },
   {
     "Symbol": "TTE",
@@ -23401,7 +23401,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TUGC",
-    "Name": "TradeUP Global Corporation Class A"
+    "Name": "TradeUP Global Corporation "
   },
   {
     "Symbol": "TUGCU",
@@ -23441,11 +23441,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TW",
-    "Name": "Tradeweb Markets Inc. Class A"
+    "Name": "Tradeweb Markets Inc. "
   },
   {
     "Symbol": "TWCB",
-    "Name": "Bilander Acquisition Class A"
+    "Name": "Bilander Acquisition "
   },
   {
     "Symbol": "TWI",
@@ -23461,7 +23461,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TWLO",
-    "Name": "Twilio Inc. Class A"
+    "Name": "Twilio Inc. "
   },
   {
     "Symbol": "TWN",
@@ -23469,15 +23469,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TWND",
-    "Name": "Tailwind Acquisition Class A"
+    "Name": "Tailwind Acquisition "
   },
   {
     "Symbol": "TWNI",
-    "Name": "Tailwind International Acquisition Class A"
+    "Name": "Tailwind International Acquisition "
   },
   {
     "Symbol": "TWNK",
-    "Name": "Hostess Brands Inc. Class A"
+    "Name": "Hostess Brands Inc. "
   },
   {
     "Symbol": "TWO",
@@ -23485,7 +23485,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TWOA",
-    "Name": "two Class A"
+    "Name": "two "
   },
   {
     "Symbol": "TWOU",
@@ -23501,7 +23501,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TXG",
-    "Name": "10x Genomics Inc. Class A"
+    "Name": "10x Genomics Inc. "
   },
   {
     "Symbol": "TXMD",
@@ -23545,7 +23545,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "TZPS",
-    "Name": "TZP Strategies Acquisition Class A Ordinary Share"
+    "Name": "TZP Strategies Acquisition  Ordinary Share"
   },
   {
     "Symbol": "TZPSU",
@@ -23561,7 +23561,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "UAA",
-    "Name": "Under Armour Inc. Class A"
+    "Name": "Under Armour Inc. "
   },
   {
     "Symbol": "UAL",
@@ -23789,7 +23789,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "UONE",
-    "Name": "Urban One Inc. Class A"
+    "Name": "Urban One Inc. "
   },
   {
     "Symbol": "UONEK",
@@ -23797,7 +23797,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "UP",
-    "Name": "Wheels Up Experience Inc. Class A"
+    "Name": "Wheels Up Experience Inc. "
   },
   {
     "Symbol": "UPC",
@@ -23881,11 +23881,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "USCB",
-    "Name": "USCB Financial Holdings Inc. Class A"
+    "Name": "USCB Financial Holdings Inc. "
   },
   {
     "Symbol": "USCT",
-    "Name": "TKB Critical Technologies 1 Class A"
+    "Name": "TKB Critical Technologies 1 "
   },
   {
     "Symbol": "USCTU",
@@ -23929,15 +23929,15 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "USWS",
-    "Name": "U.S. Well Services Inc. Class A"
+    "Name": "U.S. Well Services Inc. "
   },
   {
     "Symbol": "USX",
-    "Name": "U.S. Xpress Enterprises Inc. Class A"
+    "Name": "U.S. Xpress Enterprises Inc. "
   },
   {
     "Symbol": "UTAA",
-    "Name": "UTA Acquisition Corporation Class A"
+    "Name": "UTA Acquisition Corporation "
   },
   {
     "Symbol": "UTAAU",
@@ -23977,7 +23977,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "UTZ",
-    "Name": "Utz Brands Inc Class A"
+    "Name": "Utz Brands Inc "
   },
   {
     "Symbol": "UUU",
@@ -24001,7 +24001,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "UWMC",
-    "Name": "UWM Holdings Corporation Class A"
+    "Name": "UWM Holdings Corporation "
   },
   {
     "Symbol": "UXIN",
@@ -24037,7 +24037,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VAXX",
-    "Name": "Vaxxinity Inc. Class A"
+    "Name": "Vaxxinity Inc. "
   },
   {
     "Symbol": "VBF",
@@ -24085,11 +24085,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VCSA",
-    "Name": "Vacasa Inc. Class A"
+    "Name": "Vacasa Inc. "
   },
   {
     "Symbol": "VCTR",
-    "Name": "Victory Capital Holdings Inc. Class A"
+    "Name": "Victory Capital Holdings Inc. "
   },
   {
     "Symbol": "VCV",
@@ -24117,7 +24117,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VEEV",
-    "Name": "Veeva Systems Inc. Class A"
+    "Name": "Veeva Systems Inc. "
   },
   {
     "Symbol": "VEL",
@@ -24125,7 +24125,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VELO",
-    "Name": "Velocity Acquisition Class A"
+    "Name": "Velocity Acquisition "
   },
   {
     "Symbol": "VELOU",
@@ -24149,7 +24149,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VERA",
-    "Name": "Vera Therapeutics Inc. Class A"
+    "Name": "Vera Therapeutics Inc. "
   },
   {
     "Symbol": "VERB",
@@ -24173,7 +24173,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VERX",
-    "Name": "Vertex Inc. Class A"
+    "Name": "Vertex Inc. "
   },
   {
     "Symbol": "VERY",
@@ -24237,7 +24237,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VIA",
-    "Name": "Via Renewables Inc. Class A"
+    "Name": "Via Renewables Inc. "
   },
   {
     "Symbol": "VIAV",
@@ -24253,7 +24253,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VIEW",
-    "Name": "View Inc. Class A"
+    "Name": "View Inc. "
   },
   {
     "Symbol": "VIGL",
@@ -24273,7 +24273,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VINP",
-    "Name": "Vinci Partners Investments Ltd. Class A"
+    "Name": "Vinci Partners Investments Ltd. "
   },
   {
     "Symbol": "VIR",
@@ -24289,7 +24289,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VIRT",
-    "Name": "Virtu Financial Inc. Class A"
+    "Name": "Virtu Financial Inc. "
   },
   {
     "Symbol": "VIRX",
@@ -24325,7 +24325,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VLAT",
-    "Name": "Valor Latitude Acquisition Class A"
+    "Name": "Valor Latitude Acquisition "
   },
   {
     "Symbol": "VLCN",
@@ -24341,7 +24341,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VLGEA",
-    "Name": "Village Super Market Inc. Class A"
+    "Name": "Village Super Market Inc. "
   },
   {
     "Symbol": "VLN",
@@ -24361,7 +24361,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VLTA",
-    "Name": "Volta Inc. Class A"
+    "Name": "Volta Inc. "
   },
   {
     "Symbol": "VLY",
@@ -24389,7 +24389,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VMGA",
-    "Name": "VMG Consumer Acquisition Class A"
+    "Name": "VMG Consumer Acquisition "
   },
   {
     "Symbol": "VMGAU",
@@ -24405,7 +24405,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VMW",
-    "Name": "Vmware Inc.  Class A"
+    "Name": "Vmware Inc.  "
   },
   {
     "Symbol": "VNCE",
@@ -24449,7 +24449,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VOXX",
-    "Name": "VOXX International Corporation Class A"
+    "Name": "VOXX International Corporation "
   },
   {
     "Symbol": "VOYA",
@@ -24517,7 +24517,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VRRM",
-    "Name": "Verra Mobility Corporation Class A"
+    "Name": "Verra Mobility Corporation "
   },
   {
     "Symbol": "VRSK",
@@ -24529,7 +24529,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VRT",
-    "Name": "Vertiv Holdings LLC Class A"
+    "Name": "Vertiv Holdings LLC "
   },
   {
     "Symbol": "VRTS",
@@ -24549,7 +24549,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VSAC",
-    "Name": "Vision Sensing Acquisition Class A"
+    "Name": "Vision Sensing Acquisition "
   },
   {
     "Symbol": "VSACU",
@@ -24577,7 +24577,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VSTA",
-    "Name": "Vasta Platform Limited Class A"
+    "Name": "Vasta Platform Limited "
   },
   {
     "Symbol": "VSTM",
@@ -24601,7 +24601,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VTEX",
-    "Name": "VTEX Class A"
+    "Name": "VTEX "
   },
   {
     "Symbol": "VTGN",
@@ -24637,7 +24637,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VTVT",
-    "Name": "vTv Therapeutics Inc. Class A"
+    "Name": "vTv Therapeutics Inc. "
   },
   {
     "Symbol": "VTYX",
@@ -24685,7 +24685,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VYGG",
-    "Name": "Vy Global Growth Class A"
+    "Name": "Vy Global Growth "
   },
   {
     "Symbol": "VYGR",
@@ -24705,7 +24705,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "VZIO",
-    "Name": "VIZIO Holding Class A"
+    "Name": "VIZIO Holding "
   },
   {
     "Symbol": "VZLA",
@@ -24713,7 +24713,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "W",
-    "Name": "Wayfair Inc. Class A"
+    "Name": "Wayfair Inc. "
   },
   {
     "Symbol": "WAB",
@@ -24737,7 +24737,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WALD",
-    "Name": "Waldencast Acquisition Class A Ordinary Share"
+    "Name": "Waldencast Acquisition  Ordinary Share"
   },
   {
     "Symbol": "WALDU",
@@ -24745,7 +24745,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WARR",
-    "Name": "Warrior Technologies Acquisition Company Class A"
+    "Name": "Warrior Technologies Acquisition Company "
   },
   {
     "Symbol": "WASH",
@@ -24761,7 +24761,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WAVC",
-    "Name": "Waverley Capital Acquisition 1 Class A"
+    "Name": "Waverley Capital Acquisition 1 "
   },
   {
     "Symbol": "WAVD",
@@ -24793,7 +24793,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WBX",
-    "Name": "Wallbox N.V. Class A"
+    "Name": "Wallbox N.V. "
   },
   {
     "Symbol": "WCC",
@@ -24809,7 +24809,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WDAY",
-    "Name": "Workday Inc. Class A"
+    "Name": "Workday Inc. "
   },
   {
     "Symbol": "WDC",
@@ -24821,7 +24821,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WE",
-    "Name": "WeWork Inc. Class A"
+    "Name": "WeWork Inc. "
   },
   {
     "Symbol": "WEAV",
@@ -24829,7 +24829,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WEBR",
-    "Name": "Weber Inc. Class A"
+    "Name": "Weber Inc. "
   },
   {
     "Symbol": "WEC",
@@ -24841,7 +24841,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WEL",
-    "Name": "Integrated Wellness Acquisition Corp Class A"
+    "Name": "Integrated Wellness Acquisition Corp "
   },
   {
     "Symbol": "WELL",
@@ -24893,7 +24893,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WHD",
-    "Name": "Cactus Inc. Class A"
+    "Name": "Cactus Inc. "
   },
   {
     "Symbol": "WHF",
@@ -24965,7 +24965,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WISH",
-    "Name": "ContextLogic Inc. Class A"
+    "Name": "ContextLogic Inc. "
   },
   {
     "Symbol": "WIT",
@@ -24981,7 +24981,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WK",
-    "Name": "Workiva Inc. Class A"
+    "Name": "Workiva Inc. "
   },
   {
     "Symbol": "WKHS",
@@ -25041,7 +25041,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WMG",
-    "Name": "Warner Music Group Class A"
+    "Name": "Warner Music Group "
   },
   {
     "Symbol": "WMK",
@@ -25069,7 +25069,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WNNR",
-    "Name": "Andretti Acquisition Class A"
+    "Name": "Andretti Acquisition "
   },
   {
     "Symbol": "WNS",
@@ -25085,7 +25085,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WOOF",
-    "Name": "Petco Health and Wellness Company Inc. Class A"
+    "Name": "Petco Health and Wellness Company Inc. "
   },
   {
     "Symbol": "WOR",
@@ -25105,11 +25105,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WPCA",
-    "Name": "Warburg Pincus Capital Corporation IA Class A"
+    "Name": "Warburg Pincus Capital Corporation IA "
   },
   {
     "Symbol": "WPCB",
-    "Name": "Warburg Pincus Capital Corporation IB Class A"
+    "Name": "Warburg Pincus Capital Corporation IB "
   },
   {
     "Symbol": "WPM",
@@ -25121,7 +25121,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WQGA",
-    "Name": "World Quantum Growth Acquisition Class A"
+    "Name": "World Quantum Growth Acquisition "
   },
   {
     "Symbol": "WRAC",
@@ -25137,7 +25137,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WRBY",
-    "Name": "Warby Parker Inc. Class A"
+    "Name": "Warby Parker Inc. "
   },
   {
     "Symbol": "WRE",
@@ -25165,7 +25165,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WSC",
-    "Name": "WillScot Mobile Mini Holdings Class A"
+    "Name": "WillScot Mobile Mini Holdings "
   },
   {
     "Symbol": "WSFS",
@@ -25241,7 +25241,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WTS",
-    "Name": "Watts Water Technologies Inc. Class A"
+    "Name": "Watts Water Technologies Inc. "
   },
   {
     "Symbol": "WTT",
@@ -25249,7 +25249,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WTTR",
-    "Name": "Select Energy Services Inc. Class A"
+    "Name": "Select Energy Services Inc. "
   },
   {
     "Symbol": "WTW",
@@ -25285,7 +25285,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WWAC",
-    "Name": "Worldwide Webb Acquisition Class A Ordinary Share"
+    "Name": "Worldwide Webb Acquisition  Ordinary Share"
   },
   {
     "Symbol": "WWACU",
@@ -25297,7 +25297,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "WWE",
-    "Name": "World Wrestling Entertainment Inc. Class A"
+    "Name": "World Wrestling Entertainment Inc. "
   },
   {
     "Symbol": "WWR",
@@ -25365,7 +25365,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "XFIN",
-    "Name": "ExcelFin Acquisition Corp Class A"
+    "Name": "ExcelFin Acquisition Corp "
   },
   {
     "Symbol": "XFOR",
@@ -25381,7 +25381,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "XL",
-    "Name": "XL Fleet Class A"
+    "Name": "XL Fleet "
   },
   {
     "Symbol": "XLO",
@@ -25389,11 +25389,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "XM",
-    "Name": "Qualtrics International Inc. Class A"
+    "Name": "Qualtrics International Inc. "
   },
   {
     "Symbol": "XMTR",
-    "Name": "Xometry Inc. Class A"
+    "Name": "Xometry Inc. "
   },
   {
     "Symbol": "XNCR",
@@ -25413,11 +25413,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "XP",
-    "Name": "XP Inc. Class A"
+    "Name": "XP Inc. "
   },
   {
     "Symbol": "XPAX",
-    "Name": "XPAC Acquisition Class A"
+    "Name": "XPAC Acquisition "
   },
   {
     "Symbol": "XPEL",
@@ -25437,11 +25437,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "XPOA",
-    "Name": "DPCM Capital Inc. Class A"
+    "Name": "DPCM Capital Inc. "
   },
   {
     "Symbol": "XPOF",
-    "Name": "Xponential Fitness Inc. Class A"
+    "Name": "Xponential Fitness Inc. "
   },
   {
     "Symbol": "XPON",
@@ -25525,7 +25525,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "YOU",
-    "Name": "Clear Secure Inc. Class A"
+    "Name": "Clear Secure Inc. "
   },
   {
     "Symbol": "YPF",
@@ -25561,11 +25561,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZBRA",
-    "Name": "Zebra Technologies Corporation Class A"
+    "Name": "Zebra Technologies Corporation "
   },
   {
     "Symbol": "ZCMD",
-    "Name": "Zhongchao Inc. Class A"
+    "Name": "Zhongchao Inc. "
   },
   {
     "Symbol": "ZD",
@@ -25581,7 +25581,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZENV",
-    "Name": "Zenvia Inc. Class A"
+    "Name": "Zenvia Inc. "
   },
   {
     "Symbol": "",
@@ -25593,7 +25593,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZETA",
-    "Name": "Zeta Global Holdings Class A"
+    "Name": "Zeta Global Holdings "
   },
   {
     "Symbol": "ZEUS",
@@ -25605,7 +25605,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZG",
-    "Name": "Zillow Group Inc. Class A"
+    "Name": "Zillow Group Inc. "
   },
   {
     "Symbol": "ZGN",
@@ -25617,7 +25617,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZI",
-    "Name": "ZoomInfo Technologies Inc Class A"
+    "Name": "ZoomInfo Technologies Inc "
   },
   {
     "Symbol": "ZIM",
@@ -25629,7 +25629,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZING",
-    "Name": "FTAC Zeus Acquisition Class A"
+    "Name": "FTAC Zeus Acquisition "
   },
   {
     "Symbol": "ZINGU",
@@ -25641,7 +25641,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZIP",
-    "Name": "ZipRecruiter Inc. Class A"
+    "Name": "ZipRecruiter Inc. "
   },
   {
     "Symbol": "ZIVO",
@@ -25653,11 +25653,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZM",
-    "Name": "Zoom Video Communications Inc. Class A"
+    "Name": "Zoom Video Communications Inc. "
   },
   {
     "Symbol": "ZNGA",
-    "Name": "Zynga Inc. Class A"
+    "Name": "Zynga Inc. "
   },
   {
     "Symbol": "ZNH",
@@ -25665,7 +25665,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZNTE",
-    "Name": "Zanite Acquisition Class A"
+    "Name": "Zanite Acquisition "
   },
   {
     "Symbol": "ZNTEU",
@@ -25689,7 +25689,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZT",
-    "Name": "Zimmer Energy Transition Acquisition Class A"
+    "Name": "Zimmer Energy Transition Acquisition "
   },
   {
     "Symbol": "ZTEK",
@@ -25701,7 +25701,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZTS",
-    "Name": "Zoetis Inc. Class A"
+    "Name": "Zoetis Inc. "
   },
   {
     "Symbol": "ZUMZ",
@@ -25709,11 +25709,11 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZUO",
-    "Name": "Zuora Inc. Class A"
+    "Name": "Zuora Inc. "
   },
   {
     "Symbol": "ZVIA",
-    "Name": "Zevia PBC Class A"
+    "Name": "Zevia PBC "
   },
   {
     "Symbol": "ZVO",
@@ -25721,7 +25721,7 @@ const stockSymbolByName = [
   },
   {
     "Symbol": "ZWRK",
-    "Name": "Z-Work Acquisition Class A"
+    "Name": "Z-Work Acquisition "
   },
   {
     "Symbol": "ZWS",

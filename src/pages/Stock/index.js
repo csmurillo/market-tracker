@@ -9,17 +9,19 @@ import './styles.css';
 import socket from '../../context/Socketio';
 
 const Stock = ({history}) =>{
-    const { stockSymbol, inWatchList, loading, priceTarget, inputPriceTarget, stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
+
+    const { stockSymbol, inWatchList, loading, priceTarget, inputPriceTarget, 
+            stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,
             stockTimeMovement, stockPriceMovement, currentTimeStamp,graphSize,
-            updateGraphValues,
+            updateGraphValues,updateGraphValuesPeriodic,
             onSubmitAddToWatchList, onChangeAddToWatchList,
             clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
             onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
         }=StockContext(history.location.pathname);
-    const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockPriceDateFormatLive }=StockPriceContext(history.location.pathname.split('/')[2],socket);
 
+        const { stockPriceLive,stockChangePrice,stockChangePricePercentage }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket);
 
     return (
         <MainLayout>
