@@ -63,7 +63,9 @@ const Header = () =>{
     const header= ()=>(
         <div id="header" className="d-flex justify-content-between" style={menuActive?{zIndex:2}:{}}>
                 <div id="start" className="d-flex align-self-center ml-4">
-                    <img id="logo"  src={logo}/>
+                    <Link to="/">
+                        <img id="logo"  src={logo}/>
+                    </Link>
                 </div>
                 <div id="end" className="d-flex justify-content-end" style={menuActive?{zIndex:2,backgroundColor:'white'}:{}}>
                     {isAuthenticated() && 
@@ -88,23 +90,10 @@ const Header = () =>{
                 
         </div>
     );
-    // useEffect(()=>{
-    //     const one=document.getElementById('one');
-    //     one.focus();
-    // },[]);
+
     return (
         <header className="container">
             {header()}
-            {/* <div class="dropdown show">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <div class="dropdown-menu show" aria-labelledby="dropdownMenuButton">
-                    <a id="one" class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div> */}
         </header>
     );
 };

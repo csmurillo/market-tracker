@@ -53,6 +53,7 @@ exports.defaultDayMovementArray=()=>{
             priceArray.push(null);
         }
     }
+    priceArray.push(null);
     return {timeArray:timeArray.reverse(),priceArray:priceArray.reverse()}
 
 };

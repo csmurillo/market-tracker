@@ -5,7 +5,7 @@ import { getStock, getStockPrice, getStockNews,getStockMovement,stockOnWatchList
 import { addToWatchList, updateWatchList,deleteWatchList } from '../../adapters/watchlistApi';
 import { getToken, isAuthenticated } from '../../adapters/authApi';
 
-const StockContext = (path)=>{
+const StockContext = (path,socketLivePrice)=>{
 
     const authInfo = isAuthenticated();
     const token = getToken();
@@ -28,6 +28,19 @@ const StockContext = (path)=>{
 
     // use effect for graph resize
     useEffect(()=>{
+        let id=authInfo._id;
+        socketLivePrice.auth = { id };
+        socketLivePrice.connect();
+        socketLivePrice.on('updateOnWatchList',({insideWatchList})=>{
+            if(!insideWatchList){
+                setInWatchList(insideWatchList);
+                socketLivePrice.disconnect();
+                // alert(insideWatchList);
+                // alert('disconnected');
+            }
+
+        });
+
         window.addEventListener('resize',resizeGraph);
         window.onload=resizeGraph();
         return ()=>{
@@ -65,6 +78,7 @@ const StockContext = (path)=>{
         setStockSymbol(stockSymbol);
 
         stockOnWatchList(stockSymbol,authInfo._id,token).then(watchListInfo=>{
+            alert(JSON.stringify(watchListInfo));
             const tempInWatchList=watchListInfo.inWatchList;
             const tempPriceTarget=watchListInfo.price;
             if(tempInWatchList){
@@ -74,34 +88,29 @@ const StockContext = (path)=>{
                 setPriceTarget(tempPriceTarget);
                 setInputPriceTarget(tempPriceTarget);
             }
-            console.log(tempInWatchList+':'+inWatchList+','+tempPriceTarget+':'+priceTarget);
-            // console.log('--------------------------');
-            // console.log('watchlist'+watchListInfo.inWatchList);
-            // console.log('--------------------------');
+            // console.log(tempInWatchList+':'+inWatchList+','+tempPriceTarget+':'+priceTarget);
         });
         getStock(stockSymbol).then(stock=>{
             setStockInfo(stock);
-            console.log('Stock information'+JSON.stringify(stock));
+            // console.log('Stock information'+JSON.stringify(stock));
         });
         getStockPrice(stockSymbol).then(stockPriceInfo=>{
             setStockPrice(stockPriceInfo);
-            console.log('Stock Price'+JSON.stringify(stockPriceInfo));
+            // console.log('Stock Price'+JSON.stringify(stockPriceInfo));
         });
         getStockNews(stockSymbol).then(news=>{
-            console.log(news.news.articles);
+            // console.log(news.news.articles);
             setStockNews(news.news.articles);
         });
         getStockMovement(stockSymbol).then(stockData=>{
-            console.log(stockData.time.length);
-            console.log('~!!~!!~!~!!~!999999999999999999999999999999999999999~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-            console.log(JSON.stringify(stockData)+'!!!!!!!!!!!!!!!!!!!!!!!!!!');
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
         });
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
 
-    const updateGraphValues = (stockPriceLive)=>{
+    const updateGraphValues = (stockPriceLive,stockPriceTime)=>{
+        console.log(stockPriceTime);
         if(currentTimeStamp==='day'){
             const stockPriceMovementClone=[...stockPriceMovement];
             for(let i=0; i<stockPriceMovementClone.length;i++){
@@ -115,6 +124,7 @@ const StockContext = (path)=>{
     };
 
     const updateGraphValuesPeriodic =(stockPriceLive,stockPriceTime)=>{
+        console.log(stockPriceTime);
         if(currentTimeStamp==='day'){
             // console.log('stock context '+JSON.stringify(stockPriceLive)+' stock price date format '+stockPriceTime);
             const stockPriceHour=parseInt(stockPriceTime.split(':')[0]);
@@ -128,12 +138,12 @@ const StockContext = (path)=>{
                     if(stockPriceHour===hour&&stockPriceMinute>minute){
                         if(minute===55){
                             const stockPriceMovementClone=[...stockPriceMovement];
-                            stockPriceMovementClone[i-2]=stockPriceLive;
+                            stockPriceMovementClone[i-1]=stockPriceLive;
                             setStockPriceMovement(stockPriceMovementClone);
                             break;
                         }else{
                             const stockPriceMovementClone=[...stockPriceMovement];
-                            stockPriceMovementClone[i-2]=stockPriceLive;
+                            stockPriceMovementClone[i-1]=stockPriceLive;
                             setStockPriceMovement(stockPriceMovementClone);
                             break;
                         }
@@ -182,6 +192,11 @@ const StockContext = (path)=>{
         setLoading(true);
         setCurrentTimeStamp('day');
         getStockMovement(stockSymbol).then(stockData=>{
+            // console.log('~~~~~~~~~TIME~~~~~~~~~~~~');
+            // console.log(stockData.time);
+            // console.log('~~~~~~~~~PRICE~~~~~~~~~~~');
+            // console.log(stockData.price);
+            // console.log('~~~~~~~~~~~~~~~~~~~~~~~~~');
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
             setLoading(false);
@@ -191,8 +206,8 @@ const StockContext = (path)=>{
     const clickWeekHistoricData =()=>{
         setLoading(true);
         setCurrentTimeStamp('week');
-        console.log('week');
-        console.log('stock symbol'+stockSymbol);
+        // console.log('week');
+        // console.log('stock symbol'+stockSymbol);
         getStockWeekMovement(stockSymbol).then((stockData)=>{
             console.log(stockData);
             setStockTimeMovement(stockData.time);
@@ -204,9 +219,9 @@ const StockContext = (path)=>{
     const clickMonthHistoricData = ()=>{
         setLoading(true);
         setCurrentTimeStamp('month');
-        console.log('month');
+        // console.log('month');
         getStockMonthMovement(stockSymbol).then((stockData)=>{
-            console.log(stockData);
+            // console.log(stockData);
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
             setLoading(false);
@@ -216,9 +231,9 @@ const StockContext = (path)=>{
     const clickYearHistoricData = ()=>{
         setLoading(true);
         setCurrentTimeStamp('year');
-        console.log('year');
+        // console.log('year');
         getStockYearMovement(stockSymbol).then((stockData)=>{
-            console.log(stockData);
+            // console.log(stockData);
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
             setLoading(false);

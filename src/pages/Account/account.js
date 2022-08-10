@@ -45,7 +45,20 @@ const Account = () =>{
             {/* if stock history */}
             {
                 optionToggle==1&&<div id="stock-history-container">
-                    Stock History
+                    {
+                        stockHistory.map((stocks,i)=>(
+                            <div class="stock-card">
+                                <div class="d-flex">
+                                    <p>{stocks.tickerName}&nbsp;</p>
+                                    <p>({stocks.tickerSymbol})</p>
+                                </div>
+                                <div>
+                                    <p>Price: ${stocks.alertPrice}</p>
+                                    <p>Date Reached:{stocks.datePriceTargetReached}</p>
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
             }
         </MainLayout>

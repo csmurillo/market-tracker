@@ -7,6 +7,7 @@ import { StockContext } from '../../context/StockContext';
 import { StockPriceContext } from '../../context/StockPriceContext';
 import './styles.css';
 import socket from '../../context/Socketio';
+import socketLivePrice from '../../context/SocketLivePrice';
 
 const Stock = ({history}) =>{
 
@@ -19,9 +20,9 @@ const Stock = ({history}) =>{
             onSubmitAddToWatchList, onChangeAddToWatchList,
             clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
             onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
-        }=StockContext(history.location.pathname);
+        }=StockContext(history.location.pathname,socketLivePrice);
 
-        const { stockPriceLive,stockChangePrice,stockChangePricePercentage }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket);
+        const { stockPriceLive,stockChangePrice,stockChangePricePercentage }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice);
 
     return (
         <MainLayout>

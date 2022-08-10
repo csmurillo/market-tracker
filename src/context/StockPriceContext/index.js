@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
+import { isAuthenticated } from '../../adapters/authApi';
 
-const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriodic,socket)=>{
+const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice)=>{
+
+    const authInfo = isAuthenticated();
 
     const [ stockPriceLive, setStockPriceLive]=useState('~');
     const [ stockChangePrice, setStockChangePrice]=useState('-x');
@@ -8,6 +11,10 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
     const [ stockPriceDateFormatLive, setStockPriceDateFormatLive]=useState('');
 
     useEffect(()=>{
+        let id=authInfo._id;
+        socketLivePrice.auth = { id };
+        socketLivePrice.connect();
+
         socket.connect();
         socket.emit('startStreamServerStockPrice',{stockSymbol});
 
@@ -19,11 +26,12 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
             setStockChangePricePercentage(changePricePercentage);
         });
         socket.on('streamMod5LivePrice',({price,time})=>{
-            updateGraphValues(price);
+            updateGraphValues(price,time);
         });
 
         return ()=>{
             console.log('socket no longer listening');
+            socketLivePrice.disconnect();
             socket.disconnect();
         };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -31,7 +39,8 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
 
     useEffect(()=>{
         updateGraphValuesPeriodic(stockPriceLive,stockPriceDateFormatLive);
-        console.log('stockPriceLive changed*************************************************************8');
+        socketLivePrice.emit('onWatchList',{stockSymbol});
+        // console.log('stockPriceLive changed*************************************************************8');
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[stockPriceLive]);
 
@@ -52,6 +61,7 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
 };
 
 export { StockPriceContext };
+
 
 
 

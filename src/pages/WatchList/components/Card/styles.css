@@ -10,11 +10,13 @@
     padding:15px;
 }
 .wl-card-top-content{
+    width:100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
 .wl-card-top-left{
+    width:70%;
     height:100%;
     display: flex;
     flex-direction: column;
@@ -22,16 +24,17 @@
 }
 /* stock info */
 .wl-stock-name{
-    font-size: 1.4em;
+    font-size: 1em;
     user-select: none;
 }
 .wl-stock-price{
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: 400;
     user-select: none;
 }
 /* status */
 .wl-stock-status{
-    width:120px;
+    width:145%;
     color:rgb(0, 216, 0);
     border:2px solid rgb(154, 255, 181);
     border-radius: 5px;
@@ -47,6 +50,7 @@
     padding:0 !important; margin: 0 !important;
 }
 .wl-stock-status-in-progress{
+    font-size: .9em;
     padding:0 !important; margin: 0 !important;
     /* width:120px;
     color:rgb(0, 216, 0);
@@ -99,10 +103,12 @@
     justify-content: space-between;
 }
 .wl-card-bottom-price-target-title{
+    padding-top:.2em;
+    font-size: .9em;
     user-select: none;
 }
 .wl-card-bottom-price-target{
-    font-size: 1.2em;
+    font-size: 1em;
     user-select: none;
 }
 .wl-card-bottom-price-target:hover{
@@ -116,3 +122,24 @@ input[type=number] {
     width: 100%;
 }
 
+/* mobile up */
+@media (min-width: 576px) {
+    .wl-stock-name{
+        font-size: 1.4em;
+        user-select: none;
+    }
+    .wl-stock-price{
+        font-size: 1.5em;
+        user-select: none;
+    }
+    .wl-card-bottom-price-target{
+        font-size: 1.2em;
+        user-select: none;
+    }
+    .wl-stock-status-in-progress{
+        font-size: 1em;
+    }
+    .wl-stock-status{
+        width:140px;
+    }
+}

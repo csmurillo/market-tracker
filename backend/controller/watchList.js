@@ -10,9 +10,13 @@ exports.watchList=(req,res)=>{
                 error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
             });
         }
-        console.log('watchlist'+watchList.stocks);
+        // console.log('watchlist::::::::::::'+watchList.stocks);
         res.status(200).json({
-            watchList:watchList.stocks
+            watchList:watchList.stocks.reverse().filter(function(stock){
+                // if(!stock.priceTargetReached){
+                    return stock;
+                // }
+            })
         });
     });
 };
@@ -28,18 +32,28 @@ exports.addToWatchList= (req,res)=>{
         let watchListArr=watchList.stocks;
         for(let i=0; i<watchListArr.length;i++){
             if(watchListArr[i].tickerSymbol===req.body.symbol){
-                return res.status(401).json({error:'Error: Stock already exist'});
+                if(!watchListArr[i].priceTargetReached){
+                    return res.status(401).json({error:'Error: Stock already exist'});
+                }
             }
         }
         let stockSymbol=req.body.stockSymbol;
-        const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-        const finnhubRes=await fetch(finnhub);
-        const pricePromise=await finnhubRes.json();
-        const stockPrice=pricePromise.c;
+        // mock prices
+        const finnhub=`https://mockstockapi.herokuapp.com/api/stockLivePrice?stock=${stockSymbol}`;
+        const finnhubRes = await fetch(finnhub);
+        const pricePromise = await finnhubRes.json();
+        const stockPrice=pricePromise.price;
+        // live prices
+        // const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+        // const finnhubRes=await fetch(finnhub);
+        // const pricePromise=await finnhubRes.json();
+        // const stockPrice=pricePromise.c;
+
         const alertPrice=req.body.priceAlert;
 
         let alertDirection;
-        if(parseInt(alertPrice)>parseInt(stockPrice)){
+        console.log('ADD TO WATCHLIST :::::'+alertPrice+'STOCK PRICE'+stockPrice);
+        if(parseFloat(alertPrice)>parseFloat(stockPrice)){
             alertDirection='above';
         }
         else{
@@ -80,17 +94,23 @@ exports.updateWatchList=(req,res)=>{
 
         let stockSymbol=req.body.symbol;
 
-        const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
-        const finnhubRes=await fetch(finnhub);
-        const pricePromise=await finnhubRes.json();
-        const stockPrice=pricePromise.c;
+        // mock prices
+        const finnhub=`https://mockstockapi.herokuapp.com/api/stockLivePrice?stock=${stockSymbol}`;
+        const finnhubRes = await fetch(finnhub);
+        const pricePromise = await finnhubRes.json();
+        const stockPrice=pricePromise.price;
+        // live prices
+        // const finnhub=`https://finnhub.io/api/v1/quote?symbol=${stockSymbol}&token=${process.env.STOCK_INFO_FINNHUB_API_KEY}`;
+        // const finnhubRes=await fetch(finnhub);
+        // const pricePromise=await finnhubRes.json();
+        // const stockPrice=pricePromise.c;
 
         let alertPrice=req.body.priceAlert;
         for(let i=0; i<watchList.stocks.length;i++){
             if(watchList.stocks[i].tickerSymbol===req.body.symbol){
                 stockSymbolExist=true;
                 watchList.stocks[i].alertPrice=req.body.priceAlert;
-                if(parseInt(alertPrice)>parseInt(stockPrice)){
+                if(parseFloat(alertPrice)>parseFloat(stockPrice)){
                     watchList.stocks[i].alertDirection='above';
                 }
                 else{

@@ -5,11 +5,33 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 
 import { Link } from 'react-router-dom';
 // import socket from '../../../../context/Socketio';
-const Card = ({ stock, stockName, stockSymbol, stockPrice, stockPriceTargetReached, stockPriceTargetReachedDate, priceTarget, InProgress,cardUpdate, cardDelete }) =>{
+const Card = ({ stock, stockName, stockSymbol, stockPrice, stockPriceTargetReached=false, stockPriceTargetReachedDate, priceTarget, priceDirection, InProgress,cardUpdate, cardDelete }) =>{
 
     const [cardPriceTarget,setCardPriceTarget]=useState();
+    const [targetReached,setTargetReached]=useState(false);
 
     useEffect(()=>{
+        // alert(priceDirection);
+        // alert('live stock price'+parseFloat(stockPrice)+"> PRICE TARGET:"+parseFloat(priceTarget));
+        if(priceDirection==='above'){
+            if(parseFloat(stockPrice)>parseFloat(priceTarget)){
+                // alert('above price');
+                // setTargetReached(true);
+            }
+        }
+        else if(priceDirection==='below'){
+            if(parseFloat(stockPrice)<parseFloat(priceTarget)){
+                // alert('below price');
+                // setTargetReached(true);
+            }
+        }
+        // alert(typeof stockPrice);
+        // alert(priceDirection);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[stockPrice]);
+
+    useEffect(()=>{
+        // set values
         setCardPriceTarget(priceTarget);
     },[]);
 
@@ -31,30 +53,33 @@ const Card = ({ stock, stockName, stockSymbol, stockPrice, stockPriceTargetReach
                                 <Link to={'/stock/'+stockSymbol}>{stockName}</Link>
                             </div>
                             <div className='wl-stock-price'>
-                                ${stockPrice}
+                                ${!stockPriceTargetReached ?
+                                    stockPrice: cardPriceTarget
+
+                                }
                             </div>
                         </div>
-                        <div className='wl-stock-status' style={stockPriceTargetReached?{border:'2px solid lightgreen',color:'green', backgroundColor:'rgb(192, 255, 208)'}:{}}>
+                        <div className='wl-stock-status' style={stockPriceTargetReached?{ border:'2px solid lightgreen',color:'green', backgroundColor:'rgb(192, 255, 208)'}:{}}>
                             {/* <div className='wl-stock-status'> */}
                                 {
-                                    stockPriceTargetReached ?
-                                    <div className='wl-stock-status-reached'>
+                                    stockPriceTargetReached || targetReached ?
+                                    (<div className='wl-stock-status-reached'>
                                         <p>Reached</p>
                                         <span><AiOutlineCheckCircle/></span>
-                                    </div>:
-                                    <p  className='wl-stock-status-in-progress'>In Progress</p>
+                                    </div>):
+                                    (<p  className='wl-stock-status-in-progress'>In Progress</p>)
                                 }
                             {/* // </div> */}
                         </div>
                     </div>
                     <div className='wl-card-top-right' style={stockPriceTargetReached?{justifyContent:'flex-end'}:{}}>
-                        {!stockPriceTargetReached&&
-                            <div className='dropdown'>
+                        {(!stockPriceTargetReached) &&
+                            (<div className='dropdown'>
                                 <div className='wl-card-settings' data-toggle='dropdown'>...</div>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
                                     <div className='wl-card-delete-listing' onClick={()=>{cardDelete(stockSymbol)}}>Delete Listing</div>
                                 </div>
-                            </div>
+                            </div>)
                         }
                         <div className="wl-card-date-price-reached">
                             {stockPriceTargetReached?<p>Date: {stockPriceTargetReachedDate}</p>:<></>}

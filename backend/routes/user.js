@@ -19,7 +19,7 @@ router.put('/user/account/enableAlerts/update/:userId',verifyToken,isAuth,update
 
 router.put('/user/account/passwordChange/:userId',verifyToken,userChangePasswordValidator,isAuth,changePassword);
 
-router.put('/add/to/stock/history/:userId',verifyToken, isAuth, addToStockHistory);
+router.put('/add/to/stock/history', addToStockHistory);
 
 router.get('/stock/history/:userId',verifyToken, isAuth, stockHistory);
 

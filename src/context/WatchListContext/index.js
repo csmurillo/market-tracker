@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { getWatchList,updateWatchList,deleteWatchList } from '../../adapters/watchlistApi';
 import { getToken, isAuthenticated } from '../../adapters/authApi';
 
-const WatchListContext = (socket)=>{
+const WatchListContext = (socket,socketLivePrice)=>{
 
     const authInfo = isAuthenticated();
     const token = getToken();
@@ -12,8 +12,10 @@ const WatchListContext = (socket)=>{
     const [livesPricesLoaded,setLivesPricesLoaded]=useState(false);
 
     useEffect(()=>{
+        let id=authInfo._id;
+        socketLivePrice.auth = { id };
+        socketLivePrice.connect();
         socket.connect();
-        console.log('socket connected');
         socket.on('serverWatchlistLivePriceStream',({stocks})=>{
             let newLivePrices=[];
             stocks.map((stocks)=>{
@@ -24,9 +26,8 @@ const WatchListContext = (socket)=>{
                 return stocks;
             });
             setLivePrices(newLivePrices);
-            console.log('!'+JSON.stringify(stocks));
-            // console.log('stocks recieved symbol:'+stocks.stockSymbol+' liveprices:'+stocks.livePrice);
         });
+        
         return ()=>{
             console.log('cards no longer listening');
             socket.disconnect();
@@ -35,15 +36,18 @@ const WatchListContext = (socket)=>{
 
     useEffect(()=>{
         getWatchList(authInfo._id,token).then(watchList=>{
-            console.log(watchList.watchList);
+            // alert(JSON.stringify(watchList.watchList));
+            // console.log(watchList.watchList);
             setWatchList(watchList.watchList);
         });
     },[]);
     
     useEffect(()=>{
-        console.log('livepricechanged!!'+livePrices.length);
+        // console.log('livepricechanged!!'+livePrices.length);
         if(livesPricesLoaded){
-            console.log('emittted!!');
+            // console.log('emittted!!');
+            // alert('live prices loaded:TRUE');
+            // alert(JSON.stringify(livePrices));
             socket.emit('serverWatchlistPriceSteam',{stocks:livePrices});
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -67,6 +71,28 @@ const WatchListContext = (socket)=>{
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[watchList]);
+
+    useEffect(()=>{
+        socketLivePrice.emit('checkLivePrices',{});
+        // alert(JSON.stringify(livePrices));
+        if(watchList!=null){
+            // alert(JSON.stringify(watchList));
+        }
+        if(watchList!=null){
+            socketLivePrice.on('updateWatchlistLivePrice',({liveWatchList})=>{
+                if(JSON.stringify(liveWatchList)!==JSON.stringify(watchList)){
+                    // alert('liveinside!'+JSON.stringify(liveWatchList));
+                    // alert('watchlist'+JSON.stringify(watchList));
+                    setWatchList(liveWatchList);
+                }
+                else{
+                    // alert('liveinsideSWAG!!!'+JSON.stringify(liveWatchList));
+                    // alert('watchlistSWAG!!!'+JSON.stringify(watchList));
+                }
+            });
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[livePrices]);
 
     const cardUpdate=(stockTicker,cardPriceTarget)=>{
         updateWatchList(authInfo._id,token,{symbol:stockTicker,priceAlert:cardPriceTarget}).then(listUpdated=>{

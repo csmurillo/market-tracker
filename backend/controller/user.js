@@ -145,8 +145,11 @@ exports.changePassword = (req,res)=>{
 };
 
 // must be tested 
+
 exports.addToStockHistory = (req,res)=>{
-    const {userId}=req.userTokenData;
+    console.log('INSIDE ADDTOSTOCKHISTORY');
+    // const {userId}=req.userTokenData;
+    const userId=req.query.owner;
     console.log(userId);
     User.findOne({ _id: userId }, (err, user) => {
         if(err){
@@ -154,28 +157,55 @@ exports.addToStockHistory = (req,res)=>{
                     message:err
             });
         }
-        console.log(req.body.symbol+'.'+req.body.priceAlert);
+
+        console.log('ADD TO STOCK HISTORY ADD TO STOCK HISTORY ADD TO STOCK HISTORY ADD TO STOCK HISTORY');
+        console.log(req.body.tickerSymbol+'.'+req.body.priceAlert);
+
         const stock=new Stock({
-            tickerSymbol:req.body.symbol,
-            alertPrice:req.body.priceAlert
+            tickerName:req.body.tickerName,
+            tickerSymbol:req.body.tickerSymbol,
+            alertPrice:req.body.priceAlert,
+            alertDirection:req.body.alertDirection
         });
+
         user.stockHistory.push(stock);
+
         user.save((err,updatedUser)=>{
-            res.json(updatedUser);
+            if(err){
+                console.log('err'+err);
+            }
+            console.log(updatedUser);
+            // res.json(updatedUser);
         });
     });
 };
 
 exports.stockHistory = (req,res)=>{
     const {userId}=req.userTokenData;
+    console.log('STOCK HISTORY STOCK HISTORY STOCK HISTORY STOCK HISTORY STOCK HISTORY');
     console.log('stock history route hit');
 
+    // WatchList.findOne({ owner: userId}, (err, watchList) => {
+    //     if(err){
+    //         return res.status(400).json({
+    //             error: "Sorry for the inconvenience something went wrong, our team is working to fix the problem."
+    //         });
+    //     }
+    //     res.status(200).json({
+    //         stocks:watchList.stocks.filter(function(stock){
+    //             if(stock.priceTargetReached){
+    //                 return stock;
+    //             }
+    //         })
+    //     });
+    // });
     User.findOne({ _id: userId }, (err, user) => {
         if(err){
             res.status(400).json({
                 error:err
             });
         }
+        console.log(user.stockHistory);
         res.json({stocks:user.stockHistory});
     });
 };
@@ -234,7 +264,8 @@ exports.stock = async (req,res)=>{
     // };
 
     // using mock api
-    const stockInfo = `https://mockstockapi.herokuapp.com/api/stockInformation?stock=${stockSymbol}`;
+    // const stockInfo = `https://localhost:3005/api/stockInformation?stock=${stockSymbol}`;
+    const stockInfo =  `https://mockstockapi.herokuapp.com/api/stockInformation?stock=${stockSymbol}`;
     const stockInfoRes = await fetch(stockInfo);
     const stockInfoData = await stockInfoRes.json();
 
@@ -283,7 +314,7 @@ exports.stockNews = async (req,res)=>{
     const stockSymbol = req.symbol;
     console.log(stockSymbol+'stockSymbol');
     // const {stockSymbol} = req.stockSymbol;
-    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2022-04-25&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
+    const newapi = `https://newsapi.org/v2/everything?q=${stockSymbol}&from=2022-07-28&sortBy=publishedAt&apiKey=${process.env.STOCK_NEWS_API_KEY}`;
     const newsRes = await fetch(newapi);
     const newsData = await newsRes.json();
     // console.log('newsdata'+newsRes);
@@ -292,8 +323,8 @@ exports.stockNews = async (req,res)=>{
 
 exports.stockMovement = async (req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `http://localhost:3005/api/stockDayHistory?stock=${stockSymbol}`;
-    // const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockDayHistory?stock=${stockSymbol}`;
+    const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockDayHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://localhost:3005/api/stockDayHistory?stock=${stockSymbol}`;
     // live data
     // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=84&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
@@ -326,6 +357,7 @@ exports.stockMovement = async (req,res)=>{
         //     }
         // }
     });
+
     res.json({
         time:timeArray,
         price:priceArray.reverse()
@@ -336,8 +368,8 @@ exports.stockMovement = async (req,res)=>{
 
 exports.stockWeekMovement = async (req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `http://localhost:3005/api/stockWeekHistory?stock=${stockSymbol}`;
-    // const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockWeekHistory?stock=${stockSymbol}`;
+    const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockWeekHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://localhost:3005/api/stockWeekHistory?stock=${stockSymbol}`;
     // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=1000&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
@@ -356,13 +388,8 @@ exports.stockWeekMovement = async (req,res)=>{
         
         const dateFromStockData=new Date(stockData.datetime.toString());
         const dateData = new Date(dateFromStockData);
-        // console.log(todayDateFormatted);
-        // console.log('~~~~~~~~~~~~~~~~');
-        // console.log(dateData);
-        // console.log('~~~~~~~~~~~~~~~~');
+
         if(todayDateFormatted<dateData){
-            console.log('valid');
-            console.log(dateData);
             timeArray.push(dateData.toLocaleString());
             priceArray.push(stockData.close);
         }
@@ -375,8 +402,8 @@ exports.stockWeekMovement = async (req,res)=>{
 
 exports.stockMonthMovement=async(req,res)=>{
     const stockSymbol = req.symbol;
-    const stockTimeSeries = `http://localhost:3005/api/stockMonthHistory?stock=${stockSymbol}`;
-    // const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockMonthHistory?stock=${stockSymbol}`;
+    const stockTimeSeries = `https://mockstockapi.herokuapp.com/api/stockMonthHistory?stock=${stockSymbol}`;
+    // const stockTimeSeries = `https://localhost:3005/api/stockMonthHistory?stock=${stockSymbol}`;
     // const stockTimeSeries = `https://api.twelvedata.com/time_series?symbol=${stockSymbol}&interval=5min&outputsize=2500&apikey=${process.env.STOCK_DOW_JONES_12DATA}&source=docs`;
     const timeSeriesRes = await fetch(stockTimeSeries);
     const timeSeriesData = await timeSeriesRes.json();
@@ -494,10 +521,12 @@ exports.stockOnWatchList = (req,res)=>{
         for(let stockList of userWatchListStocks){
             const watchListSymbol=stockList.tickerSymbol;
             if(tickerSymbol===watchListSymbol){
-                return res.json({
-                    inWatchList:true,
-                    price:stockList.alertPrice
-                });
+                if(!stockList.priceTargetReached){
+                    return res.json({
+                        inWatchList:true,
+                        price:stockList.alertPrice
+                    });
+                }
             }
         }
         // userWatchListStocks.forEach(stockList=>{
