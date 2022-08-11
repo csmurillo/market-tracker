@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
 import { getWatchList,updateWatchList,deleteWatchList } from '../../adapters/watchlistApi';
 import { getToken, isAuthenticated } from '../../adapters/authApi';
+import { getStockHistory } from '../../adapters/userApi';
 
-const WatchListContext = (socket,socketLivePrice)=>{
+const WatchListContext = (filterBtn,socket,socketLivePrice)=>{
 
     const authInfo = isAuthenticated();
     const token = getToken();
 
     const [watchList,setWatchList]=useState(null);
+    const [historicWatchList,setHistoricWatchList]=useState([]);
     const [livePrices,setLivePrices]=useState([]);
     const [livesPricesLoaded,setLivesPricesLoaded]=useState(false);
 
@@ -94,6 +96,22 @@ const WatchListContext = (socket,socketLivePrice)=>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[livePrices]);
 
+    const filterUpdate = (filter)=>{
+        if(filter==="showActive"){
+            filterBtn.current.innerHTML='Show Active';
+            setHistoricWatchList([]);
+        }
+        else if(filter==="showAll"){
+            filterBtn.current.innerHTML='Show All';
+            getStockHistory(authInfo._id,token).then((res)=>{
+                const {stocks}=res;
+                alert(JSON.stringify(stocks)+"!!!");
+                // console.log(JSON.stringify(stocks)+"!!!");
+                setHistoricWatchList(stocks);
+            });
+        }
+    };
+
     const cardUpdate=(stockTicker,cardPriceTarget)=>{
         updateWatchList(authInfo._id,token,{symbol:stockTicker,priceAlert:cardPriceTarget}).then(listUpdated=>{
             console.log(listUpdated);
@@ -116,7 +134,7 @@ const WatchListContext = (socket,socketLivePrice)=>{
         });
     };
 
-   return { watchList,livePrices,livesPricesLoaded,cardUpdate, cardDelete };
+   return { watchList,historicWatchList,livePrices,livesPricesLoaded,filterUpdate,cardUpdate, cardDelete };
 };
 
 export { WatchListContext };

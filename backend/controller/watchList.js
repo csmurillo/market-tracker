@@ -32,9 +32,7 @@ exports.addToWatchList= (req,res)=>{
         let watchListArr=watchList.stocks;
         for(let i=0; i<watchListArr.length;i++){
             if(watchListArr[i].tickerSymbol===req.body.symbol){
-                if(!watchListArr[i].priceTargetReached){
-                    return res.status(401).json({error:'Error: Stock already exist'});
-                }
+                return res.status(401).json({error:'Error: Stock already exist'});
             }
         }
         let stockSymbol=req.body.stockSymbol;
