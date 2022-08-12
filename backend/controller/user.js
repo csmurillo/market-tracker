@@ -165,7 +165,8 @@ exports.addToStockHistory = (req,res)=>{
             tickerName:req.body.tickerName,
             tickerSymbol:req.body.tickerSymbol,
             alertPrice:req.body.priceAlert,
-            alertDirection:req.body.alertDirection
+            alertDirection:req.body.alertDirection,
+            datePriceTargetReached:req.body.datePriceTargetReached
         });
 
         user.stockHistory.push(stock);
@@ -206,7 +207,7 @@ exports.stockHistory = (req,res)=>{
             });
         }
         console.log(user.stockHistory);
-        res.json({stocks:user.stockHistory});
+        res.json({stocks:user.stockHistory.reverse()});
     });
 };
 
