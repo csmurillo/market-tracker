@@ -12,7 +12,7 @@ const AccountContext = ()=>{
         // console.log('getting account stock history'+authInfo._id+'token:'+token);
         getStockHistory(authInfo._id,token).then((res)=>{
             const {stocks}=res;
-            alert(JSON.stringify(stocks)+"!!!");
+            // alert(JSON.stringify(stocks)+"!!!");
             // console.log(JSON.stringify(stocks)+"!!!");
             setStockHistory(stocks);
         });

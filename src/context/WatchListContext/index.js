@@ -17,7 +17,10 @@ const WatchListContext = (filterBtn,socket,socketLivePrice)=>{
         let id=authInfo._id;
         socketLivePrice.auth = { id };
         socketLivePrice.connect();
+        
+        socket.auth = { id };
         socket.connect();
+
         socket.on('serverWatchlistLivePriceStream',({stocks})=>{
             let newLivePrices=[];
             stocks.map((stocks)=>{
@@ -86,6 +89,7 @@ const WatchListContext = (filterBtn,socket,socketLivePrice)=>{
                     // alert('liveinside!'+JSON.stringify(liveWatchList));
                     // alert('watchlist'+JSON.stringify(watchList));
                     setWatchList(liveWatchList);
+                    // window.location.reload();
                 }
                 else{
                     // alert('liveinsideSWAG!!!'+JSON.stringify(liveWatchList));

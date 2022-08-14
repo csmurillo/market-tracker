@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { isAuthenticated } from '../../adapters/authApi';
 
-const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice)=>{
+const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,inWatchList)=>{
 
     const authInfo = isAuthenticated();
 
@@ -9,14 +9,25 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
     const [ stockChangePrice, setStockChangePrice]=useState('-x');
     const [ stockChangePricePercentage, setStockChangePricePercentage]=useState('-x');
     const [ stockPriceDateFormatLive, setStockPriceDateFormatLive]=useState('');
+    const [ stockAlertPriceReached, setStockAlertPriceReached]=useState(false);
 
     useEffect(()=>{
         let id=authInfo._id;
         socketLivePrice.auth = { id };
         socketLivePrice.connect();
 
+        socket.auth = { id };
         socket.connect();
         socket.emit('startStreamServerStockPrice',{stockSymbol});
+        
+        socket.on('stockAlertPriceReached',({reached})=>{
+            alert('stockAlertPriceReached');
+            setStockAlertPriceReached(reached);
+            if(inWatchList&&reached){
+                setStockAlertPriceReached(false);
+            }
+        });
+
 
         socket.on('streamStockLivePrice',({price,changePrice,changePricePercentage,time})=>{
             // const formattedDate=getDateFormatted(time.split(':')[0],time.split(':')[1]);
@@ -25,6 +36,7 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
             setStockChangePrice(changePrice);
             setStockChangePricePercentage(changePricePercentage);
         });
+
         socket.on('streamMod5LivePrice',({price,time})=>{
             updateGraphValues(price,time);
         });
@@ -57,7 +69,7 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
     };
 
 
-   return { stockPriceLive,stockChangePrice,stockChangePricePercentage, stockPriceDateFormatLive, updateGraphStockPrice };
+   return { stockPriceLive,stockChangePrice,stockChangePricePercentage, stockPriceDateFormatLive, stockAlertPriceReached, updateGraphStockPrice };
 };
 
 export { StockPriceContext };

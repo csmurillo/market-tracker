@@ -20,7 +20,7 @@ const StockContext = (path,socketLivePrice)=>{
     const [stockInfo,setStockInfo]=useState({});
     const [stockPrice,setStockPrice]=useState('');
     const [stockNews, setStockNews]=useState([]);
-    // graph x=stockTimeMovement,y=stockPriceMovement values
+    
     const [stockTimeMovement, setStockTimeMovement]=useState();
     const [stockPriceMovement, setStockPriceMovement]=useState();
 
@@ -38,7 +38,6 @@ const StockContext = (path,socketLivePrice)=>{
                 // alert(insideWatchList);
                 // alert('disconnected');
             }
-
         });
 
         window.addEventListener('resize',resizeGraph);

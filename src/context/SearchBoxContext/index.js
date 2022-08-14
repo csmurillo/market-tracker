@@ -18,12 +18,14 @@ const SearchBoxContext = ()=>{
     const onKeyHandleSearch = (e) =>{
         if(e.keyCode==13){
             const searchSymbol=searchResults[key].symbol;
-            history.push('/stock/'+searchSymbol);
+            // history.push('/stock/'+searchSymbol);
+            window.location.href='/stock/'+searchSymbol;
             e.target.blur();
         }
     };
     const onStockSearch = (stockSymbol) =>{
-        history.push('/stock/'+stockSymbol);
+        // history.push('/stock/'+stockSymbol);
+        window.location.href='/stock/'+stockSymbol;
         clearSearch();
     };
     const onKeyHandle = (e) => {

@@ -20,6 +20,7 @@ exports.watchList=(req,res)=>{
         });
     });
 };
+
 exports.addToWatchList= (req,res)=>{
     const {userId}=req.userTokenData;
     WatchList.findOne({ owner: userId}, async(err, watchList) => {
@@ -77,6 +78,7 @@ exports.addToWatchList= (req,res)=>{
         });
     });
 };
+
 exports.updateWatchList=(req,res)=>{
     const {userId}=req.userTokenData;
     
