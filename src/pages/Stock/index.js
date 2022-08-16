@@ -14,15 +14,14 @@ const Stock = ({history}) =>{
     const { stockSymbol, inWatchList, loading, priceTarget, inputPriceTarget, 
             stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
-            stockNews,
-            stockTimeMovement, stockPriceMovement, currentTimeStamp,graphSize,
-            updateGraphValues,updateGraphValuesPeriodic,
+            stockNews,stockTimeMovement, stockPriceMovement, currentTimeStamp,graphSize,
+            setInWatchList,updateGraphValues,updateGraphValuesPeriodic,
             onSubmitAddToWatchList, onChangeAddToWatchList,
             clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
             onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
         }=StockContext(history.location.pathname,socketLivePrice);
 
-        const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockAlertPriceReached }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,inWatchList);
+        const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockAlertPriceReached }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,inWatchList,setInWatchList);
 
     return (
         <MainLayout>
@@ -41,7 +40,7 @@ const Stock = ({history}) =>{
                             <div id="stock-symbol-add-to-watchlist-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <Button className='btn' styles={{fontSize:'20px',width:'150px',borderRadius:'15px',backgroundColor:'rgb(138, 233, 138)', color:'white'}}>{(inWatchList&&!stockAlertPriceReached) ? 'Price Target $'+priceTarget:'WatchList +'}</Button>
                             </div>
-                            {(inWatchList && !stockAlertPriceReached)?
+                            {(inWatchList&&!stockAlertPriceReached)?
                                         <div className='dropdown-menu dropdown-menu-right' aria-labelledby="dropDownMenu">    
                                             <div>
                                                 <form onSubmit={updatePriceTarget}>

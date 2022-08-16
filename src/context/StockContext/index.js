@@ -10,7 +10,7 @@ const StockContext = (path,socketLivePrice)=>{
     const authInfo = isAuthenticated();
     const token = getToken();
 
-    const [inWatchList,setInWatchList]=useState('');
+    const [inWatchList,setInWatchList]=useState(false);
     const [priceTarget,setPriceTarget]=useState(0);
     const [inputPriceTarget, setInputPriceTarget]=useState(0);
     const [loading,setLoading]=useState(false);
@@ -33,6 +33,7 @@ const StockContext = (path,socketLivePrice)=>{
         socketLivePrice.connect();
         socketLivePrice.on('updateOnWatchList',({insideWatchList})=>{
             if(!insideWatchList){
+                // alert('updateOnWatchList');
                 setInWatchList(insideWatchList);
                 socketLivePrice.disconnect();
                 // alert(insideWatchList);
@@ -177,8 +178,10 @@ const StockContext = (path,socketLivePrice)=>{
     const onSubmitAddToWatchList=(e)=>{
         e.preventDefault();
         addToWatchList({stockName:stockInfo.stockName,stockSymbol:stockSymbol,priceAlert:priceTarget},authInfo._id,token).then(data=>{
-            console.log(data);
-            setInputPriceTarget();
+            // console.log(data);
+            setInputPriceTarget(priceTarget);
+            
+            alert('add to watchlist@@@');
             setInWatchList(true);
         });
     };
@@ -252,7 +255,7 @@ const StockContext = (path,socketLivePrice)=>{
     };
 
    return { stockSymbol,inWatchList, loading, priceTarget, inputPriceTarget, stockInfo, stockPrice, stockNews, stockTimeMovement, stockPriceMovement,currentTimeStamp,graphSize,
-    updateGraphValues,updateGraphValuesPeriodic,
+    setInWatchList,updateGraphValues,updateGraphValuesPeriodic,
     onSubmitAddToWatchList, onChangeAddToWatchList,
     clickDayHistoricData,clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData, onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList};
 };
