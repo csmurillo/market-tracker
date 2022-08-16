@@ -18,7 +18,7 @@ const StockContext = (path,socketLivePrice)=>{
     const [currentTimeStamp,setCurrentTimeStamp]=useState('day');
     const [stockSymbol,setStockSymbol]=useState('');
     const [stockInfo,setStockInfo]=useState({});
-    const [stockPrice,setStockPrice]=useState('');
+    const [stockPrice,setStockPrice]=useState({stock:'',currentPrice:'',dollarPriceChange:'',percentPriceChange:''});
     const [stockNews, setStockNews]=useState([]);
     
     const [stockTimeMovement, setStockTimeMovement]=useState();
@@ -95,6 +95,7 @@ const StockContext = (path,socketLivePrice)=>{
             // console.log('Stock information'+JSON.stringify(stock));
         });
         getStockPrice(stockSymbol).then(stockPriceInfo=>{
+            // alert('stock price'+stockPriceInfo.currentPrice);
             setStockPrice(stockPriceInfo);
             // console.log('Stock Price'+JSON.stringify(stockPriceInfo));
         });

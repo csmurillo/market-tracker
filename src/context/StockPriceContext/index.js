@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { isAuthenticated } from '../../adapters/authApi';
 
-const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,inWatchList,setInWatchList)=>{
+const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,currentPrice,inWatchList,setInWatchList)=>{
 
     const authInfo = isAuthenticated();
 

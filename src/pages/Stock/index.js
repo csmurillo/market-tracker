@@ -11,7 +11,7 @@ import socketLivePrice from '../../context/SocketLivePrice';
 
 const Stock = ({history}) =>{
 
-    const { stockSymbol, inWatchList, loading, priceTarget, inputPriceTarget, 
+    const { stockSymbol,stockPrice, inWatchList, loading, priceTarget, inputPriceTarget, 
             stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
             stockPrice:{stock,currentPrice,dollarPriceChange,percentPriceChange},
             stockNews,stockTimeMovement, stockPriceMovement, currentTimeStamp,graphSize,
@@ -21,7 +21,7 @@ const Stock = ({history}) =>{
             onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
         }=StockContext(history.location.pathname,socketLivePrice);
 
-        const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockAlertPriceReached }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,inWatchList,setInWatchList);
+        const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockAlertPriceReached }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,currentPrice,inWatchList,setInWatchList);
 
     return (
         <MainLayout>
@@ -31,7 +31,7 @@ const Stock = ({history}) =>{
                         <div id="stock-symbol">
                             <div id="stock-name">{stockName} ({stock}) </div>
                             <div className='d-flex'>
-                                <div id="stock-price">${stockPriceLive}</div>
+                                <div id="stock-price">${(stockPriceLive==='~')?stockPrice.currentPrice:stockPriceLive}</div>
                                 {/* <div id="stock-change">{dollarPriceChange} ({percentPriceChange})</div> */}
                                 <div id="stock-change">{stockChangePrice} ({stockChangePricePercentage})</div>
                             </div>
