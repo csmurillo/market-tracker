@@ -12,9 +12,7 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
     const [ stockAlertPriceReached, setStockAlertPriceReached]=useState(false);
 
     useEffect(()=>{
-        alert('WATCHLIST!!'+inWatchList+'and this is stockalertpricereached'+stockAlertPriceReached);
         if(inWatchList&&stockAlertPriceReached){
-            alert('switch');
             setStockAlertPriceReached(false);
             setInWatchList(false);
         }
@@ -31,15 +29,8 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
         socket.emit('startStreamServerStockPrice',{stockSymbol});
         
         socket.on('stockAlertPriceReached',({reached})=>{
-            // alert('stockAlertPriceReached');
             setStockAlertPriceReached(reached);
             setInWatchList(false);
-            // alert('inWatchList');
-            // alert(inWatchList);
-            // if(inWatchList&&reached){
-                // alert('inisde');
-                // setStockAlertPriceReached(false);
-            // }
         });
 
 
@@ -56,7 +47,6 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
         });
 
         return ()=>{
-            console.log('socket no longer listening');
             socketLivePrice.disconnect();
             socket.disconnect();
         };
@@ -66,7 +56,6 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
     useEffect(()=>{
         updateGraphValuesPeriodic(stockPriceLive,stockPriceDateFormatLive);
         socketLivePrice.emit('onWatchList',{stockSymbol});
-        // console.log('stockPriceLive changed*************************************************************8');
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[stockPriceLive]);
 
@@ -87,8 +76,4 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
 };
 
 export { StockPriceContext };
-
-
-
-
 

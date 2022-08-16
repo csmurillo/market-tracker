@@ -32,7 +32,6 @@ const Stock = ({history}) =>{
                             <div id="stock-name">{stockName} ({stock}) </div>
                             <div className='d-flex'>
                                 <div id="stock-price">${(stockPriceLive==='~')?stockPrice.currentPrice:stockPriceLive}</div>
-                                {/* <div id="stock-change">{dollarPriceChange} ({percentPriceChange})</div> */}
                                 <div id="stock-change">{stockChangePrice} ({stockChangePricePercentage})</div>
                             </div>
                         </div>
@@ -144,7 +143,7 @@ const Stock = ({history}) =>{
                     <div id="stock-news">
                         {
                             stockNews.map((newsInfo,i)=>(
-                                <a target="_blank" href={newsInfo.url}>
+                                <a target="_blank" rel="noreferrer" href={newsInfo.url}>
                                     <div class="news-row">
                                         <div class="news-content">
                                             <div class="news-img">
