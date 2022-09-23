@@ -25,7 +25,7 @@ const WatchListContext = (filterBtn,socket,socketLivePrice) => {
         getWatchList(authInfo._id,token).then(watchList=>{
             setWatchList(watchList.watchList);
             setInitWatchList(true);
-            alert('watchlist set');
+            // alert('watchlist set');
         });
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
@@ -35,7 +35,7 @@ const WatchListContext = (filterBtn,socket,socketLivePrice) => {
             socketLivePrice.disconnect();
             socket.disconnect();
             setInitWatchList(true);
-            alert('WATCHLIST UPDATED SET'+JSON.stringify(watchList)+' AND initwatchlist is: '+initWatchlist);
+            // alert('WATCHLIST UPDATED SET'+JSON.stringify(watchList)+' AND initwatchlist is: '+initWatchlist);
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[updateList]);
@@ -54,7 +54,7 @@ const WatchListContext = (filterBtn,socket,socketLivePrice) => {
                 });
                 setLivePrices(newLivePrices);
                 setLivesPricesLoaded(true);
-                alert('init live prices');
+                // alert('init live prices');
             }
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -63,7 +63,7 @@ const WatchListContext = (filterBtn,socket,socketLivePrice) => {
     // init socket
     useEffect(()=>{
         if(livesPricesLoaded){
-            alert('liveprices loaded');
+            // alert('liveprices loaded');
             // socketlivePrice
             let id=authInfo._id;
             socketLivePrice.auth = { id };
@@ -84,7 +84,7 @@ const WatchListContext = (filterBtn,socket,socketLivePrice) => {
                 setLivePrices(newLivePrices);
                 socketLivePrice.emit('checkLivePrices',{});
             });
-            alert('sockets set except updatewatchlistliveprice');
+            // alert('sockets set except updatewatchlistliveprice');
             setSocketsSet(true);
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -93,12 +93,12 @@ const WatchListContext = (filterBtn,socket,socketLivePrice) => {
     useEffect(()=>{
         if(socketsSet){
             socketLivePrice.on('updateWatchlistLivePrice',({liveWatchList})=>{
-                
                 if(JSON.stringify(liveWatchList)!==JSON.stringify(watchList)){
+                    // alert('comparing livewatchlist: '+JSON.stringify(liveWatchList)+' and watchlist: '+JSON.stringify(watchList));
                     socketLivePrice.disconnect();
                     socketLivePrice.removeAllListeners();
                     socket.disconnect();
-                    alert('sockets all disconnected:livepricereached');
+                    // alert('sockets all disconnected:livepricereached'+JSON.stringify(liveWatchList));
                     setInitWatchList(false);
                     setLivesPricesLoaded(false);
                     setSocketsSet(false);
@@ -106,7 +106,6 @@ const WatchListContext = (filterBtn,socket,socketLivePrice) => {
                     setUpdateList(true);
                 }
             });
-            alert('updatewatchlistliveprice socket now set');
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[socketsSet]);

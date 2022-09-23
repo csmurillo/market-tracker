@@ -15,7 +15,7 @@ const Watchlist = () =>{
     return (
         <MainLayout>
             <div className="card-container flex flex-col">
-                <div className="watchlist-filter">
+                <div className="watchlist-filter mb-2">
                     <div class="dropdown">
                         <button class="dropdown-toggle filter-btn" type="button" id="filter" ref={filterBtn} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Show Active
