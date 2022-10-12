@@ -18,7 +18,7 @@
 
 ## Live Site
 
-- URL: [frontendmentor-loopstudios-tailwindcss.vercel.app](frontendmentor-loopstudios-tailwindcss.vercel.app)
+- URL: [stock-tracker-demo.netlify.app](stock-tracker-demo.netlify.app)
 
 ## About
 
