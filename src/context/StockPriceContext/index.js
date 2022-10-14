@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { isAuthenticated } from '../../adapters/authApi';
+import { isAuthenticated } from '../../authentication/authApi';
 
-const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,currentPrice,inWatchList,setInWatchList)=>{
+const StockPriceContext = (tickerSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,currentPrice,inWatchList,setInWatchList)=>{
 
     const authInfo = isAuthenticated();
 
@@ -16,7 +16,6 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
             setStockAlertPriceReached(false);
             setInWatchList(false);
         }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[inWatchList, stockAlertPriceReached]);
 
     useEffect(()=>{
@@ -26,7 +25,7 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
 
         socket.auth = { id };
         socket.connect();
-        socket.emit('startStreamServerStockPrice',{stockSymbol});
+        socket.emit('startStreamServerStockPrice',{tickerSymbol});
         
         socket.on('stockAlertPriceReached',({reached})=>{
             setStockAlertPriceReached(reached);
@@ -50,13 +49,11 @@ const StockPriceContext = (stockSymbol,updateGraphValues,updateGraphValuesPeriod
             socketLivePrice.disconnect();
             socket.disconnect();
         };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
 
     useEffect(()=>{
         updateGraphValuesPeriodic(stockPriceLive,stockPriceDateFormatLive);
-        socketLivePrice.emit('onWatchList',{stockSymbol});
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        socketLivePrice.emit('onWatchList',{tickerSymbol});
     },[stockPriceLive]);
 
     const getDateFormatted = (hour,min)=>{

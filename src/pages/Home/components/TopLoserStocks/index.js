@@ -1,10 +1,7 @@
 
 import {HomeContext} from '../../../../context/HomeContext';
-import Card from '../../../../components/Card/Card';
-
+import Card from '../../../../components/Card';
 import Slider from "react-slick";
-
-
 const TopLoserStocks = () =>{
     const {sliderSettings,loserStocks}=HomeContext();
     return (

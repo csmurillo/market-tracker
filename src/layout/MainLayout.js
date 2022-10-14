@@ -1,10 +1,8 @@
 import React from 'react';
-import Header from "../components/Header/header";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import './styles.css';
-
 const MainLayout = ({children}) =>{
-
     return (
         <div id="main-layout">
             <Header></Header>
@@ -15,5 +13,4 @@ const MainLayout = ({children}) =>{
         </div>
     );
 };
-
 export default MainLayout;

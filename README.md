@@ -1,53 +1,70 @@
-# Stock Tracker
+# Getting Started with Create React App
 
-## Table of contents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Live Site](#live-ssite)
-- [About](#about)
-  - [App Overview](#app-overview)
-  - [App Overview Links](#app-overview-links)
-- [Author](#author)
+## Available Scripts
 
-## Overview
+In the project directory, you can run:
 
-### Screenshot
+### `npm start`
 
-![](./screenshot.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Live Site
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- URL: [stock-tracker-demo.netlify.app](stock-tracker-demo.netlify.app)
+### `npm test`
 
-## About
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Stock Tracker is an application which allows users to create an account and track any stock ticker in the New York Stock Exchange.
+### `npm run build`
 
-### App Overview
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Stock Tracker is compromised by 5 apps, which are as follows:
-  - Frontend Website(React) - the actual website where users navigate through the website and look at NYSE companies stock tickers and view the daily graph which holds the live prices of each individual stock. Users who login have the privledge to create a watchlist and track as many stock ticker in real time.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-  - Server1(Node.js/Express.js) - this part of the application is in charge of sending the live data of stock tickers to the frontend application.
-  
-  - Server2(Node.js/Express.js) - this part of the application is in charge of checking if the stocks of users who have a watchlist have fulfilled the users price mark, and if so server2 updates the watchlist stock ticker reached.    
-  
-  - Server3(Node.js/Express.js) - this part of the application provides the frontend app with various routes which it can communicate to retieved/send authentication forms, stock daily, monthly, yearly or news information.
-  
-  - MOCKDATA(Node.js/Express.js) - this part of the application is an API created by Angel Murillo which mimics the stock market data flow.All data from MOCKDATA API is predefined and Server 1 fetches available stock live price from it, which then it serves to the frontend application. *Note: MOCKDATA was required because all stock live price API available from the web required a license, and i didnt want to break the terms and service. But if i were to pay for the API this app can function with real live data from the New York Stock Exchange.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### App Overview Links
-  - Full Stack Website (MERN Stack):[github](https://github.com/csmurillo/stock-tracker)
-  - Server1:[github](https://github.com/csmurillo/stock-tracker-server-1)
-  - Server2:[github](https://github.com/csmurillo/stock-tracker-server-2)
-  - Server3:[github](https://github.com/csmurillo/stocktracker-backend)
-  - MOCKDATA:[github](https://github.com/csmurillo/MockStockAPI)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Author
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Github [@csmurillo](https://github.com/csmurillo)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

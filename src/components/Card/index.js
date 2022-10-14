@@ -1,12 +1,10 @@
 import React from 'react';
-import './Card.css';
+import './index.css';
 const Card = ({companyName,tickerSymbol,priceChange,currentPrice}) =>{
-
     return (
-        <div className="car">
+        <div className="custom-card">
             <div className="card-top">
                 <div className="ticker-symbol-container">
-                    {/* <div className="ticker-symbol"></div> */}
                     {tickerSymbol}
                 </div>
                 <div className="price-change-container">
@@ -24,5 +22,4 @@ const Card = ({companyName,tickerSymbol,priceChange,currentPrice}) =>{
         </div>
     );
 };
-
 export default Card;

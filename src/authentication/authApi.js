@@ -11,8 +11,7 @@ export const signup = userData =>{
     })
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
-};
-    
+};  
 export const signin = userData =>{ 
     return fetch(`${API}/signin`, {
         method:'POST',
@@ -25,13 +24,15 @@ export const signin = userData =>{
     .then(res=>{return res.json()})
     .catch(err=>{console.log(err);})
 };
-
 export const saveAuth = ({token,user},next)=>{
     localStorage.setItem('authInfo',JSON.stringify(user));
-    localStorage.setItem('token',token);
+    localStorage.setItem('token',JSON.stringify(token));
     next();
 };
-
+export const logout = ()=>{
+    localStorage.removeItem('authInfo');
+    localStorage.removeItem('token');
+};
 export const isAuthenticated = ()=>{
     if(localStorage.getItem('token')){
         if(localStorage.getItem('authInfo')){

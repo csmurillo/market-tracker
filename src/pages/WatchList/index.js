@@ -1,11 +1,12 @@
 import React, {useRef} from 'react';
-import MainLayout from '../../layout/MainLayout';
-import {WatchListContext} from '../../context/WatchListContext';
-import Card from './components/Card';
 import socket from '../../context/Socketio';
 import socketLivePrice from '../../context/SocketLivePrice';
+import { WatchListContext } from '../../context/WatchListContext';
 
-import './styles.css';
+import './index.css';
+
+import MainLayout from '../../layout/MainLayout';
+import Card from './components/Card';
 
 const Watchlist = () =>{
 
@@ -57,10 +58,3 @@ const Watchlist = () =>{
 };
 
 export default Watchlist;
-
-
-
-
-
-
-

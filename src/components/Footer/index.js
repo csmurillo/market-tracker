@@ -1,20 +1,17 @@
 import React from 'react';
 import './styles.css';
-
 const Footer = () =>{
-
     return (
         <div id="footer" className="container">
             <div className="row justify-content-between">
                 <div>
-                    <div>Terms &#x26; Conditions</div>  
+                    <p>Terms &#x26; Conditions</p>  
                 </div>
                 <div>
-                    <div>&copy;	2021</div>
+                    <p>&copy;	2021</p>
                 </div>
             </div>
         </div>
     );
 };
-
 export default Footer;

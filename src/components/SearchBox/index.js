@@ -1,8 +1,9 @@
-import React,{useState} from 'react';
-import Button from '../Button';
-import {BsSearch} from 'react-icons/bs';
-import { SearchBoxContext } from '../../context/SearchBoxContext';
+import React from 'react';
 import './styles.css';
+import {BsSearch} from 'react-icons/bs';
+import Button from '../Button';
+
+import { SearchBoxContext } from '../../context/SearchBoxContext';
 
 const SearchBox = () =>{
     const { key,searchQuery,searchResults,mobileSearchActive,searchActiveResize,
@@ -25,14 +26,18 @@ const SearchBox = () =>{
                         </Button>
                     </div>
                 }
-                <form id="search-form" className="d-flex justify-content-end" onSubmit={onHandleSubmit} autocomplete="off" style={{height:'40px'}}>
+                <form id="search-form" className="d-flex justify-content-end" onSubmit={onHandleSubmit} autoComplete="off" style={{height:'40px'}}>
                         {
-                            (mobileSearchActive && searchActiveResize)?(<input id="search-input" type="text" name="name" autocomplete="off" placeholder="Search"
+                            (mobileSearchActive && searchActiveResize)
+                            ?
+                            (<input id="search-input" type="text" name="name" autoComplete="off" placeholder="Search"
                                 style={{height:'100%', width:'80%'}}
                                 value={searchQuery} onChange={ onSearchQueryChange } 
                                 onKeyDown={ e=>{ onKeyHandle(e); onKeyHandleSearch(e);} } 
                                 onFocus={onSearchFocus}
-                            />):(<input id="search-input" type="text" name="name" autocomplete="off" placeholder="Search"
+                            />)
+                            :
+                            (<input id="search-input" type="text" name="name" autoComplete="off" placeholder="Search"
                             style={{height:'100%', width:'80%'}}
                             value={searchQuery} onChange={ onSearchQueryChange }
                             onKeyDown={ e=>{ onKeyHandle(e); onKeyHandleSearch(e);} } 
@@ -43,14 +48,15 @@ const SearchBox = () =>{
                             <BsSearch style={{color:'lightgreen',fontSize:28}}></BsSearch>
                         </Button>
                 </form>
-                <div id="search-results-box-container" style={{zIndex:'999'}} tabindex="0">
+                <div id="search-results-box-container" style={{zIndex:'999'}} tabIndex="0">
                     <div id="search-results-box" className={searchResults!=null?'border':''}>
                     {
-                        searchResults!=null && <div>
+                        searchResults!=null && 
+                        <div>
                             {searchResults.map((relatedSearch, i) => (
                                     <div id={`item-${i}`} className={`search-result ${key==i?'active':''}`} key={i}>
                                         <div onClick={e=>{ onStockSearch(relatedSearch.symbol);}}>
-                                            {'('+relatedSearch.symbol+')' +' '+relatedSearch.name+'i'+i}
+                                            {'('+relatedSearch.symbol+')' +' '+relatedSearch.name}
                                         </div>
                                     </div>
                             ))}

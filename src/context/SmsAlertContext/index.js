@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import { getToken, isAuthenticated } from '../../adapters/authApi';
+import { getToken, isAuthenticated } from '../../authentication/authApi';
 import { getSmsAlerts, updateSmsAlerts } from "../../adapters/userApi";
 
 const SmsAlertContext = ()=>{
@@ -38,13 +38,11 @@ const SmsAlertContext = ()=>{
 
     // update user preference for smsalerts
     const submitForm=()=>{
-        console.log(toggleSmsAlerts);
         const smsAlerts={
             smsAlerts:toggleSmsAlerts
         };
         updateSmsAlerts(authInfo._id,token,smsAlerts).then((res)=>{
             if(res.error){
-                console.log(res.error);
                 setErrors(res.error);
             }
             else{

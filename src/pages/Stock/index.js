@@ -1,15 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { useParams } from 'react-router-dom';
+
 import Plot from 'react-plotly.js';
+
+import './index.css';
 import MainLayout from '../../layout/MainLayout';
 import Button from '../../components/Button';
-import { withRouter } from "react-router-dom";
+
 import { StockContext } from '../../context/StockContext';
 import { StockPriceContext } from '../../context/StockPriceContext';
-import './styles.css';
 import socket from '../../context/Socketio';
 import socketLivePrice from '../../context/SocketLivePrice';
 
-const Stock = ({history}) =>{
+const Stock = () =>{
+    const { tickerSymbol } = useParams();
 
     const { stockSymbol,stockPrice, inWatchList, loading, priceTarget, inputPriceTarget, 
             stockInfo:{stockName,marketCap,volume,averageVolume,fiftytwoWeekHigh,fiftytwoWeekLow,openPrice},
@@ -19,9 +23,9 @@ const Stock = ({history}) =>{
             onSubmitAddToWatchList, onChangeAddToWatchList,
             clickDayHistoricData, clickWeekHistoricData, clickMonthHistoricData, clickYearHistoricData, clickFiveYearHistoricData,
             onChangeUpdatePriceTarget,updatePriceTarget,deleteStockFromWatchList
-        }=StockContext(history.location.pathname,socketLivePrice);
+        }=StockContext(tickerSymbol,socketLivePrice);
 
-        const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockAlertPriceReached }=StockPriceContext(history.location.pathname.split('/')[2],updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,currentPrice,inWatchList,setInWatchList);
+        const { stockPriceLive,stockChangePrice,stockChangePricePercentage,stockAlertPriceReached }=StockPriceContext(tickerSymbol,updateGraphValues,updateGraphValuesPeriodic,socket,socketLivePrice,currentPrice,inWatchList,setInWatchList);
 
     return (
         <MainLayout>
@@ -168,4 +172,4 @@ const Stock = ({history}) =>{
         </MainLayout>
     );
 };
-export default withRouter(Stock);
+export default Stock;

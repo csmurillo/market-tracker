@@ -1,44 +1,44 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Header from "./components/Header/header";
-import Home from "./pages/Home";
-import Signin from "./authentication/Signin";
-import Signup from "./authentication/Signup";
-import WatchList from "./pages/WatchList";
 
 import PrivateRoute from "./authentication/PrivateRoute";
-import Security from "./pages/Security/security";
-import Account from "./pages/Account/account";
 
+// auth
+import Signin from "./authentication/Signin";
+import Signup from "./authentication/Signup";
+
+// stock
+import Stock from "./pages/Stock";
+
+import WatchList from "./pages/WatchList";
+
+import Home from "./pages/Home";
+import Account from "./pages/Account";
+import Settings from "./pages/Settings";
+
+// Settings Subpages
 import EditProfile from "./pages/EditProfile";
 import ChangePassword from "./pages/ChangePassword";
 import SmsAlerts from "./pages/SmsAlerts";
 import DeleteAccount from "./pages/DeleteAccount";
-import Stock from "./pages/Stock";
 
-import Success from "./components/SuccessScreen/success-screen";
 const Routes = () =>{
     return (
         <BrowserRouter>
-        {/* <Header/> */}
             <Switch>
                 <Route path="/" exact component={Home}/>
                 <Route path="/signin" exact component={Signin}/>
                 <Route path="/signup" exact component={Signup}/>
-                <Route path="/success" exact component={Success}/>
-                <Route path="/stock/:name" exact component={Stock}/>
-                <PrivateRoute path="/watchlist" exact component={WatchList}/>
+                <Route path="/stock/:tickerSymbol" component={Stock}/>
                 <PrivateRoute path="/account" exact component={Account}/>
-                <PrivateRoute path="/security" exact component={Security}/>
-                <PrivateRoute path="/editprofile" exact component={EditProfile}/>
+                <PrivateRoute path="/settings" exact component={Settings}/>
+                <PrivateRoute path="/profile" exact component={EditProfile}/>
                 <PrivateRoute path="/changepassword" exact component={ChangePassword}/>
-                <PrivateRoute path="/enablealerts" exact component={SmsAlerts}/>
-                <PrivateRoute path="/deleteaccount" exact component={DeleteAccount}/>
+                <PrivateRoute path="/smsalerts" exact component={SmsAlerts}/>
+                <PrivateRoute path="/delete" exact component={DeleteAccount}/>
+                <PrivateRoute path="/watchlist" exact component={WatchList}/>
             </Switch>
-            {/* <Footer/> */}
         </BrowserRouter>
     );
 }
-
-
 export default Routes;

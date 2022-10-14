@@ -1,4 +1,3 @@
-
 const HomeBulletinBoard = () =>{
     return (
         <div id="home-bulletin-board">

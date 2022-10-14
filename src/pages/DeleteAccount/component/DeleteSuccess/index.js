@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import './styles.css';
-import { FaRegCheckCircle } from 'react-icons/fa';
 import { Redirect } from 'react-router';
+
+import './index.css';
+import { FaRegCheckCircle } from 'react-icons/fa';
 
 const DeleteSuccess = () =>{
     const [sec,setSec]=useState(1.5);

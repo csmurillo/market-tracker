@@ -1,28 +1,22 @@
 import React, { useState } from 'react';
 import MainLayout from '../../layout/MainLayout';
-
 import {AccountContext} from '../../context/AccountContext';
 import { isAuthenticated } from '../../authentication/authApi';
-import './account.css';
-
+import './index.css';
 const Account = () =>{
-
-    const { stockHistory }=AccountContext();
-
-
-    const [optionToggle,setOptionToggle]=useState(0);
-
+    // profile information
     const { firstName, lastName, email } = isAuthenticated();
-
-    
+    const { stockHistory }=AccountContext();
+    // options:
+    // profile holds information about user
+    // stock history holds information about past stocks that were tracked
+    const [optionToggle,setOptionToggle]=useState(0);
     const profileOption= ()=>{
         setOptionToggle(0);
     };
-
     const stockTrackHistoryOption= ()=>{
         setOptionToggle(1);
     };
-
     return (
         <MainLayout>
             <h1>Account</h1>
@@ -64,5 +58,4 @@ const Account = () =>{
         </MainLayout>
     );
 };
-
 export default Account;

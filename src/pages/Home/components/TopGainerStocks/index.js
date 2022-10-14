@@ -1,10 +1,7 @@
 import React from 'react';
-
 import {HomeContext} from '../../../../context/HomeContext';
-import Card from '../../../../components/Card/Card';
-
+import Card from '../../../../components/Card';
 import Slider from "react-slick";
-
 const TopGainerStocks = () =>{
     const {sliderSettings,gainerStocks}=HomeContext();
     return (
@@ -28,5 +25,4 @@ const TopGainerStocks = () =>{
         </div>
     );
 };
-
 export {TopGainerStocks};

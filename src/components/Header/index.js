@@ -1,21 +1,19 @@
-import React,{useEffect, useState} from 'react';
+import React,{useState} from 'react';
+import { Link, Redirect } from 'react-router-dom';
+import { isAuthenticated, logout } from '../../authentication/authApi';
+import SearchBox from '../SearchBox';
+import NavigationMenu from '../NavigationMenu';
+import Button from '../Button';
 import logo from '../../assets/images/stock-tracker-logos.png';
 import {FaUserCircle} from "react-icons/fa";
-import './header.css';
-import NavigationMenu from '../NavigationMenu/navigationmenu';
-import Button from '../Button';
-import { Link } from 'react-router-dom';
-import { isAuthenticated } from '../../authentication/authApi';
-
-import SearchBox from '../SearchBox';
-
-
+import './index.css';
 const Header = () =>{
-
     const [menuActive,setMenuActive]=useState(false);
-
     const { firstName, lastName } = isAuthenticated();
-
+    const logOff = ()=>{
+        logout();
+        window.location='/';
+    };
     const userNavigate = ()=>(
         <ul id="user-navigate" className="align-self-center d-md-flex d-none mr-4 mb-0">
             <li id="signup" style={{listStyleType:'none'}}>
@@ -36,30 +34,29 @@ const Header = () =>{
     );
     const userSignedin = ()=>(
         <div id="user-signedin" className="align-self-center d-md-flex d-none mr-4">
-            <div class="dropdown">
+            <div className="dropdown">
                 <div data-toggle="dropdown">
                     <div id="user-icon"><FaUserCircle style={{color:'lightgreen'}}/></div>
                     <div id="user-name">
                         {firstName} {lastName}
                     </div>
                 </div> 
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
+                <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownMenu">
                     <Link to="/watchlist">
-                        <button id="watchlist" class="dropdown-item" type="button">Watch List</button>
+                        <button id="watchlist" className="dropdown-item" type="button">Watch List</button>
                     </Link>
-                    <div class="dropdown-divider"></div>
+                    <div className="dropdown-divider"></div>
                     <Link to="/account">
-                        <button id="account" class="dropdown-item" type="button">Account</button>
+                        <button id="account" className="dropdown-item" type="button">Account</button>
                     </Link>
-                    <Link to="/security">
-                        <button id="security" class="dropdown-item" type="button">Settings</button>
+                    <Link to="/settings">
+                        <button id="security" className="dropdown-item" type="button">Settings</button>
                     </Link>
-                    <button id="logout" class="dropdown-item" type="button">Logout</button>
+                    <button id="logout" className="dropdown-item" type="button" onClick={logOff}>Logout</button>
                 </div>
             </div>
         </div>
     );
-
     const header= ()=>(
         <div id="header" className="d-flex justify-content-between" style={menuActive?{zIndex:2}:{}}>
                 <div id="start" className="d-flex align-self-center ml-4">
@@ -70,9 +67,9 @@ const Header = () =>{
                 <div id="end" className="d-flex justify-content-end" style={menuActive?{zIndex:2,backgroundColor:'white'}:{}}>
                     {isAuthenticated() && 
                         <div id="search-box-container" className="d-flex justify-content-center align-items-center w-100" style={{backgroundColor:'white'}}>
-                                <div className="w-100">
-                                    <SearchBox></SearchBox>
-                                </div>
+                            <div className="w-100">
+                                <SearchBox></SearchBox>
+                            </div>
                         </div>
                     }
                     <div id="header-options-container" className="d-flex justify-content-center align-self-center">
@@ -90,7 +87,6 @@ const Header = () =>{
                 
         </div>
     );
-
     return (
         <header className="container">
             {header()}
@@ -98,4 +94,3 @@ const Header = () =>{
     );
 };
 export default Header;
-

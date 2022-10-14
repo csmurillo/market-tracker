@@ -1,18 +1,15 @@
 import React, {useEffect, useState} from 'react';
-import './styles.css';
+import './index.css';
 import Button from '../../../../components/Button';
 import { AiOutlineCheckCircle } from "react-icons/ai";
-
 import { Link } from 'react-router-dom';
-// import socket from '../../../../context/Socketio';
+
 const Card = ({ stock, stockName, stockSymbol, stockPrice, stockPriceTargetReached=false, stockPriceTargetReachedDate, priceTarget, priceDirection, InProgress,cardUpdate, cardDelete }) =>{
 
     const [cardPriceTarget,setCardPriceTarget]=useState();
     const [targetReached,setTargetReached]=useState(false);
 
     useEffect(()=>{
-        // alert(priceDirection);
-        // alert('live stock price'+parseFloat(stockPrice)+"> PRICE TARGET:"+parseFloat(priceTarget));
         if(priceDirection==='above'){
             if(parseFloat(stockPrice)>parseFloat(priceTarget)){
                 // alert('above price');
@@ -25,9 +22,6 @@ const Card = ({ stock, stockName, stockSymbol, stockPrice, stockPriceTargetReach
                 // setTargetReached(true);
             }
         }
-        // alert(typeof stockPrice);
-        // alert(priceDirection);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[stockPrice]);
 
     useEffect(()=>{

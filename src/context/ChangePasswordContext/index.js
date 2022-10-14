@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
+import { getToken, isAuthenticated } from '../../authentication/authApi';
 import { updatePassword } from '../../adapters/userApi';
-import { getToken, isAuthenticated } from '../../adapters/authApi';
-
 
 const ChangePasswordContext = (validator)=>{
 

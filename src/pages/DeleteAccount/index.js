@@ -1,20 +1,21 @@
 import React from 'react';
+import { DeleteAccountContext } from '../../context/DeleteAccountContext';
+import { DeleteSuccess } from './component/DeleteSuccess';
+
+import "./index.css";
+
 import MainLayout from '../../layout/MainLayout';
 import Button from '../../components/Button';
-import { DeleteSuccess } from './component/DeleteSuccess';
-import "./styles.css";
-
-import { DeleteAccountContext } from '../../context/DeleteAccountContext';
 
 const DeleteAccount = () =>{
     const { password, errors, deleteSuccess, onPasswordChange, onHandleSubmit }=DeleteAccountContext();
 
     const modal=()=>{
         return (
-            <div class="modal fade" id="deleteAccountModal" tabindex="-1" role="dialog" aria-labelledby="deleteAccountModalTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
+            <div className="modal fade" id="deleteAccountModal" tabIndex="-1" role="dialog" aria-labelledby="deleteAccountModalTitle" aria-hidden="true">
+              <div className="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
                 <form onSubmit={onHandleSubmit}>
-                    <div class="modal-content">
+                    <div className="modal-content">
                         <div className="modal-body">
                                 <div>
                                     <label style={{fontSize:24}}>Password:</label>

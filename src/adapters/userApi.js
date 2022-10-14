@@ -1,5 +1,4 @@
 import { API } from '../config';
-import queryString from "query-string";
 
 export const getUserInformation = (userId, token) =>{ 
     return fetch(`${API}/user/account/${userId}`, {

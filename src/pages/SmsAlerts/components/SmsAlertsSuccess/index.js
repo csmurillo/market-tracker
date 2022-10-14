@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import './styles.css';
-import { FaRegCheckCircle } from 'react-icons/fa';
 import { Redirect } from 'react-router';
+
+import './index.css';
+import { FaRegCheckCircle } from 'react-icons/fa';
 
 const SmsAlertsSuccess = () =>{
     const [sec,setSec]=useState(1.5);
@@ -32,7 +33,7 @@ const SmsAlertsSuccess = () =>{
                     <div id="success-updated-sms-alerts">Sms Alerts Updated</div>
                 </div>
             </div>
-            {redirect && <Redirect to="/security" />}
+            {redirect && <Redirect to="/settings" />}
         </div>
     );
 };

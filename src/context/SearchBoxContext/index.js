@@ -1,16 +1,12 @@
 import { getRelatedStocks } from "../../adapters/userApi";
 import { useState,useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
-
 const SearchBoxContext = ()=>{
-    const history = useHistory();
     const [key,setKey]=useState(0);
-    const [searchQuery, setSearchQuery]=useState(null);
+    const [searchQuery, setSearchQuery]=useState(undefined);
     const [searchResults, setSearchResults]=useState(null);
     const [searchActive, setSearchActive] = useState(false);
     const [mobileSearchActive,setMobileSearchActive] = useState(false);
     const [searchActiveResize, setSearchActiveResize] = useState(false);
-    
     const clearSearch=()=>{
         setSearchResults(null);
         setSearchActive(false);
@@ -18,13 +14,11 @@ const SearchBoxContext = ()=>{
     const onKeyHandleSearch = (e) =>{
         if(e.keyCode==13){
             const searchSymbol=searchResults[key].symbol;
-            // history.push('/stock/'+searchSymbol);
             window.location.href='/stock/'+searchSymbol;
             e.target.blur();
         }
     };
     const onStockSearch = (stockSymbol) =>{
-        // history.push('/stock/'+stockSymbol);
         window.location.href='/stock/'+stockSymbol;
         clearSearch();
     };
@@ -56,45 +50,38 @@ const SearchBoxContext = ()=>{
     const onSearchMobileFocus=()=>{
         setMobileSearchActive(true);
     };
-    
     const onSearchQueryBlur = (e)=>{
         if(!e.currentTarget.contains(e.relatedTarget)){
             clearSearch();
         }
     };
-
     const onSearchMobileQueryBlur = (e)=>{
         setSearchResults(null);
         setMobileSearchActive(false);
     };
-
     const onSearchQueryChange = (e) => {
         const {value}=e.target;
         if(value==''){
-            setSearchQuery(null);
+            setSearchQuery(undefined);
             setSearchResults(null);
         }
         else{
             setSearchQuery(value);
         }
     };
-
     const submitForm = () => {
         getRelatedStocks(searchQuery).then((res)=>{
             const searchResult=res.searchResult;
             setSearchResults(searchResult)
         });
     };
-
     useEffect(()=>{
         getRelatedStocks(searchQuery).then((res)=>{
-            console.log('searching for related stocks');
             const searchResult=res.searchResult;
             setSearchResults(searchResult);
         });
 
     },[searchQuery]);
-
     useEffect(()=>{
         const resize = () =>{
             if(window.innerWidth>768){
@@ -110,18 +97,9 @@ const SearchBoxContext = ()=>{
             window.removeEventListener('resize',resize);
         };
     },[]);
-
     return { key,searchQuery,searchResults,searchActive,mobileSearchActive,searchActiveResize,
         onKeyHandle,onSearchQueryBlur,onSearchMobileQueryBlur,onSearchFocus,onSearchMobileFocus,
         onSearchQueryChange,onHandleSubmit,onStockSearch,onKeyHandleSearch };
 };
 
 export {SearchBoxContext};
-
-
-
-
-
-
-
-

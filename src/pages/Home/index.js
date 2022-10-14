@@ -1,25 +1,22 @@
-import React, {useEffect, useState} from 'react';
-
+import React from 'react';
 // layout
 import MainLayout from '../../layout/MainLayout';
-
 // components
 import {DowJones} from './components/DowJones';
 import {HomeBulletinBoard} from './components/HomeBulletinBoard';
-import { HomeBulletinBoardMobile } from './components/HomeBulletinBoardMobile';
+import {HomeBulletinBoardMobile} from './components/HomeBulletinBoardMobile';
 import {TopGainerStocks} from './components/TopGainerStocks';
 import {TopLoserStocks} from './components/TopLoserStocks';
-
 // home styles
-import './home.css';
+import './index.css';
 // slick styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-
+import DemoNote from '../../components/DemoNote';
 const Home = () =>{
     return (
         <MainLayout>
+            <DemoNote></DemoNote>
             <div id="home">
                 <div className="row mb-5">
                     <div className="col-xl-6 col-lg-8 col-md-8">

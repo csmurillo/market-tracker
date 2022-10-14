@@ -1,10 +1,11 @@
-import MainLayout from '../../layout/MainLayout';
-import Button from '../../components/Button';
 import { EditProfileContext } from '../../context/EditProfileContext';
 import validateEditProfile from '../../validators/EditProfileValidator';
-
-import './styles.css';
 import { UpdateProfileSuccess } from './component/UpdateProfileSuccess';
+
+import './index.css';
+import MainLayout from '../../layout/MainLayout';
+import Button from '../../components/Button';
+
 const EditProfile = () =>{
     const { firstName,lastName,email,phone,errors,updatedProfileInformation,onValuesChange,onHandleSubmit }=EditProfileContext(validateEditProfile);
 

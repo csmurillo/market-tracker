@@ -1,14 +1,12 @@
+import { ChangePasswordContext } from '../../context/ChangePasswordContext';
+import validateChangePassword from '../../validators/ChangePasswordValidator';
+import SuccessScreen from '../../components/SuccessScreen';
+
+import './index.css';
 import MainLayout from '../../layout/MainLayout';
 import Button from '../../components/Button';
-
-import './styles.css';
-
 import {AiOutlineCheckCircle,AiOutlineMinusCircle,AiOutlineCloseCircle} from 'react-icons/ai';
 import {BsToggleOn,BsToggleOff} from 'react-icons/bs';
-
-import validateChangePassword from '../../validators/ChangePasswordValidator';
-import { ChangePasswordContext } from '../../context/ChangePasswordContext';
-import SuccessScreen from '../../components/SuccessScreen/success-screen';
 
 const ChangePassword = () =>{
     const { password, retypedPassword, toggleValues, passwordsMatch, errors, formSubmitted, onToggleClick, onValuesChange, onHandleSubmit }=ChangePasswordContext(validateChangePassword);
@@ -60,10 +58,10 @@ const ChangePassword = () =>{
                         <h1>Change Password</h1>
                         <div>
                             <form onSubmit={onHandleSubmit}>
-                                <div class="form-group">
-                                    <label for="password">Password</label>
+                                <div className="form-group">
+                                    <label htmlFor="password">Password</label>
                                     <div id="password-input-container">
-                                            <input type={toggleValues?'text':'password'} class="form-control" name="password"
+                                            <input type={toggleValues?'text':'password'} className="form-control" name="password"
                                             id="password" placeholder="Password"
                                             value={password} onChange={onValuesChange}
                                         />
@@ -76,10 +74,10 @@ const ChangePassword = () =>{
                                         {passwordError()}
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <label for="retyped-password">Retype Password</label>
+                                <div className="form-group">
+                                    <label htmlFor="retyped-password">Retype Password</label>
                                     <div id="retyped-password-input-container">
-                                        <input type={toggleValues?'text':'password'} class="form-control" name="retypedPassword"
+                                        <input type={toggleValues?'text':'password'} className="form-control" name="retypedPassword"
                                             id="retyped-password" placeholder="Retype Password"
                                             value={retypedPassword} onChange={onValuesChange}
                                         />
@@ -93,7 +91,7 @@ const ChangePassword = () =>{
                                             {retypedPasswordError()}
                                         </div>
                                         <div id="toggle-container">
-                                            <label for="toggle" className="pr-1">Show Passwords:</label>
+                                            <label htmlFor="toggle" className="pr-1">Show Passwords:</label>
                                             {toggleOn()}
                                             {toggleOff()}
                                         </div>

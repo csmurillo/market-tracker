@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { FaRegCheckCircle } from 'react-icons/fa';
 import { Redirect } from 'react-router';
-import './styles.css';
+
+import './index.css';
+import { FaRegCheckCircle } from 'react-icons/fa';
 
 const UpdateProfileSuccess = () =>{
     const [sec,setSec]=useState(1.5);
@@ -31,7 +32,7 @@ const UpdateProfileSuccess = () =>{
                     <div id="update-profile-information">Profile Information Updated</div>
                 </div>
             </div>
-            {redirect && <Redirect to="/security" />}
+            {redirect && <Redirect to="/settings" />}
         </div>
     );
 };

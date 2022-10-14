@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import { deleteAccount } from '../../adapters/authApi';
-import { getToken, isAuthenticated } from '../../adapters/authApi';
+import { getToken, isAuthenticated, deleteAccount } from '../../authentication/authApi';
 
 const DeleteAccountContext = ()=>{
     const [password,setPassword]=useState('');

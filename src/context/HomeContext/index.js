@@ -2,14 +2,13 @@ import { useState, useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 import { getDowJones, getGainerStocks, getLoserStocks } from '../../adapters/stockApi';
 import { MdKeyboardArrowLeft,MdKeyboardArrowRight } from 'react-icons/md';
-
 const HomeContext = ()=>{
     // dow jones and current top gainer/loser
     // used respectively: component: DowJones, TopGainerStocks, TopLoserStocks
     const [ dowJonesPrice,setDowJonesPrice] = useState([]);
     const [ dowJonesDate, setDowJonesDate] = useState([]);
-    const [ gainerStocks, setGainerStocks ]=useState();
-    const [ loserStocks, setLoserStocks ]=useState();
+    const [ gainerStocks, setGainerStocks ]=useState([]);
+    const [ loserStocks, setLoserStocks ]=useState([]);
     // slider settings
     const history=useHistory();
     const [ sliderSettings,setSliderSettings ]= useState({
@@ -63,13 +62,6 @@ const HomeContext = ()=>{
             setLoserStocks(mostLoserStocks);
         });
     },[]);
-
-    // slider arrow will be set on home page
-    useEffect(()=>{
-        if(history.location.pathname=='/'){
-            setSliderArrows();
-        }
-    },[]);
     const setDowJonesValues = (dowJones)=>{
         let DowJonesPrice=[];
         let DowJonesDate=[];
@@ -80,6 +72,12 @@ const HomeContext = ()=>{
         setDowJonesPrice(DowJonesPrice.reverse());
         setDowJonesDate(DowJonesDate.reverse());
     };
+    // slider arrow will be set on home page
+    useEffect(()=>{
+        if(history.location.pathname=='/'){
+            setSliderArrows();
+        }
+    },[]);
     const setSliderArrows = ()=>{
         setSliderSettings({...sliderSettings,nextArrow:<SliderRightArrow to="next"/>,prevArrow:<SliderLeftArrow to="prev"/>});
     };
@@ -89,7 +87,6 @@ const HomeContext = ()=>{
     const SliderRightArrow = ({ className, style, onClick })=>(
         <div className="right-arrow" onClick={onClick} style={style}><MdKeyboardArrowRight></MdKeyboardArrowRight></div>
     );
-
     return {sliderSettings,dowJonesPrice,dowJonesDate,gainerStocks,loserStocks};
 };
 

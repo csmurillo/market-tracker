@@ -1,14 +1,13 @@
 import { useState,useEffect } from "react";
-import { getToken, isAuthenticated } from '../../adapters/authApi';
+import { getToken, isAuthenticated } from '../../authentication/authApi';
 import { getUserInformation,updateProfile } from "../../adapters/userApi";
-
 
 const EditProfileContext = (validator)=>{
     const [values,setValues]=useState({
         firstName:'',
         lastName:'',
         email:'',
-        phone:'~'
+        phone:''
     });
     const [errors,setErrors]=useState({});
 
@@ -30,7 +29,6 @@ const EditProfileContext = (validator)=>{
 
     const onHandleSubmit=(e)=>{
         e.preventDefault();
-        console.log(values);
         setErrors(validator(values));
         setSubmittingForm(true);
     };
@@ -72,7 +70,6 @@ const EditProfileContext = (validator)=>{
         updateProfile(authInfo._id,token,values).then((res)=>{
             const{error}=res;
             if(error){
-                console.log(error+'error here!!');
                 setErrors(error);
             }
             else{

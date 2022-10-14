@@ -3,9 +3,9 @@ import { getStock, getStockPrice, getStockNews,getStockMovement,stockOnWatchList
     getStockWeekMovement, getStockMonthMovement, getStockYearMovement, getStockFiveYearMovement
 } from '../../adapters/stockApi';
 import { addToWatchList, updateWatchList,deleteWatchList } from '../../adapters/watchlistApi';
-import { getToken, isAuthenticated } from '../../adapters/authApi';
+import { getToken, isAuthenticated } from '../../authentication/authApi';
 
-const StockContext = (path,socketLivePrice)=>{
+const StockContext = (tickerSymbol,socketLivePrice)=>{
 
     const authInfo = isAuthenticated();
     const token = getToken();
@@ -70,11 +70,9 @@ const StockContext = (path,socketLivePrice)=>{
     };
 
     useEffect(()=>{
-        const stock=path.split('/');
-        const stockSymbol=stock[stock.length-1];
-        setStockSymbol(stockSymbol);
+        setStockSymbol(tickerSymbol);
 
-        stockOnWatchList(stockSymbol,authInfo._id,token).then(watchListInfo=>{
+        stockOnWatchList(tickerSymbol,authInfo._id,token).then(watchListInfo=>{
             const tempInWatchList=watchListInfo.inWatchList;
             const tempPriceTarget=watchListInfo.price;
             if(tempInWatchList){
@@ -85,21 +83,20 @@ const StockContext = (path,socketLivePrice)=>{
                 setInputPriceTarget(tempPriceTarget);
             }
         });
-        getStock(stockSymbol).then(stock=>{
+        getStock(tickerSymbol).then(stock=>{
             setStockInfo(stock);
         });
-        getStockPrice(stockSymbol).then(stockPriceInfo=>{
+        getStockPrice(tickerSymbol).then(stockPriceInfo=>{
             setStockPrice(stockPriceInfo);
         });
-        getStockNews(stockSymbol).then(news=>{
+        getStockNews(tickerSymbol).then(news=>{
             setStockNews(news.news.articles);
         });
-        getStockMovement(stockSymbol).then(stockData=>{
+        getStockMovement(tickerSymbol).then(stockData=>{
             setStockTimeMovement(stockData.time);
             setStockPriceMovement(stockData.price);
         });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    },[path]);
+    },[tickerSymbol]);
 
     const updateGraphValues = (stockPriceLive,stockPriceTime)=>{
         if(currentTimeStamp==='day'){
@@ -123,7 +120,6 @@ const StockContext = (path,socketLivePrice)=>{
                     let time=stockTimeMovement[i].split(' ')[1];
                     let hour=parseInt(time.split(':')[0]);
                     let minute=parseInt(time.split(':')[1]);
-
                     if(stockPriceHour===hour&&stockPriceMinute>minute){
                         if(minute===55){
                             const stockPriceMovementClone=[...stockPriceMovement];
@@ -229,12 +225,5 @@ const StockContext = (path,socketLivePrice)=>{
 };
 
 export {StockContext};
-
-
-
-
-
-
-
 
 

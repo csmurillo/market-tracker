@@ -1,11 +1,11 @@
-import MainLayout from '../../layout/MainLayout';
-import Button from '../../components/Button';
-import {BsToggleOn,BsToggleOff} from 'react-icons/bs';
-
 import { SmsAlertContext } from '../../context/SmsAlertContext';
 import { SmsAlertsSuccess } from './components/SmsAlertsSuccess';
 
-import './styles.css';
+import './index.css';
+import {BsToggleOn,BsToggleOff} from 'react-icons/bs';
+
+import MainLayout from '../../layout/MainLayout';
+import Button from '../../components/Button';
 
 const SmsAlerts = () =>{
     const { toggleSmsAlerts, errors, formSubmitted, onToggleChange, onHandleSubmit }=SmsAlertContext();

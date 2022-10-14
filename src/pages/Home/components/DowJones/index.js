@@ -1,10 +1,7 @@
-import {useEffect} from 'react';
 import Plot from 'react-plotly.js';
 import {HomeContext} from '../../../../context/HomeContext';
-
 const DowJones = () =>{
     const {dowJonesPrice,dowJonesDate}=HomeContext();
-
     return (
         <div id="dow-jones">
             <div id="dow-jones-graph">
@@ -32,5 +29,4 @@ const DowJones = () =>{
         </div>
     );
 };
-
 export {DowJones};

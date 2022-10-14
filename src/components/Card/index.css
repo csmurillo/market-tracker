@@ -8,9 +8,7 @@
         height: 100px !important; width: 120px !important;
     }
 }
-
-
-.car{
+.custom-card{
     position: relative;
     height: 150px; width: 190px;
     /* min-height: 160px; min-width: 220px; */
@@ -18,7 +16,7 @@
     border-radius: 10px;
     /* background-color: aqua; */
 }
-.car:hover{
+.custom-card:hover{
     cursor: pointer;
 }
 .card-top{

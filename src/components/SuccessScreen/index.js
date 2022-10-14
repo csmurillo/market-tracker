@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { FaRegCheckCircle } from 'react-icons/fa';
 import { Redirect } from 'react-router';
 
-import './success-screen.css';
+import './index.css';
+import { FaRegCheckCircle } from 'react-icons/fa';
 
 const SuccessScreen = () =>{
     const [sec,setSec]=useState(3);
@@ -15,7 +15,6 @@ const SuccessScreen = () =>{
             clearInterval(interval);
         };
     },[]);
-    
     useEffect(()=>{
         if(sec==0){
             setRedirect(true);
@@ -33,10 +32,9 @@ const SuccessScreen = () =>{
                     <div id="redirect-in-sec">Redirects in {sec} seconds</div>
                 </div>
             </div>
-            {redirect && <Redirect to="/security" />}
+            {redirect && <Redirect to="/settings" />}
         </div>
     );
 };
-
 
 export default SuccessScreen;
